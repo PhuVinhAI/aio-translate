@@ -1,0 +1,22 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+
+  // Lantana
+
+  "Sun": "610 Custom_LantanaLagoon 19 7 2/1600 Custom_LantanaLagoon 25 11 1/2200 Custom_LantanaLagoon 39 15 0",
+
+  "Mon": "610 Custom_LantanaLagoon 19 7 2/1500 Custom_LantanaLagoon 12 21 3/2000 Custom_LantanaLagoon 28 8 2",
+
+  "Tue": "610 Custom_LantanaLagoon 19 7 2/1600 Custom_LantanaLagoon 25 11 1/2200 Custom_LantanaLagoon 39 15 0",
+
+  "Wed": "610 Custom_LantanaLagoon 19 7 2/1500 Custom_LantanaLagoon 12 21 3/2000 Custom_LantanaLagoon 28 8 2",
+
+  "Thu": "610 Custom_LantanaLagoon 19 7 2/1600 Custom_LantanaLagoon 25 11 1/2200 Custom_LantanaLagoon 39 15 0",
+
+  "Fri": "610 Custom_LantanaLagoon 19 7 2/1500 Custom_LantanaLagoon 12 21 3/2000 Custom_LantanaLagoon 28 8 2",
+
+  "Sat": "610 Custom_LantanaLagoon 19 7 2/1800 Custom_LantanaLagoon 12 21 3/2000 Custom_LantanaLagoon 28 8 2",
+
+  "spring": "610 Custom_LantanaLagoon 19 7 2/2400 Custom_LantanaLagoon 15 15 3"
+
+}

@@ -1,0 +1,31 @@
+{
+  "Name": "[CP] Polyamory Sweet!",
+  "Author": "ApryllForever",
+  "Description": "Polyamory Stuff!",
+  "Version": "1.5.9",
+  "UniqueID": "ApryllForever.CPPolyamorySweet",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus: 20599"
+  ],
+   "Dependencies": [
+   {
+    "UniqueID":"ApryllForever.PolyamorySweetLove", 
+    "IsRequired": true
+   },
+   {
+      "UniqueID": "Aimon111.RedesignedFarmHouseLayoutAlt",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Rose.craftables",
+      "IsRequired": false
+   },
+  ]
+}
