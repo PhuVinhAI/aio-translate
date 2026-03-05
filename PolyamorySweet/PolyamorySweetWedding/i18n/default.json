@@ -1,6 +1,5 @@
-﻿{
-  "ask-x-to-witness": "Ask {0} to act as your witness at the wedding?",
-  "witness-accept": "Of course! I'd be honoured to be your witness!$h",
-  "witness-decline": "Sorry, I'm not comfortable doing that.$s"
-
+{
+  "ask-x-to-witness": "Mời {0} làm nhân chứng cho đám cưới của bạn?",
+  "witness-accept": "Tất nhiên rồi! Tôi sẽ vinh dự khi được làm nhân chứng của bạn!$h",
+  "witness-decline": "Xin lỗi, tôi không thoải mái với việc đó.$s"
 }

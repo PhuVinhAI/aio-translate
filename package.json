@@ -12,7 +12,8 @@
     "update": "node scripts/update.js",
     "compare": "node scripts/utils/compare-xml.js",
     "count": "node scripts/utils/count-words.js",
-    "check-empty": "node scripts/utils/find-empty-entries.js"
+    "check-empty": "node scripts/utils/find-empty-entries.js",
+    "stardew": "node scripts/translate-stardew.js"
   },
   "keywords": [
     "princess-connect",
