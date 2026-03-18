@@ -49,6 +49,20 @@ module.exports = {
     TEMP_MERGED: path.join(ROOT, 'data', 'temp', 'unity-merged.xml'),  // Final merged VI
   },
   
+  // Skyverse TXT workflow
+  SKYVERSE: {
+    INPUT_TXT: path.join(ROOT, 'skyverse', 'Content', 'Localization', 'Game', 'en', 'Game.locres.txt'),
+    OUTPUT_TXT: path.join(ROOT, 'skyverse', 'Content', 'Localization', 'Game', 'vi', 'Game.locres.txt'),
+    
+    TEMP_EN_XML: path.join(ROOT, 'data', 'temp', 'skyverse-en.xml'),
+    TEMP_NEW: path.join(ROOT, 'data', 'temp', 'skyverse-new.xml'),
+    TEMP_TRANSLATED: path.join(ROOT, 'data', 'temp', 'skyverse-translated.xml'),
+    TEMP_MERGED: path.join(ROOT, 'data', 'temp', 'skyverse-merged.xml'),
+    
+    MAPPING: path.join(ROOT, 'data', 'skyverse_mapping.json'),
+    REVERSE_MAPPING: path.join(ROOT, 'data', 'skyverse_reverse_mapping.json'),
+  },
+  
   // Mapping
   MAPPING: {
     KEY_MAPPING: path.join(ROOT, 'data', 'key_mapping.json'),

@@ -19,11 +19,13 @@ function createHashKey(originalKey) {
 // Kiểm tra mode từ argument
 const mode = process.argv[2] || 'normal';
 const isUnityMode = mode === 'unity';
+const isSkyverseMode = mode === 'skyverse';
 
 // Load config phù hợp
-const CONFIG = isUnityMode 
-    ? require('../config/unity-translation.config')
-    : require('../config/translation.config');
+let CONFIG;
+if (isUnityMode) CONFIG = require('../config/unity-translation.config');
+else if (isSkyverseMode) CONFIG = require('../config/skyverse-translation.config');
+else CONFIG = require('../config/translation.config');
 
 const { parseXMLEntries, escapeXml } = require('./utils/xml-parser');
 
@@ -33,18 +35,18 @@ const MAX_RETRIES = CONFIG.translation.maxRetries;
 const RETRY_DELAY = CONFIG.translation.retryDelay;
 
 // Paths phụ thuộc vào mode
-const PROGRESS_FILE = isUnityMode 
-    ? path.join(PATHS.TEMP.DIR, 'unity-progress.json')
-    : PATHS.TEMP.PROGRESS;
-const INPUT_FILE = isUnityMode 
-    ? PATHS.UNITY.TEMP_NEW
-    : PATHS.TEMP.NEW_CONTENT;
-const OUTPUT_FILE = isUnityMode 
-    ? PATHS.UNITY.TEMP_TRANSLATED
-    : PATHS.TEMP.TRANSLATED;
-const TEMP_DIR = isUnityMode 
-    ? path.join(PATHS.TEMP.DIR, 'temp-batches-unity')
-    : PATHS.TEMP.BATCHES;
+const PROGRESS_FILE = isUnityMode ? path.join(PATHS.TEMP.DIR, 'unity-progress.json')
+                    : isSkyverseMode ? path.join(PATHS.TEMP.DIR, 'skyverse-progress.json')
+                    : PATHS.TEMP.PROGRESS;
+const INPUT_FILE = isUnityMode ? PATHS.UNITY.TEMP_NEW
+                 : isSkyverseMode ? PATHS.SKYVERSE.TEMP_NEW
+                 : PATHS.TEMP.NEW_CONTENT;
+const OUTPUT_FILE = isUnityMode ? PATHS.UNITY.TEMP_TRANSLATED
+                  : isSkyverseMode ? PATHS.SKYVERSE.TEMP_TRANSLATED
+                  : PATHS.TEMP.TRANSLATED;
+const TEMP_DIR = isUnityMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-unity')
+               : isSkyverseMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-skyverse')
+               : PATHS.TEMP.BATCHES;
 
 // Tạo thư mục temp
 if (!fs.existsSync(TEMP_DIR)) {
@@ -165,8 +167,8 @@ async function translateBatch(entries, batchIndex, retryCount = 0, messages = nu
     // Tạo XML input
     let xmlInput;
     
-    if (isUnityMode) {
-        // Unity mode: Dịch trực tiếp từ JP, dùng hash key ngắn
+    if (isUnityMode || isSkyverseMode) {
+        // Unity/Skyverse mode: Dịch trực tiếp, dùng hash key ngắn
         xmlInput = batch.map(e => {
             const hashKey = hashKeyMap.get(e.key);
             return `  <Text Key="${hashKey}">${escapeXml(e.text)}</Text>`;
@@ -193,30 +195,32 @@ async function translateBatch(entries, batchIndex, retryCount = 0, messages = nu
         messages = null;
     }
     
-    // Conversation history để retry
-    if (!messages) {
-        let userPrompt;
-        
-        if (isUnityMode) {
-            // Unity mode: Dịch từ JP sang VI
-            userPrompt = `Dịch ${batch.length} thẻ XML tiếng Nhật sang tiếng Việt.
+        // Conversation history để retry
+        if (!messages) {
+            let userPrompt;
+            
+            if (isUnityMode || isSkyverseMode) {
+                const langFrom = isUnityMode ? "tiếng Nhật" : "tiếng Anh";
+                const rule4 = isUnityMode 
+                    ? "4. KHÔNG ĐỂ LẠI KÝ TỰ TIẾNG NHẬT (Hiragana/Katakana/Kanji)" 
+                    : "4. DỊCH SANG TIẾNG VIỆT (Giữ nguyên các tên riêng, danh từ đặc biệt tiếng Anh nếu không dịch được).";
+                    
+                userPrompt = `Dịch ${batch.length} thẻ XML ${langFrom} sang tiếng Việt.
 
 ${xmlInput}
 
 ⚠️ QUY TẮC QUAN TRỌNG NHẤT:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. GIỮ NGUYÊN 100% HTML TAGS - KHÔNG XÓA, KHÔNG THÊM, KHÔNG THAY ĐỔI FORMAT!
-   • Nếu gốc có 2 cặp thẻ → Dịch phải có ĐÚNG 2 cặp thẻ (KHÔNG được 1 hoặc 3)
-   • Nếu gốc có <style="Major"> → Dịch phải có <style="Major"> (KHÔNG đổi thành <style=Major>)
-   • Nếu gốc có <style=Major> → Dịch phải có <style=Major> (KHÔNG đổi thành <style="Major">)
-   • Nếu gốc có <style=major> → Dịch phải có <style=major> (KHÔNG đổi thành <style=Major>)
+1. GIỮ NGUYÊN 100% HTML TAGS VÀ FORMAT ĐẶC BIỆT - KHÔNG XÓA, KHÔNG THÊM!
+   • Nếu gốc có <style="Major"> → Dịch phải có <style="Major">
+   • Nếu gốc có <lf> hoặc <cf> → Dịch phải có <lf> hoặc <cf>
    • TUYỆT ĐỐI KHÔNG THÊM thẻ mới không có trong gốc
 
-2. GIỮ NGUYÊN 100% BIẾN: {#ITEM}, {#OBJECT}, {Name@Role}, {0}, v.v.
+2. GIỮ NGUYÊN 100% BIẾN VÀ KÝ TỰ ĐẶC BIỆT: {#ITEM}, {Name@Role}, {0}, {x}, {y}, v.v.
 
 3. CHỈ DỊCH TEXT, KHÔNG DỊCH/XÓA/THAY ĐỔI/THÊM TAGS VÀ BIẾN
 
-4. KHÔNG ĐỂ LẠI KÝ TỰ TIẾNG NHẬT (Hiragana/Katakana/Kanji)
+${rule4}
 
 VÍ DỤ ĐÚNG:
 ✓ Input:  この<style="Major">{#OBJECT}</style>を受け取ってください。
@@ -282,8 +286,8 @@ GIỮ NGUYÊN cấu trúc XML và Key, CHỈ dịch nội dung trong thẻ <Text
         // Parse XML trả về
         const translatedEntries = parseXMLEntries(translatedContent);
         
-        // Map hash key về key gốc (chỉ cho Unity mode)
-        if (isUnityMode) {
+        // Map hash key về key gốc (Unity & Skyverse)
+        if (isUnityMode || isSkyverseMode) {
             translatedEntries.forEach(entry => {
                 const originalKey = reverseHashMap.get(entry.key);
                 if (originalKey) {
@@ -301,29 +305,25 @@ GIỮ NGUYÊN cấu trúc XML và Key, CHỈ dịch nội dung trong thẻ <Text
         const wrongKeys = expectedKeys.length === translatedKeys.length && 
                         expectedKeys.some((key, i) => key !== translatedKeys[i]);
         
-        // Kiểm tra HTML tags (chỉ cho Unity mode)
+        // Kiểm tra HTML tags
         const tagRegex = /<[^>]+>/g;
         const tagErrors = [];
         const japaneseErrors = [];
         
-        if (isUnityMode) {
+        if (isUnityMode || isSkyverseMode) {
             for (let i = 0; i < batch.length; i++) {
                 const originalEntry = batch[i];
                 const translatedEntry = translatedEntries.find(e => e.key === originalEntry.key);
                 
                 if (translatedEntry) {
-                    // Kiểm tra HTML tags (chỉ bắt tags thật, không bắt text trong <>)
-                    // Tags thật: <style=...>, <style="...">, <sprite name="...">, <color=...>, </style>, v.v.
                     const realTagRegex = /<\/?[a-zA-Z][^>]*>/g;
                     const originalTags = (originalEntry.text.match(realTagRegex) || [])
-                        .map(tag => tag.toLowerCase()) // Normalize case
+                        .map(tag => tag.toLowerCase())
                         .sort();
                     const translatedTags = (translatedEntry.text.match(realTagRegex) || [])
-                        .map(tag => tag.toLowerCase()) // Normalize case
+                        .map(tag => tag.toLowerCase())
                         .sort();
                     
-                    // CHỈ kiểm tra nếu AI XÓA thẻ (ít hơn gốc)
-                    // Cho phép AI THÊM thẻ để nhấn mạnh phù hợp tiếng Việt
                     if (translatedTags.length < originalTags.length) {
                         tagErrors.push({
                             key: originalEntry.key,
@@ -333,13 +333,14 @@ GIỮ NGUYÊN cấu trúc XML và Key, CHỈ dịch nội dung trong thẻ <Text
                         });
                     }
                     
-                    // Kiểm tra còn tiếng Nhật không (Hiragana, Katakana, Kanji)
-                    const hasJapanese = /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(translatedEntry.text);
-                    if (hasJapanese) {
-                        japaneseErrors.push({
-                            key: originalEntry.key,
-                            text: translatedEntry.text
-                        });
+                    if (isUnityMode) {
+                        const hasJapanese = /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(translatedEntry.text);
+                        if (hasJapanese) {
+                            japaneseErrors.push({
+                                key: originalEntry.key,
+                                text: translatedEntry.text
+                            });
+                        }
                     }
                 }
             }
@@ -484,19 +485,18 @@ async function main() {
     let entries;
     let totalBatches;
     
-    if (mode === 'unity') {
-        console.log('🚀 Dịch Unity JSON (Nhật → Việt)\n');
+    if (mode === 'unity' || mode === 'skyverse') {
+        console.log(`🚀 Dịch ${mode === 'unity' ? 'Unity JSON (Nhật → Việt)' : 'Skyverse TXT (Anh → Việt)'}\n`);
         
-        // Đọc Unity XML (Japanese source)
-        const xmlContent = fs.readFileSync(PATHS.UNITY.TEMP_NEW, 'utf-8');
+        const targetPath = mode === 'unity' ? PATHS.UNITY.TEMP_NEW : PATHS.SKYVERSE.TEMP_NEW;
+        const xmlContent = fs.readFileSync(targetPath, 'utf-8');
         entries = parseXMLEntries(xmlContent);
         totalBatches = Math.ceil(entries.length / BATCH_SIZE);
         
-        // Unity mode không cần JP reference vì source đã là JP
         entries = entries.map(e => ({
             key: e.key,
             text: e.text,
-            japanese: '' // Không cần vì đang dịch từ JP
+            japanese: '' 
         }));
     } else if (mode === 'fix-empty') {
         console.log('🔧 Sửa thẻ trống trong file dịch\n');
