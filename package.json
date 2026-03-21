@@ -24,7 +24,17 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "adm-zip": "^0.5.16",
     "aio-llm": "^1.0.5",
     "dotenv": "^17.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomiWixoss/aio-translate.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TomiWixoss/aio-translate/issues"
+  },
+  "homepage": "https://github.com/TomiWixoss/aio-translate#readme"
 }
