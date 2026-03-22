@@ -27,7 +27,8 @@ const isFTBMode = mode === 'ftbquests';
 let CONFIG;
 if (isUnityMode) CONFIG = require('../config/unity-translation.config');
 else if (isSkyverseMode) CONFIG = require('../config/skyverse-translation.config');
-else if (isMinecraftMode || isFTBMode) CONFIG = require('../config/minecraft-translation.config');
+else if (isMinecraftMode) CONFIG = require('../config/minecraft-translation.config');
+else if (isFTBMode) CONFIG = require('../config/ftbquests-translation.config');
 else CONFIG = require('../config/translation.config');
 
 const { parseXMLEntries, escapeXml } = require('./utils/xml-parser');
