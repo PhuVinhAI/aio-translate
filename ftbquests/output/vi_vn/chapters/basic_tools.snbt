@@ -1,25 +1,13 @@
 {
-	quest.03E05018D64DDEE1.quest_desc: [
-		"&eCấp 5&r về cơ bản chỉ dành cho quặng Allthemodium, không còn nhiều thứ khác."
-	]
+	quest.03E05018D64DDEE1.quest_desc: ["&eCấp 5&r về cơ bản chỉ dành cho quặng Allthemodium, không còn nhiều thứ khác."]
 	quest.03E05018D64DDEE1.title: "&eCấp khai thác 5"
 	quest.0583862ED0114442.quest_subtitle: "&f4 &cSát thương tấn công"
 	quest.077A214422FEFF02.quest_subtitle: "&f6.5 &cSát thương tấn công"
-	quest.09733948CBCB3FB9.quest_desc: [
-		"&dCấp 6&r là cấp cao nhất, bất cứ thứ gì có thể phá hủy đều có thể được khai thác bằng nó, bao gồm Vibranium và Unobtainium."
-	]
+	quest.09733948CBCB3FB9.quest_desc: ["&dCấp 6&r là cấp cao nhất, bất cứ thứ gì có thể phá hủy đều có thể được khai thác bằng nó, bao gồm Vibranium và Unobtainium."]
 	quest.09733948CBCB3FB9.title: "&dCấp khai thác 6"
 	quest.149BD1A9F82FA19A.quest_subtitle: "&f6 &cSát thương tấn công"
-	quest.16AAC61729C44881.quest_desc: [
-		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các Modpack AllTheMods.\"
-		"\"
-		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng.\"
-		"\"
-		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
-	]
-	quest.17FE0C7748DD65CA.quest_desc: [
-		"&5Tier 4&r là cấp độ công cụ Kim cương, dùng để lấy Obsidian và Netherite. Cũng như một số quặng mod như Uranium và Platinum."
-	]
+	quest.16AAC61729C44881.quest_desc: ["Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các Modpack AllTheMods.\n\n\n\nVì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng.\n\n\n\nNhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."]
+	quest.17FE0C7748DD65CA.quest_desc: ["&5Tier 4&r là cấp độ công cụ Kim cương, dùng để lấy Obsidian và Netherite. Cũng như một số quặng mod như Uranium và Platinum."]
 	quest.17FE0C7748DD65CA.title: "&5Cấp thu hoạch 4"
 	quest.1D3F11194EA3BB73.quest_subtitle: "Cấp: &b3"
 	quest.2664388EBA1E8F90.quest_subtitle: "&f8 &cSát thương tấn công"
@@ -31,9 +19,7 @@
 	quest.2E6D11A5F5626A6C.quest_subtitle: "Cấp: &f2"
 	quest.2EE4E88FC814AFA4.quest_subtitle: "Cấp: &91"
 	quest.36A3ECD4F6CA2732.quest_subtitle: "&f8 &cSát thương"
-	quest.3917DECAEF56A06A.quest_desc: [
-		"&fCấp 2&r là cấp độ của cuốc đá. Nó gần như chỉ để khai thác các vật phẩm bằng sắt."
-	]
+	quest.3917DECAEF56A06A.quest_desc: ["&fCấp 2&r là cấp độ của cuốc đá. Nó gần như chỉ để khai thác các vật phẩm bằng sắt."]
 	quest.3917DECAEF56A06A.title: "&fCấp thu hoạch 2"
 	quest.3B542DC05240242C.quest_subtitle: "&f6 &cSát thương"
 	quest.3BF1900346772703.quest_subtitle: "Cấp: &f2"
@@ -41,25 +27,16 @@
 	quest.480FA9FE57743B66.quest_subtitle: "&f5 &cSát thương"
 	quest.4C8C56F960D92E9D.quest_subtitle: "&f51 &cSát thương"
 	quest.512396B331108BAF.quest_subtitle: "Cấp: &e5"
-	quest.5151CDD8FCDE7A07.quest_desc: [
-		"Chào mừng đến với Công cụ Cơ bản!"
-		"Bạn đã bao giờ sở hữu một công cụ chưa từng thấy hay nghe đến và muốn biết nó xếp hạng thế nào trong số các công cụ khác? Vậy thì những nhiệm vụ này hoàn hảo dành cho bạn!"
-		"(Các thanh kiếm được sắp xếp theo sát thương cơ bản, các thanh kiếm có thể nâng cấp hoặc dùng để tăng sát thương không được bao gồm)."
-		"Các nhiệm vụ cho tất cả các cuốc và thanh kiếm là TÙY CHỌN!"
-	]
+	quest.5151CDD8FCDE7A07.quest_desc: ["Chào mừng đến với Công cụ Cơ bản!\n\n\n\nBạn đã bao giờ sở hữu một công cụ chưa từng thấy hay nghe đến và muốn biết nó xếp hạng thế nào trong số các công cụ khác? Vậy thì những nhiệm vụ này hoàn hảo dành cho bạn!\n\n\n\n(Các thanh kiếm được sắp xếp theo sát thương cơ bản, các thanh kiếm có thể nâng cấp hoặc dùng để tăng sát thương không được bao gồm).\n\n\n\nCác nhiệm vụ cho tất cả các cuốc và thanh kiếm là TÙY CHỌN!"]
 	quest.5151CDD8FCDE7A07.quest_subtitle: "Tất cả Công cụ"
 	quest.5151CDD8FCDE7A07.title: "Công cụ Cơ bản!"
 	quest.51DBE688ED630DB1.quest_subtitle: "Cấp: &54"
 	quest.54D3D6806C1F33F3.quest_subtitle: "&f5 &cSát thương"
 	quest.55A9EB63F4964FCF.quest_subtitle: "&f7 &cSát thương"
-	quest.57F47BA495B27F83.quest_desc: [
-		"&9Cấp 1&r Cấp độ thu hoạch là cấp độ cuốc thấp nhất, cần một cuốc. Bất kỳ cuốc nào cũng có thể khai thác chúng. Các vật phẩm thuộc Cấp 1 có thể như Đá, Lò và Quặng Than."
-	]
+	quest.57F47BA495B27F83.quest_desc: ["&9Cấp 1&r Cấp độ thu hoạch là cấp độ cuốc thấp nhất, cần một cuốc. Bất kỳ cuốc nào cũng có thể khai thác chúng. Các vật phẩm thuộc Cấp 1 có thể như Đá, Lò và Quặng Than."]
 	quest.57F47BA495B27F83.title: "&9Cấp thu hoạch 1"
 	quest.609D03E335CF32E2.quest_subtitle: "Cấp: &d6"
-	quest.6601450C63FEEE61.quest_desc: [
-		"&bCấp 3&r là cấp độ xẻng sắt, nó khai thác được hầu hết quặng như kim cương, ngọc lục bảo và vàng."
-	]
+	quest.6601450C63FEEE61.quest_desc: ["&bCấp 3&r là cấp độ xẻng sắt, nó khai thác được hầu hết quặng như kim cương, ngọc lục bảo và vàng."]
 	quest.6601450C63FEEE61.title: "&bCấp thu hoạch 3"
 	quest.6EE68EEFE388CF8A.quest_subtitle: "&f4 &cSát thương"
 	quest.70ED849A2EB44DEE.quest_subtitle: "Cấp: &b3"

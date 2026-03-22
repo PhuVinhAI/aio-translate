@@ -38,20 +38,41 @@ function exportSNBT() {
       safeStr = safeStr.replace(/"/g, '\\"');
       
       // Bước 3: FIX LỖI GAME - Escape ký tự '&' có khoảng trắng đằng sau
-      // FTB Quests yêu cầu '& ' phải thành '\& ' để không bị hiểu nhầm là mã màu
       safeStr = safeStr.replace(/& /g, '\\& ');
       
       return safeStr;
     };
 
     if (mapInfo.isArray) {
-      // Chẻ đoạn văn lại thành mảng theo ký tự \n
-      const lines = viText.split('\\n').filter(line => line.trim() !== '');
-      finalOutput = "[\n";
-      lines.forEach((line, index) => {
-        finalOutput += `\t\t"${escapeSafe(line)}"\n`;
-      });
-      finalOutput += "\t]";
+      // QUAN TRỌNG: Kiểm tra xem mảng gốc có bao nhiêu phần tử
+      const originalArrayMatch = mapInfo.originalValue.match(/\[([^\]]+)\]/);
+      if (originalArrayMatch) {
+        const originalContent = originalArrayMatch[1];
+        // Đếm số dấu ngoặc kép mở (mỗi phần tử bắt đầu bằng ")
+        const originalElementCount = (originalContent.match(/(?:^|,)\s*"/g) || []).length;
+        
+        if (originalElementCount === 1) {
+          // Mảng gốc chỉ có 1 phần tử -> Giữ nguyên format 1 phần tử, thay \\n bằng \\n\\n
+          const singleLine = viText.replace(/\\n/g, '\\n\\n');
+          finalOutput = `["${escapeSafe(singleLine)}"]`;
+        } else {
+          // Mảng gốc có nhiều phần tử -> Tách thành nhiều dòng
+          const lines = viText.split('\\n').filter(line => line.trim() !== '');
+          finalOutput = "[\n";
+          lines.forEach((line, index) => {
+            finalOutput += `\t\t"${escapeSafe(line)}"\n`;
+          });
+          finalOutput += "\t]";
+        }
+      } else {
+        // Fallback: Không parse được -> dùng logic cũ
+        const lines = viText.split('\\n').filter(line => line.trim() !== '');
+        finalOutput = "[\n";
+        lines.forEach((line, index) => {
+          finalOutput += `\t\t"${escapeSafe(line)}"\n`;
+        });
+        finalOutput += "\t]";
+      }
     } else {
       finalOutput = `"${escapeSafe(viText)}"`;
     }

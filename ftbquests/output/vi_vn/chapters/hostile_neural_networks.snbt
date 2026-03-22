@@ -1,57 +1,19 @@
 {
-	quest.104EBBC08B4733F5.quest_desc: [
-		"&dPhòng Mô phỏng&r là máy chính trong HNN.\"
-		"\"
-		"Khi được cấp nguồn điện, nó sẽ chạy mô phỏng dựa trên &bMô hình Dữ liệu&r được đặt bên trong. Nguồn điện yêu cầu cũng phụ thuộc vào Mô hình Dữ liệu được đặt bên trong, và có thể xem được trong tooltip của Mô hình. \"
-		"\"
-		"Máy cũng yêu cầu ít nhất một &9Ma trận Dự đoán&r để chạy mô phỏng.\"
-		"\"
-		"Kết quả mô phỏng sẽ được xuất ra Ma trận. Các mô phỏng luôn tạo ra một số loại &eDự đoán Chung&r, có thể được sử dụng trong các công thức chế tạo khác nhau. Chúng cũng thay đổi tùy theo nguồn gốc của sinh vật trong Mô hình Dữ liệu.\"
-		"\"
-		"Nếu mô phỏng thành công, bạn sẽ nhận được một &dDự đoán Sinh vật&r dựa trên mô hình. Cấp độ càng cao của Mô hình Dữ liệu được sử dụng, tỷ lệ thành công của mô phỏng càng cao."
-	]
+	quest.104EBBC08B4733F5.quest_desc: ["&dPhòng Mô phỏng&r là máy chính trong HNN.\n\n\n\nKhi được cấp nguồn điện, nó sẽ chạy mô phỏng dựa trên &bMô hình Dữ liệu&r được đặt bên trong. Nguồn điện yêu cầu cũng phụ thuộc vào Mô hình Dữ liệu được đặt bên trong, và có thể xem được trong tooltip của Mô hình. \n\n\n\nMáy cũng yêu cầu ít nhất một &9Ma trận Dự đoán&r để chạy mô phỏng.\n\n\n\nKết quả mô phỏng sẽ được xuất ra Ma trận. Các mô phỏng luôn tạo ra một số loại &eDự đoán Chung&r, có thể được sử dụng trong các công thức chế tạo khác nhau. Chúng cũng thay đổi tùy theo nguồn gốc của sinh vật trong Mô hình Dữ liệu.\n\n\n\nNếu mô phỏng thành công, bạn sẽ nhận được một &dDự đoán Sinh vật&r dựa trên mô hình. Cấp độ càng cao của Mô hình Dữ liệu được sử dụng, tỷ lệ thành công của mô phỏng càng cao."]
 	quest.104EBBC08B4733F5.title: "&aĐang mô phỏng Cái chết"
 	quest.10E8BC20D406D9FB.quest_subtitle: "Tạo ra các vật liệu Nether khác nhau"
-	quest.12AE2856444996F6.quest_desc: [
-		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các modpack AllTheMods."
-		"Vì tất cả các modpack &6AllTheMods&r đều được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ modpack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
-	]
-	quest.14B3542ECB59869C.quest_desc: [
-		"&5Loot Fabricator&r là cỗ máy giúp bạn có được những món loot ngon lành từ Dự đoán Quái vật."
-		"Khi được cung cấp năng lượng và có một Dự đoán Quái vật thành công, bạn sẽ có thể chọn món item nào bạn muốn nhận từ Data Model của quái vật đó. Cỗ máy sẽ ghi nhớ lựa chọn của bạn, vì vậy nó có thể được tự động hóa."
-		"Ví dụ về Dự đoán Quái vật:"
-		"- &dEnder Dragons&r để lấy &dDragon Eggs"
-		" - &2Zombies&r để lấy Iron"
-		" - &0Withers&r để lấy &5Nether Stars"
-	]
+	quest.12AE2856444996F6.quest_desc: ["Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các modpack AllTheMods.\n\n\n\nVì tất cả các modpack &6AllTheMods&r đều được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ modpack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng.\n\n\n\nNhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."]
+	quest.14B3542ECB59869C.quest_desc: ["&5Loot Fabricator&r là cỗ máy giúp bạn có được những món loot ngon lành từ Dự đoán Quái vật.\n\n\n\nKhi được cung cấp năng lượng và có một Dự đoán Quái vật thành công, bạn sẽ có thể chọn món item nào bạn muốn nhận từ Data Model của quái vật đó. Cỗ máy sẽ ghi nhớ lựa chọn của bạn, vì vậy nó có thể được tự động hóa.\n\n\n\nVí dụ về Dự đoán Quái vật:\n\n\n\n- &dEnder Dragons&r để lấy &dDragon Eggs\n\n - &2Zombies&r để lấy Iron\n\n - &0Withers&r để lấy &5Nether Stars"]
 	quest.14B3542ECB59869C.title: "Tạo &dLoot"
 	quest.2559201BCF5D497C.quest_subtitle: "Tạo ra các vật liệu Overworld khác nhau"
-	quest.34CD54347E9821B5.quest_desc: [
-		"Khi bạn tạo ra Data Model đầu tiên, bạn sẽ cần nâng cấp nó để hữu ích."
-		"Data Models bắt đầu ở cấp độ đầu tiên: &7Faulty&r. Bạn sẽ cần ít nhất nâng nó lên &aBasic&r nếu bạn muốn chạy một số mô phỏng trên nó!"
-		"Khi được đặt bên trong Deep Learner, HUD sẽ cho bạn biết cần bao nhiêu lần giết để nâng cấp nó. Bạn cũng có thể thấy thông tin này trong tooltip của chính Model."
-	]
+	quest.34CD54347E9821B5.quest_desc: ["Khi bạn tạo ra Data Model đầu tiên, bạn sẽ cần nâng cấp nó để hữu ích.\n\n\n\nData Models bắt đầu ở cấp độ đầu tiên: &7Faulty&r. Bạn sẽ cần ít nhất nâng nó lên &aBasic&r nếu bạn muốn chạy một số mô phỏng trên nó!\n\n\n\nKhi được đặt bên trong Deep Learner, HUD sẽ cho bạn biết cần bao nhiêu lần giết để nâng cấp nó. Bạn cũng có thể thấy thông tin này trong tooltip của chính Model."]
 	quest.34CD54347E9821B5.title: "Nâng cấp Data Models"
-	quest.37EBB8E0D6E5F821.quest_desc: [
-		"&6Hostile Neural Networks&r (HNN) là một mod xoay quanh việc mô phỏng việc giết quái vật để có loot!"
-		"Để làm điều này, bạn sẽ thu thập \"dữ liệu\" về quái vật, sau đó chạy mô phỏng từ dữ liệu để tạo ra vật phẩm rơi ra của chúng!"
-		"{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"
-	]
+	quest.37EBB8E0D6E5F821.quest_desc: ["&6Hostile Neural Networks&r (HNN) là một mod xoay quanh việc mô phỏng việc giết quái vật để có loot!\n\n\n\nĐể làm điều này, bạn sẽ thu thập \"dữ liệu\" về quái vật, sau đó chạy mô phỏng từ dữ liệu để tạo ra vật phẩm rơi ra của chúng!\n\n\n\n{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"]
 	quest.37EBB8E0D6E5F821.title: "Chào mừng đến với &9Hostile Neural Networks&r!"
-	quest.3E3CBDCEAB0FF28F.quest_desc: [
-		"&9Deep Learner&r là một trong những thành phần cốt lõi của HNN."
-		"Với item này, bạn có thể nhấp chuột phải để mở HUD và lưu trữ &6Data Models&r để thu thập dữ liệu trong khi giết quái vật."
-		"Mỗi Learner có thể chứa 4 Data Models, và miễn là bạn có Learner ở bất kỳ đâu trong túi đồ, nó sẽ thu thập dữ liệu cho các Model được đặt bên trong!"
-		"Lưu ý: Bạn có thể có nhiều Deep Learners trong túi đồ, và nó sẽ đếm số lần giết cho tất cả Data Models bên trong tất cả các Learners."
-	]
+	quest.3E3CBDCEAB0FF28F.quest_desc: ["&9Deep Learner&r là một trong những thành phần cốt lõi của HNN.\n\n\n\nVới item này, bạn có thể nhấp chuột phải để mở HUD và lưu trữ &6Data Models&r để thu thập dữ liệu trong khi giết quái vật.\n\n\n\nMỗi Learner có thể chứa 4 Data Models, và miễn là bạn có Learner ở bất kỳ đâu trong túi đồ, nó sẽ thu thập dữ liệu cho các Model được đặt bên trong!\n\n\n\nLưu ý: Bạn có thể có nhiều Deep Learners trong túi đồ, và nó sẽ đếm số lần giết cho tất cả Data Models bên trong tất cả các Learners."]
 	quest.3E3CBDCEAB0FF28F.quest_subtitle: "HUD Học tập"
 	quest.3E3CBDCEAB0FF28F.title: "&aHọc Mob"
-	quest.58C2ABED43B2EA61.quest_desc: [
-		"&9Khung Mô hình&r là điểm khởi đầu để tạo Mô hình Dữ liệu."
-		"Để bắt đầu thu thập dữ liệu về một mob cụ thể, bạn sẽ muốn tạo một cái trong số đó rồi &9nhấp chuột phải&r vào mob bạn muốn thu thập dữ liệu. Khi thực hiện đúng, Khung Mô hình sẽ biến thành Mô hình Dữ liệu của mob bạn vừa nhấp vào."
-		"Để thu thập dữ liệu cho mob đó, hãy đặt Mô hình Dữ liệu vừa tạo bên trong một &aDeep Learner&r, sau đó bắt đầu giết mob cụ thể đó với Deep Learner trong túi đồ của bạn."
-	]
+	quest.58C2ABED43B2EA61.quest_desc: ["&9Khung Mô hình&r là điểm khởi đầu để tạo Mô hình Dữ liệu.\n\n\n\nĐể bắt đầu thu thập dữ liệu về một mob cụ thể, bạn sẽ muốn tạo một cái trong số đó rồi &9nhấp chuột phải&r vào mob bạn muốn thu thập dữ liệu. Khi thực hiện đúng, Khung Mô hình sẽ biến thành Mô hình Dữ liệu của mob bạn vừa nhấp vào.\n\n\n\nĐể thu thập dữ liệu cho mob đó, hãy đặt Mô hình Dữ liệu vừa tạo bên trong một &aDeep Learner&r, sau đó bắt đầu giết mob cụ thể đó với Deep Learner trong túi đồ của bạn."]
 	quest.58C2ABED43B2EA61.quest_subtitle: "\"Thu thập Dữ liệu\""
 	quest.58C2ABED43B2EA61.title: "&9Mô hình hóa Mob"
 	quest.5A23107C363A209E.quest_subtitle: "Tạo ra các vật liệu End đa dạng"

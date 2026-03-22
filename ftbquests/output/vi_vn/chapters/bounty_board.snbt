@@ -1,91 +1,27 @@
 {
-	quest.08B60D8A25008CCC.quest_desc: [
-		"Nhiệm vụ này được tạo bởi &6Nhân viên AllTheMods&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods. \"
-		"\"
-		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6Đội ngũ AllTheMods&r mà không có sự cho phép rõ ràng. \"
-		"\"
-		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
-	]
-	quest.09C82CDDA800D8C9.quest_desc: [
-		"Wither là trùm cuối thứ hai trong Minecraft, trùm này có thể được gọi tùy ý. \"
-		"\"
-		"Bạn sẽ phải xây dựng Wither để triệu hồn hắn. Sử dụng 4 Cát linh hồn theo hình chữ T và đặt 3 Đầu xương Wither lên trên sẽ triệu hồn hắn! \"
-		"\"
-		"Hắn có 300 Trái tim và sẽ bay quanh bắn Đầu Wither vào Người chơi hoặc Quái vật. \"
-		"\"
-		"Khi sức khỏe giảm còn một nửa, hắn sẽ nhận được khiên chống lại Đạn và cần phải giết bằng Kiếm hoặc Rìu. \"
-		"\"
-		"Khi bạn giết hắn, hắn sẽ rơi: Tinh thể Nether, cơ hội nhận được Withering Soul, và một số lượng lớn vật phẩm Corail."
-	]
+	quest.08B60D8A25008CCC.quest_desc: ["Nhiệm vụ này được tạo bởi &6Nhân viên AllTheMods&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods. \n\n\n\nVì tất cả các pack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6Đội ngũ AllTheMods&r mà không có sự cho phép rõ ràng. \n\n\n\nNhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."]
+	quest.09C82CDDA800D8C9.quest_desc: ["Wither là trùm cuối thứ hai trong Minecraft, trùm này có thể được gọi tùy ý. \n\n\n\nBạn sẽ phải xây dựng Wither để triệu hồn hắn. Sử dụng 4 Cát linh hồn theo hình chữ T và đặt 3 Đầu xương Wither lên trên sẽ triệu hồn hắn! \n\n\n\nHắn có 300 Trái tim và sẽ bay quanh bắn Đầu Wither vào Người chơi hoặc Quái vật. \n\n\n\nKhi sức khỏe giảm còn một nửa, hắn sẽ nhận được khiên chống lại Đạn và cần phải giết bằng Kiếm hoặc Rìu. \n\n\n\nKhi bạn giết hắn, hắn sẽ rơi: Tinh thể Nether, cơ hội nhận được Withering Soul, và một số lượng lớn vật phẩm Corail."]
 	quest.09C82CDDA800D8C9.title: "Giết Wither"
-	quest.0E20A9B79D1C6637.quest_desc: [
-		"Warden là trùm cuối được thêm vào trong phiên bản 1.20. \"
-		"\"
-		"Hắn xuất hiện khi có 3 Cây kêu Sculk tự nhiên được kích hoạt liên tiếp, hoặc bất kỳ Cây kêu Sculk nào được kích hoạt sau khi một Warden đầu tiên đã xuất hiện. \"
-		"\"
-		"Hắn là Quái vật mạnh nhất được Minecraft thêm vào, với 500 Trái tim và gây hơn 20 Trái tim sát thương với các đòn tấn công của hắn. \"
-		"\"
-		"Các đòn tấn công của hắn bao gồm đánh trực tiếp và Sóng âm (Sonar Blasts) cho những mục tiêu ở xa. \"
-		"\"
-		"Điểm yếu duy nhất của hắn là bị mù, nhưng giống như Daredevil, nó chỉ làm các giác quan khác của hắn mạnh hơn! Nếu bạn ở gần, hắn có thể ngửi thấy bạn và hãy cẩn thận với tiếng ồn! \"
-		"\"
-		"Nếu bạn somehow giết được hắn, hắn sẽ rơi: Chất xúc tác Sculk, Mai Warden, và Trái tim của vực sâu."
-	]
+	quest.0E20A9B79D1C6637.quest_desc: ["Warden là trùm cuối được thêm vào trong phiên bản 1.20. \n\n\n\nHắn xuất hiện khi có 3 Cây kêu Sculk tự nhiên được kích hoạt liên tiếp, hoặc bất kỳ Cây kêu Sculk nào được kích hoạt sau khi một Warden đầu tiên đã xuất hiện. \n\n\n\nHắn là Quái vật mạnh nhất được Minecraft thêm vào, với 500 Trái tim và gây hơn 20 Trái tim sát thương với các đòn tấn công của hắn. \n\n\n\nCác đòn tấn công của hắn bao gồm đánh trực tiếp và Sóng âm (Sonar Blasts) cho những mục tiêu ở xa. \n\n\n\nĐiểm yếu duy nhất của hắn là bị mù, nhưng giống như Daredevil, nó chỉ làm các giác quan khác của hắn mạnh hơn! Nếu bạn ở gần, hắn có thể ngửi thấy bạn và hãy cẩn thận với tiếng ồn! \n\n\n\nNếu bạn somehow giết được hắn, hắn sẽ rơi: Chất xúc tác Sculk, Mai Warden, và Trái tim của vực sâu."]
 	quest.0E20A9B79D1C6637.title: "Giết Người giám ngục"
-	quest.0F55D0B4D5094EDB.quest_desc: [
-		"Trong khi tạo nhiều chuỗi nhiệm vụ cho ATM7, Thương gia nghĩ rằng sẽ vui nếu liên tục đẩy tôi xung quanh trong màn hình nhiệm vụ.\"
-		"\"
-		"\"Loại bỏ chúng. Tất cả chúng.\"\"
-		"\"
-		"- AlfredGG \"
-		"\"
-		"\"Tôi ủng hộ điều này!\" \"
-		"\"
-		"- Toshiba"
-	]
+	quest.0F55D0B4D5094EDB.quest_desc: ["Trong khi tạo nhiều chuỗi nhiệm vụ cho ATM7, Thương gia nghĩ rằng sẽ vui nếu liên tục đẩy tôi xung quanh trong màn hình nhiệm vụ.\n\n\n\n\"Loại bỏ chúng. Tất cả chúng.\"\n\n\n\n- AlfredGG \n\n\n\n\"Tôi ủng hộ điều này!\" \n\n\n\n- Toshiba"]
 	quest.0F55D0B4D5094EDB.quest_subtitle: "\"Đây là vấn đề cá nhân\" - AlfredGG"
 	quest.0F55D0B4D5094EDB.title: "Giết Thương gia và những con Lạc đà khó chịu của hắn"
 	quest.17F3AC15ADCFB175.title: "&l&9Nhiệm vụ săn bắt The End:&r&e Endermen"
 	quest.1F18B64C84C8809D.title: "&l&9Nhiệm vụ săn bắt Overworld:&r&e Nhện"
 	quest.2B05A29C62676EB2.title: "&l&9Nhiệm vụ săn bắt Overworld:&r&e Zombie"
-	quest.2BD077EFE77B8EBB.quest_desc: [
-		"Zombie có các biến thể khác nhau xuất hiện ở các Biome khác.\"
-		"\"
-		"Husks - xuất hiện ở sa mạc.\"
-		"Drowned - xuất hiện dưới nước."
-	]
+	quest.2BD077EFE77B8EBB.quest_desc: ["Zombie có các biến thể khác nhau xuất hiện ở các Biome khác.\n\n\n\nHusks - xuất hiện ở sa mạc.\n\nDrowned - xuất hiện dưới nước."]
 	quest.2BD077EFE77B8EBB.title: "Biến thể Zombie"
 	quest.3371F9248D403664.title: "&l&cNhiệm vụ săn bắt The Nether:&r&e Wither Skeleton"
-	quest.41C0948CD9D50322.quest_desc: [
-		"Tại đây bạn sẽ tìm thấy tất cả phần thưởng có thể nhận được bằng cách giết kẻ thù."
-	]
+	quest.41C0948CD9D50322.quest_desc: ["Tại đây bạn sẽ tìm thấy tất cả phần thưởng có thể nhận được bằng cách giết kẻ thù."]
 	quest.41C0948CD9D50322.quest_subtitle: "Giết Tất Cả"
 	quest.41C0948CD9D50322.title: "Bảng Phần Thưởng"
 	quest.42822B1E8A53D051.title: "&l&9Phần thưởng Overworld:&r&e Xương Khô"
 	quest.5AC497F76A086A5C.title: "&l&9Phần thưởng Overworld:&r&e Phù Thủy"
 	quest.6141DE779232C8AA.title: "&l&cPhần thưởng Nether:&r&e Lửa"
-	quest.6827836C8E675A94.quest_desc: [
-		"Xương Khô có các biến thể khác nhau, giống như Zombie! \"
-		"\"
-		"Strays- xuất hiện ở Vùng Cực Lạnh. \"
-		"Bogged- xuất hiện ở Đầm Lầy và Phòng Thử nghiệm. \"
-		"Murks- xuất hiện dưới nước ở Rạn San Hô. \"
-		"Verdants- xuất hiện ở Rừng Rậm."
-	]
+	quest.6827836C8E675A94.quest_desc: ["Xương Khô có các biến thể khác nhau, giống như Zombie! \n\n\n\nStrays- xuất hiện ở Vùng Cực Lạnh. \n\nBogged- xuất hiện ở Đầm Lầy và Phòng Thử nghiệm. \n\nMurks- xuất hiện dưới nước ở Rạn San Hô. \n\nVerdants- xuất hiện ở Rừng Rậm."]
 	quest.6827836C8E675A94.title: "Biến Thể Xương Khô"
-	quest.728BE1816DA23DC0.quest_desc: [
-		"Rồng Ender là Boss bảo vệ The End. \"
-		"\"
-		"Khi bạn đi vào một End Portal, bạn sẽ đến End Island nơi nó xuất hiện. \"
-		"\"
-		"Nó có 200 Trái Tim và có thể tấn công bằng Quả Cầu Lửa hoặc đâm vào bạn. \"
-		"\"
-		"Bạn phải phá các End Crystals trên cột vì chúng hồi máu cho nó, để giết nó! \"
-		"\"
-		"Sau khi giết nó, nó sẽ rơi: Bản Nguyên Huyền Bí, Túi Shader Huyền Thoại, Da Rồng, Vảy Rồng từ hai mod khác nhau, và một lượng kinh nghiệm! \"
-		"\"
-		"Sau đó Cổng sẽ mở ra để bạn có thể trở về Overworld, hoặc bạn có thể tìm một End Gateway để khám phá các đảo ngoài. Bạn cũng sẽ tìm thấy một Trứng Rồng trên Cổng."
-	]
+	quest.728BE1816DA23DC0.quest_desc: ["Rồng Ender là Boss bảo vệ The End. \n\n\n\nKhi bạn đi vào một End Portal, bạn sẽ đến End Island nơi nó xuất hiện. \n\n\n\nNó có 200 Trái Tim và có thể tấn công bằng Quả Cầu Lửa hoặc đâm vào bạn. \n\n\n\nBạn phải phá các End Crystals trên cột vì chúng hồi máu cho nó, để giết nó! \n\n\n\nSau khi giết nó, nó sẽ rơi: Bản Nguyên Huyền Bí, Túi Shader Huyền Thoại, Da Rồng, Vảy Rồng từ hai mod khác nhau, và một lượng kinh nghiệm! \n\n\n\nSau đó Cổng sẽ mở ra để bạn có thể trở về Overworld, hoặc bạn có thể tìm một End Gateway để khám phá các đảo ngoài. Bạn cũng sẽ tìm thấy một Trứng Rồng trên Cổng."]
 	quest.728BE1816DA23DC0.title: "Giết Rồng Ender"
 	quest.77FC692AC94D2EEF.title: "&l&9Phần thưởng Overworld:&r&e Creepers"
 	task.00CBF98DE4E9CC90.title: "Mọi quyền được bảo lưu"

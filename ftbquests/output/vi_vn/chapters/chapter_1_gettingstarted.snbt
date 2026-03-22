@@ -1,215 +1,71 @@
 {
-	quest.051E0C85E7B71CE0.quest_desc: [
-		"Tôi sẽ cho rằng bạn đã đi khai thác, phải không? Dù sao thì đây cũng là MINEcraft."
-		"Bạn sẽ tìm thấy rất nhiều quặng mới có thể khiến bạn bối rối, nhưng bạn có thể bám vào các vật liệu gốc để bắt đầu!"
-		"Đồng dồi dào và có nhiều công dụng cho những thứ như &aOre Hammers&r hoặc &eDrawer Upgrades&r, vì vậy hãy đảm bảo thu thập thật nhiều!"
-		"Sắt có lẽ là một trong những quặng quan trọng nhất bạn sẽ muốn lấy mỗi khi gặp phải. Thế giới modded MC về cơ bản chạy trên Sắt."
-	]
+	quest.051E0C85E7B71CE0.quest_desc: ["Tôi sẽ cho rằng bạn đã đi khai thác, phải không? Dù sao thì đây cũng là MINEcraft.\n\n\n\nBạn sẽ tìm thấy rất nhiều quặng mới có thể khiến bạn bối rối, nhưng bạn có thể bám vào các vật liệu gốc để bắt đầu!\n\n\n\nĐồng dồi dào và có nhiều công dụng cho những thứ như &aOre Hammers&r hoặc &eDrawer Upgrades&r, vì vậy hãy đảm bảo thu thập thật nhiều!\n\n\n\nSắt có lẽ là một trong những quặng quan trọng nhất bạn sẽ muốn lấy mỗi khi gặp phải. Thế giới modded MC về cơ bản chạy trên Sắt."]
 	quest.051E0C85E7B71CE0.title: "Thời kỳ &9Kim loại&r"
-	quest.0F026D5A17CCCF51.quest_desc: [
-		"&dNetherite&r là tốt hơn tổng thể, và sẽ không cháy trong lava! Tuy nhiên bạn vẫn có thể bị cháy, ngay cả khi đang mặc áo giáp. Đừng thử."
-		"Các vật phẩm này có thể được dùng để chế tạo một số công cụ và áo giáp tốt nhất trong trò chơi."
-	]
+	quest.0F026D5A17CCCF51.quest_desc: ["&dNetherite&r là tốt hơn tổng thể, và sẽ không cháy trong lava! Tuy nhiên bạn vẫn có thể bị cháy, ngay cả khi đang mặc áo giáp. Đừng thử.\n\n\n\nCác vật phẩm này có thể được dùng để chế tạo một số công cụ và áo giáp tốt nhất trong trò chơi."]
 	quest.0F026D5A17CCCF51.title: "&dHạng Netherite"
-	quest.0F3D51FFD2FE8DCB.quest_desc: [
-		"Với cuốc &dHạng Kim Cương&r, bạn sẽ có thể khai thác &dObsidian&r. Obsidian có thể được dùng để tạo cổng đến &cNether&r."
-		"Khung cổng có thể có nhiều kích thước khác nhau, nhưng phổ biến nhất là hình dạng 'Cửa' cơ bản. Đây là hình khối rỗng 4x5, cần tối thiểu 10 Obsidian. Bạn không cần dùng Obsidian cho các góc, chỉ cần khung cổng!"
-		"{image:atm:textures/questpics/gettingstarted/example_netherportal.png width:175 height:201 align:1}"
-	]
+	quest.0F3D51FFD2FE8DCB.quest_desc: ["Với cuốc &dHạng Kim Cương&r, bạn sẽ có thể khai thác &dObsidian&r. Obsidian có thể được dùng để tạo cổng đến &cNether&r.\n\n\n\nKhung cổng có thể có nhiều kích thước khác nhau, nhưng phổ biến nhất là hình dạng 'Cửa' cơ bản. Đây là hình khối rỗng 4x5, cần tối thiểu 10 Obsidian. Bạn không cần dùng Obsidian cho các góc, chỉ cần khung cổng!\n\n\n\n{image:atm:textures/questpics/gettingstarted/example_netherportal.png width:175 height:201 align:1}"]
 	quest.0F3D51FFD2FE8DCB.title: "&cĐến Nether&r!"
-	quest.110BF3A2BE85F911.quest_desc: [
-		"Nhiệm vụ này được tạo bởi &6Nhân viên AllTheMods&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods."
-		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6Đội ngũ AllTheMods&r mà không có sự cho phép rõ ràng."
-		"Nhiệm vụ này được cố ý ẩn, nếu bạn thấy điều này, bạn đang ở chế độ chỉnh sửa."
-	]
-	quest.1E1EB7DC19DDCFB7.quest_desc: [
-		"Để tạo công cụ và áo giáp Netherite, bạn sẽ cần tìm &6Mẫu Rèn Netherite&r trong các rương được tìm thấy bên trong Bastions."
-		"Chúng có thể được kết hợp với một thỏi &cNetherite&r và một công cụ hoặc áo giáp Kim Cương trong một &aBàn Rèn&r để nâng cấp chúng lên &cNetherite&r."
-		"Mẹo: Đừng dùng hết các mẫu của bạn một lúc! Bạn có thể tạo bản sao bằng cách dùng công thức để tạo thêm một cái."
-	]
+	quest.110BF3A2BE85F911.quest_desc: ["Nhiệm vụ này được tạo bởi &6Nhân viên AllTheMods&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods.\n\n\n\nVì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6Đội ngũ AllTheMods&r mà không có sự cho phép rõ ràng.\n\n\n\nNhiệm vụ này được cố ý ẩn, nếu bạn thấy điều này, bạn đang ở chế độ chỉnh sửa."]
+	quest.1E1EB7DC19DDCFB7.quest_desc: ["Để tạo công cụ và áo giáp Netherite, bạn sẽ cần tìm &6Mẫu Rèn Netherite&r trong các rương được tìm thấy bên trong Bastions.\n\n\n\nChúng có thể được kết hợp với một thỏi &cNetherite&r và một công cụ hoặc áo giáp Kim Cương trong một &aBàn Rèn&r để nâng cấp chúng lên &cNetherite&r.\n\n\n\nMẹo: Đừng dùng hết các mẫu của bạn một lúc! Bạn có thể tạo bản sao bằng cách dùng công thức để tạo thêm một cái."]
 	quest.1E1EB7DC19DDCFB7.title: "&6Mẫu Netherite&r"
-	quest.24C9BA6DC32CFAD9.quest_desc: [
-		"Than đá là nguồn năng lượng thực sự đầu tiên của bạn. Nếu bạn sắp hết và không tìm thấy Than đá, một lựa chọn thay thế tốt hơn cho bạn sẽ là Than gỗ."
-	]
+	quest.24C9BA6DC32CFAD9.quest_desc: ["Than đá là nguồn năng lượng thực sự đầu tiên của bạn. Nếu bạn sắp hết và không tìm thấy Than đá, một lựa chọn thay thế tốt hơn cho bạn sẽ là Than gỗ."]
 	quest.24C9BA6DC32CFAD9.quest_subtitle: "Nung khúc gỗ của bạn"
-	quest.282CE3A088AE5CFB.quest_desc: [
-		"Tôi sẽ giả định bạn đã chế tạo, đúng không? Cuối cùng đây là MineCRAFT."
-		"Chắc, bạn có thể chế tạo trong túi đồ bằng lưới chế tạo 2x2, nhưng điều đó sẽ không đưa bạn đi xa. Chúng ta cần nâng cấp bằng cách làm một Bàn Chế tạo!"
-	]
+	quest.282CE3A088AE5CFB.quest_desc: ["Tôi sẽ giả định bạn đã chế tạo, đúng không? Cuối cùng đây là MineCRAFT.\n\n\n\nChắc, bạn có thể chế tạo trong túi đồ bằng lưới chế tạo 2x2, nhưng điều đó sẽ không đưa bạn đi xa. Chúng ta cần nâng cấp bằng cách làm một Bàn Chế tạo!"]
 	quest.282CE3A088AE5CFB.title: "Chế tạo trong Minecraft"
-	quest.2AEBE3F28996A6ED.quest_desc: [
-		"Với các kim loại mới, chúng ta có thể nâng cấp Lò nung bằng mod &aIron Furnaces&r!"
-		"Iron Furnaces (Lò nung từ chính mod, không chỉ phiên bản Iron) cho phép bạn thêm &aAugments&r để nâng cấp tốc độ, thay đổi chức năng lò nung, và hơn nữa!"
-		"Những lò nung này làm tự động hóa dễ dàng hơn bằng cách cho phép bạn tự động kéo hoặc đẩy từ các cạnh bằng cấu hình ở bên trái giao diện."
-	]
+	quest.2AEBE3F28996A6ED.quest_desc: ["Với các kim loại mới, chúng ta có thể nâng cấp Lò nung bằng mod &aIron Furnaces&r!\n\n\n\nIron Furnaces (Lò nung từ chính mod, không chỉ phiên bản Iron) cho phép bạn thêm &aAugments&r để nâng cấp tốc độ, thay đổi chức năng lò nung, và hơn nữa!\n\n\n\nNhững lò nung này làm tự động hóa dễ dàng hơn bằng cách cho phép bạn tự động kéo hoặc đẩy từ các cạnh bằng cấu hình ở bên trái giao diện."]
 	quest.2AEBE3F28996A6ED.title: "&aNâng cấp Lò nung&r!"
-	quest.2CCAA7C0FEDEB573.quest_desc: [
-		"Nếu bạn giống như hầu hết mọi người, đây là nguồn năng lượng bạn đang tìm kiếm. Tất cả những gì bạn cần làm là đặt nó càng cao càng tốt và nhận năng lượng miễn phí."
-	]
+	quest.2CCAA7C0FEDEB573.quest_desc: ["Nếu bạn giống như hầu hết mọi người, đây là nguồn năng lượng bạn đang tìm kiếm. Tất cả những gì bạn cần làm là đặt nó càng cao càng tốt và nhận năng lượng miễn phí."]
 	quest.2CCAA7C0FEDEB573.title: "Năng lượng gió"
-	quest.2EC9668ED4EA47CB.quest_desc: [
-		"Nhiệm vụ này chỉ yêu cầu bạn chế tạo một công cụ kim cương hoặc một mảnh áo giáp, nhưng tốt nhất nên làm một bộ hoàn chỉnh!"
-		"Công cụ kim cương có độ bền cao, và áo giáp cung cấp khả năng bảo vệ tốt tổng thể."
-		"Để chế tạo công cụ và áo giáp tốt hơn trong trò chơi, bạn sẽ cần các vật liệu kim cương làm nguyên liệu!"
-	]
+	quest.2EC9668ED4EA47CB.quest_desc: ["Nhiệm vụ này chỉ yêu cầu bạn chế tạo một công cụ kim cương hoặc một mảnh áo giáp, nhưng tốt nhất nên làm một bộ hoàn chỉnh!\n\n\n\nCông cụ kim cương có độ bền cao, và áo giáp cung cấp khả năng bảo vệ tốt tổng thể.\n\n\n\nĐể chế tạo công cụ và áo giáp tốt hơn trong trò chơi, bạn sẽ cần các vật liệu kim cương làm nguyên liệu!"]
 	quest.2EC9668ED4EA47CB.title: "&9Trang bị"
-	quest.346860B8EBC4C28C.quest_desc: [
-		"Bây giờ bạn đã có toàn bộ dung nham này, bạn sẽ làm gì với nó? Thêm nguồn năng lượng giai đoạn đầu!"
-	]
+	quest.346860B8EBC4C28C.quest_desc: ["Bây giờ bạn đã có toàn bộ dung nham này, bạn sẽ làm gì với nó? Thêm nguồn năng lượng giai đoạn đầu!"]
 	quest.346860B8EBC4C28C.title: "Năng lượng dung nham"
-	quest.378BF828DC931F0C.quest_desc: [
-		"Cá nhân tôi, tôi ghét phải chạy đến một khối chỉ để chế tạo. Đó là lúc &2Crafting Table on a Stick&r xuất hiện!"
-		"Vật phẩm này hoạt động như một &aBàn chế tạo cầm tay&r!"
-		"Mẹo: Bạn cũng có thể đặt nó vào ô &aCurios&r và thiết lập &bphím tắt&r để mở nó!"
-	]
+	quest.378BF828DC931F0C.quest_desc: ["Cá nhân tôi, tôi ghét phải chạy đến một khối chỉ để chế tạo. Đó là lúc &2Crafting Table on a Stick&r xuất hiện!\n\n\n\nVật phẩm này hoạt động như một &aBàn chế tạo cầm tay&r!\n\n\n\nMẹo: Bạn cũng có thể đặt nó vào ô &aCurios&r và thiết lập &bphím tắt&r để mở nó!"]
 	quest.378BF828DC931F0C.title: "Chế tạo, nhưng bằng que"
-	quest.3ADCAD65EA6900BA.quest_desc: [
-		"&2Khảo cổ&r cho phép người chơi tìm thấy vật phẩm bên trong các khối &ađáng ngờ&r như Cát và Sỏi.\"
-		"\"
-		"Các khối này có thể được tìm thấy trong các cấu trúc khác nhau như Di tích Đại dương Ấm, Kim tự tháp Sa mạc, Giếng Sa mạc, và &eDi tích Đường mòn&r.\"
-		"\"
-		"Để tìm thấy vật phẩm từ một khối Đáng ngờ, bạn cần tạo một &aLược&r để chải khối và lộ ra vật phẩm."
-	]
+	quest.3ADCAD65EA6900BA.quest_desc: ["&2Khảo cổ&r cho phép người chơi tìm thấy vật phẩm bên trong các khối &ađáng ngờ&r như Cát và Sỏi.\n\n\n\nCác khối này có thể được tìm thấy trong các cấu trúc khác nhau như Di tích Đại dương Ấm, Kim tự tháp Sa mạc, Giếng Sa mạc, và &eDi tích Đường mòn&r.\n\n\n\nĐể tìm thấy vật phẩm từ một khối Đáng ngờ, bạn cần tạo một &aLược&r để chải khối và lộ ra vật phẩm."]
 	quest.3ADCAD65EA6900BA.title: "&2Khảo cổ&r!"
-	quest.3B6F1BD64C0C570F.quest_desc: [
-		"Giống như phát điện gió, điều này sẽ cung cấp cho bạn rất nhiều năng lượng mà không cần bất kỳ tài nguyên nào. Điểm duy nhất ở đây là nó phải vào ban ngày."
-	]
+	quest.3B6F1BD64C0C570F.quest_desc: ["Giống như phát điện gió, điều này sẽ cung cấp cho bạn rất nhiều năng lượng mà không cần bất kỳ tài nguyên nào. Điểm duy nhất ở đây là nó phải vào ban ngày."]
 	quest.3B6F1BD64C0C570F.title: "Năng lượng mặt trời"
-	quest.3D77DE9CC51C866F.quest_desc: [
-		"Quả khoáng có thể được chế tạo hoặc tìm thấy trong thế giới.\"
-		"\"
-		"Chúng cũng tương thích với Tháp thu hoạch từ Pylons, và sản lượng của chúng đã được tăng cường khi sử dụng tháp để tự động hóa chúng."
-	]
+	quest.3D77DE9CC51C866F.quest_desc: ["Quả khoáng có thể được chế tạo hoặc tìm thấy trong thế giới.\n\n\n\nChúng cũng tương thích với Tháp thu hoạch từ Pylons, và sản lượng của chúng đã được tăng cường khi sử dụng tháp để tự động hóa chúng."]
 	quest.3D77DE9CC51C866F.title: "Quả khoáng"
-	quest.4869C413646CC4CC.quest_desc: [
-		"Việc truyền năng lượng từ các máy phát của bạn có lẽ là một ý tưởng tốt, nhưng làm thế nào để bạn thực hiện?\"
-		"\"
-		"Để bắt đầu, bạn có thể sử dụng cáp từ &9Mekanism&r, hoặc bạn có thể sử dụng &9Powah&r &cCáp năng lượng&r nếu bạn đã bắt đầu sử dụng mod đó."
-	]
-	quest.4A4C71C43519D5FE.quest_desc: [
-		"Để triệu hồi boss của Nether, chúng ta cần thu thập một vài vật phẩm trước. \"
-		"\"
-		"Chúng ta sẽ cần có ít nhất 3 &5Đầu xương Wither&r. Đây là vật phẩm rơi hiếm khi giết &7Xương Wither&r, hoặc có thể chế tạo từ vật phẩm rơi phổ biến hơn, &3Mảnh đầu Wither&r. \"
-		"\"
-		"Bạn cũng sẽ cần ít nhất 4 miếng Cát linh hồn, và có lẽ một ít áo giáp khá tốt."
-	]
+	quest.4869C413646CC4CC.quest_desc: ["Việc truyền năng lượng từ các máy phát của bạn có lẽ là một ý tưởng tốt, nhưng làm thế nào để bạn thực hiện?\n\n\n\nĐể bắt đầu, bạn có thể sử dụng cáp từ &9Mekanism&r, hoặc bạn có thể sử dụng &9Powah&r &cCáp năng lượng&r nếu bạn đã bắt đầu sử dụng mod đó."]
+	quest.4A4C71C43519D5FE.quest_desc: ["Để triệu hồi boss của Nether, chúng ta cần thu thập một vài vật phẩm trước. \n\n\n\nChúng ta sẽ cần có ít nhất 3 &5Đầu xương Wither&r. Đây là vật phẩm rơi hiếm khi giết &7Xương Wither&r, hoặc có thể chế tạo từ vật phẩm rơi phổ biến hơn, &3Mảnh đầu Wither&r. \n\n\n\nBạn cũng sẽ cần ít nhất 4 miếng Cát linh hồn, và có lẽ một ít áo giáp khá tốt."]
 	quest.4A4C71C43519D5FE.title: "&6Triệu hồi &5Wither"
-	quest.4DE1158931F84F22.quest_desc: [
-		"Khi bạn có một cái Cuốc sắt hoặc cấp độ cao hơn, bạn sẽ có thể khai thác &cRedstone&r."
-		"Redstone bắt đầu hành trình của bạn vào nhiều mod kỹ thuật, như tạo năng lượng hoặc làm các thiết bị đẹp mắt."
-		"Đây là tài nguyên bạn sẽ muốn rất nhiều!"
-	]
+	quest.4DE1158931F84F22.quest_desc: ["Khi bạn có một cái Cuốc sắt hoặc cấp độ cao hơn, bạn sẽ có thể khai thác &cRedstone&r.\n\n\n\nRedstone bắt đầu hành trình của bạn vào nhiều mod kỹ thuật, như tạo năng lượng hoặc làm các thiết bị đẹp mắt.\n\n\n\nĐây là tài nguyên bạn sẽ muốn rất nhiều!"]
 	quest.4DE1158931F84F22.title: "&cRedstone&r"
-	quest.4E5238F00CEED8B2.quest_desc: [
-		"Luyện kim quặng thô ngay từ đầu là cần thiết, nhưng bạn đang bỏ lỡ tài nguyên thêm!\"
-		"\"
-		"Có một số cách để nhân đôi sản lượng trên mỗi quặng thô, nhưng một trong những cách dễ nhất là tạo và sử dụng một &eOre Hammer&r.\"
-		"\"
-		"Chúng sẽ phá vỡ 1 quặng thô thành 2 bụi có thể được luyện thành phôi, hiệu quả nhân đôi sản lượng phôi của bạn!\"
-		"\"
-		"Muốn nhiều hơn trên mỗi quặng thô? Hãy xem mod &5Occultism&r!"
-	]
+	quest.4E5238F00CEED8B2.quest_desc: ["Luyện kim quặng thô ngay từ đầu là cần thiết, nhưng bạn đang bỏ lỡ tài nguyên thêm!\n\n\n\nCó một số cách để nhân đôi sản lượng trên mỗi quặng thô, nhưng một trong những cách dễ nhất là tạo và sử dụng một &eOre Hammer&r.\n\n\n\nChúng sẽ phá vỡ 1 quặng thô thành 2 bụi có thể được luyện thành phôi, hiệu quả nhân đôi sản lượng phôi của bạn!\n\n\n\nMuốn nhiều hơn trên mỗi quặng thô? Hãy xem mod &5Occultism&r!"]
 	quest.4E5238F00CEED8B2.title: "&eNhân đôi quặng cơ bản"
-	quest.5CF320E9C4C1B1E1.quest_desc: [
-		"ATM10 là một bộ mod &aKitchensink&r, có nghĩa là bạn hoàn toàn tự do khám phá và chơi modpack theo cách bạn muốn!\"
-		"\"
-		"Tuy nhiên, có một mục tiêu cuối cùng: Tạo ra &6ATM Star&r!\"
-		"\"
-		"Dòng nhiệm vụ này đóng vai trò là hướng dẫn cho tất cả người chơi, dù bạn mới bắt đầu Minecraft hay đã chơi qua các bộ mod ATM trước.\"
-		"\"
-		"Giống như hầu hết mọi modpack, hãy thu thập một ít gỗ để bắt đầu!"
-	]
+	quest.5CF320E9C4C1B1E1.quest_desc: ["ATM10 là một bộ mod &aKitchensink&r, có nghĩa là bạn hoàn toàn tự do khám phá và chơi modpack theo cách bạn muốn!\n\n\n\nTuy nhiên, có một mục tiêu cuối cùng: Tạo ra &6ATM Star&r!\n\n\n\nDòng nhiệm vụ này đóng vai trò là hướng dẫn cho tất cả người chơi, dù bạn mới bắt đầu Minecraft hay đã chơi qua các bộ mod ATM trước.\n\n\n\nGiống như hầu hết mọi modpack, hãy thu thập một ít gỗ để bắt đầu!"]
 	quest.5CF320E9C4C1B1E1.title: "&eChào mừng đến với Bắt đầu&r!"
-	quest.5E799B92358A8732.quest_desc: [
-		"Trong &cNether&r, bạn sẽ gặp &6Ancient Debris&r. Điều này có thể được nung chảy thành Scraps có thể kết hợp với Vàng để tạo ra &6Netherite Ingots&r, là kim loại cuối cùng dùng để chế tạo một số công cụ và áo giáp mạnh nhất trong trò chơi."
-	]
+	quest.5E799B92358A8732.quest_desc: ["Trong &cNether&r, bạn sẽ gặp &6Ancient Debris&r. Điều này có thể được nung chảy thành Scraps có thể kết hợp với Vàng để tạo ra &6Netherite Ingots&r, là kim loại cuối cùng dùng để chế tạo một số công cụ và áo giáp mạnh nhất trong trò chơi."]
 	quest.5E799B92358A8732.title: "&dKim loại cổ đại"
-	quest.61C49BC2B384FB80.quest_desc: [
-		"Khi bạn đã thu thập đủ Hạt Ender và Bột Blaze, bạn có thể tìm đường đến Cổng End ở Overworld.\"
-		"\"
-		"Để làm điều này, chế tạo một số &dEyes of Ender&r và nhấp chuột phải để ném chúng lên trời. Chúng sẽ chỉ hướng về cổng End gần nhất.\"
-		"\"
-		"Đi đến Pháo đài, tìm Cổng End và hoàn thành khung bằng cách sử dụng Eyes of Ender để tạo cổng đến &dThe End&r."
-	]
+	quest.61C49BC2B384FB80.quest_desc: ["Khi bạn đã thu thập đủ Hạt Ender và Bột Blaze, bạn có thể tìm đường đến Cổng End ở Overworld.\n\n\n\nĐể làm điều này, chế tạo một số &dEyes of Ender&r và nhấp chuột phải để ném chúng lên trời. Chúng sẽ chỉ hướng về cổng End gần nhất.\n\n\n\nĐi đến Pháo đài, tìm Cổng End và hoàn thành khung bằng cách sử dụng Eyes of Ender để tạo cổng đến &dThe End&r."]
 	quest.61C49BC2B384FB80.title: "&aTìm &dThe End"
-	quest.672134A1A620EEAB.quest_desc: [
-		"Có nhiều cách để lưu trữ năng lượng!"
-		"§9Powah§r cung cấp lưu trữ tuyệt vời bằng §aEnergy Cells§r có thể nâng cấp, hoặc bạn luôn có thể chọn kiểu multiblock của §aRFTools§r bằng §aPowercells§r! Lựa chọn là của bạn."
-		"Lưu ý: Bạn chỉ cần tạo một trong các item để hoàn thành nhiệm vụ."
-	]
-	quest.698A959C9E449592.quest_desc: [
-		"Bước tiếp theo trong tiến trình là tạo một Cuốc sắt."
-		"Cuốc này có thể khai thác một số quặng hiếm trong game, bao gồm Kim cương!"
-	]
+	quest.672134A1A620EEAB.quest_desc: ["Có nhiều cách để lưu trữ năng lượng!\n\n\n\n§9Powah§r cung cấp lưu trữ tuyệt vời bằng §aEnergy Cells§r có thể nâng cấp, hoặc bạn luôn có thể chọn kiểu multiblock của §aRFTools§r bằng §aPowercells§r! Lựa chọn là của bạn.\n\n\n\nLưu ý: Bạn chỉ cần tạo một trong các item để hoàn thành nhiệm vụ."]
+	quest.698A959C9E449592.quest_desc: ["Bước tiếp theo trong tiến trình là tạo một Cuốc sắt.\n\n\n\nCuốc này có thể khai thác một số quặng hiếm trong game, bao gồm Kim cương!"]
 	quest.698A959C9E449592.title: "Một §aCuốc sắt§r"
-	quest.69A517AB8A801939.quest_desc: [
-		"§5Wither§r là một trong những boss khó giết nhất trong Minecraft. Chủ yếu vì nó bay. Và nổ. Và nhanh. Bạn hiểu rồi đó."
-		"Để triệu hồi nó, đặt 4 Cát linh hồn thành hình chữ T. Đặt 3 Sọ Wither Skeleton lên đỉnh chữ 'T' và §5Wither§r sẽ xuất hiện."
-		"Mẹo: Nó nổ. Rất nhiều. Đừng làm điều này gần căn cứ của bạn."
-	]
+	quest.69A517AB8A801939.quest_desc: ["§5Wither§r là một trong những boss khó giết nhất trong Minecraft. Chủ yếu vì nó bay. Và nổ. Và nhanh. Bạn hiểu rồi đó.\n\n\n\nĐể triệu hồi nó, đặt 4 Cát linh hồn thành hình chữ T. Đặt 3 Sọ Wither Skeleton lên đỉnh chữ 'T' và §5Wither§r sẽ xuất hiện.\n\n\n\nMẹo: Nó nổ. Rất nhiều. Đừng làm điều này gần căn cứ của bạn."]
 	quest.69A517AB8A801939.title: "§6Giết §5Wither"
-	quest.6D09511D64DDC282.quest_desc: [
-		"§dWarden§r có thể được triệu hồi bằng cách kích hoạt một §5Sculk Sensor§r nằm gần một §3Sculk Shrieker§r ít nhất 3 lần."
-		"Sự thật thú vị: Warden bị mù! Nó chỉ có thể tìm thấy bạn nếu nghe thấy bạn, vì vậy hãy bay xung quanh hoặc rình!"
-		"Mẹo: Không quan trọng bạn dùng tấn công từ xa hay cận chiến, vì nó sẽ tìm thấy bạn. Và nó sẽ đánh bạn. Nếu bạn đi quá xa, nó sẽ đào xuống đất và xuất hiện bên cạnh bạn! Chúc may mắn :D"
-	]
+	quest.6D09511D64DDC282.quest_desc: ["§dWarden§r có thể được triệu hồi bằng cách kích hoạt một §5Sculk Sensor§r nằm gần một §3Sculk Shrieker§r ít nhất 3 lần.\n\n\n\nSự thật thú vị: Warden bị mù! Nó chỉ có thể tìm thấy bạn nếu nghe thấy bạn, vì vậy hãy bay xung quanh hoặc rình!\n\n\n\nMẹo: Không quan trọng bạn dùng tấn công từ xa hay cận chiến, vì nó sẽ tìm thấy bạn. Và nó sẽ đánh bạn. Nếu bạn đi quá xa, nó sẽ đào xuống đất và xuất hiện bên cạnh bạn! Chúc may mắn :D"]
 	quest.6D09511D64DDC282.title: "§5Giết Warden"
-	quest.6EDAB29FBD3C60A3.quest_desc: [
-		"Vùng sinh thái này được giới thiệu trong Wild Update!"
-		"Cẩn thận! Bạn có thể vô tình triệu hồi một người bạn mới."
-		"P.S. - Anh ấy không thân thiện."
-	]
+	quest.6EDAB29FBD3C60A3.quest_desc: ["Vùng sinh thái này được giới thiệu trong Wild Update!\n\n\n\nCẩn thận! Bạn có thể vô tình triệu hồi một người bạn mới.\n\n\n\nP.S. - Anh ấy không thân thiện."]
 	quest.6EDAB29FBD3C60A3.title: "§6Tham quan §dDeep Dark§r!"
-	quest.6EE5BE5693E8ACE4.quest_desc: [
-		"Trong §dThe End§r, bạn sẽ tìm thấy boss cuối cùng của Vanilla Minecraft: §5Ender Dragon§r."
-		"Ở đỉnh mỗi cột Obsidian, bạn sẽ tìm thấy End Crystal hồi máu cho Dragon. Hãy đảm bảo phá hủy chúng trước tiên! Chúng cũng gây nhiều sát thương, vì vậy hãy tạo khoảng cách!"
-		"Một khi đã đánh bại, một §dTrứng Rồng§r sẽ xuất hiện ở đỉnh Cổng Thoát. Nó không thể khai thác như các khối thông thường, nhưng bị ảnh hưởng bởi trọng lực."
-	]
+	quest.6EE5BE5693E8ACE4.quest_desc: ["Trong §dThe End§r, bạn sẽ tìm thấy boss cuối cùng của Vanilla Minecraft: §5Ender Dragon§r.\n\n\n\nỞ đỉnh mỗi cột Obsidian, bạn sẽ tìm thấy End Crystal hồi máu cho Dragon. Hãy đảm bảo phá hủy chúng trước tiên! Chúng cũng gây nhiều sát thương, vì vậy hãy tạo khoảng cách!\n\n\n\nMột khi đã đánh bại, một §dTrứng Rồng§r sẽ xuất hiện ở đỉnh Cổng Thoát. Nó không thể khai thác như các khối thông thường, nhưng bị ảnh hưởng bởi trọng lực."]
 	quest.6EE5BE5693E8ACE4.title: "&5Tận Cùng"
-	quest.72989212DD45DC10.quest_desc: [
-		"Để tìm quả trứng này, bạn cần chải sạch &aCát Nghi Ngờ&r trong các đổ nát Đại Dương Ấm.\"
-		"\"
-		"Bạn có thể đặt Trứng vào thế giới và nó sẽ nở chậm thành một &dSnifflet&r. Quá trình này mất khoảng 20 phút để nở bình thường, nhưng nếu đặt trên khối Rêu thì tốc độ nở sẽ gấp đôi, chỉ còn 10 phút.\"
-		"\"
-		"Snifflet sẽ lớn dần thành &dSniffer\& trưởng thành, có thể đánh hơi các vật phẩm như &2Hạt Cây Đuốc&r hoặc &2Quả Cây Chổi&r khi chúng đi qua các khối có thể đào được.\"
-		"\"
-		"Bạn có thể gây giống 2 Sniffer trưởng thành bằng cách sử dụng Cây Đuốc."
-	]
+	quest.72989212DD45DC10.quest_desc: ["Để tìm quả trứng này, bạn cần chải sạch &aCát Nghi Ngờ&r trong các đổ nát Đại Dương Ấm.\n\n\n\nBạn có thể đặt Trứng vào thế giới và nó sẽ nở chậm thành một &dSnifflet&r. Quá trình này mất khoảng 20 phút để nở bình thường, nhưng nếu đặt trên khối Rêu thì tốc độ nở sẽ gấp đôi, chỉ còn 10 phút.\n\n\n\nSnifflet sẽ lớn dần thành &dSniffer\& trưởng thành, có thể đánh hơi các vật phẩm như &2Hạt Cây Đuốc&r hoặc &2Quả Cây Chổi&r khi chúng đi qua các khối có thể đào được.\n\n\n\nBạn có thể gây giống 2 Sniffer trưởng thành bằng cách sử dụng Cây Đuốc."]
 	quest.72989212DD45DC10.quest_subtitle: "Người Họ Xa Của Scruff McGruff"
 	quest.72989212DD45DC10.title: "&aCái &5Sniffer"
-	quest.72E1C19156633391.quest_desc: [
-		"Xô và Bể là cách tuyệt vời đầu tiên để di chuyển qua dung nham."
-	]
+	quest.72E1C19156633391.quest_desc: ["Xô và Bể là cách tuyệt vời đầu tiên để di chuyển qua dung nham."]
 	quest.72E1C19156633391.title: "Xô Dung Nham"
-	quest.76406EFFF8CBA6B4.quest_desc: [
-		"Kim cương là một trong những vật liệu tốt nhất để chế tạo công cụ, và còn cho phép bạn truy cập các chiều không gian mới như Nether!"
-	]
+	quest.76406EFFF8CBA6B4.quest_desc: ["Kim cương là một trong những vật liệu tốt nhất để chế tạo công cụ, và còn cho phép bạn truy cập các chiều không gian mới như Nether!"]
 	quest.76406EFFF8CBA6B4.title: "Chúng ta đã khai thác được &bKim cương&r!"
-	quest.7741905EA8380B25.quest_desc: [
-		"&aTrang Trí Áo Giáp&r là các vật phẩm dùng để thêm trang trí cho áo giáp! Điều này có thể làm tại Bàn Rèn Kim Loại.\"
-		"\"
-		"Mặc dù chúng có công thức, hầu hết các trang trí là những vật hiếm tìm thấy từ rương chiến lợi phẩm hoặc khai quật khảo cổ. Khi bạn tìm thấy một cái, bạn có thể nhân bản Mẫu bằng cách sử dụng công thức để tạo thêm!"
-	]
+	quest.7741905EA8380B25.quest_desc: ["&aTrang Trí Áo Giáp&r là các vật phẩm dùng để thêm trang trí cho áo giáp! Điều này có thể làm tại Bàn Rèn Kim Loại.\n\n\n\nMặc dù chúng có công thức, hầu hết các trang trí là những vật hiếm tìm thấy từ rương chiến lợi phẩm hoặc khai quật khảo cổ. Khi bạn tìm thấy một cái, bạn có thể nhân bản Mẫu bằng cách sử dụng công thức để tạo thêm!"]
 	quest.7741905EA8380B25.title: "&dTrang Trí Áo Giáp"
-	quest.7975C7145572C438.quest_desc: [
-		"Dù bạn là người chơi modded kỳ cựu hay là người mới hoàn toàn với Minecraft, ai cũng phải làm một &2Búa Gỗ&r."
-		"Búa cho phép bạn phá hầu hết các khối đá và kim loại. Chiếc búa gỗ này sẽ không bền lâu, vì vậy hãy đảm bảo thu thập một ít &3Đá Cuội&r với nó!"
-	]
+	quest.7975C7145572C438.quest_desc: ["Dù bạn là người chơi modded kỳ cựu hay là người mới hoàn toàn với Minecraft, ai cũng phải làm một &2Búa Gỗ&r.\n\n\n\nBúa cho phép bạn phá hầu hết các khối đá và kim loại. Chiếc búa gỗ này sẽ không bền lâu, vì vậy hãy đảm bảo thu thập một ít &3Đá Cuội&r với nó!"]
 	quest.7975C7145572C438.title: "Cây Búa Đầu Tiên"
-	quest.7D38BC3DB3406F51.quest_desc: [
-		"Với Búa Gỗ của chúng ta, đá sẽ không còn là vấn đề để phá!"
-		"&3Đá Cuội&r mở khóa phần tiếp theo của tiến trình bằng cách dùng nó để chế tạo một Lò Nung để nung quặng của chúng ta."
-		"Bạn cũng sẽ muốn nâng cấp búa của mình lên đá để khai thác các quặng tốt hơn như &bPhôi Sắt&r!"
-	]
+	quest.7D38BC3DB3406F51.quest_desc: ["Với Búa Gỗ của chúng ta, đá sẽ không còn là vấn đề để phá!\n\n\n\n&3Đá Cuội&r mở khóa phần tiếp theo của tiến trình bằng cách dùng nó để chế tạo một Lò Nung để nung quặng của chúng ta.\n\n\n\nBạn cũng sẽ muốn nâng cấp búa của mình lên đá để khai thác các quặng tốt hơn như &bPhôi Sắt&r!"]
 	quest.7D38BC3DB3406F51.title: "Thời Đá"
-	quest.7EC01E7DB045DB05.quest_desc: [
-		"&aCải Tiến&r là những nâng cấp cho Lò Nung có thể thay đổi hoặc nâng cấp chức năng của Lò Nung."
-		" - Nung Nhanh: Chuyển đổi Lò Nung chỉ cho phép các công thức Nung Nhanh."
-		" - Xông Khói: Chuyển đổi Lò Nung chỉ cho phép các công thức Xông Khói."
-		" - Nhà Máy: Chuyển đổi Lò Nung để sử dụng năng lượng thay vì nhiên liệu, và nâng cấp nó thành nhà máy, cho phép nung nhiều vật phẩm cùng lúc. Số lượng tăng tùy theo cấp độ của Lò Nung."
-		" - Tốc Độ: Tăng gấp đôi tốc độ của lò nhưng tiêu thụ gấp đôi nhiên liệu."
-		" - Hiệu Quả Nhiên Liệu: Tăng gấp đôi số lượng vật phẩm nung được trên mỗi nhiên liệu, nhưng giảm tốc độ 25%"
-	]
+	quest.7EC01E7DB045DB05.quest_desc: ["&aCải Tiến&r là những nâng cấp cho Lò Nung có thể thay đổi hoặc nâng cấp chức năng của Lò Nung.\n\n\n\n - Nung Nhanh: Chuyển đổi Lò Nung chỉ cho phép các công thức Nung Nhanh.\n\n\n\n - Xông Khói: Chuyển đổi Lò Nung chỉ cho phép các công thức Xông Khói.\n\n\n\n - Nhà Máy: Chuyển đổi Lò Nung để sử dụng năng lượng thay vì nhiên liệu, và nâng cấp nó thành nhà máy, cho phép nung nhiều vật phẩm cùng lúc. Số lượng tăng tùy theo cấp độ của Lò Nung.\n\n\n\n - Tốc Độ: Tăng gấp đôi tốc độ của lò nhưng tiêu thụ gấp đôi nhiên liệu.\n\n\n\n - Hiệu Quả Nhiên Liệu: Tăng gấp đôi số lượng vật phẩm nung được trên mỗi nhiên liệu, nhưng giảm tốc độ 25%"]
 	quest.7EC01E7DB045DB05.title: "Lò Nung &aCải Tiến"
 	task.0AFA64F1025569A2.title: "Trang Bị Netherite"
 	task.1693B07767081FB3.title: "Trang Trị Giáp"

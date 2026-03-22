@@ -1,457 +1,131 @@
 {
-	quest.000C1ECD781F3F81.quest_desc: [
-		"&2&lNature&r được tạo ra để lợi dụng Trái Đất bằng cách &2Độc&r và &2Yếu&r kẻ thù! Giống như những Tập đoàn Lớn làm với chính Trái Đất! \"
-		"&2&lNature's&r Vật liệu Focus là &2Khoai tây độc&r. \"
-		"\"
-		"Các &2Cuộn&r có màu &aXanh nhạt&r với chữ màu &2Xanh đậm&r."
-	]
+	quest.000C1ECD781F3F81.quest_desc: ["&2&lNature&r được tạo ra để lợi dụng Trái Đất bằng cách &2Độc&r và &2Yếu&r kẻ thù! Giống như những Tập đoàn Lớn làm với chính Trái Đất! \n\n&2&lNature's&r Vật liệu Focus là &2Khoai tây độc&r. \n\n\n\nCác &2Cuộn&r có màu &aXanh nhạt&r với chữ màu &2Xanh đậm&r."]
 	quest.000C1ECD781F3F81.title: "&2&lNature"
-	quest.01119871B1D5C576.quest_desc: [
-		"Gần như mọi &6Làng&r đều có thể có &6&lThầy tu&r trong đó. Điều này bao gồm cả &6Làng&r từ mod. \"
-		"\"
-		"Thông thường họ nằm ở giữa &6Làng&r như ở khu chợ. Không phải mọi &6Làng&r đều có một."
-		"{image:atm:textures/questpics/iron_spells/spells_village.png width:200 height:100 align:center}"
-	]
+	quest.01119871B1D5C576.quest_desc: ["Gần như mọi &6Làng&r đều có thể có &6&lThầy tu&r trong đó. Điều này bao gồm cả &6Làng&r từ mod. \n\n\n\nThông thường họ nằm ở giữa &6Làng&r như ở khu chợ. Không phải mọi &6Làng&r đều có một.\n\n{image:atm:textures/questpics/iron_spells/spells_village.png width:200 height:100 align:center}"]
 	quest.01119871B1D5C576.title: "&6Làng"
-	quest.0436DF3308681913.quest_desc: [
-		"Ngồi trên Ngai Vàng là di vật của một vị &4&lVua&r trong quá khứ. Nhưng một khi bạn đến gần và chạm vào chúng, bạn sẽ thấy chúng hồi sinh; &4&lVua&r không còn chết nữa! Nhưng chỉ có giết chóc mới giữ cho hắn sống... và bạn là sinh vật sống gần nhất. \"
-		"\"
-		"&4&lVua Xác Sống&r là Boss khó nhất, hắn có 400 &ctrái tim&r và là người duy nhất có Thanh Boss thực sự (và nhạc). Hắn có thể sử dụng nhiều loại &3phép thuật&r từ bất kỳ lớp nào, &2Mũi tên Độc&r từ &2Nature&r đến &6Blight&r từ &6Holy&r, thậm chí &aNanh&r từ &aEvokation&r! Hắn cũng có thể dịch chuyển, triệu hồi người chết, và đánh bạn bằng &4Gậy máu&r. \"
-		"\"
-		"Nếu bạn có thể giết hắn, hắn sẽ rơi ra các &3Cuộn&r đủ loại, &7Rune trống&r, và có thể rơi ra &4Gậy máu&r và Necronomicon."
-		"{image:atm:textures/questpics/iron_spells/spells_king.png width:100 height:200 align:center}"
-	]
+	quest.0436DF3308681913.quest_desc: ["Ngồi trên Ngai Vàng là di vật của một vị &4&lVua&r trong quá khứ. Nhưng một khi bạn đến gần và chạm vào chúng, bạn sẽ thấy chúng hồi sinh; &4&lVua&r không còn chết nữa! Nhưng chỉ có giết chóc mới giữ cho hắn sống... và bạn là sinh vật sống gần nhất. \n\n\n\n&4&lVua Xác Sống&r là Boss khó nhất, hắn có 400 &ctrái tim&r và là người duy nhất có Thanh Boss thực sự (và nhạc). Hắn có thể sử dụng nhiều loại &3phép thuật&r từ bất kỳ lớp nào, &2Mũi tên Độc&r từ &2Nature&r đến &6Blight&r từ &6Holy&r, thậm chí &aNanh&r từ &aEvokation&r! Hắn cũng có thể dịch chuyển, triệu hồi người chết, và đánh bạn bằng &4Gậy máu&r. \n\n\n\nNếu bạn có thể giết hắn, hắn sẽ rơi ra các &3Cuộn&r đủ loại, &7Rune trống&r, và có thể rơi ra &4Gậy máu&r và Necronomicon.\n\n{image:atm:textures/questpics/iron_spells/spells_king.png width:100 height:200 align:center}"]
 	quest.0436DF3308681913.title: "&4&lVua Xác Sống"
 	quest.05DBDD86FCFF3BA8.title: "&5Cầu thăng cấp Sấm sét"
-	quest.06F2C42E6408149E.quest_desc: [
-		"Hy vọng bạn không lấy cái này từ &c&lPháp sư lửa&r, hắn là người tốt!"
-		"{image:atm:textures/questpics/iron_spells/spells_outfit_pyromancer.png width:50 height:100 align:center}"
-	]
+	quest.06F2C42E6408149E.quest_desc: ["Hy vọng bạn không lấy cái này từ &c&lPháp sư lửa&r, hắn là người tốt!\n\n{image:atm:textures/questpics/iron_spells/spells_outfit_pyromancer.png width:50 height:100 align:center}"]
 	quest.06F2C42E6408149E.title: "&cBộ đồ Pyromancer"
 	quest.06F8EDF7513F8611.title: "&dMực Huyền thoại&r"
 	quest.0CE1F6DE5FD6A6D9.title: "&aQuả cầu Nâng cấp Evocation&r"
-	quest.0E594BC58CC7476F.quest_desc: [
-		"Anh ta có thể là kẻ xấu, nhưng vẫn rất thời trang. "
-		"{image:atm:textures/questpics/iron_spells/spells_outfit_archevoker.png width:60 height:100 align:center}"
-	]
+	quest.0E594BC58CC7476F.quest_desc: ["Anh ta có thể là kẻ xấu, nhưng vẫn rất thời trang. \n\n{image:atm:textures/questpics/iron_spells/spells_outfit_archevoker.png width:60 height:100 align:center}"]
 	quest.0E594BC58CC7476F.title: "&aBộ đồ Archevoker&r"
-	quest.0EED5D755D2C866A.quest_desc: [
-		"&d&lEnder&r được dùng để lấy toàn bộ sức mạnh của &dEndermen&r và &dEnder Dragon&r, và tất nhiên là sử dụng cho bản thân. &dDịch chuyển&r, &dQuả cầu lửa&r, và &dHơi thở Rồng&r chỉ là một vài trong số đó! \"
-		"\"
-		"&d&lEnder's&r Vật liệu Tập trung là &dHạt Ender&r. \"
-		"\"
-		"Và các &dCuộn&r của nó có màu &5Tím&r với chữ &dHồng&r."
-	]
+	quest.0EED5D755D2C866A.quest_desc: ["&d&lEnder&r được dùng để lấy toàn bộ sức mạnh của &dEndermen&r và &dEnder Dragon&r, và tất nhiên là sử dụng cho bản thân. &dDịch chuyển&r, &dQuả cầu lửa&r, và &dHơi thở Rồng&r chỉ là một vài trong số đó! \n\n\n\n&d&lEnder's&r Vật liệu Tập trung là &dHạt Ender&r. \n\n\n\nVà các &dCuộn&r của nó có màu &5Tím&r với chữ &dHồng&r."]
 	quest.0EED5D755D2C866A.title: "&d&lEnder"
-	quest.13F77C38AC015E9F.quest_desc: [
-		"Cao chót vót trên những Ngọn núi, cao hơn cả những Đám mây, là một &bTháp&r khác. Nó khiến bạn rùng mình. \"
-		"\"
-		"&bTháp&r được làm từ Đá, Gỗ Sồi Đen và Deepslate. Nó có một &bTháp&r thứ hai nhánh ra. Có một cầu thang bên ngoài dẫn đến tầng một. Từ đó bạn có thể leo cầu thang bên trong lên phòng ngủ hoặc tháp thứ hai. \"
-		"\"
-		"Hoặc bạn có thể mạo hiểm phía sau cầu thang đó xuống Cầu thang đến Tầng hầm, nơi &b&lCryomancer&r rất có thể đang ở. \"
-		"\"
-		"Trong &bTháp&r bạn có thể tìm thấy Bàn Khắc Chữ, Thạch anh và &bRương Loot&r!"
-		"{image:atm:textures/questpics/iron_spells/spells_mountaintower.png width:200 height:100 align:center}"
-	]
+	quest.13F77C38AC015E9F.quest_desc: ["Cao chót vót trên những Ngọn núi, cao hơn cả những Đám mây, là một &bTháp&r khác. Nó khiến bạn rùng mình. \n\n\n\n&bTháp&r được làm từ Đá, Gỗ Sồi Đen và Deepslate. Nó có một &bTháp&r thứ hai nhánh ra. Có một cầu thang bên ngoài dẫn đến tầng một. Từ đó bạn có thể leo cầu thang bên trong lên phòng ngủ hoặc tháp thứ hai. \n\n\n\nHoặc bạn có thể mạo hiểm phía sau cầu thang đó xuống Cầu thang đến Tầng hầm, nơi &b&lCryomancer&r rất có thể đang ở. \n\n\n\nTrong &bTháp&r bạn có thể tìm thấy Bàn Khắc Chữ, Thạch anh và &bRương Loot&r!\n\n{image:atm:textures/questpics/iron_spells/spells_mountaintower.png width:200 height:100 align:center}"]
 	quest.13F77C38AC015E9F.title: "&bTháp Núi"
-	quest.19542103E042BDB5.quest_desc: [
-		"{image:atm:textures/questpics/iron_spells/spells_outfit_shadow.png width:60 height:100 align:center}"
-	]
+	quest.19542103E042BDB5.quest_desc: ["{image:atm:textures/questpics/iron_spells/spells_outfit_shadow.png width:60 height:100 align:center}"]
 	quest.19542103E042BDB5.title: "&dTrang phục Bóng Ma"
-	quest.1A0368CB49B8CBFF.quest_desc: [
-		"Cuốn &eSách Phép&r này là một vật rơi hiếm từ &cBlaze&r. Tôi nhớ điều đó vì tôi đã bối rối khi lấy được 1 từ &cTrang trại Blaze&r của tôi. \"
-		"\"
-		"Nó tăng cường &cPhép Lửa&r và có 10 ô &3Phép&r."
-	]
+	quest.1A0368CB49B8CBFF.quest_desc: ["Cuốn &eSách Phép&r này là một vật rơi hiếm từ &cBlaze&r. Tôi nhớ điều đó vì tôi đã bối rối khi lấy được 1 từ &cTrang trại Blaze&r của tôi. \n\n\n\nNó tăng cường &cPhép Lửa&r và có 10 ô &3Phép&r."]
 	quest.1A0368CB49B8CBFF.quest_subtitle: "Nóng! Nóng! Nóng!"
 	quest.1A0368CB49B8CBFF.title: "&cSách Hướng dẫn Blaze"
-	quest.1BE69992D2C5085B.quest_desc: [
-		"&n&aTriệu hồi:&r\"
-		"Để triệu hồi một Linh hồn hoặc Thần linh. \"
-		"\"
-		"&a&lTriệu hồi&r xoay quanh việc &aEvokers&r làm, chủ yếu là triệu hồi. Dù là &aRăng nanh&r hay &aVexes&r, nếu nó được triệu hồi thì rất có thể là &aTriệu hồi&r. \"
-		"\"
-		"&a&lTriệu hồi&r Vật liệu Tập trung là &aNgọc Lục bảo&r. Bạn có thể chế tạo Rune hoặc lấy từ &a&lArchevoker&r. \"
-		"\"
-		"&aCuộn Triệu hồi&r có màu &fTrắng&r với chữ &0Đen&r."
-	]
+	quest.1BE69992D2C5085B.quest_desc: ["&n&aTriệu hồi:&r\n\nĐể triệu hồi một Linh hồn hoặc Thần linh. \n\n\n\n&a&lTriệu hồi&r xoay quanh việc &aEvokers&r làm, chủ yếu là triệu hồi. Dù là &aRăng nanh&r hay &aVexes&r, nếu nó được triệu hồi thì rất có thể là &aTriệu hồi&r. \n\n\n\n&a&lTriệu hồi&r Vật liệu Tập trung là &aNgọc Lục bảo&r. Bạn có thể chế tạo Rune hoặc lấy từ &a&lArchevoker&r. \n\n\n\n&aCuộn Triệu hồi&r có màu &fTrắng&r với chữ &0Đen&r."]
 	quest.1BE69992D2C5085B.title: "&a&lTriệu hồi"
-	quest.1CAEC4C273EDDB99.quest_desc: [
-		"Nó ở đây! Nó ở kia! Nó ở khắp nơi và nó đã thối rữa! Bạn có thể tìm thấy chúng trong hầu hết các &fRương&r. \"
-		"\"
-		"Chúng có thể chứa 8 &3Phép&r nhưng cho bạn ít Kháng Phép hơn."
-	]
+	quest.1CAEC4C273EDDB99.quest_desc: ["Nó ở đây! Nó ở kia! Nó ở khắp nơi và nó đã thối rữa! Bạn có thể tìm thấy chúng trong hầu hết các &fRương&r. \n\n\n\nChúng có thể chứa 8 &3Phép&r nhưng cho bạn ít Kháng Phép hơn."]
 	quest.1CAEC4C273EDDB99.title: "Sách Phép Thối rữa"
-	quest.204B969DA081056A.quest_desc: [
-		"Chúng có thể sinh ra ở hầu hết nơi &2Vanilla&r Kẻ thù Dị thường sinh ra. Chúng không phải boss, chỉ là thêm Kẻ thù! \"
-		"\"
-		"Chúng có 25 Điểm &cMáu&r và có nhiều loại tấn công: &aRăng nanh&r từ mặt đất như &aEvokers&r làm và một &bQuả bóng tuyết&r chúng có thể bắn bạn. \"
-		"\"
-		"Chúng cũng có thể triệu hồi Zombie và Skeleton để giúp đánh bạn. Chúng sẽ không rơi bất cứ thứ gì và sinh ra với Giáp từ mặt đất. \"
-		"\"
-		"Chúng sẽ rơi Arcane Essence khi chết cùng với đôi khi một &3Cuộn&r!"
-		"{image:atm:textures/questpics/iron_spells/spells_necromancer.png width:100 height:200 align:center}"
-	]
+	quest.204B969DA081056A.quest_desc: ["Chúng có thể sinh ra ở hầu hết nơi &2Vanilla&r Kẻ thù Dị thường sinh ra. Chúng không phải boss, chỉ là thêm Kẻ thù! \n\n\n\nChúng có 25 Điểm &cMáu&r và có nhiều loại tấn công: &aRăng nanh&r từ mặt đất như &aEvokers&r làm và một &bQuả bóng tuyết&r chúng có thể bắn bạn. \n\n\n\nChúng cũng có thể triệu hồi Zombie và Skeleton để giúp đánh bạn. Chúng sẽ không rơi bất cứ thứ gì và sinh ra với Giáp từ mặt đất. \n\n\n\nChúng sẽ rơi Arcane Essence khi chết cùng với đôi khi một &3Cuộn&r!\n\n{image:atm:textures/questpics/iron_spells/spells_necromancer.png width:100 height:200 align:center}"]
 	quest.204B969DA081056A.title: "Thợ Gọi Hồn"
-	quest.24150DE600C2D761.quest_desc: [
-		"Cái này đơn thương độc mã đưa chúng ta từ E10 lên Teen rating. &4&lBlood&r xoay quanh việc giết kẻ thù để phục hồi &cHealth&r của chính bạn! Hầu hết các đòn tấn công sẽ hồi máu cho bạn. \"
-		"\"
-		"&4&lBlood's&r Vật liệu chính là &4Blood Vials&r mà bạn nhận được từ việc nấu một Mob hoặc Player trong Cauldron. \"
-		"\"
-		"Các &4Scrolls&r của nó màu Nâu (không có màu cho Nâu) với chữ &4Dark Red&r."
-	]
+	quest.24150DE600C2D761.quest_desc: ["Cái này đơn thương độc mã đưa chúng ta từ E10 lên Teen rating. &4&lBlood&r xoay quanh việc giết kẻ thù để phục hồi &cHealth&r của chính bạn! Hầu hết các đòn tấn công sẽ hồi máu cho bạn. \n\n\n\n&4&lBlood's&r Vật liệu chính là &4Blood Vials&r mà bạn nhận được từ việc nấu một Mob hoặc Player trong Cauldron. \n\n\n\nCác &4Scrolls&r của nó màu Nâu (không có màu cho Nâu) với chữ &4Dark Red&r."]
 	quest.24150DE600C2D761.title: "&4&lBlood"
-	quest.24BAC1C0392E950E.quest_desc: [
-		"Tôi nghe nói bạn có thể tham gia các lớp học trực tuyến để trở thành một người như vậy ngay bây giờ."
-		"{image:atm:textures/questpics/iron_spells/spells_outfit_priest.png width:60 height:100 align:center}"
-	]
+	quest.24BAC1C0392E950E.quest_desc: ["Tôi nghe nói bạn có thể tham gia các lớp học trực tuyến để trở thành một người như vậy ngay bây giờ.\n\n{image:atm:textures/questpics/iron_spells/spells_outfit_priest.png width:60 height:100 align:center}"]
 	quest.24BAC1C0392E950E.title: "&6Trang phục Tu sĩ"
-	quest.27CF1A2587321A2C.quest_desc: [
-		"Cuốn Sách Phép &eSpell Book&r tốt nhất bạn có thể tưởng tượng! 15 &3Spell&r Ô! Có thật 15 &3Spells&r?!?! Ồ đợi đã, vâng có 15, không nhiều lắm... \"
-		"\"
-		"Làm giống như trước: Cuốn Sách trước, Ingot, và Template."
-	]
+	quest.27CF1A2587321A2C.quest_desc: ["Cuốn Sách Phép &eSpell Book&r tốt nhất bạn có thể tưởng tượng! 15 &3Spell&r Ô! Có thật 15 &3Spells&r?!?! Ồ đợi đã, vâng có 15, không nhiều lắm... \n\n\n\nLàm giống như trước: Cuốn Sách trước, Ingot, và Template."]
 	quest.27CF1A2587321A2C.title: "&5Sách Phép Unobtainium&r"
-	quest.2A787B99A8B0C767.quest_desc: [
-		"Một khối rất quan trọng và rất phổ biến! Có thể chế tạo hoặc tìm thấy trong hầu hết các Cấu trúc &lIron Spells&r. \"
-		"\"
-		"Chúng được dùng để thêm và bỏ &3Scrolls&r khỏi &eSpell Books&r! Ném &eSpell Book&r vào Ô Sách rồi thêm &3Scroll&r bên dưới. Nếu bạn muốn bỏ một &3Scroll&r, nhấp vào nó rồi lấy từ bên phải và vào Túi đồ của bạn."
-		"{image:atm:textures/questpics/iron_spells/spells_table_gui.png width:150 height:100 align:center}"
-	]
-	quest.2B901ECF97FFA181.quest_desc: [
-		"Khi bạn cuối cùng kết hợp các Mảnh Tri Thức Cổ xưa, bạn sẽ nhận được... &9Eldritch Manuscript&r! Đó là lớp cuối cùng! \"
-		"\"
-		"&9Eldritch&r là lớp cuối, mạnh nhất trong tất cả &3Spells&r. Chúng được chế tạo với &9Echo Shards&r và cần được học từ &9Manuscript&r để sử dụng. Mỗi &9Manuscript&r chỉ dùng một lần."
-	]
+	quest.2A787B99A8B0C767.quest_desc: ["Một khối rất quan trọng và rất phổ biến! Có thể chế tạo hoặc tìm thấy trong hầu hết các Cấu trúc &lIron Spells&r. \n\n\n\nChúng được dùng để thêm và bỏ &3Scrolls&r khỏi &eSpell Books&r! Ném &eSpell Book&r vào Ô Sách rồi thêm &3Scroll&r bên dưới. Nếu bạn muốn bỏ một &3Scroll&r, nhấp vào nó rồi lấy từ bên phải và vào Túi đồ của bạn.\n\n{image:atm:textures/questpics/iron_spells/spells_table_gui.png width:150 height:100 align:center}"]
+	quest.2B901ECF97FFA181.quest_desc: ["Khi bạn cuối cùng kết hợp các Mảnh Tri Thức Cổ xưa, bạn sẽ nhận được... &9Eldritch Manuscript&r! Đó là lớp cuối cùng! \n\n\n\n&9Eldritch&r là lớp cuối, mạnh nhất trong tất cả &3Spells&r. Chúng được chế tạo với &9Echo Shards&r và cần được học từ &9Manuscript&r để sử dụng. Mỗi &9Manuscript&r chỉ dùng một lần."]
 	quest.2B901ECF97FFA181.title: "&9&lEldritch"
 	quest.2BB910B217DF3A12.quest_subtitle: "Tại sao nó ướt? Có phải nó đã ở trong Hồ?"
 	quest.2BB910B217DF3A12.title: "&dEnder&r Nâng cấp Orb"
-	quest.2D84DA544D7A24FA.quest_desc: [
-		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các modpack AllTheMods. \"
-		"\"
-		"Vì tất cả các modpack &6AllTheMods&r đều được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ modpack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. \"
-		"\"
-		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
-	]
+	quest.2D84DA544D7A24FA.quest_desc: ["Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các modpack AllTheMods. \n\n\n\nVì tất cả các modpack &6AllTheMods&r đều được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ modpack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. \n\n\n\nNhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."]
 	quest.2E6F1C8718EB8C66.title: "&4Máu&r Nâng cấp Orb"
-	quest.3009018DEC1EC952.quest_desc: [
-		"Có 6 cấu trúc trong &2Overworld&r mà các boss có thể xuất hiện! (Có một cấu trúc thứ 7 nhưng không có boss ở đó)."
-	]
+	quest.3009018DEC1EC952.quest_desc: ["Có 6 cấu trúc trong &2Overworld&r mà các boss có thể xuất hiện! (Có một cấu trúc thứ 7 nhưng không có boss ở đó)."]
 	quest.3009018DEC1EC952.title: "&lThời Gian Phiêu Lưu!"
-	quest.300F2E45D185A9A1.quest_desc: [
-		"&lIron&r đã mang đến cho chúng ta một mod Ma thuật tuyệt vời và rất vui vẻ! &lIron's Spells 'N Spellbooks!&r \"
-		"\"
-		"&lIron's Spells&r xoay quanh việc tạo ra và sử dụng &3phép thuật&r! Mỗi &3phép thuật&r có Độ hiếm, Cấp, và Lớp! Và tất cả chúng đều có thể được sử dụng trong một Sách phép. \"
-		"\"
-		"Bạn sẽ không thể chỉ tạo ra bất cứ thứ gì bạn muốn với &7Iron&r và &cRedstone&r, bạn sẽ cần phải đứng dậy, Phiêu lưu, và Chiến đấu!"
-	]
+	quest.300F2E45D185A9A1.quest_desc: ["&lIron&r đã mang đến cho chúng ta một mod Ma thuật tuyệt vời và rất vui vẻ! &lIron's Spells 'N Spellbooks!&r \n\n\n\n&lIron's Spells&r xoay quanh việc tạo ra và sử dụng &3phép thuật&r! Mỗi &3phép thuật&r có Độ hiếm, Cấp, và Lớp! Và tất cả chúng đều có thể được sử dụng trong một Sách phép. \n\n\n\nBạn sẽ không thể chỉ tạo ra bất cứ thứ gì bạn muốn với &7Iron&r và &cRedstone&r, bạn sẽ cần phải đứng dậy, Phiêu lưu, và Chiến đấu!"]
 	quest.300F2E45D185A9A1.title: "&lIron's Spells 'N Spellbooks"
-	quest.30B7AF815D9D7553.quest_desc: [
-		"Tháp &cBurned Tower&r của &c&lPyromancer&r. Một số người nói rằng nếu bạn đủ gần để nhìn thấy &cTháp&r, thì bạn đủ gần để cảm nhận được nhiệt từ nó. \"
-		"\"
-		"Tháp &cPyromancer Tower&r là một tháp bị cháy chủ yếu làm bằng các loại đá, với bên trong được làm bằng gỗ thông và gỗ sồi. Cũng có một tòa nhà thứ hai gần &cTháp&r cũng là một phần của cấu trúc. \"
-		"\"
-		"Ở đỉnh, bạn sẽ tìm thấy thứ gì đó gây ra khói cũng như một &5đống áo giáp&r. \"
-		"\"
-		"Nếu bạn muốn tìm thấy &c&lPyromancer&r, bạn sẽ cần phải mạo hiểm xuống tầng hầm!"
-		"{image:atm:textures/questpics/iron_spells/spells_pyromancertower.png width:200 height:100 align:center}"
-	]
+	quest.30B7AF815D9D7553.quest_desc: ["Tháp &cBurned Tower&r của &c&lPyromancer&r. Một số người nói rằng nếu bạn đủ gần để nhìn thấy &cTháp&r, thì bạn đủ gần để cảm nhận được nhiệt từ nó. \n\n\n\nTháp &cPyromancer Tower&r là một tháp bị cháy chủ yếu làm bằng các loại đá, với bên trong được làm bằng gỗ thông và gỗ sồi. Cũng có một tòa nhà thứ hai gần &cTháp&r cũng là một phần của cấu trúc. \n\n\n\nỞ đỉnh, bạn sẽ tìm thấy thứ gì đó gây ra khói cũng như một &5đống áo giáp&r. \n\n\n\nNếu bạn muốn tìm thấy &c&lPyromancer&r, bạn sẽ cần phải mạo hiểm xuống tầng hầm!\n\n{image:atm:textures/questpics/iron_spells/spells_pyromancertower.png width:200 height:100 align:center}"]
 	quest.30B7AF815D9D7553.title: "&cTháp Pyromancer"
 	quest.32D2CE292E088939.title: "&cLửa&r Nâng cấp Orb"
-	quest.36F87173D8CD1D68.quest_desc: [
-		"Cưỡi &5Tia chớp&r! &5&lTia chớp&r xoay quanh việc sử dụng Điện để giết chóc và hỗ trợ bản thân. Một số đòn tấn công thậm chí hoạt động như &5Tia chớp&r thật! \"
-		"\"
-		"Vật liệu Trọng tâm của &5&lTia chớp&r là &5Bình Tia chớp&r mà bạn nhận được từ việc dùng Bình trống trên Creeper có điện. Bạn cần &5Tia chớp&r để làm nhiều &5Tia chớp&r hơn! \"
-		"\"
-		"Các &5Cuộn&r của nó có màu &7Xám&r với chữ &bXanh nhạt&r."
-	]
+	quest.36F87173D8CD1D68.quest_desc: ["Cưỡi &5Tia chớp&r! &5&lTia chớp&r xoay quanh việc sử dụng Điện để giết chóc và hỗ trợ bản thân. Một số đòn tấn công thậm chí hoạt động như &5Tia chớp&r thật! \n\n\n\nVật liệu Trọng tâm của &5&lTia chớp&r là &5Bình Tia chớp&r mà bạn nhận được từ việc dùng Bình trống trên Creeper có điện. Bạn cần &5Tia chớp&r để làm nhiều &5Tia chớp&r hơn! \n\n\n\nCác &5Cuộn&r của nó có màu &7Xám&r với chữ &bXanh nhạt&r."]
 	quest.36F87173D8CD1D68.title: "&5&lTia chớp"
-	quest.395A33977B18B9AD.quest_desc: [
-		"Sau khi cố gắng thu hoạch &5Đống áo giáp&r, chúng dường như sống lại như thể có một cơ thể đang sử dụng chúng. \"
-		"\"
-		"Chúng có 60 Trái tim và chúng khác với các boss khác vì chúng không sử dụng phép thuật, mà tôi tin rằng chúng là thứ được tạo ra từ phép thuật. Chúng sẽ tấn công bằng thanh Kiếm của mình, hoặc vung nó hoặc xông vào bạn. \"
-		"\"
-		"Theo những gì tôi đã thấy, chúng sẽ tấn công mọi thứ chúng thấy ngoại trừ các &5&lHiệp sĩ&r khác! \"
-		"\"
-		"Khi bị giết, chúng rơi Mảnh Netherite và Tinh thể Tàn tro, chắc chắn sẽ có ích!"
-		"{image:atm:textures/questpics/iron_spells/spells_knight.png width:100 height:200 align:center}"
-	]
+	quest.395A33977B18B9AD.quest_desc: ["Sau khi cố gắng thu hoạch &5Đống áo giáp&r, chúng dường như sống lại như thể có một cơ thể đang sử dụng chúng. \n\n\n\nChúng có 60 Trái tim và chúng khác với các boss khác vì chúng không sử dụng phép thuật, mà tôi tin rằng chúng là thứ được tạo ra từ phép thuật. Chúng sẽ tấn công bằng thanh Kiếm của mình, hoặc vung nó hoặc xông vào bạn. \n\n\n\nTheo những gì tôi đã thấy, chúng sẽ tấn công mọi thứ chúng thấy ngoại trừ các &5&lHiệp sĩ&r khác! \n\n\n\nKhi bị giết, chúng rơi Mảnh Netherite và Tinh thể Tàn tro, chắc chắn sẽ có ích!\n\n{image:atm:textures/questpics/iron_spells/spells_knight.png width:100 height:200 align:center}"]
 	quest.395A33977B18B9AD.title: "&5&lHiệp sĩ Cổ xưa"
-	quest.3DCD38634176BD92.quest_desc: [
-		"Kết hợp &6Allthemodium&r &eSách Phép&r với một Vibranium Ingot và Template trong Bàn Rèn.\"
-		"\"
-		"Template này có thể nhận được từ việc chà xát Suspicious Soul Sand trong một Bastion."
-	]
+	quest.3DCD38634176BD92.quest_desc: ["Kết hợp &6Allthemodium&r &eSách Phép&r với một Vibranium Ingot và Template trong Bàn Rèn.\n\n\n\nTemplate này có thể nhận được từ việc chà xát Suspicious Soul Sand trong một Bastion."]
 	quest.3DCD38634176BD92.title: "&3Vibranium&r Sách Phép"
-	quest.3E8077AB45C79E6A.quest_desc: [
-		"Chắc chắn tốt hơn một Cái Nồi Minecraft thông thường! \"
-		"\"
-		"Cái Nồi Giả kim có thể: \"
-		"1. Được dùng để lấy &4Máu&r bằng cách nấu Quái vật hoặc Người chơi. \"
-		"2. Làm và nâng cấp Potions. \"
-		"3. Có một nửa cơ hội lấy Mực từ một Cuộn. \"
-		"4. Kết hợp 4 Mực của một Độ hiếm thành Độ hiếm cao hơn. "
-		"{image:atm:textures/questpics/iron_spells/spells_cauldron.png width:100 height:100 align:center}"
-	]
+	quest.3E8077AB45C79E6A.quest_desc: ["Chắc chắn tốt hơn một Cái Nồi Minecraft thông thường! \n\n\n\nCái Nồi Giả kim có thể: \n\n1. Được dùng để lấy &4Máu&r bằng cách nấu Quái vật hoặc Người chơi. \n\n2. Làm và nâng cấp Potions. \n\n3. Có một nửa cơ hội lấy Mực từ một Cuộn. \n\n4. Kết hợp 4 Mực của một Độ hiếm thành Độ hiếm cao hơn. \n\n{image:atm:textures/questpics/iron_spells/spells_cauldron.png width:100 height:100 align:center}"]
 	quest.401BB95B740385B7.title: "&6Thánh&r Quả Cầu Nâng cấp"
 	quest.4104ABDC0E577350.title: "&2Thiên nhiên&r Quả Cầu Nâng cấp"
-	quest.4407BD7B5F033765.quest_desc: [
-		"Một &eSách Phép&r có thể chế tạo khác và theo mẫu, cái này thậm chí đắt hơn. Nó yêu cầu Arcane Clothes, Gold, và một Enchanted Book. Nó không kén chọn sách nào, chỉ cần phải là Enchanted! \"
-		"\"
-		"Nó có 10 &3Ô Phép&r và cấp một lượng Tăng Mana lớn!"
-	]
+	quest.4407BD7B5F033765.quest_desc: ["Một &eSách Phép&r có thể chế tạo khác và theo mẫu, cái này thậm chí đắt hơn. Nó yêu cầu Arcane Clothes, Gold, và một Enchanted Book. Nó không kén chọn sách nào, chỉ cần phải là Enchanted! \n\n\n\nNó có 10 &3Ô Phép&r và cấp một lượng Tăng Mana lớn!"]
 	quest.4407BD7B5F033765.title: "Sách phép phép thuật"
-	quest.445C21949ADA1FE3.quest_desc: [
-		"Kết hợp một Ancient Codex với một &6phôi Allthemodium&r và Mẫu trong Bàn rèn.\"
-		"\"
-		"Bạn có thể lấy Mẫu từ việc Chải Đất sét đáng ngờ trong một &9Thành cổ&r."
-	]
+	quest.445C21949ADA1FE3.quest_desc: ["Kết hợp một Ancient Codex với một &6phôi Allthemodium&r và Mẫu trong Bàn rèn.\n\n\n\nBạn có thể lấy Mẫu từ việc Chải Đất sét đáng ngờ trong một &9Thành cổ&r."]
 	quest.445C21949ADA1FE3.title: "&6Sách phép Allthemodium&r"
-	quest.489833A2A6C39151.quest_desc: [
-		"Anh ta xấu xa, bạn có thể lấy trộm nó, tôi không quan tâm."
-		"{image:atm:textures/questpics/iron_spells/spells_outfit_cryomancer.png width:60 height:100 align:center}"
-	]
+	quest.489833A2A6C39151.quest_desc: ["Anh ta xấu xa, bạn có thể lấy trộm nó, tôi không quan tâm.\n\n{image:atm:textures/questpics/iron_spells/spells_outfit_cryomancer.png width:60 height:100 align:center}"]
 	quest.489833A2A6C39151.title: "&bBộ đồ Pháp sư băng&r"
-	quest.48C68664319B0294.quest_desc: [
-		"Để có được Sách phép đặc biệt này bạn cần phải giết chết &4&lVua Tử thần&r! \"
-		"\"
-		"Nó có 10 ô &3phép&r nhưng 4 ô đã được chiếm rồi. &4Blood Slash&r, &4Blood Step&r, &4Ray of Siphoning&r, và &4Blaze Storm&r đã có sẵn trên nó và không thể tháo ra."
-	]
+	quest.48C68664319B0294.quest_desc: ["Để có được Sách phép đặc biệt này bạn cần phải giết chết &4&lVua Tử thần&r! \n\n\n\nNó có 10 ô &3phép&r nhưng 4 ô đã được chiếm rồi. &4Blood Slash&r, &4Blood Step&r, &4Ray of Siphoning&r, và &4Blaze Storm&r đã có sẵn trên nó và không thể tháo ra."]
 	quest.48C68664319B0294.title: "Necronomicom"
-	quest.4CCA1E2AAA9AB9D9.quest_desc: [
-		"Khi nào cái này sẽ được thêm vào Mod?"
-		"{image:atm:textures/questpics/iron_spells/spells_outfit_electromancer.png width:50 height:100 align:center}"
-	]
+	quest.4CCA1E2AAA9AB9D9.quest_desc: ["Khi nào cái này sẽ được thêm vào Mod?\n\n{image:atm:textures/questpics/iron_spells/spells_outfit_electromancer.png width:50 height:100 align:center}"]
 	quest.4CCA1E2AAA9AB9D9.title: "&5Bộ đồ Pháp sư điện&r"
-	quest.4E3355FDCB65BB63.quest_desc: [
-		"&aEvokers&r được biết đến là một Miniboss mạnh mẽ và nguy hiểm của Minecraft. Vì vậy, tất nhiên &lIron&r đã thêm một phiên bản mạnh mẽ và nguy hiểm hơn! Và đúng vậy, &eBook&r này là một vật rơi hiếm từ cả hai! \"
-		"\"
-		"Nó có 10 ô phép nhưng 3 ô đã bị chiếm. &aFang Strike&r, &aFang Ward&r, và &aVex Swarm&r đều đi kèm với &eBook&r và không thể di chuyển. \"
-		"\"
-		"Cũng tăng cường &a&lTriệu hồi&r!"
-	]
+	quest.4E3355FDCB65BB63.quest_desc: ["&aEvokers&r được biết đến là một Miniboss mạnh mẽ và nguy hiểm của Minecraft. Vì vậy, tất nhiên &lIron&r đã thêm một phiên bản mạnh mẽ và nguy hiểm hơn! Và đúng vậy, &eBook&r này là một vật rơi hiếm từ cả hai! \n\n\n\nNó có 10 ô phép nhưng 3 ô đã bị chiếm. &aFang Strike&r, &aFang Ward&r, và &aVex Swarm&r đều đi kèm với &eBook&r và không thể di chuyển. \n\n\n\nCũng tăng cường &a&lTriệu hồi&r!"]
 	quest.4E3355FDCB65BB63.title: "&aSách phép Hiệu triệu"
 	quest.541446863A72B96C.title: "&7Mực thông thường&r"
-	quest.548F85EE6B6F1811.quest_desc: [
-		"Giống như Piglins mà &2&lNhà thảo dược&r giống, họ cũng Trung lập. Họ không quan tâm đến &eVàng&r như các Piglin khác, chỉ những người tấn công họ. \"
-		"\"
-		"Bạn có thể giao dịch với họ: đưa cho họ hoặc Ngọc lục bảo hoặc Nguyên liệu pha thuốc để lấy Thuốc, Nguyên liệu pha thuốc, và &2Cuộn Thiên nhiên&r. \"
-		"\"
-		"Nếu bạn muốn giết họ, họ có 60 trái tim. Họ sẽ tấn công bạn bằng Thuốc và &2Phép Thiên nhiên&r. Khi bị thương họ sẽ cố hồi phục bằng Thuốc, (tôi nghĩ họ thực sự thích Thuốc). \"
-		"\"
-		"Khi bị giết, họ sẽ rơi Tinh hoa huyền ảo, Mực, &2Rune Thiên nhiên&r, và &2Cuộn Thiên nhiên&r!"
-		"{image:atm:textures/questpics/iron_spells/spells_apotheocarist.png width:100 height:200 align:center}"
-	]
+	quest.548F85EE6B6F1811.quest_desc: ["Giống như Piglins mà &2&lNhà thảo dược&r giống, họ cũng Trung lập. Họ không quan tâm đến &eVàng&r như các Piglin khác, chỉ những người tấn công họ. \n\n\n\nBạn có thể giao dịch với họ: đưa cho họ hoặc Ngọc lục bảo hoặc Nguyên liệu pha thuốc để lấy Thuốc, Nguyên liệu pha thuốc, và &2Cuộn Thiên nhiên&r. \n\n\n\nNếu bạn muốn giết họ, họ có 60 trái tim. Họ sẽ tấn công bạn bằng Thuốc và &2Phép Thiên nhiên&r. Khi bị thương họ sẽ cố hồi phục bằng Thuốc, (tôi nghĩ họ thực sự thích Thuốc). \n\n\n\nKhi bị giết, họ sẽ rơi Tinh hoa huyền ảo, Mực, &2Rune Thiên nhiên&r, và &2Cuộn Thiên nhiên&r!\n\n{image:atm:textures/questpics/iron_spells/spells_apotheocarist.png width:100 height:200 align:center}"]
 	quest.548F85EE6B6F1811.title: "&2&lNhà thảo dược"
-	quest.551A4916F032ACCF.quest_desc: [
-		"Lò Rèn Huyền ảo có nhiều công dụng nhất trong các block của &lPhép thuật Sắt&r. \"
-		"\"
-		"Bạn có thể kết hợp &3Phép&r với cùng loại Mực để nâng cấp chúng. \"
-		"Nó có thể kết hợp &3Cuộn&r thành Vũ khí để sử dụng cùng chúng, như một thanh Kiếm. \"
-		"Bạn cũng có thể thiết lập Điểm thiên về cho Nhẫn bằng Bóng Nâng cấp, hoặc thêm Bóng Nâng cấp vào Vũ khí và Trang bị."
-		"{image:atm:textures/questpics/iron_spells/spells_anvil_gui.png width:100 height:100 align:center}"
-	]
-	quest.555ED1E39131D91B.quest_desc: [
-		"Không nên bước vào &bTháp&r, &b&lPháp sư băng&r không thích Người chơi, họ thù địch với bạn. \"
-		"\"
-		"&b&lPháp sư băng&r sẽ ngay lập tức tấn công bạn bằng &bPhép băng&r. Thậm chí có thể sử dụng động vật chống lại bạn! Hy sinh động vật để thắng trận, họ thực sự lạnh lùng! \"
-		"\"
-		"Khi bị giết, họ sẽ rơi Tinh hoa huyền ảo, Mực, &bRune băng&r, và &bCuộn băng&r."
-		"{image:atm:textures/questpics/iron_spells/spells_cryomancer.png width:100 height:200 align:center}"
-	]
+	quest.551A4916F032ACCF.quest_desc: ["Lò Rèn Huyền ảo có nhiều công dụng nhất trong các block của &lPhép thuật Sắt&r. \n\n\n\nBạn có thể kết hợp &3Phép&r với cùng loại Mực để nâng cấp chúng. \n\nNó có thể kết hợp &3Cuộn&r thành Vũ khí để sử dụng cùng chúng, như một thanh Kiếm. \n\nBạn cũng có thể thiết lập Điểm thiên về cho Nhẫn bằng Bóng Nâng cấp, hoặc thêm Bóng Nâng cấp vào Vũ khí và Trang bị.\n\n{image:atm:textures/questpics/iron_spells/spells_anvil_gui.png width:100 height:100 align:center}"]
+	quest.555ED1E39131D91B.quest_desc: ["Không nên bước vào &bTháp&r, &b&lPháp sư băng&r không thích Người chơi, họ thù địch với bạn. \n\n\n\n&b&lPháp sư băng&r sẽ ngay lập tức tấn công bạn bằng &bPhép băng&r. Thậm chí có thể sử dụng động vật chống lại bạn! Hy sinh động vật để thắng trận, họ thực sự lạnh lùng! \n\n\n\nKhi bị giết, họ sẽ rơi Tinh hoa huyền ảo, Mực, &bRune băng&r, và &bCuộn băng&r.\n\n{image:atm:textures/questpics/iron_spells/spells_cryomancer.png width:100 height:200 align:center}"]
 	quest.555ED1E39131D91B.title: "&b&lPháp sư băng"
-	quest.59E68086A8B99EA7.quest_desc: [
-		"&c&lPháp sư lửa&r (khác với Pháp sư bánh) là một Quái vật Trung lập khác được thêm bởi &lPhép thuật Sắt&r. Họ có thể sẽ đốt cháy các Quái vật ở gần bằng &cLửa&r... \"
-		"\"
-		"Bạn có thể giao dịch mọi thứ về &cLửa&r, Mực, và thậm chí &cCuộn lửa&r. \"
-		"\"
-		"Nếu bạn muốn mạo hiểm tất cả tóc trên người bằng cách chiến đấu với họ, hãy chuẩn bị, họ có 60 trái tim. Họ sẽ đốt cháy bạn bằng &cPhép lửa&r, không cần hỏi. \"
-		"\"
-		"Khi chết, họ sẽ rơi Tinh hoa huyền ảo, Mực, &cRune lửa&r, và &cPhép lửa&r!"
-		"{image:atm:textures/questpics/iron_spells/spells_pyromancer.png width:100 height:200 align:center}"
-	]
+	quest.59E68086A8B99EA7.quest_desc: ["&c&lPháp sư lửa&r (khác với Pháp sư bánh) là một Quái vật Trung lập khác được thêm bởi &lPhép thuật Sắt&r. Họ có thể sẽ đốt cháy các Quái vật ở gần bằng &cLửa&r... \n\n\n\nBạn có thể giao dịch mọi thứ về &cLửa&r, Mực, và thậm chí &cCuộn lửa&r. \n\n\n\nNếu bạn muốn mạo hiểm tất cả tóc trên người bằng cách chiến đấu với họ, hãy chuẩn bị, họ có 60 trái tim. Họ sẽ đốt cháy bạn bằng &cPhép lửa&r, không cần hỏi. \n\n\n\nKhi chết, họ sẽ rơi Tinh hoa huyền ảo, Mực, &cRune lửa&r, và &cPhép lửa&r!\n\n{image:atm:textures/questpics/iron_spells/spells_pyromancer.png width:100 height:200 align:center}"]
 	quest.59E68086A8B99EA7.title: "&c&lPháp sư lửa"
-	quest.5B013A3A37D6902B.quest_desc: [
-		"Bạn có thể tìm thấy các mảnh Tri thức Cổ xưa rải rác trong các Rương của &9Thành phố Cổ xưa&r. \"
-		"\"
-		"Bạn cũng sẽ cần &9Mảnh Tiếng vang&r để 1. Kết hợp các Mảnh để học về &9Phép&r và 2. Thực sự tạo ra &9Phép&r."
-	]
+	quest.5B013A3A37D6902B.quest_desc: ["Bạn có thể tìm thấy các mảnh Tri thức Cổ xưa rải rác trong các Rương của &9Thành phố Cổ xưa&r. \n\n\n\nBạn cũng sẽ cần &9Mảnh Tiếng vang&r để 1. Kết hợp các Mảnh để học về &9Phép&r và 2. Thực sự tạo ra &9Phép&r."]
 	quest.5B013A3A37D6902B.title: "Về Thành Phố Cổ"
-	quest.5DE863C3FB6492BE.quest_desc: [
-		"{image:atm:textures/questpics/iron_spells/spells_outfit_cultist.png width:60 height:100 align:center}"
-	]
+	quest.5DE863C3FB6492BE.quest_desc: ["{image:atm:textures/questpics/iron_spells/spells_outfit_cultist.png width:60 height:100 align:center}"]
 	quest.5DE863C3FB6492BE.title: "&4Trang Phục Tín Đồ"
-	quest.5ED368C926E5F32C.quest_desc: [
-		"Có một lớp cuối cùng của &3Phép Thuật&r mà tôi quên đề cập. Thực ra mọi kiến thức về những &9Phép Thuật&r này đã bị lãng quên, nên không chỉ mình tôi."
-		"Để lấy lại ký ức, chúng ta cần đi, lặng lẽ, theo con đường ký ức. Đó chính là &9Thành Phố Cổ&r."
-	]
+	quest.5ED368C926E5F32C.quest_desc: ["Có một lớp cuối cùng của &3Phép Thuật&r mà tôi quên đề cập. Thực ra mọi kiến thức về những &9Phép Thuật&r này đã bị lãng quên, nên không chỉ mình tôi.\n\n\n\nĐể lấy lại ký ức, chúng ta cần đi, lặng lẽ, theo con đường ký ức. Đó chính là &9Thành Phố Cổ&r."]
 	quest.5ED368C926E5F32C.title: "Lớp Cuối Cùng..."
 	quest.60FAD8BF235E381B.title: "&bMực Hiếm&r"
-	quest.615C3E012B2DECD3.quest_desc: [
-		"&eSách Phép&r! Bạn còn có thể để &3Phép Thuật&r ở đâu nữa?"
-		"Bạn có thể thêm &3Cuộn Phép&r vào một &eSách Phép&r bằng cách đặt cả hai vào Bàn Khắc Chữ. Chúng có một số lượng giới hạn nhưng không còn phải lo lắng về Độ Hiếm."
-		"Khi &3Cuộn Phép&r được thêm vào &eSách Phép&r của bạn, chúng sẽ không bị tiêu hao mà thay vào đó là Mana sẽ bị tiêu hao."
-	]
+	quest.615C3E012B2DECD3.quest_desc: ["&eSách Phép&r! Bạn còn có thể để &3Phép Thuật&r ở đâu nữa?\n\n\n\nBạn có thể thêm &3Cuộn Phép&r vào một &eSách Phép&r bằng cách đặt cả hai vào Bàn Khắc Chữ. Chúng có một số lượng giới hạn nhưng không còn phải lo lắng về Độ Hiếm.\n\n\n\nKhi &3Cuộn Phép&r được thêm vào &eSách Phép&r của bạn, chúng sẽ không bị tiêu hao mà thay vào đó là Mana sẽ bị tiêu hao."]
 	quest.615C3E012B2DECD3.title: "&eSách Phép&r!"
 	quest.637C87D8968CD51A.title: "&aMực Phổ Thông&r"
-	quest.639531AB27DCD267.quest_desc: [
-		"&7Rune&r là cách chúng ta tạo ra các Lớp và các bộ phận của chúng. Để có được một &7Rune Trống&r, bạn có thể giết &4&lVua Xác&r hoặc làm sạch một Rune Khắc bằng Đá Tẩy Uế."
-		"Có 8 lớp khác nhau (1 lớp bí mật), mỗi lớp có &3Cuộn Phép&r, Vật Liệu Tập Trung, Nâng Cấp và Trang Phục riêng."
-	]
+	quest.639531AB27DCD267.quest_desc: ["&7Rune&r là cách chúng ta tạo ra các Lớp và các bộ phận của chúng. Để có được một &7Rune Trống&r, bạn có thể giết &4&lVua Xác&r hoặc làm sạch một Rune Khắc bằng Đá Tẩy Uế.\n\n\n\nCó 8 lớp khác nhau (1 lớp bí mật), mỗi lớp có &3Cuộn Phép&r, Vật Liệu Tập Trung, Nâng Cấp và Trang Phục riêng."]
 	quest.639531AB27DCD267.title: "&lLớp"
-	quest.641888DC7BC40AA9.quest_desc: [
-		"Pháo đài được canh gác nghiêm ngặt &aFortress&r là nơi ở của &a&lArchevoker&r và các môn đồ. \"
-		"Bạn sẽ nhận ra nó bởi những bức tường gỗ thông khổng lồ và &aFortress&r bằng đá lớn bên trong chúng. \"
-		"\"
-		"Các &aEvokers&r, Vindicators, và Ravagers có thể được tìm thấy trong các bức tường và &aFortress&r. Một khi bạn vượt qua chúng, bạn có thể tìm đường lên cầu thang, leo trèo lên mái, và gặp &a&lLeader of the Fort&r ở đỉnh. \"
-		"\"
-		"Vì nó được canh gác nghiêm ngặt tất nhiên có một lượng lớn chiến lợi phẩm trong &aFort&r."
-		"{image:atm:textures/questpics/iron_spells/spells_evokerfort.png width:200 height:100 align:center}"
-	]
+	quest.641888DC7BC40AA9.quest_desc: ["Pháo đài được canh gác nghiêm ngặt &aFortress&r là nơi ở của &a&lArchevoker&r và các môn đồ. \n\nBạn sẽ nhận ra nó bởi những bức tường gỗ thông khổng lồ và &aFortress&r bằng đá lớn bên trong chúng. \n\n\n\nCác &aEvokers&r, Vindicators, và Ravagers có thể được tìm thấy trong các bức tường và &aFortress&r. Một khi bạn vượt qua chúng, bạn có thể tìm đường lên cầu thang, leo trèo lên mái, và gặp &a&lLeader of the Fort&r ở đỉnh. \n\n\n\nVì nó được canh gác nghiêm ngặt tất nhiên có một lượng lớn chiến lợi phẩm trong &aFort&r.\n\n{image:atm:textures/questpics/iron_spells/spells_evokerfort.png width:200 height:100 align:center}"]
 	quest.641888DC7BC40AA9.title: "&aPháo đài Evoker"
-	quest.652A14E17DDE97E6.quest_desc: [
-		"Một quyển sách khác cần Sách bị hỏng để chế tạo. Bạn có thể tìm thấy Sách bị hỏng trong các Rương &9Thành cổ&r. \"
-		"\"
-		"Bạn cũng sẽ cần Da Rồng rơi từ &dEnder Dragon&r! \"
-		"\"
-		"Nó sẽ có 12 &3Khe Spells&r và tăng cường &dEnder Spells&r!"
-	]
+	quest.652A14E17DDE97E6.quest_desc: ["Một quyển sách khác cần Sách bị hỏng để chế tạo. Bạn có thể tìm thấy Sách bị hỏng trong các Rương &9Thành cổ&r. \n\n\n\nBạn cũng sẽ cần Da Rồng rơi từ &dEnder Dragon&r! \n\n\n\nNó sẽ có 12 &3Khe Spells&r và tăng cường &dEnder Spells&r!"]
 	quest.652A14E17DDE97E6.title: "&dSách Spell Da Rồng"
-	quest.66762A4743104157.quest_desc: [
-		"Một &eSpellbook&r có thể chế tạo khác, cái này đắt hơn một chút! Nó sẽ cần Hogskin, là vật rơi từ Hoglins. \"
-		"\"
-		"Cái này có thể chứa 8 &3Spells&r, về kỹ thuật vẫn còn thấp nhưng tốt hơn!"
-	]
+	quest.66762A4743104157.quest_desc: ["Một &eSpellbook&r có thể chế tạo khác, cái này đắt hơn một chút! Nó sẽ cần Hogskin, là vật rơi từ Hoglins. \n\n\n\nCái này có thể chứa 8 &3Spells&r, về kỹ thuật vẫn còn thấp nhưng tốt hơn!"]
 	quest.66762A4743104157.title: "Sách Spell Tân thủ"
-	quest.67A587F4BAD76C70.quest_desc: [
-		"&eSpellbook&r cơ bản nhất, cũng là cái rẻ nhất! \"
-		"\"
-		"Nó chỉ có thể chứa tổng cộng 5 &3Spells&r."
-	]
+	quest.67A587F4BAD76C70.quest_desc: ["&eSpellbook&r cơ bản nhất, cũng là cái rẻ nhất! \n\n\n\nNó chỉ có thể chứa tổng cộng 5 &3Spells&r."]
 	quest.67A587F4BAD76C70.title: "Tạp chí Mỏng manh"
 	quest.67D40A1A9332C03D.title: "&6Mực Huyền thoại&r"
-	quest.68B44B9E939F4228.quest_desc: [
-		"Ở đỉnh của &aPháo đài&r là &a&lArchevoker&r. Chỉ thù địch với người chơi và bất kỳ ai tấn công hắn. \"
-		"\"
-		"Hắn có 60 Trái tim, và tấn công như một &aEvoker&r bình thường cộng với thêm nhiều thứ! &aPháo hoa&r, &aKhiên&r, và &aLuồng gió bùng nổ&r! \"
-		"\"
-		"Khi bị giết, hắn sẽ rơi Arcane Essence, Mực, &aEvokation Runes&r, &aEvokation Scrolls&r, và rơi hiếm là &aGrimore of Evokation&r!"
-		"{image:atm:textures/questpics/iron_spells/spells_evoker.png width:100 height:200 align:center}"
-	]
+	quest.68B44B9E939F4228.quest_desc: ["Ở đỉnh của &aPháo đài&r là &a&lArchevoker&r. Chỉ thù địch với người chơi và bất kỳ ai tấn công hắn. \n\n\n\nHắn có 60 Trái tim, và tấn công như một &aEvoker&r bình thường cộng với thêm nhiều thứ! &aPháo hoa&r, &aKhiên&r, và &aLuồng gió bùng nổ&r! \n\n\n\nKhi bị giết, hắn sẽ rơi Arcane Essence, Mực, &aEvokation Runes&r, &aEvokation Scrolls&r, và rơi hiếm là &aGrimore of Evokation&r!\n\n{image:atm:textures/questpics/iron_spells/spells_evoker.png width:100 height:200 align:center}"]
 	quest.68B44B9E939F4228.title: "&a&lArchevoker"
-	quest.6963EC8A71D66AE3.quest_desc: [
-		"Sâu trong vùng đầm lầy Mangrove Swamps bùn lầy là nơi trú ẩn của loại mob ẩn sĩ gọi là &2&lApotheocarist&r. \"
-		"\"
-		"Không có ai ở gần, và chỉ những thứ hắn cần cho bình rượu của mình xung quanh. \"
-		"\"
-		"Bạn có thể tìm thấy &2&lApotheocarist&r trong &2Lều&r của hắn. \"
-		"\"
-		"Ở đó bạn cũng có thể tìm thấy nồi lớn và giá đỡ pha rượu với các bình rượu!"
-		"{image:atm:textures/questpics/iron_spells/spells_magrovehut.png width:200 height:100 align:center}"
-	]
+	quest.6963EC8A71D66AE3.quest_desc: ["Sâu trong vùng đầm lầy Mangrove Swamps bùn lầy là nơi trú ẩn của loại mob ẩn sĩ gọi là &2&lApotheocarist&r. \n\n\n\nKhông có ai ở gần, và chỉ những thứ hắn cần cho bình rượu của mình xung quanh. \n\n\n\nBạn có thể tìm thấy &2&lApotheocarist&r trong &2Lều&r của hắn. \n\n\n\nỞ đó bạn cũng có thể tìm thấy nồi lớn và giá đỡ pha rượu với các bình rượu!\n\n{image:atm:textures/questpics/iron_spells/spells_magrovehut.png width:200 height:100 align:center}"]
 	quest.6963EC8A71D66AE3.title: "&2Lều Mangrove"
-	quest.69763C2E2F454A73.quest_desc: [
-		"&c&lLửa&r rõ ràng liên quan đến &cLửa&r. Hầu hết các Cuộn đều sử dụng &cLửa&r để đốt và làm tổn thương vật thể. \"
-		"\"
-		"Vật liệu Tập trung của &c&lLửa&r là &cBlaze Rods&r. Bạn có thể chế tạo &cFire Runes&r hoặc lấy chúng từ việc giết &c&lPyromancer&r. \"
-		"\"
-		"Các &cCuộn&r của nó có màu &cĐỏ nhạt&r với chữ &8Xám&r."
-	]
+	quest.69763C2E2F454A73.quest_desc: ["&c&lLửa&r rõ ràng liên quan đến &cLửa&r. Hầu hết các Cuộn đều sử dụng &cLửa&r để đốt và làm tổn thương vật thể. \n\n\n\nVật liệu Tập trung của &c&lLửa&r là &cBlaze Rods&r. Bạn có thể chế tạo &cFire Runes&r hoặc lấy chúng từ việc giết &c&lPyromancer&r. \n\n\n\nCác &cCuộn&r của nó có màu &cĐỏ nhạt&r với chữ &8Xám&r."]
 	quest.69763C2E2F454A73.title: "&c&lFire"
-	quest.69838E3F12218D68.quest_desc: [
-		"Scroll Forge, bạn có thể đoán nó làm gì! \"
-		"\"
-		"Nó làm &3Cuộn&r! \"
-		"\"
-		"Thêm một Mực để đặt Độ hiếm. Giấy cho &3Cuộn&r thực tế. Sau đó là Item của loại &3Phép thuật&r bạn muốn (&cBlaze Rod&r cho &c&lLửa&r, &2Poisonous Potato&r cho &2&lThiên nhiên&r, V.V). Cuối cùng chọn &3Phép thuật&r bạn muốn và nó sẽ được tạo ra!"
-		"{image:atm:textures/questpics/iron_spells/spells_scroll_gui.png width:150 height:100 align:center}"
-	]
-	quest.6CE7115DA2B23776.quest_desc: [
-		"Không tốt hơn nhiều so với cái Đồ dùng mỏng manh... \"
-		"\"
-		"Cái này có thể chứa một &3Phép thuật&r nhiều hơn so với Nhật ký Đồ dùng mỏng manh! Đó là một &3Phép thuật&r rất mạnh nữa sẵn sàng!"
-	]
+	quest.69838E3F12218D68.quest_desc: ["Scroll Forge, bạn có thể đoán nó làm gì! \n\n\n\nNó làm &3Cuộn&r! \n\n\n\nThêm một Mực để đặt Độ hiếm. Giấy cho &3Cuộn&r thực tế. Sau đó là Item của loại &3Phép thuật&r bạn muốn (&cBlaze Rod&r cho &c&lLửa&r, &2Poisonous Potato&r cho &2&lThiên nhiên&r, V.V). Cuối cùng chọn &3Phép thuật&r bạn muốn và nó sẽ được tạo ra!\n\n{image:atm:textures/questpics/iron_spells/spells_scroll_gui.png width:150 height:100 align:center}"]
+	quest.6CE7115DA2B23776.quest_desc: ["Không tốt hơn nhiều so với cái Đồ dùng mỏng manh... \n\n\n\nCái này có thể chứa một &3Phép thuật&r nhiều hơn so với Nhật ký Đồ dùng mỏng manh! Đó là một &3Phép thuật&r rất mạnh nữa sẵn sàng!"]
 	quest.6CE7115DA2B23776.title: "Nhật ký Sắt"
-	quest.6D232F6D8E8DA546.quest_desc: [
-		"Rất phổ biến vào dịp Halloween!"
-		"{image:atm:textures/questpics/iron_spells/spells_outfit_plagued.png width:60 height:100 align:center}"
-	]
+	quest.6D232F6D8E8DA546.quest_desc: ["Rất phổ biến vào dịp Halloween!\n\n{image:atm:textures/questpics/iron_spells/spells_outfit_plagued.png width:60 height:100 align:center}"]
 	quest.6D232F6D8E8DA546.title: "&2Trang phục Dịch bệnh"
-	quest.6DB5732177AABB87.quest_desc: [
-		"Cấu trúc lớn nhất và khó nhất từ &lIron's Spells&r. \"
-		"\"
-		"Đây là những cấu trúc sâu dưới lòng đất tương tự như Phòng thử nghiệm. Bạn cũng có thể dùng Wayward Compasses để giúp tìm nó! \"
-		"\"
-		"Bên trong có rất nhiều Trình sinh, Trình sinh thử nghiệm và tất nhiên là Chiến lợi phẩm. \"
-		"\"
-		"Phòng quan trọng nhất là Phòng ngai vàng, một khi bạn đến đó, bộ xương của &4&lVua chết&r sẽ hồi sinh! (Nếu không, bạn có thể cần nhấp vào nó)."
-		"{image:atm:textures/questpics/iron_spells/spells_catacombs.png width:200 height:100 align:center}"
-	]
+	quest.6DB5732177AABB87.quest_desc: ["Cấu trúc lớn nhất và khó nhất từ &lIron's Spells&r. \n\n\n\nĐây là những cấu trúc sâu dưới lòng đất tương tự như Phòng thử nghiệm. Bạn cũng có thể dùng Wayward Compasses để giúp tìm nó! \n\n\n\nBên trong có rất nhiều Trình sinh, Trình sinh thử nghiệm và tất nhiên là Chiến lợi phẩm. \n\n\n\nPhòng quan trọng nhất là Phòng ngai vàng, một khi bạn đến đó, bộ xương của &4&lVua chết&r sẽ hồi sinh! (Nếu không, bạn có thể cần nhấp vào nó).\n\n{image:atm:textures/questpics/iron_spells/spells_catacombs.png width:200 height:100 align:center}"]
 	quest.6DB5732177AABB87.title: "&4Hầm mộ"
-	quest.7270A37E31A70C91.quest_desc: [
-		"&6&lThánh&r dành cho tất cả người chơi Medic/Support. Nó chủ yếu dùng để chữa lành và hỗ trợ. \"
-		"\"
-		"Vật liệu tập trung của &6&lThánh&r là &6Hạt ngọc thiêng liêng&r được chế tạo. Bạn có thể làm Runes với chúng hoặc giết &6&lTu sĩ&r để nhận &6Runes thánh&r. \"
-		"\"
-		"&6Tuyển kinh thánh&r có màu &fTrắng&r với chữ &6Vàng&r."
-	]
+	quest.7270A37E31A70C91.quest_desc: ["&6&lThánh&r dành cho tất cả người chơi Medic/Support. Nó chủ yếu dùng để chữa lành và hỗ trợ. \n\n\n\nVật liệu tập trung của &6&lThánh&r là &6Hạt ngọc thiêng liêng&r được chế tạo. Bạn có thể làm Runes với chúng hoặc giết &6&lTu sĩ&r để nhận &6Runes thánh&r. \n\n\n\n&6Tuyển kinh thánh&r có màu &fTrắng&r với chữ &6Vàng&r."]
 	quest.7270A37E31A70C91.title: "&6&lThánh"
 	quest.72AB70FD8D8FABBF.quest_subtitle: "&cNether&r!"
 	quest.72AB70FD8D8FABBF.title: "Đang trên đường đến..."
-	quest.73D6B980D35082A0.quest_desc: [
-		"Cái này mất một chút thời gian để giải thích nên hãy kiên nhẫn. \"
-		"\"
-		"Đầu tiên, tìm một &aPháo đài Evoker&r. \"
-		"Tiếp theo, tìm một Sách nghiên cứu được giấu bên trong. Sau đó, nhờ một Thương nhân bị bắt làm con tin trong &aPháo đài Evoker&r dịch nó. (Giống như những Quest Translators con tin của chúng ta!) \"
-		"Một khi đã dịch xong, mang nó đến cho &6&lTu sĩ&r trong một &6Làng&r để đổi lấy &eSách phép&r! \"
-		"\"
-		"Nó tăng cường &6Phép thánh&r và đừng lo, những Thương nhân con tin rất rất hiếm, cứ tiếp tục tìm!"
-	]
+	quest.73D6B980D35082A0.quest_desc: ["Cái này mất một chút thời gian để giải thích nên hãy kiên nhẫn. \n\n\n\nĐầu tiên, tìm một &aPháo đài Evoker&r. \n\nTiếp theo, tìm một Sách nghiên cứu được giấu bên trong. Sau đó, nhờ một Thương nhân bị bắt làm con tin trong &aPháo đài Evoker&r dịch nó. (Giống như những Quest Translators con tin của chúng ta!) \n\nMột khi đã dịch xong, mang nó đến cho &6&lTu sĩ&r trong một &6Làng&r để đổi lấy &eSách phép&r! \n\n\n\nNó tăng cường &6Phép thánh&r và đừng lo, những Thương nhân con tin rất rất hiếm, cứ tiếp tục tìm!"]
 	quest.73D6B980D35082A0.title: "&6Kinh thánh Dân làng"
-	quest.7408CCF998D9CD37.quest_desc: [
-		"Một &eSách phép&r có thể chế tạo... vâng, nó không dễ chế tạo. \"
-		"\"
-		"Khó nhất để lấy là Sách hỏng, mà bạn có thể tìm thấy trong &9Thành cổ&r Rương. &4Bình máu&r có thể được lấy bằng cách đặt một Mob (hoặc thậm chí chính bạn) vào một Nồi đất trên Lửa trại hoặc Nồi đất thuốc. &5Bình chứa tia chớp&r đến từ việc dùng một Bình trên một Creeper có điện. \"
-		"\"
-		"Một khi bạn làm tất cả những điều đó, bạn có thể chế tạo Bộ kinh cổ. 12 &3Ô phép&r của nó rất hữu ích!"
-	]
+	quest.7408CCF998D9CD37.quest_desc: ["Một &eSách phép&r có thể chế tạo... vâng, nó không dễ chế tạo. \n\n\n\nKhó nhất để lấy là Sách hỏng, mà bạn có thể tìm thấy trong &9Thành cổ&r Rương. &4Bình máu&r có thể được lấy bằng cách đặt một Mob (hoặc thậm chí chính bạn) vào một Nồi đất trên Lửa trại hoặc Nồi đất thuốc. &5Bình chứa tia chớp&r đến từ việc dùng một Bình trên một Creeper có điện. \n\n\n\nMột khi bạn làm tất cả những điều đó, bạn có thể chế tạo Bộ kinh cổ. 12 &3Ô phép&r của nó rất hữu ích!"]
 	quest.7408CCF998D9CD37.title: "Bộ kinh cổ"
 	quest.76558D23A70AFF78.title: "&bBăng&r Quả cầu nâng cấp"
-	quest.78AA7BFABBFB9973.quest_desc: [
-		"&2&lSách phép thuật Thiên nhiên&r &eSách phép thuật&r. \"
-		"\"
-		"Nó có 10 &3phép&r và tăng cường &2phép Thiên nhiên&r! \"
-		"\"
-		"Bạn cần một Sách phép thuật Thối rữa để chế tạo nó..."
-	]
+	quest.78AA7BFABBFB9973.quest_desc: ["&2&lSách phép thuật Thiên nhiên&r &eSách phép thuật&r. \n\n\n\nNó có 10 &3phép&r và tăng cường &2phép Thiên nhiên&r! \n\n\n\nBạn cần một Sách phép thuật Thối rữa để chế tạo nó..."]
 	quest.78AA7BFABBFB9973.title: "&2Bộ sách Druid"
-	quest.7C79BCE482A06199.quest_desc: [
-		"&b&lBăng&r xoay quanh các phép mùa đông. Sử dụng &bBăng&r và &bTuyết&r để làm lạnh và làm hại kẻ thù. \"
-		"\"
-		"&b&lBăng&r có Vật liệu tập trung là &bXương Đông đông&r, rơi từ &bStrays&r. Bạn có thể dùng chúng để chế tạo &bBăng Rune&r hoặc giết &b&lCryomancer&r để lấy nó. \"
-		"\"
-		"Cuộn của nó màu &bXanh nhạt&r với chữ màu &9Xanh đậm hơn&r."
-	]
+	quest.7C79BCE482A06199.quest_desc: ["&b&lBăng&r xoay quanh các phép mùa đông. Sử dụng &bBăng&r và &bTuyết&r để làm lạnh và làm hại kẻ thù. \n\n\n\n&b&lBăng&r có Vật liệu tập trung là &bXương Đông đông&r, rơi từ &bStrays&r. Bạn có thể dùng chúng để chế tạo &bBăng Rune&r hoặc giết &b&lCryomancer&r để lấy nó. \n\n\n\nCuộn của nó màu &bXanh nhạt&r với chữ màu &9Xanh đậm hơn&r."]
 	quest.7C79BCE482A06199.title: "&b&lBăng"
-	quest.7F85669FEA41CD97.quest_desc: [
-		"Người bảo vệ trung lập của &6Làng&r. Anh ấy sẽ tấn công tất cả Mobs thù địch gần đó. Giống như Iron Golem nhưng anh ấy trông quen thuộc tại sao? Có thể là ai đó chúng ta biết trong bộ đồng phục? \"
-		"\"
-		"Bạn có thể giao dịch Potion Hồi phục và Ngọc lục bảo với anh ấy để lấy Bản đồ Cuộn, sẽ sớm được tạo ra để giúp đỡ chống lại &aPháo đài Evoker&r! \"
-		"\"
-		"Nếu bạn muốn giết anh ấy, anh ấy sẽ liên tục tấn công bạn bằng &6phép Thánh&r. Anh ấy cũng sẽ tự hồi phục khi máu thấp. \"
-		"\"
-		"Khi bị giết, anh ấy sẽ rơi Tinh hoa Huyền ảo, Mực, &6Rune Thánh&r và &6Cuộn Thánh&r."
-		"{image:atm:textures/questpics/iron_spells/spells_priest.png width:100 height:200 align:center}"
-	]
+	quest.7F85669FEA41CD97.quest_desc: ["Người bảo vệ trung lập của &6Làng&r. Anh ấy sẽ tấn công tất cả Mobs thù địch gần đó. Giống như Iron Golem nhưng anh ấy trông quen thuộc tại sao? Có thể là ai đó chúng ta biết trong bộ đồng phục? \n\n\n\nBạn có thể giao dịch Potion Hồi phục và Ngọc lục bảo với anh ấy để lấy Bản đồ Cuộn, sẽ sớm được tạo ra để giúp đỡ chống lại &aPháo đài Evoker&r! \n\n\n\nNếu bạn muốn giết anh ấy, anh ấy sẽ liên tục tấn công bạn bằng &6phép Thánh&r. Anh ấy cũng sẽ tự hồi phục khi máu thấp. \n\n\n\nKhi bị giết, anh ấy sẽ rơi Tinh hoa Huyền ảo, Mực, &6Rune Thánh&r và &6Cuộn Thánh&r.\n\n{image:atm:textures/questpics/iron_spells/spells_priest.png width:100 height:200 align:center}"]
 	quest.7F85669FEA41CD97.title: "&6&lLinh mục"
-	quest.7FC54AF87CBDD222.quest_desc: [
-		"&5Chiến trường cổ&r chỉ là một mảnh của quá khứ. \"
-		"\"
-		"Ai biết chuyện gì đã xảy ra. \"
-		"\"
-		"Ai biết ai đã chiến đấu với ai. Tất cả những gì chúng ta có bây giờ là những mảnh tường và những đống &5Áo giáp&r này. Có thể chỉ cần nhặt chúng lên bằng cách &5Khai thác&r với Cuốc của bạn."
-		"{image:atm:textures/questpics/iron_spells/spells_battleground.png width:200 height:100 align:center}"
-	]
+	quest.7FC54AF87CBDD222.quest_desc: ["&5Chiến trường cổ&r chỉ là một mảnh của quá khứ. \n\n\n\nAi biết chuyện gì đã xảy ra. \n\n\n\nAi biết ai đã chiến đấu với ai. Tất cả những gì chúng ta có bây giờ là những mảnh tường và những đống &5Áo giáp&r này. Có thể chỉ cần nhặt chúng lên bằng cách &5Khai thác&r với Cuốc của bạn.\n\n{image:atm:textures/questpics/iron_spells/spells_battleground.png width:200 height:100 align:center}"]
 	quest.7FC54AF87CBDD222.title: "&5Chiến trường cổ"
 	task.00C6A5CB44392D7E.title: "Mọi quyền được bảo lưu"
 	task.1CC0E97BB8DC4F35.title: "Giết 5 Necromancers"

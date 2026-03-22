@@ -2,113 +2,48 @@
 	quest.06094615950AC062.title: "Các nâng cấp băng chuyền khác"
 	quest.0BCCDE24D378F260.quest_subtitle: "Cấp: &d3"
 	quest.0BCCDE24D378F260.title: "&dKhung Máy Nâng Cao"
-	quest.0E8647B8EB4AAC41.quest_desc: [
-		"Sinh vật Hòa bình -> Nhiều Pink Slime.\"
-		"Sinh vật Thù địch -> Nhiều Thịt."
-	]
+	quest.0E8647B8EB4AAC41.quest_desc: ["Sinh vật Hòa bình -> Nhiều Pink Slime.\n\nSinh vật Thù địch -> Nhiều Thịt."]
 	quest.0E8647B8EB4AAC41.title: "Pink Slime \\& Thịt Lỏng"
-	quest.0EA9E52B67B533DF.quest_desc: [
-		"Khi Cao su được nấu chảy, nó biến thành Nhựa, đây là tài nguyên chính trong Industrial Foregoing."
-	]
-	quest.0EC2053B191C55C6.quest_desc: [
-		"Chiết xuất Latex từ các khối gỗ, chạy nhanh hơn khi được cấp năng lượng.\"
-		"\"
-		"Kiểm tra JEI để xem các loại gỗ chấp nhận được và lượng Latex. Loại gỗ tốt nhất là Acacia."
-	]
-	quest.0FAAE744E156D8EF.quest_desc: [
-		"Lò Phản Ứng Mycelial &b&r bao gồm tất cả các Máy Phát Mycelial hoạt động cùng lúc, gần khối lò phản ứng, và nó sản xuất tổng cộng &a25MFE/t&r.\"
-		"\"
-		"Nghe có vẻ tốt, nhưng bạn cần tự động hóa một số thứ để nó hoạt động, xem mỗi Máy Phát Mycelial tiêu thụ gì để hoạt động, và tự động hóa nó, hầu hết mọi thứ đơn giản, nhưng số khác thì không đơn giản lắm... &oxem Máy Phát Mycelial Hủy Bùa&r.\"
-		"\"
-		"Nhưng sau khi bạn tự động hóa tất cả, bạn không cần dừng lại ở một cái, bạn có thể tạo thêm nhiều lò phản ứng."
-	]
+	quest.0EA9E52B67B533DF.quest_desc: ["Khi Cao su được nấu chảy, nó biến thành Nhựa, đây là tài nguyên chính trong Industrial Foregoing."]
+	quest.0EC2053B191C55C6.quest_desc: ["Chiết xuất Latex từ các khối gỗ, chạy nhanh hơn khi được cấp năng lượng.\n\n\n\nKiểm tra JEI để xem các loại gỗ chấp nhận được và lượng Latex. Loại gỗ tốt nhất là Acacia."]
+	quest.0FAAE744E156D8EF.quest_desc: ["Lò Phản Ứng Mycelial &b&r bao gồm tất cả các Máy Phát Mycelial hoạt động cùng lúc, gần khối lò phản ứng, và nó sản xuất tổng cộng &a25MFE/t&r.\n\n\n\nNghe có vẻ tốt, nhưng bạn cần tự động hóa một số thứ để nó hoạt động, xem mỗi Máy Phát Mycelial tiêu thụ gì để hoạt động, và tự động hóa nó, hầu hết mọi thứ đơn giản, nhưng số khác thì không đơn giản lắm... &oxem Máy Phát Mycelial Hủy Bùa&r.\n\n\n\nNhưng sau khi bạn tự động hóa tất cả, bạn không cần dừng lại ở một cái, bạn có thể tạo thêm nhiều lò phản ứng."]
 	quest.0FAAE744E156D8EF.quest_subtitle: "Lò Phản Ứng Mycelial, hử?"
-	quest.1823CC81D613892B.quest_desc: [
-		"Sinh vật Hòa bình -> Nhiều Pink Slime"
-		"Sinh vật Thù địch -> Nhiều Thịt"
-	]
-	quest.1BA3D15FFE7DBE59.quest_desc: [
-		"Trong &bIndustrial Foregoing&r, một trong những tài nguyên chính là &fLatex.&r Nó được dùng để chế tạo Khung Máy, cần thiết để làm máy và nâng cấp.\"
-		"\"
-		"Việc sản xuất Latex khá đơn giản, &aFluid Extractor&r chiết xuất Latex từ &6Khối gỗ&r (Acacia cho nhiều nhất).\"
-		"\"
-		"------------------------\"
-		"\"
-		"Bây giờ về việc sản xuất Nhựa: Nhựa là kết quả từ việc nấu chảy Cao su Khô - được tạo ra trong &aLatex Processing Unit&r, biến Latex thành Cao su Khô.\"
-		"\"
-		"&bVì vậy về cơ bản Latex -> Cao su Khô -> Nhựa."
-	]
+	quest.1823CC81D613892B.quest_desc: ["Sinh vật Hòa bình -> Nhiều Pink Slime\n\nSinh vật Thù địch -> Nhiều Thịt"]
+	quest.1BA3D15FFE7DBE59.quest_desc: ["Trong &bIndustrial Foregoing&r, một trong những tài nguyên chính là &fLatex.&r Nó được dùng để chế tạo Khung Máy, cần thiết để làm máy và nâng cấp.\n\n\n\nViệc sản xuất Latex khá đơn giản, &aFluid Extractor&r chiết xuất Latex từ &6Khối gỗ&r (Acacia cho nhiều nhất).\n\n\n\n------------------------\n\n\n\nBây giờ về việc sản xuất Nhựa: Nhựa là kết quả từ việc nấu chảy Cao su Khô - được tạo ra trong &aLatex Processing Unit&r, biến Latex thành Cao su Khô.\n\n\n\n&bVì vậy về cơ bản Latex -> Cao su Khô -> Nhựa."]
 	quest.1BA3D15FFE7DBE59.quest_subtitle: "Latex và Nhựa? Hử?"
 	quest.1BA3D15FFE7DBE59.title: "Cao su và Nhựa? Hả?"
-	quest.2CCFEE98FE3B2E97.quest_desc: [
-		"Những cỗ máy này được dùng để tự động đặt/phá khối. Điều này đặc biệt hữu ích khi tự động hóa việc sản xuất cao su."
-	]
+	quest.2CCFEE98FE3B2E97.quest_desc: ["Những cỗ máy này được dùng để tự động đặt/phá khối. Điều này đặc biệt hữu ích khi tự động hóa việc sản xuất cao su."]
 	quest.2CCFEE98FE3B2E97.title: "Khối"
-	quest.2F69010E1FA2787D.quest_desc: [
-		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các modpack AllTheMods. \"
-		"\"
-		"Vì tất cả các modpack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, nhiệm vụ này không được phép sử dụng trong bất kỳ modpack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. \"
-		"\"
-		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
-	]
+	quest.2F69010E1FA2787D.quest_desc: ["Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các modpack AllTheMods. \n\n\n\nVì tất cả các modpack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, nhiệm vụ này không được phép sử dụng trong bất kỳ modpack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. \n\n\n\nNhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."]
 	quest.3027584AA6138E6D.title: "Băng chuyền Chèn \\& Trích xuất"
 	quest.321FA7348E532F4E.title: "Cao su"
-	quest.33532408B21A5378.quest_desc: [
-		"Máy phát Pitiful tạo ra một lượng nhỏ FE bằng nhiên liệu đốt được như Than."
-	]
+	quest.33532408B21A5378.quest_desc: ["Máy phát Pitiful tạo ra một lượng nhỏ FE bằng nhiên liệu đốt được như Than."]
 	quest.339DF320DDCAD98B.title: "Vận chuyển Vật phẩm \\& Dung dịch"
 	quest.3514E9C1A8C7400C.quest_subtitle: "Cấp: &b2"
 	quest.3514E9C1A8C7400C.title: "&bKhung Máy Đơn giản"
-	quest.3CB7884B7B32CF00.quest_desc: [
-		"Lần đầu tiên lấy được &bEther Gas&r có thể hơi đáng sợ."
-		"&bEther Gas&r được tạo ra bằng cách khoan Wither, sử dụng Fluid Drill với &5Purple Lens&r."
-		"Nhưng đừng lo về Wither, Industrial Foregoing có một máy giúp bạn với nhiệm vụ đó. &4Stasis Chamber&r là một máy đóng băng mọi thứ trên nó trong khu vực 3x3, bao gồm Wither."
-		"&cHy vọng bạn không hết năng lượng, vì nếu hết... Tôi hy vọng bạn sẵn sàng chiến đấu với &0Wither&c."
-	]
+	quest.3CB7884B7B32CF00.quest_desc: ["Lần đầu tiên lấy được &bEther Gas&r có thể hơi đáng sợ.\n\n\n\n&bEther Gas&r được tạo ra bằng cách khoan Wither, sử dụng Fluid Drill với &5Purple Lens&r.\n\n\n\nNhưng đừng lo về Wither, Industrial Foregoing có một máy giúp bạn với nhiệm vụ đó. &4Stasis Chamber&r là một máy đóng băng mọi thứ trên nó trong khu vực 3x3, bao gồm Wither.\n\n\n\n&cHy vọng bạn không hết năng lượng, vì nếu hết... Tôi hy vọng bạn sẵn sàng chiến đấu với &0Wither&c."]
 	quest.3CB7884B7B32CF00.quest_subtitle: "Ether Gas? Hả?"
-	quest.3E6706BC4C318A40.quest_desc: [
-		"Cống được dùng để tạo Nước thải, sau đó dùng để tạo Phân bón."
-	]
+	quest.3E6706BC4C318A40.quest_desc: ["Cống được dùng để tạo Nước thải, sau đó dùng để tạo Phân bón."]
 	quest.3E6706BC4C318A40.title: "Cống"
-	quest.418E57E34FFC19E1.quest_desc: [
-		"Gợi ý: Sử dụng loại Kính chống Wither nào đó."
-	]
+	quest.418E57E34FFC19E1.quest_desc: ["Gợi ý: Sử dụng loại Kính chống Wither nào đó."]
 	quest.418E57E34FFC19E1.quest_subtitle: "Máy khai thác Hư không"
 	quest.418E57E34FFC19E1.title: "Máy khoan Laser"
 	quest.41E8550FC36ABCA5.title: "Công cụ Vô cực"
 	quest.427C3AFC0FF131CD.title: "Chất lỏng"
 	quest.485AFAE5BBEF2FC7.title: "Động vật"
-	quest.4C366515E3CCB0B2.quest_desc: [
-		"Thịt qua ống, ngon quá."
-	]
-	quest.4DB5DD6E20619B4D.quest_desc: [
-		"Dùng để cải thiện máy móc."
-	]
-	quest.540B857F043C24D5.quest_desc: [
-		"Máy phản ứng sinh học sử dụng nhiên liệu sinh học được tạo từ Máy phát nhiên liệu sinh học để sinh ra Điện năng (FE)."
-	]
+	quest.4C366515E3CCB0B2.quest_desc: ["Thịt qua ống, ngon quá."]
+	quest.4DB5DD6E20619B4D.quest_desc: ["Dùng để cải thiện máy móc."]
+	quest.540B857F043C24D5.quest_desc: ["Máy phản ứng sinh học sử dụng nhiên liệu sinh học được tạo từ Máy phát nhiên liệu sinh học để sinh ra Điện năng (FE)."]
 	quest.540B857F043C24D5.title: "Điện sinh học"
-	quest.55820773BDD5319D.quest_desc: [
-		"&bIndustrial Foregoing&r (viết tắt IF) là mod công nghệ bổ sung nhiều máy móc với các công dụng đa dạng."
-		"Để bắt đầu, chế tạo một &aPity Machine Frame&r."
-	]
+	quest.55820773BDD5319D.quest_desc: ["&bIndustrial Foregoing&r (viết tắt IF) là mod công nghệ bổ sung nhiều máy móc với các công dụng đa dạng.\n\n\n\nĐể bắt đầu, chế tạo một &aPity Machine Frame&r."]
 	quest.55820773BDD5319D.quest_subtitle: "Cấp độ: &a1"
 	quest.55820773BDD5319D.title: "Industrial Foregoing"
-	quest.57C4A0BAE739E903.quest_desc: [
-		"Buồng hòa tan dùng để chế tạo các máy móc tiên tiến hơn."
-		"Bạn cần đổ một loại chất lỏng cụ thể vào cùng với các vật liệu cần thiết cho món bạn đang chế tạo. Kiểm tra JEI."
-	]
+	quest.57C4A0BAE739E903.quest_desc: ["Buồng hòa tan dùng để chế tạo các máy móc tiên tiến hơn.\n\n\n\nBạn cần đổ một loại chất lỏng cụ thể vào cùng với các vật liệu cần thiết cho món bạn đang chế tạo. Kiểm tra JEI."]
 	quest.57C4A0BAE739E903.quest_subtitle: "Bàn chế tạo?"
-	quest.5FE631066CAB7397.quest_desc: [
-		"Dùng để bẫy và vận chuyển sinh vật dễ dàng."
-	]
-	quest.690CFF61CE787D43.quest_desc: [
-		"Nhựa là tài nguyên chính của &bIndustrial Foregoing&r, bây giờ bạn đã có thể truy cập vào một số máy móc rất hữu ích!"
-	]
+	quest.5FE631066CAB7397.quest_desc: ["Dùng để bẫy và vận chuyển sinh vật dễ dàng."]
+	quest.690CFF61CE787D43.quest_desc: ["Nhựa là tài nguyên chính của &bIndustrial Foregoing&r, bây giờ bạn đã có thể truy cập vào một số máy móc rất hữu ích!"]
 	quest.6C001E18093FC037.title: "Thực vật"
-	quest.6FF04DD735346BED.quest_desc: [
-		"Biến Latex thành Cao su khô."
-	]
+	quest.6FF04DD735346BED.quest_desc: ["Biến Latex thành Cao su khô."]
 	quest.7B4AF35313D7D779.quest_subtitle: "Cấp bậc: &64"
 	quest.7B4AF35313D7D779.title: "&6Khung máy tối thượng"
 	quest.7E39FB9F3E973009.title: "Khí Ether"

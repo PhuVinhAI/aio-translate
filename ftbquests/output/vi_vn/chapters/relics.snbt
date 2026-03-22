@@ -1,197 +1,85 @@
 {
-	quest.12449D23295CF9ED.quest_desc: [
-		"Mặc dù có thể không có con &9Sứa&r nào trong &2Minecraft&r, nhưng chúng ta vẫn có thể lấy được sức mạnh của chúng! Với &9Vòng cổ Sứa&r! Khi đeo nó, khả năng thứ nhất và thụ động cho phép bạn không chìm trong nước, có thể đi trên mặt nước. \"
-		" \"
-		"Khả năng thứ hai, cũng là một khả năng thụ động, khiến bạn có thể đốt những quái vật đến gần. Nó có thể được nâng cấp để gây nhiều sát thương hơn. \"
-		" \"
-		"Khả năng cuối cùng trao hiệu ứng cho Khả năng thứ hai. Bất kỳ quái vật nào bị Khả năng thứ hai đánh trúng sẽ bị tê liệt! May mắn là giờ đây không còn con &9Sứa&r nào trong &2Minecraft&r nữa..."
-	]
+	quest.12449D23295CF9ED.quest_desc: ["Mặc dù có thể không có con &9Sứa&r nào trong &2Minecraft&r, nhưng chúng ta vẫn có thể lấy được sức mạnh của chúng! Với &9Vòng cổ Sứa&r! Khi đeo nó, khả năng thứ nhất và thụ động cho phép bạn không chìm trong nước, có thể đi trên mặt nước. \n\n \n\nKhả năng thứ hai, cũng là một khả năng thụ động, khiến bạn có thể đốt những quái vật đến gần. Nó có thể được nâng cấp để gây nhiều sát thương hơn. \n\n \n\nKhả năng cuối cùng trao hiệu ứng cho Khả năng thứ hai. Bất kỳ quái vật nào bị Khả năng thứ hai đánh trúng sẽ bị tê liệt! May mắn là giờ đây không còn con &9Sứa&r nào trong &2Minecraft&r nữa..."]
 	quest.12449D23295CF9ED.quest_subtitle: "Có thể tìm thấy trong Tàu đắm và Di tích Đại dương"
 	quest.12449D23295CF9ED.title: "&9Vòng cổ Sứa"
-	quest.12A63C5F8E918266.quest_desc: [
-		"Những &aỦng Cá Nhỏ&r này giúp bạn bơi nhanh hơn với Khả năng Đầu tiên. Nâng cấp chúng để bơi nhanh hơn một chút!"
-		"Khả năng Thứ hai cũng hoạt động với &9Nước&r, chỉ là loại từ trên trời. Bạn sẽ chạy nhanh hơn khi trời mưa."
-		"Khả năng Cuối cùng ảnh hưởng đến phổi của bạn, cho bạn cơ hội không sử dụng Bong bóng Oxy khi dưới nước."
-	]
+	quest.12A63C5F8E918266.quest_desc: ["Những &aỦng Cá Nhỏ&r này giúp bạn bơi nhanh hơn với Khả năng Đầu tiên. Nâng cấp chúng để bơi nhanh hơn một chút!\n\n\n\nKhả năng Thứ hai cũng hoạt động với &9Nước&r, chỉ là loại từ trên trời. Bạn sẽ chạy nhanh hơn khi trời mưa.\n\n\n\nKhả năng Cuối cùng ảnh hưởng đến phổi của bạn, cho bạn cơ hội không sử dụng Bong bóng Oxy khi dưới nước."]
 	quest.12A63C5F8E918266.quest_subtitle: "Tìm thấy trong Tàu Đắm và Đổ Nát Đại Dương"
 	quest.12A63C5F8E918266.title: "&aỦng Lưỡng Cư"
-	quest.18DB8C875F2331B2.quest_desc: [
-		"Tên lửa quá đắt? Bạn có thể dùng &7Bộ Đẩy Elytra&r thay thế tên lửa. Mặc cả Elytra và &7Bộ Đẩy Elytra&r, sau đó Đổ Nhiên liệu vào Bộ Đẩy. Nó chấp nhận bất kỳ Nhiên liệu Lò nung nào: Than, Lava, Khúc Gỗ, thậm chí Khối Tảo Biển Khô. Sau đó khi bay với Elytra, nhấn Left Alt để Tăng tốc! Bây giờ bạn đang bay với Nhiên liệu Thân thiện Môi trường rẻ hơn nhiều!"
-	]
+	quest.18DB8C875F2331B2.quest_desc: ["Tên lửa quá đắt? Bạn có thể dùng &7Bộ Đẩy Elytra&r thay thế tên lửa. Mặc cả Elytra và &7Bộ Đẩy Elytra&r, sau đó Đổ Nhiên liệu vào Bộ Đẩy. Nó chấp nhận bất kỳ Nhiên liệu Lò nung nào: Than, Lava, Khúc Gỗ, thậm chí Khối Tảo Biển Khô. Sau đó khi bay với Elytra, nhấn Left Alt để Tăng tốc! Bây giờ bạn đang bay với Nhiên liệu Thân thiện Môi trường rẻ hơn nhiều!"]
 	quest.18DB8C875F2331B2.quest_subtitle: "Tìm thấy trong Thành Phố End và Tàu End"
-	quest.1E2A9446594638E2.quest_desc: [
-		"&5Ứng cực Chorus&r là một &6Di vật&r đơn giản khác. Nó có thể dịch chuyển bạn đến một khối bạn đang nhìn vào nếu nó trong phạm vi. Phạm vi có thể được nâng cấp trong &6Cửa sổ Nghiên cứu&r."
-	]
+	quest.1E2A9446594638E2.quest_desc: ["&5Ứng cực Chorus&r là một &6Di vật&r đơn giản khác. Nó có thể dịch chuyển bạn đến một khối bạn đang nhìn vào nếu nó trong phạm vi. Phạm vi có thể được nâng cấp trong &6Cửa sổ Nghiên cứu&r."]
 	quest.1E2A9446594638E2.quest_subtitle: "Tìm thấy trong Thành Phố End và Tàu End"
 	quest.1E2A9446594638E2.title: "&5Ứng cực Chorus"
-	quest.21BEE9867796933A.quest_desc: [
-		"Cái này rất đơn giản. Đeo &9Bao Tay&r của bạn, nhặt một ít &fTuyết&r, vò nó lại, và Bùm bạn vừa làm ra một &fQuả Tuyết&r! Những cái này tốt hơn &2Quả Tuyết Gốc&r, những cái này được làm với &9Bao Tay&r!"
-	]
+	quest.21BEE9867796933A.quest_desc: ["Cái này rất đơn giản. Đeo &9Bao Tay&r của bạn, nhặt một ít &fTuyết&r, vò nó lại, và Bùm bạn vừa làm ra một &fQuả Tuyết&r! Những cái này tốt hơn &2Quả Tuyết Gốc&r, những cái này được làm với &9Bao Tay&r!"]
 	quest.21BEE9867796933A.quest_subtitle: "Tìm thấy trong Làng ở Taiga hoặc Taiga Tuyết"
 	quest.21BEE9867796933A.title: "&9Găng tay len"
-	quest.2B08B19B35EEBCBA.quest_desc: [
-		"Những Di vật này có thể được tìm thấy trong &cNether&r!"
-	]
+	quest.2B08B19B35EEBCBA.quest_desc: ["Những Di vật này có thể được tìm thấy trong &cNether&r!"]
 	quest.2B08B19B35EEBCBA.title: "&cNether"
-	quest.32AE664113F01CF7.quest_desc: [
-		"&eSpace Dissector&r nên được đặt tên là &eWormhole Creator&r, nó tạo ra cổng từ một vị trí đến vị trí khác. Để đặt các vị trí: Giữ Chuột Phải để đặt cổng đầu tiên, sau đó di chuyển và ngừng Giữ Chuột Phải để đặt cổng thứ hai. Bạn có thể nâng cấp chúng để tăng khoảng cách giữa chúng và thời gian chúng tồn tại. Hehe không gian và thời gian, cổng... nếu bạn thông minh hơn, bạn sẽ cười."
-	]
+	quest.32AE664113F01CF7.quest_desc: ["&eSpace Dissector&r nên được đặt tên là &eWormhole Creator&r, nó tạo ra cổng từ một vị trí đến vị trí khác. Để đặt các vị trí: Giữ Chuột Phải để đặt cổng đầu tiên, sau đó di chuyển và ngừng Giữ Chuột Phải để đặt cổng thứ hai. Bạn có thể nâng cấp chúng để tăng khoảng cách giữa chúng và thời gian chúng tồn tại. Hehe không gian và thời gian, cổng... nếu bạn thông minh hơn, bạn sẽ cười."]
 	quest.32AE664113F01CF7.quest_subtitle: "Có thể tìm thấy trong Cổng hỏng, Pháo đài Nether và Pháo đài"
 	quest.32AE664113F01CF7.title: "&eMáy phân tích không gian"
-	quest.395668FBCB6537AF.quest_desc: [
-		"Những 'Babes' yêu thích &eBling&r! Chiếc &eBastion Ring&r hoàn hảo cho người thích trao đổi. Khi đeo nó, Piglins sẽ trung lập với bạn giống như khi bạn đeo &eVàng&r. Tuy nhiên, điều này không có nghĩa là bạn có thể tự do lục lọi rương của chúng. Chiếc &eNhẫn&r cũng sẽ cho bạn cơ hội nhận được nhiều Loot hơn từ Bartering."
-		"(Khi đeo &eNhẫn&r, Piglins có thể chỉ bạn đến Pháo đài gần nhất)."
-	]
+	quest.395668FBCB6537AF.quest_desc: ["Những 'Babes' yêu thích &eBling&r! Chiếc &eBastion Ring&r hoàn hảo cho người thích trao đổi. Khi đeo nó, Piglins sẽ trung lập với bạn giống như khi bạn đeo &eVàng&r. Tuy nhiên, điều này không có nghĩa là bạn có thể tự do lục lọi rương của chúng. Chiếc &eNhẫn&r cũng sẽ cho bạn cơ hội nhận được nhiều Loot hơn từ Bartering.\n\n\n\n(Khi đeo &eNhẫn&r, Piglins có thể chỉ bạn đến Pháo đài gần nhất)."]
 	quest.395668FBCB6537AF.quest_subtitle: "Có thể tìm thấy trong Cổng hỏng, Pháo đài Nether và Pháo đài"
 	quest.395668FBCB6537AF.title: "&eNhẫn Pháo đài"
-	quest.3BD73FEAE853D350.quest_desc: [
-		"Bạn có bao giờ ghét việc &bBăng&r chậm trừ khi dùng Thuyền không? Điều đó vẫn chưa có ý nghĩa với tôi! &bGiày trượt băng&r thay đổi điều đó, giờ bạn tăng tốc trên &bBăng&r khi đeo &bGiày trượt băng&r. Bạn có thể nâng cấp chúng để tăng tốc nhanh hơn!"
-		"Sau khi nâng cấp, bạn có thể nhận được Khả năng Thứ hai cho phép bạn gây sát thương lên Quái vật bằng cách chạm vào chúng khi đeo &bGiày trượt băng&r."
-	]
+	quest.3BD73FEAE853D350.quest_desc: ["Bạn có bao giờ ghét việc &bBăng&r chậm trừ khi dùng Thuyền không? Điều đó vẫn chưa có ý nghĩa với tôi! &bGiày trượt băng&r thay đổi điều đó, giờ bạn tăng tốc trên &bBăng&r khi đeo &bGiày trượt băng&r. Bạn có thể nâng cấp chúng để tăng tốc nhanh hơn!\n\n\n\nSau khi nâng cấp, bạn có thể nhận được Khả năng Thứ hai cho phép bạn gây sát thương lên Quái vật bằng cách chạm vào chúng khi đeo &bGiày trượt băng&r."]
 	quest.3BD73FEAE853D350.quest_subtitle: "Tìm thấy trong các làng ở Taiga hoặc Taiga tuyết"
 	quest.3BD73FEAE853D350.title: "&bGiày trượt băng"
-	quest.3E8BA5E075ABD136.quest_desc: [
-		"&7Ice Breakers&r Khả năng đầu tiên là làm cho sự cân bằng của bạn vững chắc như đá. Lực knockback bị giảm và trượt trên &bIce&r cũng bị giảm. \"
-		" \"
-		"Khả năng thứ hai là Earthquake! Khi đang rơi, hãy chọn Earthquake với Left Alt và khi bạn hạ cánh, nó sẽ tạo ra một sóng xung dưới chân bạn, gây sát thương tất cả các mob ở gần."
-	]
+	quest.3E8BA5E075ABD136.quest_desc: ["&7Ice Breakers&r Khả năng đầu tiên là làm cho sự cân bằng của bạn vững chắc như đá. Lực knockback bị giảm và trượt trên &bIce&r cũng bị giảm. \n\n \n\nKhả năng thứ hai là Earthquake! Khi đang rơi, hãy chọn Earthquake với Left Alt và khi bạn hạ cánh, nó sẽ tạo ra một sóng xung dưới chân bạn, gây sát thương tất cả các mob ở gần."]
 	quest.3E8BA5E075ABD136.quest_subtitle: "Tìm thấy trong các làng ở Taiga hoặc Taiga tuyết"
 	quest.3E8BA5E075ABD136.title: "Ice Breakers"
-	quest.3E99F4CD379DE9D7.quest_desc: [
-		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Community contributor&r để sử dụng trong AllTheMods Modpacks.\"
-		"\"
-		"Vì tất cả các gói &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ gói công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng.\"
-		"\"
-		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
-	]
-	quest.40AB457E37919ABE.quest_desc: [
-		"Bạn thích bay? Bạn thích đốt cháy? Bạn thích cả hai? Vậy Blazing Flask hoàn hảo cho bạn! Nhấp chuột phải vào Blazing Flask gần nguồn lửa và một vòng tròn sẽ được tạo ra xung quanh nó. Trong vòng tròn đó, bạn sẽ được ban tặng khả năng bay như chế độ sáng tạo. Vòng tròn có thể được mở rộng thông qua nâng cấp nó trong &6Research Window&r và bằng cách thêm nhiều lửa hơn!"
-	]
+	quest.3E99F4CD379DE9D7.quest_desc: ["Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Community contributor&r để sử dụng trong AllTheMods Modpacks.\n\n\n\nVì tất cả các gói &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ gói công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng.\n\n\n\nNhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."]
+	quest.40AB457E37919ABE.quest_desc: ["Bạn thích bay? Bạn thích đốt cháy? Bạn thích cả hai? Vậy Blazing Flask hoàn hảo cho bạn! Nhấp chuột phải vào Blazing Flask gần nguồn lửa và một vòng tròn sẽ được tạo ra xung quanh nó. Trong vòng tròn đó, bạn sẽ được ban tặng khả năng bay như chế độ sáng tạo. Vòng tròn có thể được mở rộng thông qua nâng cấp nó trong &6Research Window&r và bằng cách thêm nhiều lửa hơn!"]
 	quest.40AB457E37919ABE.quest_subtitle: "Tìm thấy trong Ruined Portals, Pháo đài Nether và Bastions"
 	quest.40AB457E37919ABE.title: "&5Blazing Flask"
-	quest.431A8FDF15701BA4.quest_desc: [
-		"&2Hunter's Belt&r hoạt động giống như Leather Belt ở chỗ nó giữ các Talisman. Đó là khả năng đầu tiên có thể được nâng cấp để giữ nhiều hơn! \"
-		" \"
-		"Khả năng thứ hai tăng sát thương mà thú cưng của bạn gây ra. Thú cưng là các Mob đã được thuần hóa có thể gây sát thương lên các Mob khác, như sói!"
-	]
+	quest.431A8FDF15701BA4.quest_desc: ["&2Hunter's Belt&r hoạt động giống như Leather Belt ở chỗ nó giữ các Talisman. Đó là khả năng đầu tiên có thể được nâng cấp để giữ nhiều hơn! \n\n \n\nKhả năng thứ hai tăng sát thương mà thú cưng của bạn gây ra. Thú cưng là các Mob đã được thuần hóa có thể gây sát thương lên các Mob khác, như sói!"]
 	quest.431A8FDF15701BA4.quest_subtitle: "Có thể tìm thấy trong Nhà Hàng Thịt của bất kỳ Làng nào"
 	quest.431A8FDF15701BA4.title: "&2Thắt Lưng Săn Bắn"
-	quest.54822638CC243004.quest_desc: [
-		"Cá nóc khá tuyệt, tương tự với Guardian, tương tự với Gai! Mỗi sát thương gây ra khi đeo &9Vòng Cổ Phản Xạ&r sẽ tích lũy điểm. Sau 5 giây từ lần sát thương cuối hoặc khi điểm đầy, &9Vòng Cổ&r sẽ bắn ra &5Gai Obsidian&r theo mọi hướng gây sát thương tất cả xung quanh."
-	]
+	quest.54822638CC243004.quest_desc: ["Cá nóc khá tuyệt, tương tự với Guardian, tương tự với Gai! Mỗi sát thương gây ra khi đeo &9Vòng Cổ Phản Xạ&r sẽ tích lũy điểm. Sau 5 giây từ lần sát thương cuối hoặc khi điểm đầy, &9Vòng Cổ&r sẽ bắn ra &5Gai Obsidian&r theo mọi hướng gây sát thương tất cả xung quanh."]
 	quest.54822638CC243004.quest_subtitle: "Có thể tìm thấy trong Cổng Phá Sập, Pháo Đài Nether và Bastion"
 	quest.54822638CC243004.title: "&9Vòng Cổ Phản Xạ"
-	quest.5758645223B4B5BA.quest_desc: [
-		"Với &3Đôi Giày Aqua&r, bạn có thể sử dụng khả năng của nó để đi trên &9Nước&r! Bạn có thể giữ Shift để chìm xuống &9Nước&r và bơi lội. Tôi nghĩ tôi đã từng đọc về một câu chuyện như thế?"
-	]
+	quest.5758645223B4B5BA.quest_desc: ["Với &3Đôi Giày Aqua&r, bạn có thể sử dụng khả năng của nó để đi trên &9Nước&r! Bạn có thể giữ Shift để chìm xuống &9Nước&r và bơi lội. Tôi nghĩ tôi đã từng đọc về một câu chuyện như thế?"]
 	quest.5758645223B4B5BA.quest_subtitle: "Có thể tìm thấy trong Tàu Đắm và Đổ Nát Đại Dương"
 	quest.5758645223B4B5BA.title: "&3Đôi Giày Aqua"
-	quest.5D82340E9BED9C79.quest_desc: [
-		"Những Di Vật này có thể tìm thấy trong &dThe End&r!"
-	]
+	quest.5D82340E9BED9C79.quest_desc: ["Những Di Vật này có thể tìm thấy trong &dThe End&r!"]
 	quest.5D82340E9BED9C79.title: "&dThe End"
-	quest.5EB87CE5F6DEFAAA.quest_desc: [
-		"&6Giày nham thạch&r cho phép bạn 2 điều: đi trên &cKhối nham thạch&r mà không nhận sát thương, và đi trên &4Lava&r trong một chút. &cKhối nham thạch&r không có thời gian hồi nhưng đi trên &4Lava&r thì có. Sau khi thời gian kết thúc, &6Giày&r sẽ quá nhiệt và gây sát thương cho bạn."
-	]
+	quest.5EB87CE5F6DEFAAA.quest_desc: ["&6Giày nham thạch&r cho phép bạn 2 điều: đi trên &cKhối nham thạch&r mà không nhận sát thương, và đi trên &4Lava&r trong một chút. &cKhối nham thạch&r không có thời gian hồi nhưng đi trên &4Lava&r thì có. Sau khi thời gian kết thúc, &6Giày&r sẽ quá nhiệt và gây sát thương cho bạn."]
 	quest.5EB87CE5F6DEFAAA.quest_subtitle: "Tìm thấy trong Cổng bị phá hủy, Pháo đài Nether và Bastion"
 	quest.5EB87CE5F6DEFAAA.title: "&6Giày nham thạch"
-	quest.60CECAAE2D43EC6E.quest_desc: [
-		"&2Bàn tay End&r có hai khả năng: một Khả năng Thụ động và một Khả năng Chủ động. Khả năng Thụ động khiến &5Endermen&r không tức giận khi bạn nhìn chúng. Khả năng Chủ động cho phép bạn hoán đổi vị trí với một sinh vật bạn đang nhìn bằng Left Alt."
-	]
+	quest.60CECAAE2D43EC6E.quest_desc: ["&2Bàn tay End&r có hai khả năng: một Khả năng Thụ động và một Khả năng Chủ động. Khả năng Thụ động khiến &5Endermen&r không tức giận khi bạn nhìn chúng. Khả năng Chủ động cho phép bạn hoán đổi vị trí với một sinh vật bạn đang nhìn bằng Left Alt."]
 	quest.60CECAAE2D43EC6E.quest_subtitle: "Tìm thấy trong Thành phố End và Tàu End"
 	quest.60CECAAE2D43EC6E.title: "&2Bàn tay End"
-	quest.64141B720662B652.quest_desc: [
-		"Chào mừng đến với &6&lDi vật&r! \"
-		" \"
-		"Mod &6Di vật&r tương tự như Artifacts, bạn nhận được nhiều vật phẩm độc nhất và mạnh mẽ khắp các Thế giới. \"
-		" \"
-		"Chúng có nhiều Khả năng khác nhau có thể nhận được và nâng cấp thông qua &6Cửa sổ Nghiên cứu&r (Giữ shift trên di vật). Tại đó, bạn có thể đổi &aVanilla XP&r để reroll chỉ số trên khả năng của nó, xem &eDi vật XP&r hiện tại của bạn, nhận được từ việc sử dụng &6Di vật&r, và nâng cấp khả năng của chúng! \"
-		" \"
-		"Để sử dụng Khả năng &6Di vật&r, mặc định là Left Alt."
-	]
+	quest.64141B720662B652.quest_desc: ["Chào mừng đến với &6&lDi vật&r! \n\n \n\nMod &6Di vật&r tương tự như Artifacts, bạn nhận được nhiều vật phẩm độc nhất và mạnh mẽ khắp các Thế giới. \n\n \n\nChúng có nhiều Khả năng khác nhau có thể nhận được và nâng cấp thông qua &6Cửa sổ Nghiên cứu&r (Giữ shift trên di vật). Tại đó, bạn có thể đổi &aVanilla XP&r để reroll chỉ số trên khả năng của nó, xem &eDi vật XP&r hiện tại của bạn, nhận được từ việc sử dụng &6Di vật&r, và nâng cấp khả năng của chúng! \n\n \n\nĐể sử dụng Khả năng &6Di vật&r, mặc định là Left Alt."]
 	quest.64141B720662B652.title: "&l&6Di vật"
-	quest.6451D5022BCB5E7E.quest_desc: [
-		"The Eternal Steak, à nhầm mod rồi. &cGiăm bông vô cực&r hoạt động như một nguồn thực phẩm vô hạn. Ăn hết thịt trên xương và nó sẽ Tái tạo sau một thời gian. Bạn có thể nâng cấp nó để lấp đầy bụng nhiều hơn. \"
-		" \"
-		"Khả năng thứ hai của &cGiăm bông vô cực&r là ướp nó trong Potions. Khi bạn làm vậy, mỗi lần ăn từ &cGiăm bông&r bạn sẽ nhận được hiệu ứng Potion đó. Nếu bạn ăn hết thịt, nó sẽ mất hiệu ứng đó."
-	]
+	quest.6451D5022BCB5E7E.quest_desc: ["The Eternal Steak, à nhầm mod rồi. &cGiăm bông vô cực&r hoạt động như một nguồn thực phẩm vô hạn. Ăn hết thịt trên xương và nó sẽ Tái tạo sau một thời gian. Bạn có thể nâng cấp nó để lấp đầy bụng nhiều hơn. \n\n \n\nKhả năng thứ hai của &cGiăm bông vô cực&r là ướp nó trong Potions. Khi bạn làm vậy, mỗi lần ăn từ &cGiăm bông&r bạn sẽ nhận được hiệu ứng Potion đó. Nếu bạn ăn hết thịt, nó sẽ mất hiệu ứng đó."]
 	quest.6451D5022BCB5E7E.quest_subtitle: "Tìm thấy trong Mỏ gỗ hay Pháo đài"
 	quest.6451D5022BCB5E7E.title: "&cGiăm bông Vô hạn"
-	quest.677A701E06422CF3.quest_desc: [
-		"Cho phép bạn di chuyển nhanh hơn trên mọi khối bằng cách tăng tốc khi chạy trên chúng! Cảnh báo: trơn trượt hơn nhiều! Nâng cấp chúng để di chuyển nhanh hơn nữa."
-	]
+	quest.677A701E06422CF3.quest_desc: ["Cho phép bạn di chuyển nhanh hơn trên mọi khối bằng cách tăng tốc khi chạy trên chúng! Cảnh báo: trơn trượt hơn nhiều! Nâng cấp chúng để di chuyển nhanh hơn nữa."]
 	quest.677A701E06422CF3.quest_subtitle: "Tìm thấy trong hầm mỏ hay pháo đài"
 	quest.677A701E06422CF3.title: "&cGiày trượt"
-	quest.6B40AF49F505A551.quest_desc: [
-		"Bạn bao giờ muốn giống như Batman? Sống trong bóng tối mang lại công lý? Vậy thì &9Áo choàng Nửa đêm&r hoàn hảo cho bạn! {Nó cũng thời trang!) Khi mặc trong mức độ ánh sáng thấp, bạn sẽ trở nên Vô hình và được tăng Tốc độ. Có thể nâng cấp để mức độ ánh sáng cao hơn hoặc tăng thêm Tốc độ. \"
-		" \"
-		"Khả năng thứ hai gợi nhớ các trò chơi lén lút. Khi bạn đánh một Quái vật khi đang Vô hình, bạn sẽ gây nhiều sát thương hơn nhưng mất khả năng lén lút và Tốc độ cho đến khi bạn rời khỏi Vòng tròn tạo ra xung quanh Quái vật."
-	]
+	quest.6B40AF49F505A551.quest_desc: ["Bạn bao giờ muốn giống như Batman? Sống trong bóng tối mang lại công lý? Vậy thì &9Áo choàng Nửa đêm&r hoàn hảo cho bạn! {Nó cũng thời trang!) Khi mặc trong mức độ ánh sáng thấp, bạn sẽ trở nên Vô hình và được tăng Tốc độ. Có thể nâng cấp để mức độ ánh sáng cao hơn hoặc tăng thêm Tốc độ. \n\n \n\nKhả năng thứ hai gợi nhớ các trò chơi lén lút. Khi bạn đánh một Quái vật khi đang Vô hình, bạn sẽ gây nhiều sát thương hơn nhưng mất khả năng lén lút và Tốc độ cho đến khi bạn rời khỏi Vòng tròn tạo ra xung quanh Quái vật."]
 	quest.6B40AF49F505A551.quest_subtitle: "Tìm thấy trong hầm mỏ hay pháo đài"
 	quest.6B40AF49F505A551.title: "&9Áo choàng Nửa đêm"
-	quest.6FC7DC1F856A748D.quest_desc: [
-		"Được rồi, đây là một đoạn dài, hãy kiên nhẫn. Khả năng đầu tiên cho phép hai chế độ, &6Thánh thiện&r và &7Bất thiện&r. &6Thánh thiện&r lấy một phần Hồi phục của bạn và dùng nó làm Sát thương lên kẻ thù. &7Bất thiện&r ngược lại, nó lấy Hồi phục của kẻ thù để giúp bạn gây nhiều sát thương hơn. Các Quái vật như &dEnder Dragon&r và &5Wither&r đều tự phục hồi Máu. \"
-		" \"
-		"Khả năng thứ hai là Sự Hối cải, khi đang hoạt động nó sẽ Đốt cháy Quái vật Ma quỷ (Zombie, Skeleton và họ hàng của chúng). \"
-		" \"
-		"Khả năng thứ ba ban cho một khoảng thời gian ngắn Bất khả xâm phạm."
-	]
+	quest.6FC7DC1F856A748D.quest_desc: ["Được rồi, đây là một đoạn dài, hãy kiên nhẫn. Khả năng đầu tiên cho phép hai chế độ, &6Thánh thiện&r và &7Bất thiện&r. &6Thánh thiện&r lấy một phần Hồi phục của bạn và dùng nó làm Sát thương lên kẻ thù. &7Bất thiện&r ngược lại, nó lấy Hồi phục của kẻ thù để giúp bạn gây nhiều sát thương hơn. Các Quái vật như &dEnder Dragon&r và &5Wither&r đều tự phục hồi Máu. \n\n \n\nKhả năng thứ hai là Sự Hối cải, khi đang hoạt động nó sẽ Đốt cháy Quái vật Ma quỷ (Zombie, Skeleton và họ hàng của chúng). \n\n \n\nKhả năng thứ ba ban cho một khoảng thời gian ngắn Bất khả xâm phạm."]
 	quest.6FC7DC1F856A748D.quest_subtitle: "Tìm thấy trong tất cả các Làng"
 	quest.6FC7DC1F856A748D.title: "&6Thánh&r &7Locket&r"
-	quest.6FF54B5D953E1797.quest_desc: [
-		"Nếu bạn biết thuật ngữ &4Cuồng nộ&r trong hầu hết các game, điều đó sẽ giúp bạn hiểu &cRage Glove&r làm gì. Nếu bạn không biết, cơ bản của &4Cuồng nộ&r là khi ai đó có máu thấp hoặc nhận nhiều sát thương, thường họ sẽ gây ra sát thương cao hơn và di chuyển nhanh hơn. Đó là điều xảy ra với Khả năng Thứ nhất, khi bạn nhận sát thương, bạn tích lũy điểm có thể đổi lấy sát thương cao hơn và tốc độ! \"
-		" \"
-		"Khả năng Thứ hai thực hiện điều này một cách thụ động, và cấp cho bạn Hiệu ứng Hồi máu tùy theo lượng máu bạn đã mất. \"
-		" \"
-		"Khả năng Thứ ba là một kỹ năng chủ động, khi sử dụng nó (Alt Tab) bạn sẽ lao tấn công bất kỳ sinh vật nào bạn đang nhìn vào. Khi trúng, nó sẽ đốt cháy chúng (&cLửa&r), gây chảy máu, và bất kỳ điểm &4Cuồng nộ&r tích lũy nào sẽ gây thêm sát thương!"
-	]
+	quest.6FF54B5D953E1797.quest_desc: ["Nếu bạn biết thuật ngữ &4Cuồng nộ&r trong hầu hết các game, điều đó sẽ giúp bạn hiểu &cRage Glove&r làm gì. Nếu bạn không biết, cơ bản của &4Cuồng nộ&r là khi ai đó có máu thấp hoặc nhận nhiều sát thương, thường họ sẽ gây ra sát thương cao hơn và di chuyển nhanh hơn. Đó là điều xảy ra với Khả năng Thứ nhất, khi bạn nhận sát thương, bạn tích lũy điểm có thể đổi lấy sát thương cao hơn và tốc độ! \n\n \n\nKhả năng Thứ hai thực hiện điều này một cách thụ động, và cấp cho bạn Hiệu ứng Hồi máu tùy theo lượng máu bạn đã mất. \n\n \n\nKhả năng Thứ ba là một kỹ năng chủ động, khi sử dụng nó (Alt Tab) bạn sẽ lao tấn công bất kỳ sinh vật nào bạn đang nhìn vào. Khi trúng, nó sẽ đốt cháy chúng (&cLửa&r), gây chảy máu, và bất kỳ điểm &4Cuồng nộ&r tích lũy nào sẽ gây thêm sát thương!"]
 	quest.6FF54B5D953E1797.quest_subtitle: "Có thể tìm thấy trong Cổng Phá hủy, Pháo đài Nether và Pháo đài Bastion."
 	quest.6FF54B5D953E1797.title: "&cRage Glove&r"
-	quest.730130CCF1CF5119.quest_desc: [
-		"Các Di vật này có thể được tìm thấy trong &2Overworld&r!"
-	]
+	quest.730130CCF1CF5119.quest_desc: ["Các Di vật này có thể được tìm thấy trong &2Overworld&r!"]
 	quest.730130CCF1CF5119.title: "&2Overworld"
-	quest.748A01B5607C475B.quest_desc: [
-		"Giữ các Bùa hộ mệnh... không còn gì nhiều. Cũng có thể giữ quần của bạn nhưng chưa thử nghiệm."
-	]
+	quest.748A01B5607C475B.quest_desc: ["Giữ các Bùa hộ mệnh... không còn gì nhiều. Cũng có thể giữ quần của bạn nhưng chưa thử nghiệm."]
 	quest.748A01B5607C475B.quest_subtitle: "Có thể tìm thấy trong Mỏ giếng hoặc Pháo đài."
 	quest.748A01B5607C475B.title: "&6Thắt lưng da&r"
-	quest.7749703A10B78AB1.quest_desc: [
-		"Khả năng Đầu tiên với &8Drowned Belt&r nằm trong tên, nó là một Thắt lưng, nó giữ các Bùa hộ mệnh. \"
-		" \"
-		"Khả năng Thứ hai hoạt động khi bơi trong &9Nước&r. Bạn có bao giờ ghen tị với cách Drowned di chuyển qua &9Nước&r như thể đó là nhà của họ? Vâng, với Khả năng này bạn có thể giống họ! \"
-		" \"
-		"Khả năng Thứ ba hoạt động như Xuyên nhọn, bạn sẽ gây thêm Sát thương trong &9Nước&r. \"
-		" \"
-		"Và Khả năng Cuối cùng cũng hoạt động với Phép thuật Cây giáo, bạn giờ có thể sử dụng Dẫn lôi ở bất kỳ đâu bất kể bạn ướt hay không!"
-	]
+	quest.7749703A10B78AB1.quest_desc: ["Khả năng Đầu tiên với &8Drowned Belt&r nằm trong tên, nó là một Thắt lưng, nó giữ các Bùa hộ mệnh. \n\n \n\nKhả năng Thứ hai hoạt động khi bơi trong &9Nước&r. Bạn có bao giờ ghen tị với cách Drowned di chuyển qua &9Nước&r như thể đó là nhà của họ? Vâng, với Khả năng này bạn có thể giống họ! \n\n \n\nKhả năng Thứ ba hoạt động như Xuyên nhọn, bạn sẽ gây thêm Sát thương trong &9Nước&r. \n\n \n\nVà Khả năng Cuối cùng cũng hoạt động với Phép thuật Cây giáo, bạn giờ có thể sử dụng Dẫn lôi ở bất kỳ đâu bất kể bạn ướt hay không!"]
 	quest.7749703A10B78AB1.quest_subtitle: "Có thể tìm thấy trong Tàu đắm và Đổ nát đại dương."
 	quest.7749703A10B78AB1.title: "&8Thắt lưng Drowned"
-	quest.7A32C50A6125E566.quest_desc: [
-		"&aSpore Sack&r là tất cả về.. bạn đã đoán đúng! &aSpores&r!!! Kỹ năng đầu tiên giải phóng một &aSpore&r mỗi khi bạn bị tấn công. &aSpore&r sẽ bay xung quanh cho đến khi dính vào một Khối và sẽ nổ khi một quái vật đến gần. \"
-		" \"
-		"Kỹ năng thứ hai cho phép bạn tích lũy &aSpores&r. Mỗi khi bạn bị tấn công, 1 &aSpore&r được giải phóng và 1 được giữ trong &aSpore Sack&r của bạn để dùng sau. \"
-		" \"
-		"Kỹ năng thứ ba cho phép &aSpores&r nổi để sinh sản như tế bào, phân chia và nhân lên! \"
-		" \"
-		"Kỹ năng cuối cùng là tốt nhất! Sử dụng Left Alt bạn có thể giải phóng tất cả &aSpores&r đã tích lũy! Kích thước của chúng cũng phụ thuộc vào máu của bạn."
-	]
+	quest.7A32C50A6125E566.quest_desc: ["&aSpore Sack&r là tất cả về.. bạn đã đoán đúng! &aSpores&r!!! Kỹ năng đầu tiên giải phóng một &aSpore&r mỗi khi bạn bị tấn công. &aSpore&r sẽ bay xung quanh cho đến khi dính vào một Khối và sẽ nổ khi một quái vật đến gần. \n\n \n\nKỹ năng thứ hai cho phép bạn tích lũy &aSpores&r. Mỗi khi bạn bị tấn công, 1 &aSpore&r được giải phóng và 1 được giữ trong &aSpore Sack&r của bạn để dùng sau. \n\n \n\nKỹ năng thứ ba cho phép &aSpores&r nổi để sinh sản như tế bào, phân chia và nhân lên! \n\n \n\nKỹ năng cuối cùng là tốt nhất! Sử dụng Left Alt bạn có thể giải phóng tất cả &aSpores&r đã tích lũy! Kích thước của chúng cũng phụ thuộc vào máu của bạn."]
 	quest.7A32C50A6125E566.quest_subtitle: "Tìm thấy trong Kim tự tháp Rừng nhiệt đới"
 	quest.7A32C50A6125E566.title: "&aSpore Sack"
-	quest.7C3F65B5DAC7E57B.quest_desc: [
-		"&dShadow Glaives&r là Vũ khí hơn là &6Relic&r. Kỹ năng đầu tiên chỉ là ném 1 &dGlaive&r. Sau khi nó đánh trúng một quái vật, nó sẽ bật lại các quái vật khác, và có thể trở về bạn. Bạn có thể nâng cấp nó để gây nhiều sát thương, nhiều lần bật và sạc lại nhanh hơn. \"
-		" \"
-		"Kỹ năng thứ hai sử dụng tất cả đạn của nó để giải phóng một &dsaw&r khổng lồ! Nó rất tuyệt, tôi khuyên bạn nên thử!"
-	]
+	quest.7C3F65B5DAC7E57B.quest_desc: ["&dShadow Glaives&r là Vũ khí hơn là &6Relic&r. Kỹ năng đầu tiên chỉ là ném 1 &dGlaive&r. Sau khi nó đánh trúng một quái vật, nó sẽ bật lại các quái vật khác, và có thể trở về bạn. Bạn có thể nâng cấp nó để gây nhiều sát thương, nhiều lần bật và sạc lại nhanh hơn. \n\n \n\nKỹ năng thứ hai sử dụng tất cả đạn của nó để giải phóng một &dsaw&r khổng lồ! Nó rất tuyệt, tôi khuyên bạn nên thử!"]
 	quest.7C3F65B5DAC7E57B.quest_subtitle: "Tìm thấy trong Thành phố End và Tàu End"
 	quest.7C3F65B5DAC7E57B.title: "&dShadow Glaive"
-	quest.7F2D696AC9F4C4E4.quest_desc: [
-		"'&bGương ơi gương&r trên tường, làm sao tôi quay lại Điểm Hồi Sinh từ chuyến đi của mình?' \"
-		" \"
-		"'Sau khi đặt &bGương Ma thuật&r lên một giường bằng cách nhấp phải chuột, bạn có thể giữ nhấp phải chuột để &bGương Ma thuật&r dịch chuyển bạn trở về giường của mình!' \"
-		" \"
-		"'Cảm ơn &bGương&r!'"
-	]
+	quest.7F2D696AC9F4C4E4.quest_desc: ["'&bGương ơi gương&r trên tường, làm sao tôi quay lại Điểm Hồi Sinh từ chuyến đi của mình?' \n\n \n\n'Sau khi đặt &bGương Ma thuật&r lên một giường bằng cách nhấp phải chuột, bạn có thể giữ nhấp phải chuột để &bGương Ma thuật&r dịch chuyển bạn trở về giường của mình!' \n\n \n\n'Cảm ơn &bGương&r!'"]
 	quest.7F2D696AC9F4C4E4.quest_subtitle: "Tìm thấy trong Hầm mỏ hoặc Pháo đài"
 	quest.7F2D696AC9F4C4E4.title: "&bGương Ma thuật"
 	task.23C7F92BD9D39E14.title: "Mọi quyền được bảo vệ"

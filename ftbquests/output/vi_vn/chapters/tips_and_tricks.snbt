@@ -1,111 +1,31 @@
 {
-	quest.0152938EE5651409.quest_desc: [
-		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng đồng đóng góp&r để sử dụng trong các Modpack AllTheMods.\"
-		"\"
-		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng.\"
-		"\"
-		"Nhiệm vụ này được cố ý ẩn, nếu bạn thấy điều này, bạn đang ở chế độ chỉnh sửa."
-	]
-	quest.0790D3BB481162A6.quest_desc: [
-		"Cần một Bàn chế tạo di động? Hoặc một Bàn rèn di động? "
-		"&l&8Crafting On A Stick&r thêm các phiên bản di động của một số trạm chế tạo yêu thích của bạn! Đây là một món đồ phải có trong giai đoạn đầu."
-	]
+	quest.0152938EE5651409.quest_desc: ["Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng đồng đóng góp&r để sử dụng trong các Modpack AllTheMods.\n\n\n\nVì tất cả các pack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng.\n\n\n\nNhiệm vụ này được cố ý ẩn, nếu bạn thấy điều này, bạn đang ở chế độ chỉnh sửa."]
+	quest.0790D3BB481162A6.quest_desc: ["Cần một Bàn chế tạo di động? Hoặc một Bàn rèn di động? \n\n\n\n&l&8Crafting On A Stick&r thêm các phiên bản di động của một số trạm chế tạo yêu thích của bạn! Đây là một món đồ phải có trong giai đoạn đầu."]
 	quest.0790D3BB481162A6.quest_subtitle: "Ít đặt chỗ, nhiều chế tạo"
 	quest.0790D3BB481162A6.title: "Chế tạo... trên Gậy!"
-	quest.0C856BBB1679A7DD.quest_desc: [
-		"Trên trang này, bạn sẽ tìm thấy một số vật phẩm và thông tin hữu ích để hỗ trợ bạn trong hành trình!"
-	]
+	quest.0C856BBB1679A7DD.quest_desc: ["Trên trang này, bạn sẽ tìm thấy một số vật phẩm và thông tin hữu ích để hỗ trợ bạn trong hành trình!"]
 	quest.0C856BBB1679A7DD.quest_subtitle: "Và Các Vật Phẩm Hữu Ích Khác!"
-	quest.0E9CE6241CDBC420.quest_desc: [
-		"&9Ranged Pump&r đặc biệt đến mức nó có một mod riêng! \"
-		"\"
-		" &9Pump&r sẽ thu thập &9Water Sources&r bên dưới nó và thay thế chúng bằng Stone. \"
-		"Tuy nhiên, nó cần Năng lượng để hoạt động, nhưng nó đáng giá, phạm vi của nó rất lớn! \"
-		"\"
-		" &9Water&r được thu thập trong đó sẽ cần được dẫn ra qua ống."
-	]
+	quest.0E9CE6241CDBC420.quest_desc: ["&9Ranged Pump&r đặc biệt đến mức nó có một mod riêng! \n\n\n\n &9Pump&r sẽ thu thập &9Water Sources&r bên dưới nó và thay thế chúng bằng Stone. \n\nTuy nhiên, nó cần Năng lượng để hoạt động, nhưng nó đáng giá, phạm vi của nó rất lớn! \n\n\n\n &9Water&r được thu thập trong đó sẽ cần được dẫn ra qua ống."]
 	quest.0E9CE6241CDBC420.title: "&l&9Ranged Pump"
 	quest.0F8F37D7E12078F5.quest_subtitle: "Hoàn thành tất cả các mẹo!"
-	quest.219AA017149C36E2.quest_desc: [
-		"Trapped Trader Carpets sẽ giết ngay lập tức bất kỳ Lính Buôn nào xuất hiện gần nó!\"
-		"\"
-		"Chúng có thể là những vật phẩm tốt nhất trong toàn bộ pack."
-	]
+	quest.219AA017149C36E2.quest_desc: ["Trapped Trader Carpets sẽ giết ngay lập tức bất kỳ Lính Buôn nào xuất hiện gần nó!\n\n\n\nChúng có thể là những vật phẩm tốt nhất trong toàn bộ pack."]
 	quest.219AA017149C36E2.quest_subtitle: "Không còn Lính Buôn Phiền Phức Nữa!"
-	quest.28E60192912BEBAD.quest_desc: [
-		"Trong &l&2Vanilla&r, Dân Làng có thể thực sự khó chịu khi giao tiếp. Việc luân chuyển giao dịch không hề dễ dàng, và chuyên nghiệp đôi khi cũng khó xử.\"
-		"\"
-		"&l&2Easy Villagers&r là một mod để làm tất cả những điều này dễ dàng hơn! Để bắt đầu, bạn có thể nhặt một Dân Làng bằng cách sneak-right click vào họ. Sau đó, bạn có thể dễ dàng đặt họ trong thế giới, hoặc trong các khối cụ thể từ mod &l&2Easy Villager&r!\"
-		"\"
-		"Bạn có thể tìm kiếm &d@EasyVillagers&r trong JEI để xem các khối mà mod cung cấp!"
-	]
+	quest.28E60192912BEBAD.quest_desc: ["Trong &l&2Vanilla&r, Dân Làng có thể thực sự khó chịu khi giao tiếp. Việc luân chuyển giao dịch không hề dễ dàng, và chuyên nghiệp đôi khi cũng khó xử.\n\n\n\n&l&2Easy Villagers&r là một mod để làm tất cả những điều này dễ dàng hơn! Để bắt đầu, bạn có thể nhặt một Dân Làng bằng cách sneak-right click vào họ. Sau đó, bạn có thể dễ dàng đặt họ trong thế giới, hoặc trong các khối cụ thể từ mod &l&2Easy Villager&r!\n\n\n\nBạn có thể tìm kiếm &d@EasyVillagers&r trong JEI để xem các khối mà mod cung cấp!"]
 	quest.28E60192912BEBAD.quest_subtitle: "Dân Làng, dễ dàng"
 	quest.28E60192912BEBAD.title: "&l&2Easy Villagers"
-	quest.378C95C18798D413.quest_desc: [
-		"Một cách nhanh chóng để chuyển đổi giữa các công cụ.\"
-		"\"
-		"Nâng cấp với túi đeo ở bàn đập để tăng dung lượng."
-	]
+	quest.378C95C18798D413.quest_desc: ["Một cách nhanh chóng để chuyển đổi giữa các công cụ.\n\n\n\nNâng cấp với túi đeo ở bàn đập để tăng dung lượng."]
 	quest.378C95C18798D413.title: "Thùng đựng công cụ"
-	quest.3B4BF42C55C8BBBF.quest_desc: [
-		"Bạn có ghét khi bạn đang phá thứ gì đó và các Khối rơi ra ngoài tầm với không! \"
-		"\"
-		"Đừng lo nữa vì chúng tôi có &4Nam châm&r! Chỉ cần Nhấp Chuột Phải khi cầm &4Nam châm&r để bật nó. Sau đó, tất cả các Vật phẩm và Khối rơi trong bán kính 5 Khối sẽ bay đến bạn. \"
-		"\"
-		"Bạn cũng có thể trang bị &4Nam châm&r trong Curios của mình để tiếp tục sử dụng nó! \"
-		"\"
-		"Nếu bạn không muốn tiếp tục sử dụng &4Nam châm&r (Tôi thấy điều này xảy ra gần các Trang trại Quái vật) thì chỉ cần Nhấp Chuột Phải với nó lần nữa để tắt nó. \"
-		"\"
-		"Nó cũng có thể được nâng cấp để tăng phạm vi!"
-	]
+	quest.3B4BF42C55C8BBBF.quest_desc: ["Bạn có ghét khi bạn đang phá thứ gì đó và các Khối rơi ra ngoài tầm với không! \n\n\n\nĐừng lo nữa vì chúng tôi có &4Nam châm&r! Chỉ cần Nhấp Chuột Phải khi cầm &4Nam châm&r để bật nó. Sau đó, tất cả các Vật phẩm và Khối rơi trong bán kính 5 Khối sẽ bay đến bạn. \n\n\n\nBạn cũng có thể trang bị &4Nam châm&r trong Curios của mình để tiếp tục sử dụng nó! \n\n\n\nNếu bạn không muốn tiếp tục sử dụng &4Nam châm&r (Tôi thấy điều này xảy ra gần các Trang trại Quái vật) thì chỉ cần Nhấp Chuột Phải với nó lần nữa để tắt nó. \n\n\n\nNó cũng có thể được nâng cấp để tăng phạm vi!"]
 	quest.3B4BF42C55C8BBBF.title: "&l&9Đơn giản &4Nam châm"
-	quest.6E17595887A051C2.quest_desc: [
-		"&l&2Minecraft với Mod&r giới thiệu cho chúng ta các Nghề nghiệp Dân làng mới! \"
-		"\"
-		"Búa Lò: &5Công nhân Công nghiệp&r \"
-		"\"
-		"Bộ Sạc: &bNhà Nghiên cứu Fluix&r \"
-		"\"
-		"Tổ Ong Nâng Cao: &6Người Nuôi Ong&r \"
-		"\"
-		"Máy Pha Cà Phê: &9Kỹ sư&r \"
-		"\"
-		"Lõi Phép thuật: &dPháp sư Đáng ngờ&r \"
-		"\"
-		"Bàn Sưu tầm: &aSưu tầm&r \"
-		"\"
-		"Máy Ép Điện: &eCartman&r \"
-		"Máy Ép Thủ công: &eTrackman&r \"
-		"\"
-		"Bàn Làm việc của Kỹ sư: &7Thợ súng&r \"
-		"Lá cờ Trắng: &7Thợ may&r \"
-		"Bàn Mạch điện của Kỹ sư: &7Thợ điện&r \"
-		"Bàn Chế tạo của Kỹ sư: &7Thợ cơ khí&r \"
-		"Máy Quay: &7Kỹ sư Cấu trúc&r \"
-		"\"
-		"Trạm Sạc: &4Thợ cơ khí Áp lực&r \"
-		"\"
-		"Cưa: &8Thợ mộc&r"
-	]
+	quest.6E17595887A051C2.quest_desc: ["&l&2Minecraft với Mod&r giới thiệu cho chúng ta các Nghề nghiệp Dân làng mới! \n\n\n\nBúa Lò: &5Công nhân Công nghiệp&r \n\n\n\nBộ Sạc: &bNhà Nghiên cứu Fluix&r \n\n\n\nTổ Ong Nâng Cao: &6Người Nuôi Ong&r \n\n\n\nMáy Pha Cà Phê: &9Kỹ sư&r \n\n\n\nLõi Phép thuật: &dPháp sư Đáng ngờ&r \n\n\n\nBàn Sưu tầm: &aSưu tầm&r \n\n\n\nMáy Ép Điện: &eCartman&r \n\nMáy Ép Thủ công: &eTrackman&r \n\n\n\nBàn Làm việc của Kỹ sư: &7Thợ súng&r \n\nLá cờ Trắng: &7Thợ may&r \n\nBàn Mạch điện của Kỹ sư: &7Thợ điện&r \n\nBàn Chế tạo của Kỹ sư: &7Thợ cơ khí&r \n\nMáy Quay: &7Kỹ sư Cấu trúc&r \n\n\n\nTrạm Sạc: &4Thợ cơ khí Áp lực&r \n\n\n\nCưa: &8Thợ mộc&r"]
 	quest.6E17595887A051C2.title: "Mo' Professions"
-	quest.70B6C9409AE69284.quest_desc: [
-		"La bàn Thiên nhiên cung cấp cho bạn danh sách các vùng sinh thái bạn có thể tìm kiếm.\"
-		"\"
-		"Chọn một vùng sinh thái, sau đó nhấn 'Tìm kiếm.' Bạn sẽ thấy một số thông tin ở góc trên bên trái, và la bàn sẽ chỉ hướng đến vùng sinh thái đó.\"
-		"\"
-		"La bàn Nhà thám hiểm hoạt động tương tự nhưng dành cho các công trình, thay vì vùng sinh thái."
-	]
+	quest.70B6C9409AE69284.quest_desc: ["La bàn Thiên nhiên cung cấp cho bạn danh sách các vùng sinh thái bạn có thể tìm kiếm.\n\n\n\nChọn một vùng sinh thái, sau đó nhấn 'Tìm kiếm.' Bạn sẽ thấy một số thông tin ở góc trên bên trái, và la bàn sẽ chỉ hướng đến vùng sinh thái đó.\n\n\n\nLa bàn Nhà thám hiểm hoạt động tương tự nhưng dành cho các công trình, thay vì vùng sinh thái."]
 	quest.70B6C9409AE69284.quest_subtitle: "Giúp Tìm Vùng sinh thái/Công trình"
 	quest.70B6C9409AE69284.title: "La bàn để Tìm kiếm"
-	quest.722978AC0C1B2649.quest_desc: [
-		"Vật phẩm dễ tự động hóa để có nước vô tận &9water&r."
-		"Cần thêm &9water&r? Làm thêm một cái nữa!"
-	]
+	quest.722978AC0C1B2649.quest_desc: ["Vật phẩm dễ tự động hóa để có nước vô tận &9water&r.\n\n\n\nCần thêm &9water&r? Làm thêm một cái nữa!"]
 	quest.722978AC0C1B2649.quest_subtitle: "Có thể được sử dụng làm chất làm mát lò phản ứng"
 	quest.722978AC0C1B2649.title: "Nước vô tận &9Water&r"
-	quest.7EC8814940C4C3D7.quest_desc: [
-		"Sử dụng vật phẩm này để thu nhỏ. Hữu ích cho công việc tự động hóa và cũng đơn giản là vui vẻ."
-	]
+	quest.7EC8814940C4C3D7.quest_desc: ["Sử dụng vật phẩm này để thu nhỏ. Hữu ích cho công việc tự động hóa và cũng đơn giản là vui vẻ."]
 	quest.7EC8814940C4C3D7.quest_subtitle: "Honey, Tôi Đã Thu Nhỏ Bản Thân"
 	quest.7EC8814940C4C3D7.title: "Thiết bị thu nhỏ cá nhân"
 	task.0D5203048B6E068C.title: "Thảm Thương Nhân Bẫy"
