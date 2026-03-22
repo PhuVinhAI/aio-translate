@@ -1,0 +1,153 @@
+<<<START_OF_DIFF>>>
+```javascript
+# File: scripts/3-translate.js
+<<<<<<< SEARCH
+        // Conversation history để retry
+        if (!messages) {
+            let userPrompt;
+            
+            if (isUnityMode || isSkyverseMode || isMinecraftMode) {
+                const langFrom = isUnityMode ? "tiếng Nhật" : "tiếng Anh";
+                let rule4 = "4. DỊCH SANG TIẾNG VIỆT (Giữ nguyên các tên riêng, danh từ đặc biệt tiếng Anh nếu không dịch được).";
+                if (isUnityMode) rule4 = "4. KHÔNG ĐỂ LẠI KÝ TỰ TIẾNG NHẬT (Hiragana/Katakana/Kanji)";
+                if (isMinecraftMode) rule4 = "4. DỊCH SANG TIẾNG VIỆT DÀNH CHO MINECRAFT (Giữ nguyên định dạng màu §a, %s, %d, {0} v.v...).";
+                    
+                userPrompt = `Dịch ${batch.length} thẻ XML ${langFrom} sang tiếng Việt.
+
+${xmlInput}
+
+⚠️ QUY TẮC QUAN TRỌNG NHẤT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. GIỮ NGUYÊN 100% HTML TAGS VÀ FORMAT ĐẶC BIỆT - KHÔNG XÓA, KHÔNG THÊM!
+   • Nếu gốc có <style="Major"> → Dịch phải có <style="Major">
+   • Nếu gốc có <lf> hoặc <cf> → Dịch phải có <lf> hoặc <cf>
+   • TUYỆT ĐỐI KHÔNG THÊM thẻ mới không có trong gốc
+
+2. GIỮ NGUYÊN 100% BIẾN VÀ KÝ TỰ ĐẶC BIỆT: {#ITEM}, {Name@Role}, {0}, {x}, {y}, v.v.
+
+3. CHỈ DỊCH TEXT, KHÔNG DỊCH/XÓA/THAY ĐỔI/THÊM TAGS VÀ BIẾN
+
+${rule4}
+
+VÍ DỤ ĐÚNG:
+✓ Input:  この<style="Major">{#OBJECT}</style>を受け取ってください。
+  Output: Xin hãy nhận <style="Major">{#OBJECT}</style> này.
+  → Có ĐÚNG 1 cặp thẻ + 1 biến ✓
+
+✓ Input:  異性の動物を<style="Major">惹きつけやすく</style>、繁殖の<style="Major">優先権</style>を持っている
+  Output: Dễ <style="Major">thu hút</style> động vật khác giới và có <style="Major">quyền ưu tiên</style> sinh sản
+  → Có ĐÚNG 2 cặp thẻ ✓
+
+VÍ DỤ SAI (TUYỆT ĐỐI TRÁNH):
+✗ Input:  この<style="Major">{#OBJECT}</style>を受け取ってください。
+  Output: Xin hãy nhận cái này.
+  → SAI: Đã XÓA thẻ và biến! ✗
+
+✗ Input:  異性の動物を<style="Major">惹きつけやすく</style>、繁殖の<style="Major">優先権</style>を持っている
+  Output: Dễ <style="Major">thu hút động vật khác giới và có quyền ưu tiên</style> sinh sản
+  → SAI: Gộp 2 cặp thẻ thành 1 cặp! ✗
+
+✗ Input:  この<style="Major">{#OBJECT}</style>を受け取ってください。
+  Output: Xin hãy nhận <style=Major>{#OBJECT}</style> này.
+  → SAI: Đổi format từ <style="Major"> thành <style=Major>! ✗
+
+✗ Input:  その課題は<style="Major">豊穣の畑</style>へ続く道を解放することだ。
+  Output: Nhiệm vụ đó là <style="Major">tiến sâu hơn</style> vào rừng, mở đường đến <style="Major">cánh đồng</style。
+  → SAI: Gốc có 1 cặp thẻ, dịch có 2 cặp thẻ (THÊM thẻ không có trong gốc)! ✗
+
+CÁCH KIỂM TRA TRƯỚC KHI TRẢ LỜI:
+1. ĐẾM số thẻ mở <...> trong input
+2. ĐẾM số thẻ đóng </...> trong input
+3. ĐẾM số biến {...} trong input
+4. KIỂM TRA output có ĐÚNG số lượng đó không
+5. KIỂM TRA format thẻ có CHÍNH XÁC không (có dấu ngoặc kép hay không, viết hoa hay thường)
+
+Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên vẹn.`;
+        } else {
+=======
+        // Conversation history để retry
+        if (!messages) {
+            let userPrompt;
+            
+            if (isMinecraftMode) {
+                userPrompt = `Dịch ${batch.length} thẻ XML tiếng Anh sang tiếng Việt.
+
+${xmlInput}
+
+⚠️ QUY TẮC QUAN TRỌNG NHẤT CHO MODPACK MINECRAFT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. GIỮ NGUYÊN 100% CÁC BIẾN VÀ KÝ TỰ ĐẶC BIỆT CỦA MINECRAFT:
+   - Màu sắc và định dạng: §a, §b, §c, §l, §o, §r... (Ví dụ: §cFire -> §cLửa)
+   - Biến số: %s, %d, %1$s, %2$d, {0}, {1}...
+   - Ký tự xuống dòng: \\n
+
+2. CHỈ DỊCH TEXT BÊN TRONG THẺ <Text>. TUYỆT ĐỐI GIỮ NGUYÊN Key.
+   - Gốc: <Text Key="item.iron_ingot">Iron Ingot</Text>
+   - Dịch: <Text Key="item.iron_ingot">Phôi sắt</Text>
+
+3. DỊCH CHUẨN THUẬT NGỮ MINECRAFT:
+   - Các từ thông dụng như Chest, Iron Ingot, Crafting Table cần dịch chuẩn thành Rương, Phôi sắt, Bàn chế tạo.
+   - Giữ nguyên các tên riêng hoặc tên máy móc đặc thù của mod nếu không dịch được.
+
+Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên vẹn.`;
+            } else if (isUnityMode || isSkyverseMode) {
+                const langFrom = isUnityMode ? "tiếng Nhật" : "tiếng Anh";
+                const rule4 = isUnityMode 
+                    ? "4. KHÔNG ĐỂ LẠI KÝ TỰ TIẾNG NHẬT (Hiragana/Katakana/Kanji)" 
+                    : "4. DỊCH SANG TIẾNG VIỆT (Giữ nguyên các tên riêng, danh từ đặc biệt tiếng Anh nếu không dịch được).";
+                    
+                userPrompt = `Dịch ${batch.length} thẻ XML ${langFrom} sang tiếng Việt.
+
+${xmlInput}
+
+⚠️ QUY TẮC QUAN TRỌNG NHẤT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. GIỮ NGUYÊN 100% HTML TAGS VÀ FORMAT ĐẶC BIỆT - KHÔNG XÓA, KHÔNG THÊM!
+   • Nếu gốc có <style="Major"> → Dịch phải có <style="Major">
+   • Nếu gốc có <lf> hoặc <cf> → Dịch phải có <lf> hoặc <cf>
+   • TUYỆT ĐỐI KHÔNG THÊM thẻ mới không có trong gốc
+
+2. GIỮ NGUYÊN 100% BIẾN VÀ KÝ TỰ ĐẶC BIỆT: {#ITEM}, {Name@Role}, {0}, {x}, {y}, v.v.
+
+3. CHỈ DỊCH TEXT, KHÔNG DỊCH/XÓA/THAY ĐỔI/THÊM TAGS VÀ BIẾN
+
+${rule4}
+
+VÍ DỤ ĐÚNG:
+✓ Input:  この<style="Major">{#OBJECT}</style>を受け取ってください。
+  Output: Xin hãy nhận <style="Major">{#OBJECT}</style> này.
+  → Có ĐÚNG 1 cặp thẻ + 1 biến ✓
+
+✓ Input:  異性の動物を<style="Major">惹きつけやすく</style>、繁殖の<style="Major">優先権</style>を持っている
+  Output: Dễ <style="Major">thu hút</style> động vật khác giới và có <style="Major">quyền ưu tiên</style> sinh sản
+  → Có ĐÚNG 2 cặp thẻ ✓
+
+VÍ DỤ SAI (TUYỆT ĐỐI TRÁNH):
+✗ Input:  この<style="Major">{#OBJECT}</style>を受け取ってください。
+  Output: Xin hãy nhận cái này.
+  → SAI: Đã XÓA thẻ và biến! ✗
+
+✗ Input:  異性の動物を<style="Major">惹きつけやすく</style>、繁殖の<style="Major">優先権</style>を持っている
+  Output: Dễ <style="Major">thu hút động vật khác giới và có quyền ưu tiên</style> sinh sản
+  → SAI: Gộp 2 cặp thẻ thành 1 cặp! ✗
+
+✗ Input:  この<style="Major">{#OBJECT}</style>を受け取ってください。
+  Output: Xin hãy nhận <style=Major>{#OBJECT}</style> này.
+  → SAI: Đổi format từ <style="Major"> thành <style=Major>! ✗
+
+✗ Input:  その課題は<style="Major">豊穣の畑</style>へ続く道を解放することだ。
+  Output: Nhiệm vụ đó là <style="Major">tiến sâu hơn</style> vào rừng, mở đường đến <style="Major">cánh đồng</style>。
+  → SAI: Gốc có 1 cặp thẻ, dịch có 2 cặp thẻ (THÊM thẻ không có trong gốc)! ✗
+
+CÁCH KIỂM TRA TRƯỚC KHI TRẢ LỜI:
+1. ĐẾM số thẻ mở <...> trong input
+2. ĐẾM số thẻ đóng </...> trong input
+3. ĐẾM số biến {...} trong input
+4. KIỂM TRA output có ĐÚNG số lượng đó không
+5. KIỂM TRA format thẻ có CHÍNH XÁC không (có dấu ngoặc kép hay không, viết hoa hay thường)
+
+Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên vẹn.`;
+        } else {
+>>>>>>> REPLACE
+```
+<<<END_OF_DIFF>>>

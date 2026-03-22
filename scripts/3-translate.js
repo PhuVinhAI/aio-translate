@@ -21,12 +21,13 @@ const mode = process.argv[2] || 'normal';
 const isUnityMode = mode === 'unity';
 const isSkyverseMode = mode === 'skyverse';
 const isMinecraftMode = mode === 'minecraft';
+const isFTBMode = mode === 'ftbquests';
 
 // Load config phù hợp
 let CONFIG;
 if (isUnityMode) CONFIG = require('../config/unity-translation.config');
 else if (isSkyverseMode) CONFIG = require('../config/skyverse-translation.config');
-else if (isMinecraftMode) CONFIG = require('../config/minecraft-translation.config');
+else if (isMinecraftMode || isFTBMode) CONFIG = require('../config/minecraft-translation.config');
 else CONFIG = require('../config/translation.config');
 
 const { parseXMLEntries, escapeXml } = require('./utils/xml-parser');
@@ -40,18 +41,22 @@ const RETRY_DELAY = CONFIG.translation.retryDelay;
 const PROGRESS_FILE = isUnityMode ? path.join(PATHS.TEMP.DIR, 'unity-progress.json')
                     : isSkyverseMode ? path.join(PATHS.TEMP.DIR, 'skyverse-progress.json')
                     : isMinecraftMode ? path.join(PATHS.TEMP.DIR, 'minecraft-progress.json')
+                    : isFTBMode ? path.join(PATHS.TEMP.DIR, 'ftbquests-progress.json')
                     : PATHS.TEMP.PROGRESS;
 const INPUT_FILE = isUnityMode ? PATHS.UNITY.TEMP_NEW
                  : isSkyverseMode ? PATHS.SKYVERSE.TEMP_NEW
                  : isMinecraftMode ? PATHS.MINECRAFT.TEMP_NEW
+                 : isFTBMode ? PATHS.FTBQUESTS.TEMP_NEW
                  : PATHS.TEMP.NEW_CONTENT;
 const OUTPUT_FILE = isUnityMode ? PATHS.UNITY.TEMP_TRANSLATED
                   : isSkyverseMode ? PATHS.SKYVERSE.TEMP_TRANSLATED
                   : isMinecraftMode ? PATHS.MINECRAFT.TEMP_TRANSLATED
+                  : isFTBMode ? PATHS.FTBQUESTS.TEMP_TRANSLATED
                   : PATHS.TEMP.TRANSLATED;
 const TEMP_DIR = isUnityMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-unity')
                : isSkyverseMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-skyverse')
                : isMinecraftMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-minecraft')
+               : isFTBMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-ftbquests')
                : PATHS.TEMP.BATCHES;
 
 // Tạo thư mục temp
@@ -173,8 +178,8 @@ async function translateBatch(entries, batchIndex, retryCount = 0, messages = nu
     // Tạo XML input
     let xmlInput;
 
-    if (isUnityMode || isSkyverseMode || isMinecraftMode) {
-        // Unity/Skyverse/Minecraft mode: Dịch trực tiếp, dùng hash key ngắn
+    if (isUnityMode || isSkyverseMode || isMinecraftMode || isFTBMode) {
+        // Unity/Skyverse/Minecraft/FTB mode: Dịch trực tiếp, dùng hash key ngắn
         xmlInput = batch.map(e => {
             const hashKey = hashKeyMap.get(e.key);
             return `  <Text Key="${hashKey}">${escapeXml(e.text)}</Text>`;
@@ -205,11 +210,30 @@ async function translateBatch(entries, batchIndex, retryCount = 0, messages = nu
         if (!messages) {
             let userPrompt;
 
-            if (isUnityMode || isSkyverseMode || isMinecraftMode) {
+            if (isMinecraftMode || isFTBMode) {
+                userPrompt = `Dịch ${batch.length} thẻ XML tiếng Anh sang tiếng Việt.
+
+${xmlInput}
+
+⚠️ QUY TẮC QUAN TRỌNG NHẤT CHO MODPACK MINECRAFT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. GIỮ NGUYÊN 100% CÁC BIẾN VÀ KÝ TỰ ĐẶC BIỆT CỦA MINECRAFT:
+   - Màu sắc và định dạng: §a, §b, §c, §l, §o, §r... (Ví dụ: §cFire -> §cLửa)
+   - Biến số: %s, %d, %1$s, %2$d, {0}, {1}...
+   - Ký tự xuống dòng: \\n
+
+2. CHỈ DỊCH TEXT BÊN TRONG THẺ <Text>. TUYỆT ĐỐI GIỮ NGUYÊN Key (Key là mã hash).
+   - Gốc: <Text Key="A1B2C3D4">Iron Ingot</Text>
+   - Dịch: <Text Key="A1B2C3D4">Phôi sắt</Text>
+
+3. DỊCH CHUẨN THUẬT NGỮ MINECRAFT:
+   - Các từ thông dụng như Chest, Iron Ingot, Crafting Table cần dịch chuẩn thành Rương, Phôi sắt, Bàn chế tạo.
+   - Giữ nguyên các tên riêng hoặc tên máy móc đặc thù của mod nếu không dịch được.
+
+Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên vẹn.`;
+            } else if (isUnityMode || isSkyverseMode) {
                 const langFrom = isUnityMode ? "tiếng Nhật" : "tiếng Anh";
-                let rule4 = "4. DỊCH SANG TIẾNG VIỆT (Giữ nguyên các tên riêng, danh từ đặc biệt tiếng Anh nếu không dịch được).";
-                if (isUnityMode) rule4 = "4. KHÔNG ĐỂ LẠI KÝ TỰ TIẾNG NHẬT (Hiragana/Katakana/Kanji)";
-                if (isMinecraftMode) rule4 = "4. DỊCH SANG TIẾNG VIỆT DÀNH CHO MINECRAFT (Giữ nguyên định dạng màu §a, %s, %d, {0} v.v...).";
+                const rule4 = isUnityMode ? "4. KHÔNG ĐỂ LẠI KÝ TỰ TIẾNG NHẬT (Hiragana/Katakana/Kanji)" : "4. DỊCH SANG TIẾNG VIỆT (Giữ nguyên các tên riêng, danh từ đặc biệt tiếng Anh nếu không dịch được).";
 
                 userPrompt = `Dịch ${batch.length} thẻ XML ${langFrom} sang tiếng Việt.
 
@@ -262,16 +286,16 @@ CÁCH KIỂM TRA TRƯỚC KHI TRẢ LỜI:
 5. KIỂM TRA format thẻ có CHÍNH XÁC không (có dấu ngoặc kép hay không, viết hoa hay thường)
 
 Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên vẹn.`;
-        } else {
-            // Normal mode: Dịch từ EN sang VI với JP tham khảo
-            userPrompt = `Dịch ${batch.length} thẻ XML tiếng Anh sang tiếng Việt.
+            } else {
+                // Normal mode: Dịch từ EN sang VI với JP tham khảo
+                userPrompt = `Dịch ${batch.length} thẻ XML tiếng Anh sang tiếng Việt.
 
 Mỗi thẻ có dòng "JP: ..." phía trên là bản Nhật gốc để tham khảo ngữ cảnh.
 
 ${xmlInput}
 
 GIỮ NGUYÊN cấu trúc XML và Key, CHỈ dịch nội dung trong thẻ <Text>. KHÔNG ghi dòng JP vào output. Trả về ĐÚNG ${batch.length} thẻ <Text>.`;
-        }
+            }
 
         messages = [{ role: "user", content: userPrompt }];
     }
@@ -292,8 +316,8 @@ GIỮ NGUYÊN cấu trúc XML và Key, CHỈ dịch nội dung trong thẻ <Text
         // Parse XML trả về
         const translatedEntries = parseXMLEntries(translatedContent);
 
-        // Map hash key về key gốc (Unity, Skyverse, Minecraft)
-        if (isUnityMode || isSkyverseMode || isMinecraftMode) {
+        // Map hash key về key gốc (Unity, Skyverse, Minecraft, FTB)
+        if (isUnityMode || isSkyverseMode || isMinecraftMode || isFTBMode) {
             translatedEntries.forEach(entry => {
                 const originalKey = reverseHashMap.get(entry.key);
                 if (originalKey) {
@@ -316,7 +340,7 @@ GIỮ NGUYÊN cấu trúc XML và Key, CHỈ dịch nội dung trong thẻ <Text
         const tagErrors = [];
         const japaneseErrors = [];
 
-        if (isUnityMode || isSkyverseMode || isMinecraftMode) {
+        if (isUnityMode || isSkyverseMode || isMinecraftMode || isFTBMode) {
             for (let i = 0; i < batch.length; i++) {
                 const originalEntry = batch[i];
                 const translatedEntry = translatedEntries.find(e => e.key === originalEntry.key);
@@ -491,17 +515,19 @@ async function main() {
     let entries;
     let totalBatches;
 
-    if (mode === 'unity' || mode === 'skyverse' || mode === 'minecraft') {
+    if (mode === 'unity' || mode === 'skyverse' || mode === 'minecraft' || mode === 'ftbquests') {
         const modeNames = {
             'unity': 'Unity JSON (Nhật → Việt)',
             'skyverse': 'Skyverse TXT (Anh → Việt)',
-            'minecraft': 'Minecraft Mods (Anh → Việt)'
+            'minecraft': 'Minecraft Mods (Anh → Việt)',
+            'ftbquests': 'FTB Quests (Anh → Việt)'
         };
         console.log(`🚀 Dịch ${modeNames[mode]}\n`);
 
         const targetPath = mode === 'unity' ? PATHS.UNITY.TEMP_NEW :
                            mode === 'skyverse' ? PATHS.SKYVERSE.TEMP_NEW :
-                           PATHS.MINECRAFT.TEMP_NEW;
+                           mode === 'minecraft' ? PATHS.MINECRAFT.TEMP_NEW :
+                           PATHS.FTBQUESTS.TEMP_NEW;
         const xmlContent = fs.readFileSync(targetPath, 'utf-8');
         entries = parseXMLEntries(xmlContent);
         totalBatches = Math.ceil(entries.length / BATCH_SIZE);

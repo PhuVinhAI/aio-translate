@@ -9,7 +9,7 @@ module.exports = {
   translation: {
     batchSize: 50,
     parallelBatches: 10,
-    maxRetries: 3,
+    maxRetries: 99,
     retryDelay: 3000,
   },
   systemPrompt: `Bạn là chuyên gia dịch thuật modpack Minecraft từ tiếng Anh sang tiếng Việt.
@@ -21,9 +21,9 @@ module.exports = {
    - Các mã màu/format Minecraft: §a, §b, §c, §l, §o, §r (ví dụ: §cFire -> §cLửa)
    - Ký tự xuống dòng: \n
 
-2. CHỈ DỊCH TEXT BÊN TRONG THẺ <Text>. TUYỆT ĐỐI GIỮ NGUYÊN Key.
-   - Gốc: <Text Key="abc">Iron Ingot</Text>
-   - Dịch: <Text Key="abc">Phôi sắt</Text>
+2. CHỈ DỊCH TEXT BÊN TRONG THẺ <Text>. TUYỆT ĐỐI GIỮ NGUYÊN Key (Key là mã hash).
+   - Gốc: <Text Key="A1B2C3D4">Iron Ingot</Text>
+   - Dịch: <Text Key="A1B2C3D4">Phôi sắt</Text>
 
 3. DỊCH CHUẨN THUẬT NGỮ MINECRAFT:
    - Iron Ingot = Phôi sắt

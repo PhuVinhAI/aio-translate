@@ -77,6 +77,18 @@ module.exports = {
     REVERSE_MAPPING: path.join(ROOT, 'data', 'minecraft_reverse_mapping.json'),
   },
 
+  // FTB Quests workflow
+  FTBQUESTS: {
+    INPUT_DIR: path.join(ROOT, 'ftbquests', 'input'), // Nơi chứa cả file en_us.snbt và thư mục en_us
+    OUTPUT_DIR: path.join(ROOT, 'ftbquests', 'output'), // Nơi xuất ra vi_vn.snbt và thư mục vi_vn
+    TEMP_EN_XML: path.join(ROOT, 'data', 'temp', 'ftbquests-en.xml'),
+    TEMP_NEW: path.join(ROOT, 'data', 'temp', 'ftbquests-new.xml'),
+    TEMP_TRANSLATED: path.join(ROOT, 'data', 'temp', 'ftbquests-translated.xml'),
+    TEMP_MERGED: path.join(ROOT, 'data', 'temp', 'ftbquests-merged.xml'),
+    MAPPING: path.join(ROOT, 'data', 'ftbquests_mapping.json'),
+    REVERSE_MAPPING: path.join(ROOT, 'data', 'ftbquests_reverse_mapping.json'),
+  },
+
   // Mapping
   MAPPING: {
     KEY_MAPPING: path.join(ROOT, 'data', 'key_mapping.json'),
