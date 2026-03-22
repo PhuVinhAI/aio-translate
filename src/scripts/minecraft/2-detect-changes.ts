@@ -1,6 +1,6 @@
 import fs from 'fs';
 import { PATHS } from '../../config/paths.config';
-import { parseXMLToMap } from '../../utils/xml-parser';
+import { parseXMLToMap, escapeXml } from '../../utils/xml-parser';
 
 interface NewEntry {
   key: string;
@@ -52,7 +52,7 @@ function detectChanges(): void {
 
   let xml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<STBLKeyStringList>\n';
   newContent.forEach((e: NewEntry) => {
-    xml += `  <Text Key="${e.key}">${e.value}</Text>\n`;
+    xml += `  <Text Key="${e.key}">${escapeXml(e.value)}</Text>\n`;
   });
   xml += '</STBLKeyStringList>';
 
