@@ -1,0 +1,653 @@
+<<<START_OF_DIFF>>>
+```javascript
+# File: config/paths.config.js
+<<<<<<< SEARCH
+  // Skyverse TXT workflow
+  SKYVERSE: {
+    INPUT_TXT: path.join(ROOT, 'skyverse', 'Content', 'Localization', 'Game', 'en', 'Game.locres.txt'),
+    OUTPUT_TXT: path.join(ROOT, 'skyverse', 'Content', 'Localization', 'Game', 'vi', 'Game.locres.txt'),
+    
+    TEMP_EN_XML: path.join(ROOT, 'data', 'temp', 'skyverse-en.xml'),
+    TEMP_NEW: path.join(ROOT, 'data', 'temp', 'skyverse-new.xml'),
+    TEMP_TRANSLATED: path.join(ROOT, 'data', 'temp', 'skyverse-translated.xml'),
+    TEMP_MERGED: path.join(ROOT, 'data', 'temp', 'skyverse-merged.xml'),
+    
+    MAPPING: path.join(ROOT, 'data', 'skyverse_mapping.json'),
+    REVERSE_MAPPING: path.join(ROOT, 'data', 'skyverse_reverse_mapping.json'),
+  },
+=======
+  // Skyverse TXT workflow
+  SKYVERSE: {
+    INPUT_TXT: path.join(ROOT, 'skyverse', 'Content', 'Localization', 'Game', 'en', 'Game.locres.txt'),
+    OUTPUT_TXT: path.join(ROOT, 'skyverse', 'Content', 'Localization', 'Game', 'vi', 'Game.locres.txt'),
+    
+    TEMP_EN_XML: path.join(ROOT, 'data', 'temp', 'skyverse-en.xml'),
+    TEMP_NEW: path.join(ROOT, 'data', 'temp', 'skyverse-new.xml'),
+    TEMP_TRANSLATED: path.join(ROOT, 'data', 'temp', 'skyverse-translated.xml'),
+    TEMP_MERGED: path.join(ROOT, 'data', 'temp', 'skyverse-merged.xml'),
+    
+    MAPPING: path.join(ROOT, 'data', 'skyverse_mapping.json'),
+    REVERSE_MAPPING: path.join(ROOT, 'data', 'skyverse_reverse_mapping.json'),
+  },
+  
+  // Minecraft Mods workflow
+  MINECRAFT: {
+    INPUT_JSON: path.join(ROOT, 'output_to_translate.json'),
+    OUTPUT_DIR: path.join(ROOT, 'minecraft', 'resourcepacks', 'VietHoa_Modpack'),
+    
+    TEMP_EN_XML: path.join(ROOT, 'data', 'temp', 'minecraft-en.xml'),
+    TEMP_NEW: path.join(ROOT, 'data', 'temp', 'minecraft-new.xml'),
+    TEMP_TRANSLATED: path.join(ROOT, 'data', 'temp', 'minecraft-translated.xml'),
+    TEMP_MERGED: path.join(ROOT, 'data', 'temp', 'minecraft-merged.xml'),
+    
+    MAPPING: path.join(ROOT, 'data', 'minecraft_mapping.json'),
+    REVERSE_MAPPING: path.join(ROOT, 'data', 'minecraft_reverse_mapping.json'),
+  },
+>>>>>>> REPLACE
+```
+
+```javascript
+# File: scripts/3-translate.js
+<<<<<<< SEARCH
+const isUnityMode = mode === 'unity';
+const isSkyverseMode = mode === 'skyverse';
+
+// Load config phù hợp
+let CONFIG;
+if (isUnityMode) CONFIG = require('../config/unity-translation.config');
+else if (isSkyverseMode) CONFIG = require('../config/skyverse-translation.config');
+else CONFIG = require('../config/translation.config');
+=======
+const isUnityMode = mode === 'unity';
+const isSkyverseMode = mode === 'skyverse';
+const isMinecraftMode = mode === 'minecraft';
+
+// Load config phù hợp
+let CONFIG;
+if (isUnityMode) CONFIG = require('../config/unity-translation.config');
+else if (isSkyverseMode) CONFIG = require('../config/skyverse-translation.config');
+else if (isMinecraftMode) CONFIG = require('../config/minecraft-translation.config');
+else CONFIG = require('../config/translation.config');
+>>>>>>> REPLACE
+```
+
+```javascript
+# File: scripts/3-translate.js
+<<<<<<< SEARCH
+const PROGRESS_FILE = isUnityMode ? path.join(PATHS.TEMP.DIR, 'unity-progress.json')
+                    : isSkyverseMode ? path.join(PATHS.TEMP.DIR, 'skyverse-progress.json')
+                    : PATHS.TEMP.PROGRESS;
+const INPUT_FILE = isUnityMode ? PATHS.UNITY.TEMP_NEW
+                 : isSkyverseMode ? PATHS.SKYVERSE.TEMP_NEW
+                 : PATHS.TEMP.NEW_CONTENT;
+const OUTPUT_FILE = isUnityMode ? PATHS.UNITY.TEMP_TRANSLATED
+                  : isSkyverseMode ? PATHS.SKYVERSE.TEMP_TRANSLATED
+                  : PATHS.TEMP.TRANSLATED;
+const TEMP_DIR = isUnityMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-unity')
+               : isSkyverseMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-skyverse')
+               : PATHS.TEMP.BATCHES;
+=======
+const PROGRESS_FILE = isUnityMode ? path.join(PATHS.TEMP.DIR, 'unity-progress.json')
+                    : isSkyverseMode ? path.join(PATHS.TEMP.DIR, 'skyverse-progress.json')
+                    : isMinecraftMode ? path.join(PATHS.TEMP.DIR, 'minecraft-progress.json')
+                    : PATHS.TEMP.PROGRESS;
+const INPUT_FILE = isUnityMode ? PATHS.UNITY.TEMP_NEW
+                 : isSkyverseMode ? PATHS.SKYVERSE.TEMP_NEW
+                 : isMinecraftMode ? PATHS.MINECRAFT.TEMP_NEW
+                 : PATHS.TEMP.NEW_CONTENT;
+const OUTPUT_FILE = isUnityMode ? PATHS.UNITY.TEMP_TRANSLATED
+                  : isSkyverseMode ? PATHS.SKYVERSE.TEMP_TRANSLATED
+                  : isMinecraftMode ? PATHS.MINECRAFT.TEMP_TRANSLATED
+                  : PATHS.TEMP.TRANSLATED;
+const TEMP_DIR = isUnityMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-unity')
+               : isSkyverseMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-skyverse')
+               : isMinecraftMode ? path.join(PATHS.TEMP.DIR, 'temp-batches-minecraft')
+               : PATHS.TEMP.BATCHES;
+>>>>>>> REPLACE
+```
+
+```javascript
+# File: scripts/3-translate.js
+<<<<<<< SEARCH
+    if (isUnityMode || isSkyverseMode) {
+        // Unity/Skyverse mode: Dịch trực tiếp, dùng hash key ngắn
+        xmlInput = batch.map(e => {
+            const hashKey = hashKeyMap.get(e.key);
+            return `  <Text Key="${hashKey}">${escapeXml(e.text)}</Text>`;
+        }).join('\n');
+    } else {
+=======
+    if (isUnityMode || isSkyverseMode || isMinecraftMode) {
+        // Unity/Skyverse/Minecraft mode: Dịch trực tiếp, dùng hash key ngắn
+        xmlInput = batch.map(e => {
+            const hashKey = hashKeyMap.get(e.key);
+            return `  <Text Key="${hashKey}">${escapeXml(e.text)}</Text>`;
+        }).join('\n');
+    } else {
+>>>>>>> REPLACE
+```
+
+```javascript
+# File: scripts/3-translate.js
+<<<<<<< SEARCH
+        if (!messages) {
+            let userPrompt;
+            
+            if (isUnityMode || isSkyverseMode) {
+                const langFrom = isUnityMode ? "tiếng Nhật" : "tiếng Anh";
+                const rule4 = isUnityMode 
+                    ? "4. KHÔNG ĐỂ LẠI KÝ TỰ TIẾNG NHẬT (Hiragana/Katakana/Kanji)" 
+                    : "4. DỊCH SANG TIẾNG VIỆT (Giữ nguyên các tên riêng, danh từ đặc biệt tiếng Anh nếu không dịch được).";
+                    
+                userPrompt = `Dịch ${batch.length} thẻ XML ${langFrom} sang tiếng Việt.
+=======
+        if (!messages) {
+            let userPrompt;
+            
+            if (isUnityMode || isSkyverseMode || isMinecraftMode) {
+                const langFrom = isUnityMode ? "tiếng Nhật" : "tiếng Anh";
+                let rule4 = "4. DỊCH SANG TIẾNG VIỆT (Giữ nguyên các tên riêng, danh từ đặc biệt tiếng Anh nếu không dịch được).";
+                if (isUnityMode) rule4 = "4. KHÔNG ĐỂ LẠI KÝ TỰ TIẾNG NHẬT (Hiragana/Katakana/Kanji)";
+                if (isMinecraftMode) rule4 = "4. DỊCH SANG TIẾNG VIỆT DÀNH CHO MINECRAFT (Giữ nguyên định dạng màu §a, %s, %d, {0} v.v...).";
+                    
+                userPrompt = `Dịch ${batch.length} thẻ XML ${langFrom} sang tiếng Việt.
+>>>>>>> REPLACE
+```
+
+```javascript
+# File: scripts/3-translate.js
+<<<<<<< SEARCH
+        // Map hash key về key gốc (Unity & Skyverse)
+        if (isUnityMode || isSkyverseMode) {
+            translatedEntries.forEach(entry => {
+=======
+        // Map hash key về key gốc (Unity, Skyverse, Minecraft)
+        if (isUnityMode || isSkyverseMode || isMinecraftMode) {
+            translatedEntries.forEach(entry => {
+>>>>>>> REPLACE
+```
+
+```javascript
+# File: scripts/3-translate.js
+<<<<<<< SEARCH
+        // Kiểm tra HTML tags
+        const tagRegex = /<[^>]+>/g;
+        const tagErrors = [];
+        const japaneseErrors = [];
+        
+        if (isUnityMode || isSkyverseMode) {
+            for (let i = 0; i < batch.length; i++) {
+=======
+        // Kiểm tra HTML tags
+        const tagRegex = /<[^>]+>/g;
+        const tagErrors = [];
+        const japaneseErrors = [];
+        
+        if (isUnityMode || isSkyverseMode || isMinecraftMode) {
+            for (let i = 0; i < batch.length; i++) {
+>>>>>>> REPLACE
+```
+
+```javascript
+# File: scripts/3-translate.js
+<<<<<<< SEARCH
+    let entries;
+    let totalBatches;
+    
+    if (mode === 'unity' || mode === 'skyverse') {
+        console.log(`🚀 Dịch ${mode === 'unity' ? 'Unity JSON (Nhật → Việt)' : 'Skyverse TXT (Anh → Việt)'}\n`);
+        
+        const targetPath = mode === 'unity' ? PATHS.UNITY.TEMP_NEW : PATHS.SKYVERSE.TEMP_NEW;
+        const xmlContent = fs.readFileSync(targetPath, 'utf-8');
+=======
+    let entries;
+    let totalBatches;
+    
+    if (mode === 'unity' || mode === 'skyverse' || mode === 'minecraft') {
+        const modeNames = {
+            'unity': 'Unity JSON (Nhật → Việt)',
+            'skyverse': 'Skyverse TXT (Anh → Việt)',
+            'minecraft': 'Minecraft Mods (Anh → Việt)'
+        };
+        console.log(`🚀 Dịch ${modeNames[mode]}\n`);
+        
+        const targetPath = mode === 'unity' ? PATHS.UNITY.TEMP_NEW : 
+                           mode === 'skyverse' ? PATHS.SKYVERSE.TEMP_NEW : 
+                           PATHS.MINECRAFT.TEMP_NEW;
+        const xmlContent = fs.readFileSync(targetPath, 'utf-8');
+>>>>>>> REPLACE
+```
+
+```javascript
+# Create: config/minecraft-translation.config.js
+<<<<<<< CONTENT
+module.exports = {
+  api: {
+    provider: 'nvidia',
+    model: 'stepfun-ai/step-3.5-flash',
+    temperature: 0.3,
+    top_p: 0.9,
+    max_tokens: 16384,
+  },
+  translation: {
+    batchSize: 50,
+    parallelBatches: 10,
+    maxRetries: 3,
+    retryDelay: 3000,
+  },
+  systemPrompt: `Bạn là chuyên gia dịch thuật modpack Minecraft từ tiếng Anh sang tiếng Việt.
+
+⚠️ QUY TẮC QUAN TRỌNG NHẤT - PHẢI TUÂN THỦ TUYỆT ĐỐI:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. GIỮ NGUYÊN 100% CÁC BIẾN VÀ MÃ ĐỊNH DẠNG:
+   - Các biến số: %s, %d, %1$s, %2$d, {0}, {1}
+   - Các mã màu/format Minecraft: §a, §b, §c, §l, §o, §r (ví dụ: §cFire -> §cLửa)
+   - Ký tự xuống dòng: \n
+
+2. CHỈ DỊCH TEXT BÊN TRONG THẺ <Text>. TUYỆT ĐỐI GIỮ NGUYÊN Key.
+   - Gốc: <Text Key="abc">Iron Ingot</Text>
+   - Dịch: <Text Key="abc">Phôi sắt</Text>
+
+3. DỊCH CHUẨN THUẬT NGỮ MINECRAFT:
+   - Iron Ingot = Phôi sắt
+   - Chest = Rương
+   - Crafting Table = Bàn chế tạo
+   - Health = Máu
+   - Damage = Sát thương
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
+  version: { format: 'v{major}.{minor}.{patch}', autoIncrement: true },
+  backup: { enabled: true, keepVersions: 10, timestampFormat: 'YYYY-MM-DD_HH-mm-ss' }
+};
+>>>>>>> END
+```
+
+```javascript
+# Create: scripts/minecraft/0-reset.js
+<<<<<<< CONTENT
+const fs = require('fs');
+const path = require('path');
+const PATHS = require('../../config/paths.config');
+
+function resetMinecraftWorkflow() {
+  console.log('\n=== [Minecraft 0] Reset Workflow ===\n');
+  
+  const filesToDelete = [
+    PATHS.MINECRAFT.TEMP_EN_XML,
+    PATHS.MINECRAFT.TEMP_NEW,
+    PATHS.MINECRAFT.TEMP_TRANSLATED,
+    PATHS.MINECRAFT.TEMP_MERGED,
+    path.join(PATHS.TEMP.DIR, 'minecraft-progress.json'),
+    path.join(PATHS.TEMP.DIR, 'temp-batches-minecraft'),
+    PATHS.MINECRAFT.OUTPUT_DIR
+  ];
+  
+  let deletedCount = 0;
+  
+  filesToDelete.forEach(filePath => {
+    if (fs.existsSync(filePath)) {
+      const stats = fs.statSync(filePath);
+      if (stats.isDirectory()) {
+        fs.rmSync(filePath, { recursive: true, force: true });
+      } else {
+        fs.unlinkSync(filePath);
+      }
+      deletedCount++;
+      console.log(`✅ Đã xóa: ${path.basename(filePath)}`);
+    }
+  });
+  
+  console.log(`\n✅ Hoàn tất xóa ${deletedCount} file/thư mục tạm của Minecraft!`);
+}
+
+if (require.main === module) {
+  resetMinecraftWorkflow();
+}
+module.exports = { resetMinecraftWorkflow };
+>>>>>>> END
+```
+
+```javascript
+# Create: scripts/minecraft/1-import-json.js
+<<<<<<< CONTENT
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const PATHS = require('../../config/paths.config');
+const { escapeXml } = require('../utils/xml-parser');
+const { backupFile } = require('../utils/backup');
+
+function generateHashKey(originalKey) {
+  return crypto.createHash('md5').update(originalKey).digest('hex').substring(0, 12).toUpperCase();
+}
+
+function importMinecraftJson() {
+  const inputJson = PATHS.MINECRAFT.INPUT_JSON;
+  const outputXml = PATHS.MINECRAFT.TEMP_EN_XML;
+  const mappingFile = PATHS.MINECRAFT.MAPPING;
+  const reverseMappingFile = PATHS.MINECRAFT.REVERSE_MAPPING;
+  
+  console.log('\n=== [Minecraft 1] Import JSON → XML ===');
+  
+  if (!fs.existsSync(inputJson)) {
+    console.error(`❌ File không tồn tại: ${inputJson}`);
+    process.exit(1);
+  }
+  
+  backupFile(outputXml, path.dirname(outputXml));
+  backupFile(mappingFile, path.dirname(mappingFile));
+  
+  const content = fs.readFileSync(inputJson, 'utf8');
+  const modData = JSON.parse(content);
+  
+  let xml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n';
+  xml += '<STBLKeyStringList>\n';
+  
+  const mapping = {};
+  const reverseMapping = {};
+  let count = 0;
+  
+  // input là dạng { "modId": { "key": "value" } }
+  for (const [modId, keysDict] of Object.entries(modData)) {
+    for (const [originalKey, textVal] of Object.entries(keysDict)) {
+      if (textVal === null || textVal === "") continue;
+
+      // Gộp modId và key để tạo hash duy nhất, tránh trùng lặp key giữa các mod
+      const combinedKey = `${modId}|||${originalKey}`;
+      const hashKey = generateHashKey(combinedKey);
+      
+      xml += `  <Text Key="${hashKey}">${escapeXml(String(textVal))}</Text>\n`;
+      
+      mapping[hashKey] = {
+        modId,
+        originalKey,
+        text: textVal
+      };
+      reverseMapping[hashKey] = combinedKey;
+      count++;
+    }
+  }
+  
+  xml += '</STBLKeyStringList>';
+  
+  if (!fs.existsSync(path.dirname(outputXml))) fs.mkdirSync(path.dirname(outputXml), { recursive: true });
+  
+  fs.writeFileSync(outputXml, xml, 'utf8');
+  fs.writeFileSync(mappingFile, JSON.stringify(mapping, null, 2), 'utf8');
+  fs.writeFileSync(reverseMappingFile, JSON.stringify(reverseMapping, null, 2), 'utf8');
+  
+  console.log(`✅ Đã tạo XML: ${count} entries`);
+  console.log(`✅ Đã lưu Mapping files.`);
+}
+
+if (require.main === module) {
+  importMinecraftJson();
+}
+>>>>>>> END
+```
+
+```javascript
+# Create: scripts/minecraft/2-detect-changes.js
+<<<<<<< CONTENT
+const fs = require('fs');
+const path = require('path');
+const PATHS = require('../../config/paths.config');
+const { parseXMLToMap } = require('../utils/xml-parser');
+
+function detectChanges() {
+  console.log('\n=== [Minecraft 2] Phát hiện thay đổi ===');
+  
+  const enXmlFile = PATHS.MINECRAFT.TEMP_EN_XML;
+  const mergedXmlFile = PATHS.MINECRAFT.TEMP_MERGED;
+  const outputFile = PATHS.MINECRAFT.TEMP_NEW;
+  
+  if (!fs.existsSync(enXmlFile)) {
+    console.error(`❌ File XML nguồn chưa được tạo. Chạy bước 1 trước.`);
+    process.exit(1);
+  }
+  
+  const enXml = fs.readFileSync(enXmlFile, 'utf8');
+  const enEntries = parseXMLToMap(enXml);
+  
+  const oldEntries = new Map();
+  if (fs.existsSync(mergedXmlFile)) {
+    const oldXml = fs.readFileSync(mergedXmlFile, 'utf8');
+    const parsedOld = parseXMLToMap(oldXml);
+    parsedOld.forEach((val, key) => oldEntries.set(key, val));
+    console.log(`✅ Tìm thấy bản dịch cũ: ${oldEntries.size} keys.`);
+  } else {
+    console.log(`ℹ️  Không tìm thấy bản dịch cũ, sẽ dịch toàn bộ.`);
+  }
+  
+  const newContent = [];
+  enEntries.forEach((value, key) => {
+    if (!oldEntries.has(key)) {
+      newContent.push({ key, value });
+    }
+  });
+  
+  console.log(`📊 Cần dịch: ${newContent.length} entries`);
+  
+  if (newContent.length === 0) {
+    fs.writeFileSync(outputFile, '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<STBLKeyStringList>\n</STBLKeyStringList>', 'utf8');
+    return;
+  }
+  
+  let xml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<STBLKeyStringList>\n';
+  newContent.forEach(e => {
+    xml += `  <Text Key="${e.key}">${e.value}</Text>\n`;
+  });
+  xml += '</STBLKeyStringList>';
+  
+  fs.writeFileSync(outputFile, xml, 'utf8');
+  console.log(`✅ Đã xuất các file cần dịch ra: ${outputFile}`);
+}
+
+if (require.main === module) {
+  detectChanges();
+}
+>>>>>>> END
+```
+
+```javascript
+# Create: scripts/minecraft/3-translate.js
+<<<<<<< CONTENT
+const { execSync } = require('child_process');
+const PATHS = require('../../config/paths.config');
+
+function translate() {
+  console.log('\n=== [Minecraft 3] Dịch tự động AI ===');
+  try {
+    execSync('node scripts/3-translate.js minecraft', {
+      stdio: 'inherit',
+      cwd: PATHS.ROOT
+    });
+    console.log(`\n✅ Hoàn thành dịch!`);
+  } catch (error) {
+    console.error('\n❌ Lỗi khi dịch:', error.message);
+    process.exit(1);
+  }
+}
+
+if (require.main === module) {
+  translate();
+}
+>>>>>>> END
+```
+
+```javascript
+# Create: scripts/minecraft/4-merge.js
+<<<<<<< CONTENT
+const fs = require('fs');
+const path = require('path');
+const PATHS = require('../../config/paths.config');
+const { parseXMLToMap } = require('../utils/xml-parser');
+
+function mergeTranslations() {
+  console.log('\n=== [Minecraft 4] Merge bản dịch ===');
+  
+  const enXml = PATHS.MINECRAFT.TEMP_EN_XML;
+  const viOldXml = PATHS.MINECRAFT.TEMP_MERGED;
+  const viNewXml = PATHS.MINECRAFT.TEMP_TRANSLATED;
+  const outputXml = PATHS.MINECRAFT.TEMP_MERGED;
+  
+  if (!fs.existsSync(enXml)) process.exit(1);
+  
+  const enEntries = parseXMLToMap(fs.readFileSync(enXml, 'utf8'));
+  const translationMap = new Map();
+  
+  if (fs.existsSync(viOldXml)) {
+    const viOldEntries = parseXMLToMap(fs.readFileSync(viOldXml, 'utf8'));
+    viOldEntries.forEach((value, key) => translationMap.set(key, value));
+  }
+  
+  if (fs.existsSync(viNewXml)) {
+    const viNewEntries = parseXMLToMap(fs.readFileSync(viNewXml, 'utf8'));
+    viNewEntries.forEach((value, key) => translationMap.set(key, value));
+  }
+  
+  let xml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<STBLKeyStringList>\n';
+  let translated = 0;
+  
+  enEntries.forEach((enValue, key) => {
+    if (translationMap.has(key)) {
+      xml += `  <Text Key="${key}">${translationMap.get(key)}</Text>\n`;
+      translated++;
+    } else {
+      xml += `  <Text Key="${key}">${enValue}</Text>\n`;
+    }
+  });
+  
+  xml += '</STBLKeyStringList>';
+  fs.writeFileSync(outputXml, xml, 'utf8');
+  
+  console.log(`✅ Đã merge: ${translated}/${enEntries.size} entries.`);
+}
+
+if (require.main === module) {
+  mergeTranslations();
+}
+>>>>>>> END
+```
+
+```javascript
+# Create: scripts/minecraft/5-export-resourcepack.js
+<<<<<<< CONTENT
+const fs = require('fs');
+const path = require('path');
+const PATHS = require('../../config/paths.config');
+const { unescapeXml, parseXMLToMap } = require('../utils/xml-parser');
+
+function exportResourcePack() {
+  console.log('\n=== [Minecraft 5] Xuất Resource Pack ===');
+  
+  const mergedXml = PATHS.MINECRAFT.TEMP_MERGED;
+  const mappingFile = PATHS.MINECRAFT.MAPPING;
+  const outputDir = PATHS.MINECRAFT.OUTPUT_DIR;
+  
+  if (!fs.existsSync(mergedXml) || !fs.existsSync(mappingFile)) {
+    console.error(`❌ Thiếu file merged.xml hoặc mapping.json!`);
+    process.exit(1);
+  }
+  
+  const translatedEntries = parseXMLToMap(fs.readFileSync(mergedXml, 'utf8'));
+  const mapping = JSON.parse(fs.readFileSync(mappingFile, 'utf8'));
+  
+  // Dựng lại dữ liệu: { modId: { key: value } }
+  const modData = {};
+  
+  for (const [hashKey, viXmlText] of translatedEntries.entries()) {
+    const mapInfo = mapping[hashKey];
+    if (mapInfo) {
+      const { modId, originalKey } = mapInfo;
+      if (!modData[modId]) modData[modId] = {};
+      
+      modData[modId][originalKey] = unescapeXml(viXmlText);
+    }
+  }
+
+  // Tạo thư mục Resource Pack
+  if (fs.existsSync(outputDir)) {
+    fs.rmSync(outputDir, { recursive: true, force: true });
+  }
+  fs.mkdirSync(outputDir, { recursive: true });
+
+  // Ghi file pack.mcmeta
+  const mcmeta = {
+    pack: {
+      pack_format: 15,
+      description: "Việt Hóa Modpack AI"
+    }
+  };
+  fs.writeFileSync(path.join(outputDir, 'pack.mcmeta'), JSON.stringify(mcmeta, null, 2), 'utf8');
+
+  // Ghi từng file vi_vn.json
+  let filesCreated = 0;
+  for (const [modId, translations] of Object.entries(modData)) {
+    const langDir = path.join(outputDir, 'assets', modId, 'lang');
+    fs.mkdirSync(langDir, { recursive: true });
+    
+    // Lưu ở định dạng JSON tiêu chuẩn Minecraft
+    fs.writeFileSync(path.join(langDir, 'vi_vn.json'), JSON.stringify(translations, null, 4), 'utf8');
+    filesCreated++;
+  }
+  
+  console.log(`✅ Đã xuất thành công ${filesCreated} file vi_vn.json`);
+  console.log(`📁 Resource Pack sẵn sàng tại: ${outputDir}`);
+}
+
+if (require.main === module) {
+  exportResourcePack();
+}
+>>>>>>> END
+```
+
+```javascript
+# Create: scripts/minecraft/update.js
+<<<<<<< CONTENT
+#!/usr/bin/env node
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+const PATHS = require('../../config/paths.config');
+
+console.log('🚀 Minecraft Translation Workflow\n' + '='.repeat(60));
+
+function runScript(scriptPath, description) {
+  console.log(`\n${'='.repeat(60)}\n▶️  ${description}\n${'='.repeat(60)}\n`);
+  try {
+    execSync(`node "${scriptPath}"`, { stdio: 'inherit', cwd: PATHS.ROOT });
+    return true;
+  } catch (error) {
+    console.error(`\n❌ ${description} - Lỗi`);
+    return false;
+  }
+}
+
+async function main() {
+  if (!fs.existsSync(PATHS.MINECRAFT.INPUT_JSON)) {
+    console.error(`❌ File không tồn tại: ${PATHS.MINECRAFT.INPUT_JSON}`);
+    console.error(`Vui lòng chạy script extract_lang.js trước để tạo output_to_translate.json`);
+    process.exit(1);
+  }
+  
+  runScript(path.join(PATHS.ROOT, 'scripts', 'minecraft', '1-import-json.js'), '1. Import JSON → XML');
+  runScript(path.join(PATHS.ROOT, 'scripts', 'minecraft', '2-detect-changes.js'), '2. Phát hiện thay đổi');
+  
+  const newContent = fs.readFileSync(PATHS.MINECRAFT.TEMP_NEW, 'utf-8');
+  if ((newContent.match(/<Text Key=/g) || []).length > 0) {
+    runScript(path.join(PATHS.ROOT, 'scripts', 'minecraft', '3-translate.js'), '3. Dịch tự động');
+  } else {
+    console.log('\n✅ Không có nội dung mới cần dịch!');
+  }
+  
+  runScript(path.join(PATHS.ROOT, 'scripts', 'minecraft', '4-merge.js'), '4. Merge bản dịch');
+  runScript(path.join(PATHS.ROOT, 'scripts', 'minecraft', '5-export-resourcepack.js'), '5. Xuất Resource Pack');
+  
+  console.log('\n🎉 HOÀN THÀNH TẤT CẢ!');
+  console.log(`📁 Kết quả (Resource Pack): ${PATHS.MINECRAFT.OUTPUT_DIR}`);
+}
+
+main();
+>>>>>>> END
+```
+<<<END_OF_DIFF>>>
