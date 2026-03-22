@@ -27,7 +27,6 @@
 	quest.16D0F1E3CEB60ABF.title: "Cần câu sắt"
 	quest.1827DEEA2DF1B144.quest_desc: [
 		"Chào mừng đến với chương Thực phẩm và Nông nghiệp!"
-		""
 		"Tại đây, bạn sẽ tìm thấy các cách khác nhau để trồng trọt và chế biến thực phẩm!"
 	]
 	quest.1827DEEA2DF1B144.title: "Thực phẩm và Nông nghiệp"
@@ -38,7 +37,6 @@
 	quest.18EADBAFC932F864.title: "Đến lúc cắt tỉa rồi!"
 	quest.1D2EF12FD7FDD217.quest_desc: [
 		"Gà sẽ đẻ trứng một cách tự nhiên. Tôi đoán không thực sự được coi là tự nhiên..."
-		""
 		"Tôi đoán gà chỉ đang... &oTập trứng!!!&r."
 	]
 	quest.1D2EF12FD7FDD217.quest_subtitle: "...hay là tôi?"
@@ -55,7 +53,6 @@
 	quest.1DCAA0310AA55F1C.title: "Sự khởi đầu của một người đánh cá."
 	quest.1F114EB0AAB86DB4.quest_desc: [
 		"Các chợ cung cấp cho bạn một người làng có thể bán bất cứ thứ gì nếu bạn có số lượng ngọc lục bảo phù hợp."
-		""
 		"Spoiler: Thường thì chỉ 1 Ngọc lục bảo cho mỗi món, may mắn là họ có MỌI THỨ."
 	]
 	quest.1F114EB0AAB86DB4.quest_subtitle: "Người làng có nhiều hơn một cách để Spawn."
@@ -67,16 +64,13 @@
 	quest.2786D5AC19163524.title: "Cưng ơi, có một Lò Nung trong Nhà Bếp"
 	quest.28C9EDBF6607E180.quest_desc: [
 		"Khối này là một phần của nhà bếp multi-block."
-		""
 		"Điều này sẽ hiển thị mọi công thức có sẵn cho bạn với thức ăn bạn có trong kho đồ, hoặc được lưu trữ trong nhà bếp multi-block."
-		""
 		"Cuối cùng bạn cũng có thể tạo một căn nhà bếp đẹp trong Minecraft."
 	]
 	quest.28C9EDBF6607E180.quest_subtitle: "Betty White sinh ra trước cả Bánh Mì Cắt Lát"
 	quest.28C9EDBF6607E180.title: "ĐIỀU TUYỆT VỜI NHẤT KỂ TỪ KHI CÓ BÁNH MÌ CẮT LÁT"
 	quest.2E9C035EEE7E5C34.quest_desc: [
 		"Dây Lead cổ điển. Dùng cái này để đưa động vật vào khu vực nông trại của bạn."
-		""
 		"Đây không phải là cùng một thứ với quặng."
 	]
 	quest.2E9C035EEE7E5C34.quest_subtitle: "Đi nào, chú chó con!"
@@ -109,9 +103,7 @@
 	quest.45F83C2750F70F9B.title: "Làm một căn bếp, với một Cuốn sách"
 	quest.47764EFC822E462A.quest_desc: [
 		"Khối này sản xuất sữa theo thời gian, và kích hoạt các công thức sữa cho bếp đa khối."
-		""
 		"Để đặt một con bò vào trong lọ, hãy đặt lọ vào một lỗ. Dụ bò rơi vào lỗ đó phía trên lọ, sau đó thả một cái búa anvil xuống."
-		""
 		"Tôi không biết lớp kính này làm từ gì, nhưng nó cứng hơn mối quan hệ của tôi với Chicken."
 	]
 	quest.47764EFC822E462A.quest_subtitle: "Sức mạnh vắt sữa phi thường....Không gian sống nhỏ xíu"
@@ -119,21 +111,17 @@
 	quest.511562EA5811306B.title: "Cần câu kim cương"
 	quest.55C4824DAD905512.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods."
-		""
 		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.58495CFBF4F20CE9.quest_desc: [
 		"Nó hoạt động giống như quầy bếp, chỉ là ở trên không."
-		""
 		"Và bạn không thể đặt đồ lên trên nó."
 	]
 	quest.58495CFBF4F20CE9.quest_subtitle: "Còn nhiều chỗ cho hoạt động!"
 	quest.58495CFBF4F20CE9.title: "Kho chứa lớn hơn nữa"
 	quest.58D5BD3106BFD94A.quest_desc: [
 		"Chế tạo phiên bản sách tiếp theo. Tôi đảm bảo với bạn, nó đáng giá."
-		""
 		"Tôi sẽ trả lại một Viên kim cương cho bạn."
 	]
 	quest.58D5BD3106BFD94A.quest_subtitle: "Hoàn toàn đáng giá"
@@ -153,7 +141,6 @@
 	quest.72717D1135486D7F.title: "Đấm vào cỏ"
 	quest.73B8A70240E6070E.quest_desc: [
 		"Tìm một con bò và nhấp chuột phải vào nó bằng xô."
-		""
 		"Thật sự, tại sao không có bò đực?"
 	]
 	quest.73B8A70240E6070E.quest_subtitle: "Tại sao trong game không có bò đực?"

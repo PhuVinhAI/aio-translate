@@ -4,9 +4,7 @@
 	]
 	quest.0108F3EFDFD6DFD0.quest_desc: [
 		"Storage Link cho phép bạn kết nối nhiều kho không được gắn vào Storage Controller hoặc bất kỳ khối nào được kết nối với nó."
-		""
 		"Vì vậy, đây là cách để kết nối không dây một \"multiblock\" của các kho mà không cần phải click phải từng cái."
-		""
 		"Phạm vi 14 khối vẫn áp dụng."
 	]
 	quest.019CA0E35F888222.quest_subtitle: "Thêm tùy chọn lọc"
@@ -152,13 +150,11 @@
 	quest.58514FDE153FD971.title: "&fHòm sắt"
 	quest.5A94A2664BFDD7B9.quest_desc: [
 		"Chào mừng đến với Chương Lưu trữ Cơ bản!"
-		""
 		"Bạn sẽ tìm thấy tất cả các cách cơ bản để lưu trữ vật phẩm mà không cần năng lượng, cũng như các vật phẩm hữu ích cho nhu cầu lưu trữ của bạn!"
 	]
 	quest.5A94A2664BFDD7B9.title: "Lưu trữ Cơ bản"
 	quest.5E4BC0F59C90433A.quest_desc: [
 		"Lưu trữ Tinh tế cho phép bạn nâng cấp các hòm và thùng của mình bằng kim loại để tăng dung lượng lưu trữ! Bạn cũng có thể thêm các nâng cấp để tăng tính năng."
-		""
 		"Những chiếc hòm này giống hệt như một hòm hoặc thùng gốc, nhưng chúng có một khe cho Nâng cấp Lưu trữ!"
 	]
 	quest.5E4BC0F59C90433A.quest_subtitle: "\"Rương Vanilla\""
@@ -204,7 +200,6 @@
 	quest.785951190FFDAA21.title: "&eNâng cấp Chồng Cấp 2"
 	quest.78E51D22C16C4686.quest_desc: [
 		"Bộ Điều Khiển Kho Lưu Trữ cũng có thể kết nối với các kho lưu trữ khác không dây, điều này có thể thực hiện bằng Công Cụ Kho Lưu Trữ, chỉ cần nhấp chuột phải vào Bộ Điều Khiển Kho Lưu Trữ để liên kết nó và nhấp chuột phải vào các kho để kết nối chúng."
-		""
 		"Phạm vi kết nối không dây giống như bình thường, 14 khối không gian."
 	]
 	quest.7AE3C8134F5ED726.quest_desc: [
@@ -213,7 +208,6 @@
 	quest.7AE3C8134F5ED726.title: "&dNâng cấp Chồng Cấp 4"
 	quest.7C07D6A33F7ADB02.quest_desc: [
 		"Đây là nâng cấp Ba lô để bạn có thể đựng Ba lô của mình trong Ba lô."
-		""
 		"Vì vậy bạn có thể có Ba lô trong Ba lô khi bạn cần Ba lô trong Ba lô."
 	]
 	quest.7C07D6A33F7ADB02.quest_subtitle: "Ba lô trong Ba lô của bạn?"

@@ -18,15 +18,12 @@
 	quest.0498A578D0EC3254.quest_subtitle: "Mạch Điều Khiển Cơ Bản"
 	quest.04E2D539E33B7B0F.quest_desc: [
 		"Máy này kết hợp hai loại khí để tạo ra một loại khí mới."
-		""
 		"Bạn sẽ cần nó để kết hợp Clo với Hydrogen tạo ra Hydrogen Chloride, sau đó được sử dụng trong buồng Hóa Chất Injection của chúng tôi."
 	]
 	quest.04E2D539E33B7B0F.quest_subtitle: "Máy Kết Hợp Hóa Chất"
 	quest.0650996C7818ADB5.quest_desc: [
 		"Máy Phát Nhiệt có 2 chế độ để tạo năng lượng:"
-		""
 		"&9Thụ động:&r Bao quanh máy phát với nguồn dung nham hoặc khối dòng chảy tạo năng lượng thụ động bằng cách tạo nhiệt. Đặt một khối nguồn dung nham ở phía trên, và để nó chảy xuống các cạnh. Đảm bảo kết nối ống dẫn trước!"
-		""
 		"&9Chủ động:&r Đặt vật liệu cháy như than hoặc gỗ vào máy phát sẽ đốt nhiên liệu để tạo năng lượng."
 	]
 	quest.0650996C7818ADB5.quest_subtitle: "Máy Phát Điện Cơ Bản"
@@ -36,9 +33,7 @@
 	quest.07AD45DCF9EE3C2E.quest_subtitle: "Nâng Cấp Thành Nhà Máy"
 	quest.08DDE018A804BFE7.quest_desc: [
 		"Máy này hoạt động như một Máy Nghiền hoặc Máy Xay, và sẽ nghiền quặng thành bụi."
-		""
 		"Máy này nghiền 3 quặng thô thành 4 bụi."
-		""
 		"Đây là bước đầu tiên của Nhà Máy Quặng của bạn. Nó cũng có thể được nâng cấp thành máy nhà máy, tăng số khe sử dụng."
 	]
 	quest.08DDE018A804BFE7.quest_subtitle: "Nghiền Quặng Thô Thành Bụi"
@@ -48,9 +43,7 @@
 	quest.09408C6DCAC90318.quest_subtitle: "Lưu trữ Năng lượng"
 	quest.0F326EEEC2EBE4E5.quest_desc: [
 		"Sử dụng Enrichment Chamber, bạn có thể làm phong phú các vật phẩm để chuyển chúng thành phiên bản phong phú."
-		""
 		"Các vật phẩm \"phong phú\" này cung cấp 8x lượng mb trong Metallurgic Infuser."
-		""
 		"Nếu bạn định làm nhiều thép, hãy làm phong phú Charcoal trước!"
 	]
 	quest.0F326EEEC2EBE4E5.quest_subtitle: "Làm phong phú vật phẩm trước!"
@@ -79,52 +72,39 @@
 	quest.166971866A9234C7.title: "&cHợp kim được thổi phồng"
 	quest.18D88932916C7A98.quest_desc: [
 		"Máy Tách Điện Hóa (cái tên hoành tráng) được dùng để tách hóa chất từ một số chất lỏng và khí."
-		""
 		"Bạn sẽ cần một số lượng lớn những cái này nếu bạn dự định xây dựng một Nhà máy Chế biến Quặng."
-		""
 		"Để bắt đầu, hãy chế tạo một cái và chúng ta sẽ phân tích chất lỏng cơ bản nhất: Nước."
 	]
 	quest.18D88932916C7A98.quest_subtitle: "Đến Lúc Phân Tách"
 	quest.195729280394ABFB.quest_desc: [
 		"Máy móc tạo ra hai phôi siêu mạnh: Phôi Đá Phát Quang Tinh Chế và Phôi Obsidian Tinh Chế."
-		""
 		"Nó pha trộn một vật phẩm với Osmium để tạo ra một phôi mạnh hơn."
 	]
 	quest.195729280394ABFB.quest_subtitle: "Thực Chỉ Tốt Cho 2 Điều"
 	quest.1B6DDF50D00CBB31.quest_desc: [
 		"Pha trộn Sắt với Than hoặc Than củi trong Máy Pha Hợp Kim sẽ cho bạn Sắt Tinh Chế."
-		""
 		"Pha trộn Sắt Tinh Chế với thêm Than hoặc Than củi sẽ cho bạn Bụi Thép, có thể nung chảy thành Thép."
-		""
 		"Đây là thành phần chế tạo chính trong nhiều công thức trong Mekanism."
 	]
 	quest.1B6DDF50D00CBB31.title: "Thép"
 	quest.1FC7E9DBF92BE6AA.quest_desc: [
 		"Vật phẩm này được dùng để lưu trữ năng lượng, và hoạt động như một bộ pin di động."
-		""
 		"Nó cũng là một vật phẩm chế tạo quan trọng trong Mekanism."
 	]
 	quest.1FC7E9DBF92BE6AA.quest_subtitle: "Bộ Pin Di Động"
 	quest.23F165DEAD225B10.quest_subtitle: "Để Truyền Năng Lượng"
 	quest.263220DCCDB90E29.quest_desc: [
 		"Cho đến nay, để \"gấp đôi\" sản lượng phôi của chúng ta, cấu hình của bạn nên trông giống như thế này:"
-		""
 		"Quặng thô được đưa vào &aPhòng Thanh Lọc&r của bạn, được cung cấp &aOxygen&r từ &6Máy Tách Điện Hóa&r."
-		""
 		"Sau đó nó xuất sản phẩm vào &aMáy Nghiền&r, chuyển đổi cụm quặng thành \"Bụi Bẩn\". \"Bụi Bẩn\" này được đưa vào &aPhòng Làm Giàu&r, chuyển đổi \"Bụi Bẩn\" thành \"Bụi Quặng\" phù hợp."
-		""
 		"&aPhòng Làm Giàu&r sau đó đưa vào lò nung bạn chọn."
 	]
 	quest.263220DCCDB90E29.quest_subtitle: "Nhà máy khai thác quặng Cấp 2"
 	quest.2E274BEEF2B0B8C7.quest_desc: [
 		"Được rồi, trước tiên hãy tạo Đioxit sunfur."
-		""
 		"Bắt đầu bằng cách đặt Thuốc súng vào một &aBuồng tiêm hóa chất&r riêng biệt cùng với Khí clo hidro để tạo Bụi sunfur. HOẶC bạn có thể nghiền Sunfur từ Thermal Series thành Bụi sunfur, tùy bạn."
-		""
 		"Đưa Bụi sunfur vào máy này, &aMáy oxy hóa hóa chất&r, sẽ tạo ra Đioxit sunfur. Bây giờ chúng ta cần tạo Trioxit sunfur."
-		""
 		"Gửi Đioxit sunfur vào Máy pha hóa chất để kết hợp với Oxy, tạo ra Trioxit sunfur. Gửi Trioxit vào một Máy pha hóa chất khác để kết hợp với Hơi nước, tạo ra Axit sunfuric."
-		""
 		"Nhiều thứ quá."
 	]
 	quest.2EF4DD5CC254CC80.quest_subtitle: "Để chuyển chất lỏng"
@@ -132,7 +112,6 @@
 	quest.37D4E5ACB35D8BF1.quest_subtitle: "Cần Hydro để hoạt động!"
 	quest.3999760881C855FA.quest_desc: [
 		"Máy này sẽ là thiết bị thứ 3 trong Nhà máy chế biến quặng Cấp 4 của bạn."
-		""
 		"Nó nhận Bùn quặng sạch từ Máy rửa hóa chất và biến chúng thành Tinh thể, mà sau đó Buồng tiêm hóa chất có thể xử lý tiếp."
 	]
 	quest.3999760881C855FA.quest_subtitle: "Biến Bùn quặng thành Tinh thể"
@@ -141,25 +120,19 @@
 	]
 	quest.3C49F2EEDCCAF1DF.quest_desc: [
 		"Nếu bạn như tôi, bạn có lẽ đã lạc 55 lần trong vài bước cuối này. Đây là một hệ thống phức tạp."
-		""
 		"Bố cục cơ bản của nhà máy bạn nên là:"
-		""
 		"Quặng thô đi vào Buồng hòa tan hóa chất > bơm khí đến Máy rửa hóa chất > bơm khí đến Máy kết tinh hóa chất > xuất tinh thể đến Buồng tiêm hóa chất > xuất mảnh vỡ đến Buồng tinh khiết > xuất cục đến Máy nghiền > xuất bụi bẩn đến Buồng làm giàu > xuất bụi sạch đến Lò nung."
-		""
 		"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true}"
 	]
 	quest.3C49F2EEDCCAF1DF.quest_subtitle: "Nhiều thứ quá, tôi biết."
 	quest.3EC9D0DA61B45328.quest_desc: [
 		"Máy phát điện này có thể đốt cả Hydrogen và Ethylene để tạo năng lượng."
-		""
 		"Lưu ý: Đốt Hydrogen sẽ không tạo ra nhiều năng lượng hơn chi phí để chạy Máy tách điện ly. Thay vào đó, hãy dùng cho Ethylene."
 	]
 	quest.3EC9D0DA61B45328.quest_subtitle: "Đốt khí thành điện!"
 	quest.407EFAF528871014.quest_desc: [
 		"Để bắt đầu phân tách nước, chúng ta cần một nguồn nước. Kitchen Sink cung cấp nước vô hạn và có thể dễ dàng được thiết lập để bơm nước ra."
-		""
 		"Một cách khác, bạn luôn có thể sử dụng nguồn nước vô hạn kinh điển với một máy bơm từ Mekanism."
-		""
 		"Bơm nước vào Máy tách điện ly của bạn để tách nước thành Hydrogen và Oxygen."
 	]
 	quest.407EFAF528871014.quest_subtitle: "Nguồn nước vô hạn Toàn năng"
@@ -170,12 +143,10 @@
 	quest.41EB0C570FC54F43.quest_subtitle: "Lưu trữ tất cả khí đó"
 	quest.4204702AA6FBF40B.quest_desc: [
 		"Đứng trên vật phẩm này sẽ sạc bất kỳ vật phẩm cần nguồn năng lượng từ bất kỳ mod nào."
-		""
 		"Điều này cũng cần thiết cho Robit."
 	]
 	quest.4236B9F071BE18F3.quest_desc: [
 		"Để làm axit sulfuric, bạn sẽ cần tạo &aHơi nước&r."
-		""
 		"Bơm một ít nước vào máy này và nó sẽ chuyển nó thành hơi nước."
 	]
 	quest.4434D7B66521D69A.quest_subtitle: "Để truyền khí"
@@ -184,28 +155,23 @@
 	]
 	quest.488DBE69595F38F8.quest_desc: [
 		"Máy này nung chảy vật phẩm."
-		""
 		"Nó có thể được nâng cấp thành Nhà máy Nung chảy, tăng tổng số khe nung lên tối đa 9."
 	]
 	quest.488DBE69595F38F8.quest_subtitle: "Lò Nung Có Động Cơ của Mekanism"
 	quest.49675EA8CBCA1388.quest_subtitle: "Công Cụ Tất Cả Trong Một của Mekanism"
 	quest.4A1C8125896F7F1A.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các Modpack AllTheMods."
-		""
 		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.4AFF81D3D0E78255.quest_desc: [
 		"Máy này cần nước để vận hành, và sử dụng nước để làm sạch \"Ore Slurry\" thành \"Clean Ore Slurry.\""
-		""
 		"Nó sẽ là phần 2 của Nhà máy Xử lý Quặng Cấp 4 của bạn."
 	]
 	quest.4AFF81D3D0E78255.quest_subtitle: "Tắm cho Quặng"
 	quest.4BDE773C3359D584.quest_subtitle: "Một Mini-Robot Đồng Hành Cùng Bạn Trong Chuyến Đi"
 	quest.4EDD96EB60EF5814.quest_desc: [
 		"Nếu bạn đang tự hỏi liệu có đáng để nâng cấp cái này không, câu trả lời là có."
-		""
 		"Phiên bản này có thể được sử dụng để thêm nhiệt vào Nhà máy Hơi Nước Nhiệt."
 	]
 	quest.4EDD96EB60EF5814.quest_subtitle: "Tạo ra khoảng 410FE/t"
@@ -261,7 +227,6 @@
 		"Bạn cần ít nhất 1 controller và ít nhất 2 valves.\"
 		"\"
 		"Bơm nước vào, và bạn sẽ bắt đầu thu thập brine, có thể được bơm vào &aElectrolytic Separator&r (Máy tách điện ly) để chiết xuất &6Chlorine&r (Clo) từ khí.\"
-		""
 		"{image:atm:textures/questpics/mek/thermalplant.png width:100 height:100 align:1}"
 	]
 	quest.603877AB96321F1A.quest_subtitle: "Nước biến thành nước muối bão hòa!"
@@ -279,7 +244,6 @@
 	]
 	quest.6DB1AAAD926486BC.quest_desc: [
 		"Bể chứa chất lỏng lưu trữ các chất lỏng."
-		""
 		"Nó có chế độ xô có thể chuyển đổi để lấy chất lỏng. Rất hữu ích cho dung nha trong giai đoạn đầu!"
 	]
 	quest.6DB1AAAD926486BC.quest_subtitle: "Nó có CHẾ ĐỘ XÔ!"
@@ -295,7 +259,6 @@
 	quest.76A38CCA5816CDAD.title: "HDPE Pellets"
 	quest.7778937DF377C1B4.quest_desc: [
 		"Đây là một lựa chọn tuyệt vời để tạo năng lượng."
-		""
 		"Nó tạo ra khoảng 96FE/t ở mực nước biển, và tăng dựa trên độ cao của bạn. Cao hơn mức Y, nó sản xuất càng nhiều năng lượng!"
 	]
 	quest.7778937DF377C1B4.quest_subtitle: "Tạo năng lượng từ gió"

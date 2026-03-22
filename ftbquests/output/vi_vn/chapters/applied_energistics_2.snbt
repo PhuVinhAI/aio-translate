@@ -1,26 +1,21 @@
 {
 	quest.00611844AFD5C31E.quest_desc: [
 		"Trong khi Inscriber và Charger có thể chấp nhận RF/FE một cách tự nhiên, phần lớn mạng ME sử dụng hệ thống năng lượng riêng của mình gọi là AE."
-		""
 		"RF/FE có thể được chuyển đổi thành AE tự nhiên với tỷ lệ 2:1 RF:AE, hoặc trực tiếp thông qua ME Controller, hoặc thông qua &bEnergy Acceptor&f, có thể được kết nối đến bất kỳ phần nào của mạng."
 	]
 	quest.00611844AFD5C31E.quest_subtitle: "Cắm vào"
 	quest.01F3F0C25BA72BDA.quest_desc: [
 		"Ngoài việc lưu trữ vật phẩm và chất lỏng, AE2 còn cung cấp cách tự nhiên để lưu trữ toàn bộ &ecấu trúc&f bên trong các ô lưu trữ, không khác lắm so với mod Compact Machines."
-		""
 		"Cổng &bSpatial IO Port&f cho phép các cấu trúc được chứa trong &bSpatial Containment Structure&f được thu vào một ô lưu trữ được thiết kế đặc biệt, kích hoạt qua tín hiệu redstone."
-		""
 		"Nếu một sinh vật hoặc người chơi vô tình đứng trong SCS khi không gian đang được thu, họ cũng sẽ được dịch chuyển đến nơi phần còn lại của không gian đi, tức là trong một dimension chuyên dụng. Hãy đảm bảo bạn có cách để ra vào nếu bạn là người bị thu."
 	]
 	quest.01F3F0C25BA72BDA.title: "Spatial IO"
 	quest.037488EF1F3581CE.quest_desc: [
 		"Mặc định, một mạng ME khi không có ME Controller chỉ có bộ đệm nội bộ 800AE, với mỗi controller thêm 8kAE mỗi khối. Đối với các mạng đủ lớn, điều này có thể không đủ và có thể khiến mạng tắt nguồn một cách gián đoạn khi cố gắng phục hồi năng lượng cho các thiết bị được kết nối."
-		""
 		"&bEnergy Cell&f cho phép mạng ME giữ nhiều năng lượng hơn đáng kể, thêm 200kAE mỗi Energy Cell thông thường và 1.6MAE mỗi &bDense&f Energy Cell. Chúng cũng có thể được đặt ở bất kỳ đâu trong mạng để cung cấp bộ đệm năng lượng tăng lên."
 	]
 	quest.03E6FA4DCB71162E.quest_desc: [
 		"&bColor Applicator&f là một công cụ có thể sạc lại cho phép nhuộm cáp trong thế giới. Nó hoạt động như một &eô lưu trữ chuyên biệt&f để nạp vào các thuốc nhuộm vanilla hoặc &epaint balls&f cho các màu cụ thể, cùng với &esnowballs&f để rửa màu và biến cáp trở lại dạng Fluix của chúng."
-		""
 		"Việc áp dụng màu cho cáp sử dụng 100AE năng lượng từ pin nội bộ của nó, cho tổng cộng 3400 đoạn cáp trong một lần sạc."
 	]
 	quest.03E6FA4DCB71162E.title: "Color Applicator"
@@ -30,7 +25,6 @@
 	quest.083D458032F0325C.quest_subtitle: "The O"
 	quest.0B218DD73FE8D985.quest_desc: [
 		"Nếu bạn đã hoàn thành nhiệm vụ trước đó chính xác, bạn nên đã biến singularity đó thành một cặp &bQuantum Entangled Singularities&f. Những singularity mới này được dùng để liên kết một thiết bị hình vòng được gọi là &eQuantum Network Bridge&f."
-		""
 		"Khi hai vòng riêng biệt này đã được liên kết bằng Quantum Entangled Singularities và được khởi động bằng một ít năng lượng AE (ví dụ: một cell năng lượng), mạng ME có thể được mở rộng không dây ở phía bên kia của cây cầu, xuyên qua khoảng cách xa hoặc thậm chí các chiều."
 	]
 	quest.0B218DD73FE8D985.title: "Cầu Mạng Lượng Tử"
@@ -41,20 +35,17 @@
 	quest.0E809747193ED3A9.title: "Thành phần lưu trữ 16M"
 	quest.0F03E75CF79BADD7.quest_desc: [
 		"MEGA Cells&f cung cấp &bBulk Item Storage Cell&f được thiết kế riêng, chỉ được lưu trữ tối đa &o một loại &r item trong mỗi cell nhưng có thể lưu trữ một số lượng &o&lVÔ HẠN&r* của loại item đó. Trước khi nó có thể chấp nhận một loại item, nó phải được lọc trước bằng Cell Workbench."
-		""
 		"*&oVề kỹ thuật là \"max long\". Nếu bạn biết, bạn biết.&r"
 	]
 	quest.0F03E75CF79BADD7.quest_subtitle: "Bulk và Cắt"
 	quest.0F03E75CF79BADD7.title: "Lưu trữ Item Số lượng lớn"
 	quest.1348995F64A94396.quest_desc: [
 		"&bMàn hình chế tạo&f hiển thị item đang được chế tạo, cùng với số lượng còn lại của item đó vẫn đang được chế tạo."
-		""
 		"Cả màn hình AE2 cơ bản và màn hình MEGA đều hoạt động giống hệt, nhưng được cung cấp cho mục đích thẩm mỹ."
 	]
 	quest.1348995F64A94396.quest_subtitle: "Tải thêm VRAM"
 	quest.140DE53DC0FCD9F4.quest_desc: [
 		"Máy &bME Annihilation Plane&f có thể được dùng để tự động phá bất kỳ khối nào trước mặt và trả lại mọi item rơi từ khối đó trực tiếp vào mạng ME. "
-		""
 		"Như một lợi ích bổ sung, Annihilation Plane có thể được phù phép theo cách giống như công cụ đào thông thường, ảnh hưởng đến item rơi từ khối giống hệt như công cụ phù phép đó. Điều này làm cho nó lý tưởng để xử lý khối quặng khi được phù phép với Fortune, ví dụ. "
 		"Bất kỳ phép màu nào được thêm vào sẽ làm tăng đáng kể lượng năng lượng tiêu thụ của máy mỗi lần phá một khối. Phù phép máy với &eEfficiency&f sẽ giảm tổng lượng năng lượng tiêu thụ do tất cả các phép màu khác gây ra, trong khi phép &eUnbreaking&f cho máy cơ hội chỉ sử dụng năng lượng đôi khi, tương tự như Unbreaking trên công cụ thông thường."
 	]
@@ -74,18 +65,14 @@
 	quest.16299B9AE87257DC.title: "Terminal Không Dây"
 	quest.1710B3D05215A71E.quest_desc: [
 		"&bP2P&f (peer-to-peer) là một hệ thống mạnh mẽ trong AE2, cho phép chuyển item, chất lỏng và thậm chí nhiều hơn mà không cần bất kỳ kho lưu trữ ME trung gian nào. "
-		""
 		"Nhấp chuột phải vào hầm P2P với một số item nhất định sẽ &eattune&f hầm thành một hầm có khả năng chuyển thứ khác, chẳng hạn như item qua ống, năng lượng qua cáp, tín hiệu redstone và (mặc định) thậm chí cả kết nối ME. "
-		""
 		"Các hầm P2P phải được liên kết với nhau bằng cách sử dụng &eMemory Card&f, được mô tả chi tiết trong nhiệm vụ tiếp theo."
 	]
 	quest.1710B3D05215A71E.quest_subtitle: "Cắt bỏ bên trung gian"
 	quest.1710B3D05215A71E.title: "Hầm P2P"
 	quest.18DFB25DC48D8BF7.quest_desc: [
 		"Cấu trúc Chứa Không gian (SCS) bao gồm một lồng làm từ &bCột Không gian&f bao quanh thể tích bạn muốn đặt trong một ô Không gian IO. Tối thiểu, một SCS cần ba hàng khối cột không gian, một cho mỗi chiều của không gian được chứa (chiều dài, chiều rộng, chiều cao). "
-		""
 		"Tuy nhiên, Không gian IO là một tính năng cực kỳ tốn năng lượng, đặc biệt khi cố gắng thu các không gian lớn hơn (lên tới 128x128x128). Việc có nhiều cột không gian hơn được đặt trong SCS xung quanh thể tích mong muốn sẽ làm tăng &eefficiency&f tổng thể của nó, cho phép nó sử dụng ít năng lượng hơn để thu. "
-		""
 		"Ngoài ra, hãy lưu ý rằng mỗi cột riêng lẻ (bất kể chiều dài của nó) chiếm một kênh. Đối với không gian đặc biệt lớn, bạn có thể muốn xây dựng một mạng riêng với một bộ điều khiển để chứa tất cả các cột cần thiết."
 	]
 	quest.1AAF0B31B47AF23D.quest_desc: [
@@ -108,9 +95,7 @@
 	]
 	quest.2077D64428E9C067.quest_desc: [
 		"Một khái niệm quan trọng trong AE2 là một kỹ thuật được gọi là '&ephân mạng con&f', trong đó một mạng ME riêng biệt bổ sung (một &emạng con&f) hoạt động kết hợp với mạng chính để thực hiện một số chức năng hoặc quy trình chuyên biệt. "
-		""
 		"Điều phân biệt một mạng con khỏi một mạng riêng biệt hoàn toàn tách rời thường là việc sử dụng &bCáp Quartz&f như một phần cáp. Khi được đặt giữa hai đoạn cáp không kết nối với nhau, Cáp Quartz không truyền dữ liệu hay kênh nào giữa chúng, thay vào đó chỉ truyền nguồn điện. "
-		""
 		"Như vậy, một mạng con ở phía bên kia của Cáp Quartz có thể được cấp nguồn điện hoàn toàn bởi nguồn điện của mạng chính, mà không cần thêm bộ phát điện riêng biệt nào."
 	]
 	quest.2077D64428E9C067.quest_subtitle: "Điều này có công dụng ngoài việc chế tạo cáp."
@@ -122,7 +107,6 @@
 	quest.219932CB19258C16.title: "Linh kiện lưu trữ 16k"
 	quest.22C4318523A43B49.quest_desc: [
 		"&eTerminals&f cung cấp quyền truy cập vào toàn bộ nội dung của mạng ME. &eME Terminal&f tiêu chuẩn đơn giản liệt kê mọi thứ trong mạng dưới dạng một lưới lớn để lấy và chèn vào, giống như một kho đồng nhất."
-		""
 		"&eME Crafting Terminal&f là phần mở rộng của ME Terminal, tích hợp thêm lưới chế tạo, cho phép chế tạo thuận tiện bằng bất kỳ vật phẩm nào có trong mạng và hiển thị qua màn hình thiết bị đầu cuối."
 	]
 	quest.22C4318523A43B49.quest_subtitle: "[Đoạn đùa về người dùng Linux sẽ được đặt ở đây]"
@@ -161,11 +145,8 @@
 	quest.2C04B3BA507D5673.title: "Mẫu"
 	quest.2F16B6A173525277.quest_desc: [
 		"Mảnh ghép cuối cùng cho bất kỳ mạng ME lớn nào chính là &bME Controller&f. "
-		""
 		"Một bộ điều khiển cung cấp cho mạng ME số kênh lớn hơn rất nhiều so với 8 kênh tiêu chuẩn cho mạng ad-hoc, cung cấp 32 kênh từ mỗi mặt của khối, tổng cộng 216 kênh. "
-		""
 		"Đó chỉ là cho bộ điều khiển một khối, tuy nhiên, vì ME Controller thực chất là một cấu trúc nhiều khối. Bộ điều khiển có thể lên đến kích thước 7x7x7 khối và có thể có bất kỳ cách sắp xếp tự do nào trong kích thước tối đa đó. Mỗi khối riêng lẻ có thể cung cấp bộ kênh riêng của nó, miễn là không có khối điều khiển nào bị bao quanh bởi 4 khối khác trên cùng một mặt phẳng. "
-		""
 		"Một mạng ME chỉ có thể chứa một bộ điều khiển nhiều khối tại bất kỳ thời điểm nào. Cố gắng kết nối nhiều hơn một bộ điều khiển ở các phần riêng biệt của mạng sẽ gây ra xung đột, làm tắt toàn bộ mạng."
 	]
 	quest.2F556E7919582D2D.quest_desc: [
@@ -197,11 +178,8 @@
 	]
 	quest.361CCBD353D6FF34.quest_desc: [
 		"Với Thành phần lưu trữ 1k, bạn có thể tự chế tạo một Ô lưu trữ Item ME 1k để bắt đầu hệ thống lưu trữ item kỹ thuật số. Có khả năng cao bạn sẽ muốn phần lớn dung lượng lưu trữ dành cho item, vì vậy bạn có thể sẽ muốn làm một vài &bÔ lưu trữ Item ME&f."
-		""
 		"Mỗi Ô lưu trữ Item ME có thể chứa tối đa 63 loại item khác nhau. Mỗi loại item mới được thêm vào ô sẽ chiếm một phần nhất định của tổng dung lượng ô lưu trữ tính bằng byte. Đối với mỗi loại đã có sẵn, 1 'byte' tương đương với 8 item cùng loại."
-		""
 		"Ví dụ, một Ô lưu trữ Item 1k chứa chỉ đá sỏi có thể giữ tối đa 8128 đá sỏi (8*1024b - 8b/loại * 1 loại)."
-		""
 		"Nếu một ô trống, nó có thể được tái sử dụng bằng cách tháo nó thành thành phần và vỏ tương ứng. Điều này được thực hiện bằng cách nhấn Shift (sneaking) và chuột phải vào không trung khi cầm ô trên tay."
 	]
 	quest.361CCBD353D6FF34.title: "Lưu trữ Item"
@@ -250,7 +228,6 @@
 	]
 	quest.4BF0BB763BFFACF0.quest_desc: [
 		"Có thể nói tài nguyên quan trọng nhất bạn sẽ cần tiếp theo là &eFluix&f, được sử dụng xuyên suốt đa số các thiết bị AE2 và đóng vai trò là cơ sở để chế tạo tất cả cáp trong mạng ME. "
-		""
 		"Bạn thường sẽ muốn sản xuất hàng loạt chúng, và cách làm là tạo một &bFluix Crystal&f bằng cách ném &eThạch anh Nether&f, &e&oThạch anh Certus có điện&r&e và &eĐá đỏ&f cùng nhau vào một vũng nước. Điều này sẽ cho bạn một &eFluix Crystal&r mà bạn có thể biến thành bụi trong một Máy khắc."
 	]
 	quest.4BF0BB763BFFACF0.title: "Fluix"
@@ -286,9 +263,7 @@
 	quest.51A57E142C686C8F.title: "Thành phần lưu trữ 256M"
 	quest.51DE3157DE3E57B8.quest_desc: [
 		"Lưu trữ thì tốt đẹp, nhưng hệ thống lưu trữ có ích gì nếu nó bị tắc nghẽn bởi nguyên liệu thô cần được chế tạo và xử lý thành thứ gì đó, và bạn vẫn phải tự mình làm thủ công? "
-		""
 		"Hệ thống &etự động chế tạo&f của AE2 bắt đầu bằng &bME Pattern Provider&f. ME Pattern Provider chứa những vật phẩm gọi là &bPatterns&f (được đề cập trong nhiệm vụ tiếp theo) được lập trình để giữ một công thức biến đầu vào thành đầu ra cụ thể. Lên đến 9 patterns có thể xếp vào một provider. "
-		""
 		"Bạn thường sẽ sử dụng nhiều pattern provider rải rác khắp căn cứ, vì vậy rất hữu ích khi có &bPattern Access Terminal&f để truy cập từ xa nội dung của tất cả các provider trên mạng ME rộng lớn của bạn."
 	]
 	quest.51DE3157DE3E57B8.quest_subtitle: "Đặt hàng"
@@ -305,13 +280,11 @@
 	quest.523853C1C4E688BA.title: "Thành phần lưu trữ 64k"
 	quest.525F25F4ADE45B50.quest_desc: [
 		"&bME Formation Plane&f hoạt động tương tự như Storage Bus, nhưng coi chính thế giới là phương tiện lưu trữ. Nói cách khác, nó sẽ đặt bất kỳ khối nào trong bộ lọc của nó ngay phía trước. "
-		""
 		"Điều này có thể hữu ích trong các tình huống mà một khối có thể được xử lý chỉ bằng cách đặt nó và phá nó bằng một công cụ nhất định."
 	]
 	quest.525F25F4ADE45B50.quest_subtitle: "ĐI RA"
 	quest.55186B8602689B66.quest_desc: [
 		"&bMemory Card&f là một công cụ với hai chức năng khác nhau. Chức năng đơn giản nhất là lưu các cấu hình của các thiết bị khác nhau (như bộ lọc whitelist) để sao chép sang một thiết bị cùng loại khác. "
-		""
 		"Chức năng thứ hai của memory card là liên kết các &eP2P tunnel&f với nhau. Khi làm vậy, P2P tunnel được liên kết sẽ được gán một ID duy nhất, được lưu trên memory card để liên kết tiếp."
 	]
 	quest.5AA3E5DFECB4AC4D.quest_desc: [
@@ -348,9 +321,7 @@
 	quest.5CD8D169181C7339.title: "Những... Vũ khí?"
 	quest.5E24012A3D9B72A1.quest_desc: [
 		"Vật phẩm không phải là thứ duy nhất có thể được lưu trữ trong các ô ME. &bÔ lưu trữ chất lỏng ME&f có thể lưu trữ chất lỏng như nước, lava và bất kỳ loại dầu và nhiên liệu mod nào, chỉ là một vài ví dụ."
-		""
 		"Lưu ý rằng tất cả các ô lưu trữ, bất kể chúng được thiết kế để lưu trữ thứ gì, chỉ khác nhau về phần vỏ; cả ô vật phẩm và ô chất lỏng đều sử dụng cùng một loại thành phần lưu trữ để chế tạo."
-		""
 		"Đối với chất lỏng, 1 byte tương đương với 8 thùng (8000mb)."
 	]
 	quest.5E6585F7627247E3.quest_desc: [
@@ -381,22 +352,18 @@
 	quest.6144202A97C6CD1C.title: "Neo cáp"
 	quest.6431A384DDFBF439.quest_desc: [
 		"Công cụ Mạng (&bNetwork Tool&f) là một công cụ quan trọng trong AE2, dùng để hiển thị các chi tiết khác nhau của mạng trên màn hình như tổng mức tiêu thụ năng lượng và dung lượng lưu trữ."
-		""
 		"Ngoài ra, nó còn có kho đồ nhỏ để chứa &ethẻ nâng cấp&f, có thể truy cập khi nhìn vào màn hình của bất kỳ thiết bị có thể nâng cấp nào để dễ dàng thay thế. Tuy nhiên, nó không thể xoay các khối đã kết nối vào mạng ME như một cái mô thông thường, chỉ có thể tháo dỡ chúng khi nhấn shift (sneaking)."
 	]
 	quest.6431A384DDFBF439.title: "Công cụ Mạng"
 	quest.68B0B3DAF1145191.quest_desc: [
 		"Hai trong những thứ đầu tiên bạn cần để bắt đầu với AE2 là &bCharger&f và &bInscriber&f."
-		""
 		"&bCharger&f, khi được cung cấp năng lượng, sẽ lấy &eCác tinh thể Thạch anh Certus&r và sạc chúng. Những &eCác tinh thể Thạch anh Certus đã sạc&r này sau đó có thể được dùng để sản xuất &eFluix&f, một tài nguyên quan trọng khác trong mod. Nó cũng có thể dùng để sạc bất kỳ vật phẩm nào lưu trữ năng lượng."
-		""
 		"&bInscriber&f có thể dùng để biến các loại tinh thể thạch anh trong AE2 thành bột, nhưng quan trọng hơn là dùng để chế tạo các &eMạch in&f và &eBộ xử lý&f đặc biệt, như sẽ rõ ràng hơn trong nhiệm vụ tiếp theo."
 	]
 	quest.68B0B3DAF1145191.quest_subtitle: "Trước tiên"
 	quest.68B0B3DAF1145191.title: "Trước tiên"
 	quest.69B7DE2283B4EE6C.quest_desc: [
 		"&bCrafting Co-Processing Unit&f giúp tăng tốc các công việc chế tạo bằng cách cho phép các bộ cung cấp mẫu (pattern providers) hoặc gửi vật phẩm ra thiết bị kết nối nhanh hơn, hoặc hoạt động đồng thời để tạo ra nhiều nguyên liệu cần thiết."
-		""
 		"Co-processor cơ bản của AE2 cung cấp một 'luồng' (thread) co-processor để hỗ trợ việc này, trong khi co-processing unit từ &dMEGA Cells&f cung cấp 4 luồng trong một khối duy nhất."
 	]
 	quest.69B7DE2283B4EE6C.quest_subtitle: "Tải thêm lõi CPU"
@@ -410,9 +377,7 @@
 	quest.6E15447FC3D678E0.title: "Nói một cách lỏng lẻo"
 	quest.6F3D0A248B5A9CA2.quest_desc: [
 		"&bSpatial Storage Cells&f được dùng để chứa một thể tích xác định mỗi cái, và có ba dung lượng khác nhau cho phép tối đa 2x2x2, 16x16x16 và 128x128x128 khối. "
-		""
 		"Khi mã hóa, một cell được cấp phát một phần không gian trong &edimension&f lưu trữ không gian, cùng với một ID duy nhất tương ứng với vùng được cấp phát cho cell. Một cell đã mã hóa vẫn có thể được dùng trong Spatial IO Port để lấy lại bất kỳ khối và thực thể nào đã lưu. "
-		""
 		"Từ đó, bất kỳ khối nào nằm trong vùng không gian của cell hoặc trong một SCS có cùng kích thước như cái dùng cho mã hóa ban đầu đều có thể được di chuyển ngược lại overworld hoặc vào không gian không gian tương ứng. Nếu có khối cả trong vùng không gian và trong SCS, chúng sẽ đơn giản là hoán đổi vị trí cho nhau."
 	]
 	quest.6F3D0A248B5A9CA2.title: "Ô lưu trữ không gian"
@@ -427,7 +392,6 @@
 	quest.74FC0DDDB91DB172.title: "Các IO"
 	quest.77C9EE701F72586D.quest_desc: [
 		"&bPortable Cells&f hoạt động giống hệt cell thông thường ở chỗ chúng có thể được chèn vào một rương hoặc ổ đĩa và được lấp đầy tương ứng. "
-		""
 		"Tuy nhiên, khác với cell thông thường, nội dung của chúng cũng có thể được truy cập độc lập thông qua chính item cell, giống như một cái ba lô sống động mang hương vị ME."
 	]
 	quest.78311531069807DE.quest_desc: [
@@ -449,7 +413,6 @@
 	quest.7B7D1F0CB326B28F.quest_subtitle: "Khử nhiễu"
 	quest.7EFBAF3E281D2EBE.quest_desc: [
 		"&bBus lưu trữ ME&f, khi đối mặt với một container lưu trữ bên ngoài, sẽ cho phép container được sử dụng như thể nó là một phần của mạng ME, cho phép lấy vật phẩm ra từ container hoặc chèn vào nó hoàn toàn thông qua ME. "
-		""
 		"Các bus lưu trữ có thể được lọc và được cấp ưu tiên cụ thể sao cho các vật phẩm cụ thể sẽ cố gắng đi đến kho đính kèm trước, tuy nhiên nó sẽ không di chuyển ngược lại bất kỳ vật phẩm đã lọc nào từ bất kỳ đâu khác trong mạng đến kho đính kèm của nó."
 	]
 	quest.7EFBAF3E281D2EBE.quest_subtitle: "Rương dự phòng"

@@ -5,7 +5,6 @@
 	quest.062AA943A1629A86.title: "&cR&6a&ei&2n&3b&9o&5w &cC&eo&3a&5l"
 	quest.07753C5D94312A50.quest_desc: [
 		"&3Augment&r: Máy phát điện đối lập với &3Augment&r: Nhà máy, thay vì dùng Năng lượng để Nung chảy, nó Nung chảy để tạo Năng lượng. Bạn sẽ không còn nung chảy vật phẩm trong nó nữa, mỗi Nhiên liệu dùng sẽ được chuyển thành Năng lượng!"
-		""
 		"(Tôi tự hỏi liệu kết nối Máy phát điện và Nhà máy Lò nung có tốt hơn là chỉ dùng Nhiên liệu trong một cái không?)"
 	]
 	quest.07753C5D94312A50.title: "&3Augment&r: Máy phát điện"
@@ -44,7 +43,6 @@
 	quest.25080E3295B1DF01.title: "&5Lò nung Unobtainium"
 	quest.2748ACEAB96A5F60.quest_desc: [
 		"Lò sắt (Đừng nhầm lẫn với các tiêu đề, với &lIron Furnaces&r là tên mod và tên vật phẩm) hoạt động nhanh hơn cả Lò thường và Lò đồng. Chúng mất 160 Tick để hoạt động, hoặc 8 giây."
-		""
 		"Chúng có thể được chế tạo từ một Lò thường hoặc &6Lò đồng&r! Và chúng có thể được chế tạo thành &7Lò bạc&r hoặc &eLò vàng&r."
 	]
 	quest.2748ACEAB96A5F60.title: "&fLò sắt"
@@ -54,15 +52,12 @@
 	quest.2E85D6E2CFCC356E.title: "&3Lò Vibranium"
 	quest.2EE8FCB63A338BC4.quest_desc: [
 		"&cLò &cC&6ầ&eu&2v&3ồ&9n&5g cần literally mọi Lò khác để chế tạo. 8 &cLớp&r &cC&6ầ&eu&2v&3ồ&9n&5g &cP&6l&ea&2t&3i&9n&5g&r và 1 &cLõi&r &cC&6ầ&eu&2v&3ồ&9n&5g &cC&eo&3r&5e&r cho chúng ta Lò tốt nhất có thể tưởng tượng!"
-		""
 		"Đúng, nó mất 20 Tick để nung hoặc 1 Giây để nung, nhưng nó không nung 1 vật phẩm. Bạn hỏi bao nhiêu vật phẩm? Bao nhiêu là một stack vật phẩm?"
 	]
 	quest.2EE8FCB63A338BC4.title: "&dLò Obsidian"
 	quest.32C7D8AE859BF89E.quest_desc: [
 		"Có thể là &dObsidian&r nhưng đừng lo bạn không cần &bDiamond Pickaxe&r để nhặt nó, chỉ cần để chế tạo."
-		""
 		"Nó hoạt động mỗi 20 Tick hoặc mỗi Giây. Đúng, không phải Giây, chỉ là Giây."
-		""
 		"Nó có thể được chế tạo với &3Lò Crystal&r hoặc &aLò Emerald&r, và có thể được chế tạo thành &5Lò Netherite&r!"
 	]
 	quest.32C7D8AE859BF89E.title: "&4Augment&r: Smoking biến Lò sắt của bạn thành Lò hun khói. Giờ nó sẽ chỉ hun đồ ăn nhưng nhanh gấp đôi! Giống như &4Augment&r: Blasting, cái này cũng có thể chồng với các nâng cấp khác!"
@@ -107,15 +102,12 @@
 	quest.553220A2CD7CAFE4.quest_subtitle: "Đã Gói Xong"
 	quest.61847F47CCA225D9.quest_desc: [
 		"Theo cùng kiểu này, những lò này nướng trong 140 Tick hoặc 7 giây."
-		""
 		"Chúng có thể được chế tạo từ &6Lò đồng&r hoặc Lò sắt và có thể được dùng để chế tạo &eLò vàng&r."
 	]
 	quest.61847F47CCA225D9.title: "Lò bạc"
 	quest.661C072E48F8D41F.quest_desc: [
 		"&6Đồng&r là một trong những quặng phổ biến nhất bạn có thể tìm thấy, vậy tại sao không dùng một đống &6đồng&r thừa để nâng cấp lò của bạn!"
-		""
 		"Lò thường mất 200 Tick để nướng 1 item, (20 Tick = 1 Giây) trong khi &6Lò đồng&r mất 180 Tick."
-		""
 		"Chúng có thể được chế tạo thành &7Lò bạc&r hoặc &fLò sắt&r."
 	]
 	quest.661C072E48F8D41F.title: "&6Lò đồng"
@@ -141,7 +133,6 @@
 	quest.757B14D08A9A03C4.title: "Cấu hình"
 	quest.78D1C97A542133D8.quest_desc: [
 		"Nâng cấp là những Cải tiến cho Lò Sắt!"
-		""
 		"Ở Góc Trên Phải của Giao diện Lò sẽ là nút để xem Phần Nâng cấp. Sẽ có một chỗ Đỏ, Xanh lá, và Xanh dương, mỗi chỗ có thể giữ 1 Nâng cấp màu tương ứng."
 	]
 	quest.78D1C97A542133D8.title: "&lNâng cấp"

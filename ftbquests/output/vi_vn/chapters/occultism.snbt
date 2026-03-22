@@ -9,12 +9,10 @@
 	quest.03250A0202C25E80.title: "&9Phấn xanh dương"
 	quest.08697EB269B011FD.quest_desc: [
 		"Với &dSự tiếp xúc của Ronaza&r, bạn có thể nâng cấp &bBát Hiến tế Iesnium&r của mình thành Cốc Kỳ Dị. Khi được sử dụng trong nghi lễ, nó giảm thời gian hoàn thành... hoàn toàn. "
-		""
 		"Đúng vậy, Cốc Kỳ Dị khiến mọi nghi lễ hoàn thành tức thì!"
 	]
 	quest.0A25276925EB0CBA.quest_desc: [
 		"Khi bạn đã thu thập được mọi loại Phấn màu và Phấn nền tảng, bạn có thể thực hiện nghi lễ loại thứ hai &dkhông có Quỷ&r, &dSự tiếp xúc của Ronaza&r. Đây là nghi lễ tối thượng, sử dụng tất cả những gì bạn đã học được!"
-		""
 		"Nó có số lần sử dụng hạn chế, nhưng mọi thứ được tạo ra từ nghi lễ này đều cực kỳ mạnh mẽ!"
 	]
 	quest.0A25276925EB0CBA.quest_subtitle: "Với kho báu thiêng liêng này, ta triệu hồi..."
@@ -23,17 +21,13 @@
 		"Để chúng ta chỉ định quỷ &c&mDemon&r &9Bạn bè&r nào muốn triệu hồi, chúng ta cần tạo một &bSách Ràng Buộc&r cụ thể.\"
 		"\"
 		"Để làm điều này, bạn cần tinh chế một ít Thuốc nhuộm đen trong &dSpiritfire&r để có được Mực tinh khiết. Với thứ này, chúng ta sẽ làm cuốn Sách Ràng Buộc đầu tiên sẽ triệu hồi một quỷ &aFoliot&r."
-		""
 		"Một cách khác, bạn có thể làm một Sách Ràng Buộc trống, có thể nhuộm sau để phù hợp với cấp độ nghi lễ bất kỳ nào bạn cần."
 	]
 	quest.0B3EA604C5172D98.title: "&bSách &dRàng Buộc"
 	quest.0BD6365534BF04D5.quest_desc: [
 		"Với Lime Chalk, đã đến lúc khám phá &5Nghi lễ Chiếm hữu&r. Những nghi lễ này hơi khác với những cái khác vì tất cả đều yêu cầu một sự hy sinh sống, thường là các sinh vật nhỏ như Gà, Ong, Dơi, v.v. Tuy nhiên, khi nghi lễ trở nên phức tạp hơn, chúng sẽ yêu cầu những sự hy sinh ngày càng lớn."
-		""
 		"Ngay cả khi bạn đã đặt tất cả các vật phẩm cần thiết và Sách Ràng Buộc vào Chiếc Bát Hy sinh Vàng, Nghi lễ sẽ không bắt đầu cho đến khi bạn giết sự hy sinh trên các ký hiệu."
-		""
 		"Được khuyến nghị rằng bạn nên tạo một loại vật phẩm bắt sinh vật nào đó như Empty Soul Gem, Jar, Mob Imprisonment Tool, hoặc Quantum Catcher!"
-		""
 		"Cấp độ đầu tiên của &5Nghi lễ Chiếm hữu&r là &eHeidryn's Lure&r, chỉ được dùng để lấy các vật phẩm thông thường như Skeleton Skulls và End Stone. Vì vậy, bạn có thể bỏ qua thẳng đến cấp độ thứ hai của nghi lễ, &aIhagan's Enthrallment&r."
 	]
 	quest.0BD6365534BF04D5.quest_subtitle: "Bạn sẽ gọi ai?"
@@ -49,43 +43,33 @@
 	quest.11A0593C0E2E6A35.title: "&2Phấn xanh"
 	quest.145C8235BCCB9BA8.quest_desc: [
 		"Nếu chúng ta muốn thu thập tất cả các loại Phấn, chúng ta sẽ cần triệu hồi và giết một &cAfrit&r không thân thiện."
-		""
 		"Mặc dù đây không phải là một &5Nghi lễ Chiếm hữu&r, bạn sẽ cần một sinh vật sống để hiến tế cho nghi lễ này. Trong trường hợp này, chúng ta sẽ hiến tế một con Bò. Xin lỗi Betsy!"
 	]
 	quest.145C8235BCCB9BA8.quest_subtitle: "Cựu vì Betsy"
 	quest.145C8235BCCB9BA8.title: "&cPhấn đỏ"
 	quest.172D2A634E849562.quest_desc: [
 		"Với khả năng thu hoạch &cIesnium&r, chúng ta có thể triệu hồi các Quỷ để làm việc cho chúng ta trong các mỏ... Tôi muốn nói... giúp chúng ta thu thập quặng. Chắc chắn không lợi dụng Quỷ hay bất cứ điều gì."
-		""
 		"Để làm điều này, chúng ta sẽ cần tạo một &dMineshaft Đa chiều&r để truy cập Thế giới Khai thác Quỷ. Bạn cũng sẽ cần một Mining Demon bị giam trong một chiếc đèn, mà bạn sẽ đặt bên trong Mineshaft để nó hoạt động. Mặc dù bất kỳ cấp độ nào cũng sẽ hoàn thành nhiệm vụ này, những cấp độ cao hơn hoạt động nhanh hơn và có cơ hội cao hơn trong việc khai thác Iesnium cho bạn."
-		""
 		"Các Mineshaft không tự động xuất hàng. Bạn sẽ cần lấy các vật phẩm ra bằng cách sử dụng Hoppers, Transporting Demons, hoặc một phương pháp khác như Item Pipes. Nó sẽ hủy bỏ bất kỳ vật phẩm nào vượt quá giới hạn lưu trữ của nó."
 	]
 	quest.172D2A634E849562.title: "&cKhai thác Quỷ"
 	quest.1848F431D0380DA9.quest_desc: [
 		"Tương tự như chức năng Sửa chữa Phấn của &aStrigeor's Higher Binding&r, &cSevira's Permanent Confinement&r có thể được sử dụng để sửa chữa các vật phẩm bằng sức mạnh của một Quỷ Afrit."
-		""
 		"Nghi lễ này có thể sửa chữa gần như mọi thứ, vì vậy &eDemon Miners&r, công cụ và áo giáp đều có thể được khôi phục độ bền ban đầu của chúng!"
-		""
 		"Tất cả các vật phẩm được sửa chữa bằng nghi lễ này đều giữ nguyên các thuộc tính ban đầu (tiền tố, phép thuật, v.v), vì vậy đừng lo lắng về những phép thuật quý giá của bạn!"
 	]
 	quest.1848F431D0380DA9.quest_subtitle: "Độ bền (gần như) miễn phí!"
 	quest.1848F431D0380DA9.title: "Sửa chữa Vật phẩm"
 	quest.1B5177A774FCEF64.quest_desc: [
 		"Trước khi chúng ta bắt đầu tuyển dụng sự giúp đỡ từ những người bạn Quỷ, chúng ta sẽ cần tạo ra vật phẩm quan trọng nhất cần thiết cho các Nghi lễ: &aPhấn&r."
-		""
 		"Có một số màu phấn cần thiết, với các nghi lễ cấp độ cao hơn yêu cầu nhiều loại để kích hoạt. Để bắt đầu, &bPhấn Trắng&r là dễ dàng nhất để có được."
-		""
 		"Bắt đầu bằng cách ném Otherstone vào lò nung, và ném Otherworld Logs vào &dSpiritfire&r. Với các vật phẩm bạn tạo ra, bạn sẽ có thể làm ra Phấn Trắng Không Tinh khiết."
-		""
 		"Để tinh khiết bất kỳ mảnh Phấn nào, chỉ cần ném nó vào &dSpiritfire&r để làm sạch. Sử dụng Phấn Tinh khiết trên mặt đất sẽ vẽ những ký hiệu &ma quỷ&r đẹp mắt trên mặt đất. Chúng là một gánh nặng để xóa, trừ khi tất nhiên, bạn tự làm một &aBàn chải Phấn&r. Làm đi, nó đáng giá."
 	]
 	quest.1B5177A774FCEF64.title: "Chuẩn bị cho nghi lễ: &ephấn"
 	quest.1BDB369FD243D4C6.quest_desc: [
 		"Có thể nói là vật phẩm hữu ích nhất bạn có thể tạo ra trong Occultism, &bIesnium Anvil&r là một phiên bản siêu mạnh của thùng rèn vanilla."
-		""
 		"Được tạo ra bằng &9Tháp Đảo Ngược của Uphyxes&r, nó:"
-		""
 		"- Bất khả phá hủy."
 		"- Tăng mức độ tối đa của mọi phép màu cho bất kỳ vật phẩm nào kết hợp trên nó lên một cấp."
 		"- Chỉ tốn một nửa kinh nghiệm so với ước tính (làm tròn xuống, vì vậy nếu nói 25, nó sẽ tốn 12)."
@@ -102,44 +86,36 @@
 	quest.1EB887F8072439A3.title: "&bPhấn xanh nhạt"
 	quest.2960FFE0C53DFEB1.quest_desc: [
 		"&cSự Giam Cầm Vĩnh Viễn của Sevira&r là cấp độ thứ ba của &6Nghi Lễ Hòa Quyện&r. Nó chủ yếu được dùng để tạo ra cấp độ tiếp theo của phấn nền tảng, phấn đen."
-		""
 		"Nó cũng được dùng để tạo ra một vài vật phẩm có thể đẩy nhanh việc chế tạo và thực hiện nghi lễ một đáng kể."
 	]
 	quest.2960FFE0C53DFEB1.quest_subtitle: "Nghi Lễ \"Even More Everything\""
 	quest.2960FFE0C53DFEB1.title: "&cSự Giam Cầm Vĩnh Viễn của Sevira"
 	quest.29C83B00AC4AFC23.quest_desc: [
 		"Bây giờ bạn đã đi được xa đến thế này, bạn có thể tự hỏi, điều gì tiếp theo? Ồ, còn rất nhiều thứ để khám phá trong Occultism! "
-		""
 		"Bạn có thể xem một danh sách toàn diện về mọi nghi lễ và vật phẩm trong &6Từ Điển Linh Hồn&r của bạn, bạn có thể thử xem qua tất cả kết quả của các nghi lễ để xem liệu bạn có thể tìm thấy thứ gì khiến bạn thích thú không!"
-		""
 		"Nếu bạn chưa làm, bạn có thể bố trí và trang trí ba khu vực nghi lễ riêng biệt, một cho Triệu Hồi, một cho Chiếm Hữu và một cho Hòa Quyện."
-		""
 		"Luôn luôn có những cách mới để sử dụng từng tính năng tưởng chừng bình thường để tối đa hóa trải nghiệm của bạn với modpack. Chúc bạn chế tác nghi lễ vui vẻ!"
 	]
 	quest.29C83B00AC4AFC23.title: "Tiếp theo?"
 	quest.2A3683BF7E50EF83.quest_desc: [
 		"Hầu hết các vật phẩm chúng ta cần từ &3Otherworld&r gần đây chỉ cần một ít Spiritfire. Tuy nhiên, chúng ta sẽ cần sự giúp đỡ của &3Third Eye&r để tìm thấy Quặng của &3Otherworld&r."
-		""
 		"Chúng ta cũng sẽ cần một chiếc cuốc đặc biệt để có thể khai thác nó. Để làm được điều này, chúng ta cần Thấm nhuần một Quỷ vào &dSpirit Attuned Pickaxe Head&r để tạo ra một chiếc cuốc có thể phá vỡ loại quặng mới này."
 	]
 	quest.2A3683BF7E50EF83.title: "Công cụ chuyên dụng: Cuốc Thấm nhuần"
 	quest.2A5004EB99AE4F96.quest_desc: [
 		"Có nhiều vật phẩm Otherworld khác bạn sẽ cần thu thập, và việc ăn &cDemon's Dream Fruit&r mỗi lần bạn cần hiệu ứng &7Third Eye&r trở nên khó chịu."
-		""
 		"Đây chính là lý do &dOtherworld Goggles&r tồn tại! Khi được trang bị (ngay cả trong ô Curios), nó cung cấp hiệu ứng Third Eye!"
 	]
 	quest.2A5004EB99AE4F96.quest_subtitle: "Đừng ăn quả đó nữa!"
 	quest.2A5004EB99AE4F96.title: "Công cụ chuyên dụng: Kính Spectral"
 	quest.2AD68066C1948C90.quest_desc: [
 		"Cái &eFoliot Crusher&r đầu tiên thật tuyệt, nhưng nếu tôi nói với bạn rằng bạn có thể triệu hồi một con quỷ mang lại cho bạn 6 bụi cho mỗi quặng thô nó nghiền?"
-		""
 		"&9Marid Crusher&r làm chính xác điều đó. Để triệu hồi một con, bạn sẽ cần sử dụng &9Fatma's Incentivized Attraction&r."
 	]
 	quest.2AD68066C1948C90.quest_subtitle: "Triệu hồi tối đa"
 	quest.2AD68066C1948C90.title: "&9Fatma's Incentivized Attraction"
 	quest.2CF96A264EB5522C.quest_desc: [
 		"&9Uphyxes' Inverted Tower&r là cấp độ cao nhất của &6Infusion Rituals&r. Nó không có nhiều công dụng như ba cấp độ khác, nhưng nó vẫn cần thiết cho phần \"cuối game\" của Occultism."
-		""
 		"Chủ yếu, nó được dùng để tạo Dragonyst Dust, là nguyên liệu chính cho Magenta Chalk."
 	]
 	quest.2CF96A264EB5522C.quest_subtitle: "Sự Hòa Trộn Tối Đa"
@@ -158,15 +134,10 @@
 	quest.30C5B597610F4AFB.title: "&aPhấn Lục"
 	quest.33106E24A3B5DDD8.quest_desc: [
 		"Bước tiếp theo trong hành trình của bạn sẽ là tìm thấy &eQuặng Iesnium&r trong Nether."
-		""
 		"Nếu không có hiệu ứng của &3Con Mắt Thứ Ba&r, nó sẽ trông giống hệt Netherrack. Hãy đảm bảo đã trang bị &dKính Nhìn Thế Giới Khác&r!"
-		""
 		"Để định vị quặng, hãy thử sử dụng &aGậy Tiên Tri&r. Bạn cần đồng hòa nó với Netherrack trước, sau đó giữ chuột phải để sử dụng. Sau vài giây, bạn sẽ thấy một hạt phát ra theo hướng của quặng Iesnium gần nhất. Bạn chỉ có thể khai thác quặng bằng &dCuốc Hòa Trộn&r!"
-		""
 		"Vì bạn không thể phá vỡ quặng này thành lượng bụi gấp đôi bằng các phương pháp tiêu chuẩn, hãy thử sử dụng Máy Dập Foliot để nhân đôi lượng thỏi từ mỗi quặng thô!"
-		""
 		"Lưu ý: Nếu bạn không thấy hạt, hãy đảm bảo cài đặt hạt của bạn được bật!"
-		""
 		"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
 	]
 	quest.33106E24A3B5DDD8.title: "&cIesnium: Quặng Của Thế Giới Khác"
@@ -180,77 +151,57 @@
 	quest.367E891A50991436.title: "Phấn Đen"
 	quest.38A1295878B68F83.quest_desc: [
 		"Không, không phải loại đó."
-		""
 		"&cQuỷ Afrit&r là Quỷ của &cLửa&r. Chúng là những con quỷ cao cấp hơn, trong đó một số là bạn bè và một số thì... không. Tất cả phụ thuộc vào mức độ nghi lễ có thể kiểm soát &cAfrit&r."
-		""
 		"Bởi vì chúng ta chưa có truy cập vào Phấn Đỏ, tất cả những gì chúng ta có thể triệu hồi là một con Quỷ &9Không Ràng Buộc&r, có nghĩa là nó không thể được kiểm soát và sẽ bạo lực."
 	]
 	quest.38A1295878B68F83.quest_subtitle: "Quỷ Nóng!"
 	quest.38A1295878B68F83.title: "&6Lời Mời Mở Của Abras"
 	quest.39647A2473F6F7D7.quest_desc: [
 		"Bước tiếp theo của chúng ta là khám phá &6Nghi Lễ Thấm Nhuần&r. Những nghi lễ này được dùng để thấm đẫm các vật phẩm với ma thuật của quỷ."
-		""
 		"Tầng đầu tiên của &6Nghi Lễ Thấm Nhuần&r là &eSự Ép Buộc Hồn Văn của Eziveus&r. Chúng ta sẽ sử dụng nghi lễ này để tạo ra một số vật phẩm mà bạn sẽ cần trong suốt mod này."
-		""
 		"Được khuyến nghị tạo nghi lễ này ở một khu vực riêng biệt so với nghi lễ đầu tiên, bởi vì ba loại nghi lễ chính xây dựng dựa trên tầng trước đó."
 	]
 	quest.39647A2473F6F7D7.quest_subtitle: "Thêm một ít Bụi Quỷ™ vào!"
 	quest.39647A2473F6F7D7.title: "&eSự Ép Buộc Hồn Văn của Eziveus"
 	quest.3D41D0092D94636B.quest_desc: [
 		"Nếu tôi nói với bạn Trái Của Quỷ dễ cháy thì sao?"
-		""
 		"Ném &cDemon's Dream Fruit&r xuống và đốt nó sẽ tạo ra &dSpiritfire&r. Đây là cách chúng ta chuyển đổi một số vật phẩm thế giới bên trên thành vật liệu &9Otherworld&r."
-		""
 		"Nó cũng khá đẹp."
 	]
 	quest.3D41D0092D94636B.title: "Ngọn Lửa của &9The Otherworld"
 	quest.429B5A81DF6C43FE.quest_desc: [
 		"&6Abras' Open Commanding Conjure&r được dùng để đưa một con quỷ &cAfrit&r vào một con Lợn. Vì nghi lễ này được thực hiện không dùng Phấn Đỏ, nên nó chỉ đủ mạnh để triệu hồi một con quỷ &9unbound&r."
-		""
 		"Cụ thể, nghi lễ này sẽ tạo ra một con Zombified Piglin bị &cAfrit&r chiếm hữu, sẽ rơi ra một ít Thịt Quỷ, dùng để chế tạo Phấn Hồng."
-		""
 		"&4CẢNH BÁO: BẠN CÓ THỂ PHẢI LÀM ĐIỀU NÀY NHIỀU LẦN ĐỂ ĐỦ THỊT QUỶ."
 	]
 	quest.429B5A81DF6C43FE.quest_subtitle: "Sao... Thịt...?"
 	quest.429B5A81DF6C43FE.title: "&6Abras' Open Commanding Conjure"
 	quest.42F50CE7FE715583.quest_desc: [
 		"Để nâng cấp số lượng stack kho lưu trữ ma thuật của bạn có thể giữ, bạn cần chế tạo &dStorage Stabilizers&r."
-		""
 		"Sau khi chế tạo, chúng phải chỉ thẳng vào phần Dimensional Matrix của Storage Actuator của bạn, không phải phần đếm. Chúng có thể cách xa đến 5 khối, nhưng phải có tầm nhìn trực tiếp đến Matrix."
-		""
 		"Bất cứ khi nào bạn muốn nâng cấp lên Stabilizer cấp cao hơn, phá nó sẽ không phá hủy các vật phẩm bên trong. Tuy nhiên, bạn sẽ không thể thêm thêm vật phẩm nào vào kho lưu trữ cho đến khi nó được thay thế hoặc nâng cấp."
-		""
 		"Dưới đây là ví dụ về một thiết lập đơn giản!"
-		""
 		"{image:atm:textures/questpics/occultism/storageupgradeexample.png width:200 height:150 align:1}"
 	]
 	quest.42F50CE7FE715583.title: "&aNâng Cấp Kho Lưu Trữ Ma Thuật Của Chúng Ta"
 	quest.47358ADC1470C82A.quest_desc: [
 		"&cDemon's Dream Fruit&r hoàn toàn tốt cho sức khỏe của bạn. Có thể có một số tác dụng phụ bạn nên biết."
-		""
 		"Khi bạn tiêu thụ một quả, bạn có cơ hội nhận được hiệu ứng của &3Third Eye&r, cho phép bạn nhìn vào &9The Otherworld&r. Một số vật phẩm trong thế giới có thể không như vẻ ngoài, và bạn sẽ cần \"tầm nhìn\" này để tìm một số vật phẩm cần thiết cho tiến độ."
-		""
 		"Hoặc bạn có thể đốt nó và bỏ qua việc tìm phần lớn chúng. Đó là tùy bạn."
 	]
 	quest.47358ADC1470C82A.quest_subtitle: "Sẵn Sàng Cho Một Chuyến Đi"
 	quest.47358ADC1470C82A.title: "&cTrái Của Quỷ"
 	quest.4C873491F6F0FFAF.quest_desc: [
 		"Sử dụng &dLửa tinh linh&r, chúng ta có thể chuyển đổi một số nguyên liệu Thế giới mặt đất thành biến thể Thế giới khác. Bạn cũng có thể tìm thấy một số nguyên liệu Thế giới khác bằng cách chịu tác động của &bCon mắt thứ ba&r và phiêu lưu vào thế giới. Bạn có thể ngạc nhiên với những gì tìm thấy. Để dễ dàng hơn, có công thức chế tạo cho các nguyên liệu cơ bản bằng cách ném chúng vào &dLửa tinh linh&r."
-		""
 		"&bĐá andesit&r chuyển thành &3Đá thế giới khác&r, có thể được dùng để thắp sáng một &dLửa tinh linh&r vĩnh cửu."
-		""
 		"&aCây non sồi&r chuyển thành &9Cây non sồi&r nhưng chúng không giống nhau. Khi trưởng thành, chúng sẽ trông giống hệt một cây sồi thông thường. Tuy nhiên, dưới tác động của &bCon mắt thứ ba&r, bạn sẽ có thể thu hoạch biến thể Thế giới khác."
-		""
 		"Nếu bạn gặp khó khăn trong việc thu thập khúc gỗ (nếu chúng biến thành Khúc gỗ sồi thông thường ngay cả khi có &bCon mắt thứ ba&r), hãy thử thu thập chúng từ phía trên."
-		""
 		"&eKim cương&r sẽ biến thành &dNgọc tinh linh&r được dùng trong một số công thức mà chúng ta sẽ cần sau này."
 	]
 	quest.4C873491F6F0FFAF.title: "Chuyển đổi bằng &dLửa tinh linh&r"
 	quest.4CE571F942461909.quest_desc: [
 		"Túi nghi lễ rất tiện, nhưng mất rất nhiều thời gian để đặt tất cả các khối. Bây giờ khi bạn có thể thực hiện nghi lễ &cSự Giam Cầm Vĩnh Cửu của Sevira&r, bạn có thể tạo ra Túi nghi lễ thủ công!"
-		""
 		"Túi nghi lễ thủ công hoạt động gần như giống hệt Túi nghi lễ thông thường, ngoại trừ việc nó lập tức đặt tất cả các vật phẩm cần thiết cho nghi lễ, và có thêm khả năng nhấp chuột phải vào Bát vàng để xóa tất cả các Ký hiệu phấn và thu thập tất cả các vật phẩm khác (Đầu lâu, Nến và Pha lê) và trả chúng vào Túi."
-		""
 		"Không, nó không khôi phục độ bền của phấn."
 	]
 	quest.4CE571F942461909.title: "Công cụ nghề nghiệp: Túi nghi lễ thủ công"
@@ -258,19 +209,12 @@
 	quest.4DF0D7B85065ADC9.title: "Công cụ nghề nghiệp: Dao thịt"
 	quest.4F35D04721DFC9FF.quest_desc: [
 		"Loại nghi lễ đầu tiên chúng ta sẽ thực hiện là &9Nghi lễ triệu hồi&r. Các nghi lễ này được dùng để triệu hồi các loại Quỷ hữu ích khác nhau để hỗ trợ bạn trong việc nghiền, nấu chảy và hơn thế nữa khi bạn đạt đến các cấp độ nghi lễ cao hơn."
-		""
 		"Đối với nghi lễ đầu tiên, chúng ta muốn triệu hồi Quỷ &aNghiền Foliot&r. Quỷ này sẽ nghiền vật phẩm cho chúng ta, điều mà chúng ta sẽ cần để làm một số phấn cấp cao!"
-		""
 		"Để bắt đầu, kết hợp Cuốn sách chưa trói buộc của bạn với &aTừ điển tinh linh&r của bạn trong lưới chế tạo. Điều này sẽ trói buộc một Quỷ vào Cuốn sách, đó là thứ chúng ta cần cho nghi lễ."
-		""
-		"Nói về Từ điển tinh linh của bạn, đã đến lúc mở nó ra! Ở bên trái, nhấp vào tab &dNgũ giác&r và nhấp vào &bVòng tròn Aviar&r. Bạn có thể phải lướt qua bằng cách đọc một chút. Cũng có cách nhấp \\\"Đánh dấu tất cả là đã đọc\\\" để mở khóa mọi thứ trong Sách."
-		""
+		"Nói về Từ điển tinh linh của bạn, đã đến lúc mở nó ra! Ở bên trái, nhấp vào tab &dNgũ giác&r và nhấp vào &bVòng tròn Aviar&r. Bạn có thể phải lướt qua bằng cách đọc một chút. Cũng có cách nhấp \\"Đánh dấu tất cả là đã đọc\\" để mở khóa mọi thứ trong Sách."
 		"Đây là thứ chúng ta sẽ dùng để triệu hồi người bạn mới. Ở phía bên phải, bạn có thể nhấp vào biểu tượng mắt ở góc dưới bên trái của hình ảnh để xây dựng đường nét nghi lễ cho bạn trong thế giới. Điều này rất hữu ích!"
-		""
 		"Sau khi bạn đã hoàn thành nghi lễ nhiều khối, đặt 4 (hoặc nhiều hơn cho các nghi lễ sau này) Bát hiến tế ở bất kỳ đâu trong bán kính ngang 8 khối từ Bát hiến tế trung tâm và sử dụng các vật phẩm cần thiết trên chúng. Khi bạn đặt Cuốn sách trói buộc vào Bát hiến tế vàng, nghi lễ sẽ bắt đầu!"
-		""
 		"Đây là hình dáng của nghi lễ."
-		""
 		"{image:atm:textures/questpics/occultism/aviarcircle_v2.png width:200 height:200 align:1}"
 	]
 	quest.4F35D04721DFC9FF.quest_subtitle: "Vòng tròn Aviar"
@@ -285,14 +229,12 @@
 	quest.5316DF321B45D2CA.title: "&dGiấc mơ về &cQuỷ"
 	quest.53DEA3DFEDC4809E.quest_desc: [
 		"Đừng lo, đây là nghi lễ cuối cùng trong loạt Abras. Nó được dùng để triệu hồi một con quỷ &9Marid&r, nhưng dù sử dụng Phấn đỏ, nó không đủ mạnh để &9trói&r con Quỷ. Điều này có nghĩa là, thật không may, bạn sẽ phải chiến đấu với nó."
-		""
 		"Nghi lễ này dùng một Trident làm vật tế, điều này gây nhầm lẫn vì hầu hết các vật tế là sinh vật sống. Vì vậy, thay vì giết một sinh vật trên vòng tròn nghi lễ đã hoàn thành, bạn chỉ cần ném Trident vào chiếc bát ở trung tâm để bắt đầu nghi lễ."
 	]
 	quest.53DEA3DFEDC4809E.quest_subtitle: "Đó là một con Chim? Đó là một chiếc Máy bay? Không, đó là một &9Marid&r chưa bị trói!"
 	quest.53DEA3DFEDC4809E.title: "&4Lời Thỉnh Cầu Phòng Thủ của Abras"
 	quest.54378277B8D28B1D.quest_desc: [
 		"Một \"nâng cấp\" cho Phấn cầu vồng, dành cho những người không thích những ký hiệu chuyển màu nhanh làm hỏng thẩm mỹ được tạo công phu."
-		""
 		"Có chức năng giống như Phấn cầu vồng, nhưng tất cả các ký hiệu sẽ hiện lên màu trắng."
 	]
 	quest.56EC79AF11B0869E.quest_desc: [
@@ -302,69 +244,48 @@
 	quest.56EC79AF11B0869E.title: "&9Xeovrenth Adjure"
 	quest.57282D7E31EE61EE.quest_desc: [
 		"Một khi bạn đã thu thập được một ít &aQuặng Iesnium Thô&r, bạn có lẽ sẽ muốn dùng vài thanh đầu tiên để làm một &dIesnium Pickaxe&r. Cái này không chỉ khai thác Iesnium giống như Infused Pickaxe, mà còn bền hơn nhiều."
-		""
 		"Hãy tự làm mình một cái!"
 	]
 	quest.57282D7E31EE61EE.title: "&aCuốc Thế Giới Khác&r"
 	quest.5831B3192C0E8C56.quest_desc: [
 		"Bạn muốn truy cập kho đồ từ xa? Việc này có thể thực hiện được bằng &eHố đen ổn định&r hoặc &aBộ truy cập kho&r."
-		""
 		"Để sử dụng &eHố đen ổn định&r, shift+nhấp vào một &dBộ chuyển đổi kho&r để liên kết chúng. Sau đó bạn có thể đặt Hố đen để nó hoạt động như một vị trí kho khác."
-		""
 		"&aBộ truy cập kho&r được liên kết theo cách tương tự, nhưng hoạt động như một cái điều khiển từ xa có thể thậm chí hoạt động xuyên qua các chiều!"
 	]
 	quest.5831B3192C0E8C56.title: "&aTruy cập từ xa"
 	quest.5ACE97EE75813006.quest_desc: [
 		"Đây là nguồn thông tin chính về &dNghi lễ&r. Dưới đây là những kiến thức cơ bản:"
-		""
 		"&Cấp độ Nghi lễ&r:"
-		""
 		"Nghi lễ có (cơ bản) bốn cấp độ dựa trên sức mạnh của Quỷ mà bạn đang triệu hồi. Cấp độ đầu tiên là &eFoliot&r, tiếp theo là &aDijini&r, &cAfrit&r, và &9Marid&r. Một số nghi lễ nằm ở các cấp độ trung gian, chẳng hạn như cấp &6Afrit không ràng buộc&r."
-		""
 		"&Loại Nghi lễ&r:"
-		""
 		"Có năm loại nghi lễ chính, nhưng chúng ta chỉ cần bốn loại cho phần tiến triển. Ba loại chính là &9Nghi lễ Triệu hồi&r, &5Nghi lễ Chiếm hữu&r, và &6Nghi lễ Thấm nhuần&r. Mỗi loại sẽ được giải thích khi lần đầu xuất hiện trong các nhiệm vụ này. Loại nghi lễ thứ tư là một dạng &dNghi lễ không có Quỷ&r &d&r, nghĩa là nó sử dụng các mảnh vụn từ cả ba loại trên để thực hiện một hành động đặc biệt mà không cần sử dụng trực tiếp một Quỷ."
-		""
 		"Loại thứ năm, &eNghi lễ Thân quen&r, không cần thiết cho phần tiến triển. Nhưng chúng vẫn có thể triệu hồi một số người bạn hữu ích để giúp đỡ bạn!"
-		""
 		"&Bút phấn&r:"
-		""
 		"Có hai loại bút phấn: Bút phấn nền và Bút phấn màu."
-		""
 		"Bút phấn nền được sử dụng trong mọi nghi lễ, và mỗi cấp độ cao hơn sẽ có một sắc thái tối hơn, bắt đầu từ Bút phấn Trắng và kết thúc bằng Bút phấn Đen."
-		""
 		"Bút phấn màu là loại được sử dụng phổ biến nhất, nhưng màu sắc của Bút phấn không trực tiếp tương quan với sức mạnh của nó giống như Bút phấn nền."
 	]
 	quest.5ACE97EE75813006.title: "Những Kiến Thức Cơ Bản Về Nghi Lễ"
 	quest.5AE80FF518B1BBA6.quest_desc: [
 		"Mệt mỏi vì phải mang theo Bút phấn, Nến, Đầu lâu và Tinh thể? Chỉ cần làm một &eTúi nghi lễ&r!"
-		""
 		"Bằng cách kéo + nhấp chuột phải với Túi nghi lễ trong tay, bạn có thể đổ vào tất cả nguyên liệu cần thiết để vẽ vòng tròn nghi lễ."
-		""
 		"Khi đã nạp đầy Túi, chỉ cần nhấp chuột phải vào bất kỳ khối xem trước nào để bắt đầu (từ từ) tự động đặt tất cả các ký hiệu cho nghi lễ đã chọn."
-		""
 		"Nếu một mảnh bút phấn trong túi giảm dưới 40% độ bền, hiệu ứng lấp lánh phép thuật trên vật phẩm này sẽ biến mất để báo hiệu rằng có thể đã đến lúc sửa chữa hoặc thay thế một số Bút phấn của bạn."
 	]
 	quest.5AE80FF518B1BBA6.quest_subtitle: "Nghi lễ túi!"
 	quest.5AE80FF518B1BBA6.title: "Công cụ nghề nghiệp: Túi nghi lễ"
 	quest.61999669BDE127F9.quest_desc: [
 		"Nếu bạn chưa để ý, việc làm và làm lại nghi lễ điên cuồng rất tốn độ bền của Bút phấn."
-		""
 		"Nếu bạn lo lắng Bút phấn sẽ vỡ, nhưng không muốn phải thực hiện toàn bộ nghi lễ để tạo một bút phấn mới, thì nghi lễ này dành cho bạn!"
-		""
 		"Sử dụng sức mạnh của một &aDijinni&r, bạn có thể sửa chữa bất kỳ màu nào của Bút phấn về độ bền tối đa!"
-		""
 		"Ngoài ra, bạn có thể sử dụng thứ gì đó như &aEternal Stella&r từ mod Forbidden Arcanus để bảo tồn vĩnh viễn Bút phấn của bạn!"
 	]
 	quest.61999669BDE127F9.quest_subtitle: "Bạn làm vỡ nó, &mchúng tôi&r (Quỷ) sửa nó!"
 	quest.61999669BDE127F9.title: "Sửa chữa Bút phấn"
 	quest.6581D4AF1A6DE230.quest_desc: [
 		"Quỷ thích Nến. Tôi nghĩ vậy."
-		""
 		"Gần như mọi Nghi lễ để triệu hồi bạn bè, bạn sẽ cần một ít Nến. Bạn có thể tạo &aDao Đồ Tiện&r và giết vài con heo, bò, cừu, ngựa, hoặc thậm chí Lạc Đà Thương Nhân để lấy một ít &aMỡ Động Vật&r để làm chúng. Thực tế, bạn nên tìm Lạc Đà Thương Nhân. Tôi nghe nói chúng làm nến ngon. &mTôi hoàn toàn không vừa mới bịa ra chuyện đó&r."
-		""
 		"Nếu không, Nến Vanilla cũng có thể dùng được!"
-		""
 		"&9Tinh Thể Đồng Điệu&r cũng được dùng trong vài Nghi lễ, nên tại sao không làm một ít ngay bây giờ!"
 	]
 	quest.6581D4AF1A6DE230.title: "Chuẩn bị cho Nghi lễ: &aNến"
@@ -374,40 +295,31 @@
 	quest.666EA8B8F13EB292.title: "&dHồn Ngọc Trống"
 	quest.67884BFA27870CCE.quest_desc: [
 		"&dLời Triệu Hồi Vô Hạn của Osorin&r là cấp thứ hai của &dNghi lễ không Quỷ&r. Cấp thứ nhất không hữu ích cho sự tiến triển chút nào, nó chỉ được dùng để hồi sinh Familiars và biến Vexes thành Allays."
-		""
 		"Nghi lễ này được dùng để tạo ra một lượng lớn các khối, item và vật liệu hiếm mà bạn có thể không thể (hoặc khó) lấy được cách khác."
 	]
 	quest.67884BFA27870CCE.quest_subtitle: "Dành cho những người ít thích thử nghiệm trong phòng"
 	quest.67884BFA27870CCE.title: "&dLời Triệu Hồi Vô Hạn của Osorin"
 	quest.690B89D23134B624.quest_desc: [
 		"Lấy phấn của bạn, vẽ nghi lễ &dLiên hệ Ronaza&r, và sẵn sàng tạo ra PHẤN CỦA THIÊN TÀI!"
-		""
 		"Thay vì phải mang theo một bộ 16 phấn, bạn có thể dùng Phấn Cầu Vồng để vẽ một Rune đổi màu, đếm như một trong số chúng!"
 	]
 	quest.690B89D23134B624.title: "&cR&6a&ei&an&9b&5o&dw&r Phấn"
 	quest.6C1BBA559963B3DF.quest_desc: [
 		"&aTừ Điển Linh Hồn&r đóng vai trò như Sách Hướng Dẫn cho &dOccultism&r. Bạn chắc chắn cần làm cái này nếu muốn tiếp tục với mod!"
-		""
 		"Từ Điển có một hướng dẫn kiểu nhiệm vụ bên trong nó nếu bạn thích đọc thay vì làm những nhiệm vụ này!"
-		""
 		"Bạn cũng sẽ cần sách để chế tạo vài thứ trong pack, nên bạn đại khái phải làm nó. :)"
 	]
 	quest.6C1BBA559963B3DF.title: "Cuốn sách nhỏ về &cQuỷ"
 	quest.6CC5FE34778F0DFA.quest_desc: [
 		"Bạn chắc chắn sẽ có quá nhiều vật phẩm khi chơi modpack này. Nó chỉ đơn giản là hoạt động, và nếu bạn chưa giải quyết được vấn đề lưu trữ của mình, &dDimensional Storage&r có thể là giải pháp phù hợp cho bạn!"
-		""
 		"Để bắt đầu với giải pháp lưu trữ ma thuật này, bạn cần chế tạo &dDimensional Storage Actuator&r và đặt nó xuống thế giới. Nó hoạt động giống như một Rương Shulker, nghĩa là nếu bạn phá nó, nó sẽ không mất bất kỳ vật phẩm nào được lưu bên trong."
-		""
 		"Mặc định, nó có 128 ô lưu trữ, mỗi ô có thể chứa tối đa 16 chồng của một vật phẩm, trừ các vật phẩm có dữ liệu &5NBT&r. Chúng sẽ không chồng được và sẽ chiếm toàn bộ một ô, vì vậy hãy chắc chắn để những vật phẩm này ra ngoài!"
-		""
 		"Nếu bạn không chắc chắn vật phẩm nào có dữ liệu NBT, bạn luôn có thể xem nhiệm vụ \"NBT and You\" trong chuỗi nhiệm vụ Lưu trữ để biết thêm thông tin về NBT!"
 	]
 	quest.6CC5FE34778F0DFA.title: "&c&mDemonir&r &dLưu trữ Ma thuật&r!"
 	quest.6CCDEEDA2C99DA66.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Community contributor&r để sử dụng trong AllTheMods Modpacks."
-		""
 		"Vì tất cả các gói &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ gói công cộng nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.6FEED25FFAC4101F.quest_desc: [
@@ -416,7 +328,6 @@
 	quest.6FEED25FFAC4101F.title: "&8Gray Chalk"
 	quest.6FFFAE334DFAAAAB.quest_desc: [
 		"Như bạn có thể đã nhận thấy, các nghi lễ thường... hơi chậm. Nhưng không còn nữa! Sử dụng &cSevira's Permanent Confinement&r, bạn có thể tạo &bIesnium Ritual Bowl&r."
-		""
 		"Khi sử dụng cái này thay thế cho Golden Ritual Bowl, nó giảm đáng kể thời gian thực hiện nghi lễ, giảm còn một phần tư thời gian ban đầu!"
 	]
 	quest.6FFFAE334DFAAAAB.quest_subtitle: "Nghi lễ Siêu tốc độ!"
@@ -426,11 +337,8 @@
 	quest.74130EB1E4B8586D.title: "&6Orange Chalk"
 	quest.78ECC28DD4BA9696.quest_desc: [
 		"Mặc dù bạn có thể lấy được hầu hết vật liệu &dOtherworld&r bằng Spiritfire, bạn cũng có thể dùng &9Divination Rods&r để định vị chúng."
-		""
 		"Trước tiên, bạn cần điều chỉnh Rod cho vật liệu bạn đang tìm. Ví dụ, nếu bạn đang săn &8Otherstone&r, bạn có thể dùng Rod lên &aAndesite&r để giúp tìm Otherstone trong thế giới."
-		""
 		"Một khi đã điều chỉnh cho một vật liệu, bạn có thể giữ chuột phải với Rod trong tay, và một hạt phát ra theo hướng vật liệu gần nhất mà nó đã điều chỉnh."
-		""
 		"Bạn vẫn cần ở trong tác dụng của &3Third Eye&r để có thể thu hoạch khối Otherworld."
 	]
 	quest.78ECC28DD4BA9696.quest_subtitle: "Săn lùng Vật liệu &dOtherworld&r"
@@ -441,21 +349,15 @@
 	quest.7BCD4A425CF6199B.title: "&#4E2C00Brown Chalk"
 	quest.7F09F8F98C13F11B.quest_desc: [
 		"Lễ hiến tế ma quỷ thiếu một sự &chy sinh&r thì còn gì! :D"
-		""
 		"Hầu hết thời gian, Ma quỷ chỉ thích các vật phẩm nên đừng quá sợ hãi. Tuy nhiên, nếu bạn có một con Bò yêu quý, bạn có thể cần phải lo lắng. Xin lỗi Betsy."
-		""
 		"&aBát hiến tế&r được dùng để đặt vật phẩm cần thiết cho Lễ hiến tế. Chúng có thể được đặt bất kỳ đâu trong Lễ hiến tế, miễn là không che phủ bất kỳ Chalk yêu cầu nào."
-		""
 		"Hiện tại, bạn chỉ cần bốn cái, nhưng sau này bạn sẽ cần hơn mười bát cho mỗi lễ hiến tế!"
-		""
 		"&6Bát hiến tế bằng vàng&r được dùng ở giữa Lễ hiến tế để kích hoạt nó, và thường cần một Book of Binding cho Lễ hiến tế bên trong."
 	]
 	quest.7F09F8F98C13F11B.title: "Chuẩn bị cho Lễ hiến tế: &6Bát"
 	quest.7F59941D62E672B0.quest_desc: [
 		"Ẩn đạo cung cấp nhiều hơn chỉ là Ma quỷ để nghiền quặng của bạn!"
-		""
 		"Có những Ma quỷ có thể di chuyển đồ đạc cho bạn, chặt gỗ, và hơn thế nữa!!"
-		""
 		"Còn có cách để triệu hồi những người bạn tuyệt vời được gọi là &dThú cưng tinh linh&r mà cung cấp hiệu ứng đặc biệt và thậm chí chiến đấu cho bạn! Hãy chắc chắn xem &dLễ hiến tế Thú cưng tinh linh&r trong sách hướng dẫn của bạn!"
 	]
 	quest.7F59941D62E672B0.title: "&dThú cưng tinh linh"

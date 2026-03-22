@@ -10,9 +10,7 @@
 	quest.12449D23295CF9ED.title: "&9Vòng cổ Sứa"
 	quest.12A63C5F8E918266.quest_desc: [
 		"Những &aỦng Cá Nhỏ&r này giúp bạn bơi nhanh hơn với Khả năng Đầu tiên. Nâng cấp chúng để bơi nhanh hơn một chút!"
-		""
 		"Khả năng Thứ hai cũng hoạt động với &9Nước&r, chỉ là loại từ trên trời. Bạn sẽ chạy nhanh hơn khi trời mưa."
-		""
 		"Khả năng Cuối cùng ảnh hưởng đến phổi của bạn, cho bạn cơ hội không sử dụng Bong bóng Oxy khi dưới nước."
 	]
 	quest.12A63C5F8E918266.quest_subtitle: "Tìm thấy trong Tàu Đắm và Đổ Nát Đại Dương"
@@ -42,14 +40,12 @@
 	quest.32AE664113F01CF7.title: "&eMáy phân tích không gian"
 	quest.395668FBCB6537AF.quest_desc: [
 		"Những 'Babes' yêu thích &eBling&r! Chiếc &eBastion Ring&r hoàn hảo cho người thích trao đổi. Khi đeo nó, Piglins sẽ trung lập với bạn giống như khi bạn đeo &eVàng&r. Tuy nhiên, điều này không có nghĩa là bạn có thể tự do lục lọi rương của chúng. Chiếc &eNhẫn&r cũng sẽ cho bạn cơ hội nhận được nhiều Loot hơn từ Bartering."
-		""
 		"(Khi đeo &eNhẫn&r, Piglins có thể chỉ bạn đến Pháo đài gần nhất)."
 	]
 	quest.395668FBCB6537AF.quest_subtitle: "Có thể tìm thấy trong Cổng hỏng, Pháo đài Nether và Pháo đài"
 	quest.395668FBCB6537AF.title: "&eNhẫn Pháo đài"
 	quest.3BD73FEAE853D350.quest_desc: [
 		"Bạn có bao giờ ghét việc &bBăng&r chậm trừ khi dùng Thuyền không? Điều đó vẫn chưa có ý nghĩa với tôi! &bGiày trượt băng&r thay đổi điều đó, giờ bạn tăng tốc trên &bBăng&r khi đeo &bGiày trượt băng&r. Bạn có thể nâng cấp chúng để tăng tốc nhanh hơn!"
-		""
 		"Sau khi nâng cấp, bạn có thể nhận được Khả năng Thứ hai cho phép bạn gây sát thương lên Quái vật bằng cách chạm vào chúng khi đeo &bGiày trượt băng&r."
 	]
 	quest.3BD73FEAE853D350.quest_subtitle: "Tìm thấy trong các làng ở Taiga hoặc Taiga tuyết"

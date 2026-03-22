@@ -1,9 +1,7 @@
 {
 	quest.011F787E620DE9E8.quest_desc: [
 		"Để thiết lập Bộ Lọc Quái Vật, bạn chỉ cần nhấp vào quái vật bạn không bao giờ muốn thấy lại, bằng Bộ Lọc Quái Vật."
-		""
 		"Mỗi Bộ Lọc chỉ có thể chứa 1 quái vật, vì vậy nếu bạn muốn Zombie, Skeleton, Spider, Creeper và Enderman không xuất hiện nữa, bạn sẽ cần 5 Bộ Lọc Quái Vật."
-		""
 		"Bạn có thể thay đổi quái vật trong đó bằng cách đơn giản nhấp vào một quái vật khác bằng nó."
 	]
 	quest.011F787E620DE9E8.quest_subtitle: "Hắn không được mời!"

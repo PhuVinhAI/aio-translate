@@ -1,13 +1,11 @@
 {
 	quest.030AC1AF8F735550.quest_desc: [
 		"Để đưa chất lỏng vào Bể, bạn sẽ cần một số loại Ống Dẫn."
-		""
 		"Máy Bơm Nước (Hydro Pump) có thể tự động đưa Nước vào chúng với tốc độ chậm, và hoàn toàn miễn phí!"
 	]
 	quest.030AC1AF8F735550.title: "Ống Dẫn"
 	quest.06B85804163DD18B.quest_desc: [
 		"Soaryn Box (Soaryn là tác giả của XyCraft) là chiếc rương của XyCraft."
-		""
 		"Nó sẽ không giữ vật phẩm khi khối bị phá hủy! Tôi tự hỏi những ô vuông trên nó làm gì?"
 	]
 	quest.08E484DD3E751697.quest_subtitle: "Chữ B trong Roy G. Biv"
@@ -72,7 +70,6 @@
 	quest.39E4FC9BA89E44BC.quest_subtitle: "Lên!"
 	quest.3E970E76372AB094.quest_desc: [
 		"Máy gieo hạt tăng tốc (§2Accelerated Planter§r) hoạt động tương tự Đất canh tác thông thường nhưng có một số thay đổi."
-		""
 		"Nó được tưới nước tự động và nhanh hơn Đất canh tác thông thường."
 	]
 	quest.3E970E76372AB094.title: "§2Máy gieo hạt tăng tốc"
@@ -88,7 +85,6 @@
 	]
 	quest.5E1D4169C083ACEF.quest_desc: [
 		"Tấm đánh lửa (§cIgnition Plate§r) tạo lửa phía trước nó khi được cấp Tín hiệu Redstone."
-		""
 		"Nó sẽ dập tắt lửa khi Tín hiệu dừng lại."
 	]
 	quest.5E1D4169C083ACEF.title: "&cTấm đánh lửa"
@@ -118,13 +114,11 @@
 	quest.6D0876A402C22067.title: "&6Kho chứa và thao tác vật phẩm"
 	quest.71D133BA3EC6F4FD.quest_desc: [
 		"Extrator sẽ \"phát triển\" khối hoặc vật phẩm bên dưới nó và di chuyển chúng vào một kho ở phía trên."
-		""
 		"Điều này có thể được dùng cho máy phát đá sỏi hoạt động với nhiều loại đá, máy phát Amethyst, hoặc thậm chí máy phát Trứng Rồng, cùng nhiều loại khác!"
 	]
 	quest.71D133BA3EC6F4FD.quest_subtitle: "Nông trại cho Đá! (Và nhiều hơn)"
 	quest.7574A782DCFB87CE.quest_desc: [
 		"Kivi có thể được dùng cho một vài việc, chủ yếu cho trang trí và máy móc."
-		""
 		"Bạn sẽ cần Kivi cho Khung Máy và các máy khác trong XyCraft. Nó có thể được dùng với Ngọc Xychorium trong Stonecutter để tạo các khối trang trí."
 	]
 	quest.7574A782DCFB87CE.title: "&l&7Kivi"

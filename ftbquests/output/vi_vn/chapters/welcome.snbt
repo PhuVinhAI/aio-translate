@@ -1,29 +1,22 @@
 {
 	quest.0C93D7A607AB8B83.quest_desc: [
 		"Để khai báo khu vực, mở bản đồ của bạn bằng &6M&r, sau đó nhấp vào biểu tượng &aKhu vực Đã Khai báo&r ở góc trên bên trái."
-		""
 		"Để khai báo một khu vực, nhấp chuột trái và kéo để khai báo."
-		""
 		"Để giữ khu vực luôn được tải, shift-nhấp chuột trái vào khu vực. Nếu thực hiện đúng, bạn sẽ thấy các đường xuyên qua khu vực."
 	]
 	quest.3708A4780ACEB34E.quest_desc: [
 		"Trong modpack này, nhiệm vụ là tùy chọn. Các mod không bị khóa sau khi hoàn thành bất kỳ nhiệm vụ nào!"
-		""
 		"Nhiều dòng nhiệm vụ riêng lẻ ngoài Dòng nhiệm vụ chính được dùng như một hướng dẫn về mod. Nếu bạn muốn theo tiến trình, hãy chắc chắn xem Dòng nhiệm vụ chính!"
 	]
 	quest.3BC0A50886A3222B.quest_desc: [
 		"ATM10 là một gói đa dụng cho phép bạn khám phá thế giới Minecraft mod theo cách của riêng bạn!"
-		""
 		"Modpack này là một phiên bản của ATM10 được xây dựng để có trải nghiệm tương tự như gói chính, trong khi cũng tập trung mạnh vào hiệu năng, để có thể chạy trên các hệ thống cấu hình thấp."
-		""
 		"Nếu bạn có bất kỳ câu hỏi hoặc vấn đề nào, hãy tự do tham gia discord của ATM!"
 	]
 	quest.3BC0A50886A3222B.title: "&dChào mừng đến với All The Mods 10 - LITE!"
 	quest.49EDAA2F57D3BF1D.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6Nhân viên AllTheMods&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods."
-		""
 		"Vì tất cả các gói &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ gói công cộng nào không được phát hành bởi &6Đội ngũ AllTheMods&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.5AC1BE754210429E.quest_desc: [
@@ -31,17 +24,11 @@
 	]
 	quest.7658C1C663394E85.quest_desc: [
 		"Trong ATM có rất nhiều lệnh hữu ích. Dưới đây là một số lệnh:"
-		""
 		"&e/sethome&r (tên nhà) | Cho phép bạn đặt một nhà mà bạn có thể dịch chuyển trở về bằng /home (tên). Ví dụ: /sethome farm - sau đó dịch chuyển bằng /home farm."
-		""
 		"&e/spawn&r | Lệnh này sẽ dịch chuyển bạn đến điểm sinh của Overworld của bạn."
-		""
 		"&e/rtp&r | 'Random Teleport' sẽ dịch chuyển bạn đến một vị trí ngẫu nhiên trong thế giới."
-		""
 		"Lưu ý: Các lệnh này có thời gian hồi chiêu và giới hạn. Nếu bạn muốn thay đổi chúng, bạn có thể chỉnh sửa file cấu hình có thể tìm thấy tại đây:"
-		""
 		" - Đối với Singleplayer | &osaves/(tên lưu)/serverconfig/ftbessentials.snbt&r"
-		""
 		" - Đối với Servers | &oworld/serverconfig/ftbessentials.snbt&r"
 	]
 	task.103C42C743E2A2DB.title: "Chiếm Đoạt Chunk"

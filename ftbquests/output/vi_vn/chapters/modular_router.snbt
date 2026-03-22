@@ -191,16 +191,12 @@
 	]
 	quest.40788326E791845D.quest_desc: [
 		"Extrude là từ khá nhạy cảm. "
-		""
 		"Máy Extruder sẽ đặt các khối vào Buffer của Router thành một hàng phía trước Router khi được cấp tín hiệu Redstone. Khi tín hiệu tắt, nó sẽ phá tất cả các khối đó. "
-		""
 		"Rất hữu ích cho Cửa!"
 	]
 	quest.417B88FEB1B8F44E.quest_desc: [
 		"Chúng hút thật đấy! Thật sự! "
-		""
 		"Mô-đun Chân không sẽ hút mọi vật phẩm trong khu vực đã đặt và di chuyển chúng đến Buffer của Router. Tương tự như Absorption Hopper. "
-		""
 		"Cũng có thể dùng với Tăng cường Kinh nghiệm!"
 	]
 	quest.475E1B94A61B9EB0.quest_desc: [
@@ -208,21 +204,16 @@
 	]
 	quest.4A03A671757B2EBF.quest_desc: [
 		"Độ bền, Mức chất lỏng, Mức năng lượng, Cấp độ Phép thuật và Giá trị Thức ăn đều là các danh mục chúng ta có thể dùng với Bộ lọc Kiểm tra."
-		""
 		"Sau đó chúng ta chọn nếu muốn nó Lớn hơn, Nhỏ hơn, Bằng nhau, hoặc hỗn hợp của chúng với Số lượng Đánh số."
-		""
 		"Tiếp theo, chúng ta đặt một Số lượng Đánh số và nhấn Nút Cộng để thêm nó vào Bộ lọc."
-		""
 		"Điều này có thể dùng để chỉ giữ lại Công cụ có Độ bền cao hoặc Thức ăn có Giá trị Thức ăn cao."
 	]
 	quest.4CC963F5AECF285A.quest_desc: [
 		"Thông thường Router di chuyển 1 vật phẩm mỗi Tick của nó. Điều này có thể nhân đôi và chồng chất! với Nâng cấp Chồng. "
-		""
 		"1 Nâng cấp Chồng là 2 Vật phẩm, 2 Chồng là 4 Vật phẩm, và 6 Chồng là 64 Vật phẩm một giây."
 	]
 	quest.4EAFE7B240AF0A4D.quest_desc: [
 		"Không thể với tới thứ bạn cần? Hãy thử Khoảng cách Xa! "
-		""
 		"Với cái này mọi thứ sẽ thực hiện hành động nhưng ở khoảng cách xa hơn. Chân không có phạm vi cao hơn để nhặt vật phẩm. Năng lượng đi xa hơn. Flinger ném với sức mạnh lớn hơn!"
 	]
 	quest.4FA5192164E4A427.quest_desc: [
@@ -230,34 +221,25 @@
 	]
 	quest.53A5F5E49EA8D5AF.quest_desc: [
 		"Đây là một ví dụ hay về việc sử dụng Modular Routers để tạo một Mob Farm dễ tổ chức siêu dễ. (Không bao gồm cách giết mob). "
-		""
 		"Để minh họa, tôi sẽ dùng một Wither Skeleton Farm. "
-		""
 		"Trước tiên, bạn muốn đưa Vật phẩm vào Buffer bằng Mô-đun Chân không. Tiếp theo, loại bỏ Stone Swords bằng Mô-đun Void. Để đảm bảo nó không xóa mọi thứ, hãy dùng Bộ lọc Danh sách trắng với Stone Sword trong đó và không khớp Sát thương. Sau đó, bạn sẽ cần một nơi để đặt Loot, tôi khuyên dùng Hệ thống Ngăn kéo. Sau đó, dùng Mô-đun Gửi để gửi Loot đến Hệ thống Lưu trữ. "
-		""
 		"Đó là tất cả những gì bạn cần!"
 		"{image:atm:textures/questpics/router/router_mob.png width:200 height:65 align:center}"
 	]
 	quest.53A5F5E49EA8D5AF.title: "Router cho Mob Farm"
 	quest.53B58FC3958750E7.quest_desc: [
 		"Bạn đã chơi với Placer quá nhiều và cần Phá những Khối đó? "
-		""
 		"Tầng và Phép thuật của nó được xác định bởi Pickaxe được dùng để chế tạo nó. "
-		""
 		"Bây giờ đặt khu vực và hy vọng đặt một Bộ lọc và để nó chạy! "
-		""
 		"Có thể dùng với một Placer để làm những việc như biến Quặng thành Vật phẩm."
 	]
 	quest.553C44F85E508DE3.quest_desc: [
 		"Cái này là duy nhất vì nó không chỉ dùng cho 1 Router mà còn cho nhiều Router. "
-		""
 		"Nếu bạn muốn nhiều Router hoạt động cùng lúc thì mỗi Router cần một Sync Upgrade. "
-		""
 		"Nó sẽ cần được điều chỉnh trong GUI riêng của nó."
 	]
 	quest.5560F303C452E110.quest_desc: [
 		"Extruder đẩy khối và entity, nhưng tại sao không đẩy thêm nữa! "
-		""
 		"Các entity, không phải các khối."
 	]
 	quest.5FB29F3F4DF17765.quest_desc: [
@@ -265,14 +247,11 @@
 	]
 	quest.6063F4B7BE4D394C.quest_desc: [
 		"Các Sender Modules sẽ di chuyển Item trong Kho đệm (Buffer Slot) của Router sang Inventory khác. "
-		""
 		"MK1 chỉ di chuyển item vào các Inventory nằm trên cùng trục XYZ với Router và có tầm nhìn trực tiếp. Nếu có khối chắn đường, Sender MK1 sẽ không gửi được."
 	]
 	quest.63E4529AF8894018.quest_desc: [
 		"&lModular Routers&r là một mod về hậu cần. "
-		""
 		"Mọi thứ bắt đầu từ Router! Vậy hãy làm một cái! "
-		""
 		"Ngoài ra, Buffer là một slot item đơn lẻ trong Router nơi item sẽ đi vào và đi ra. Và nó sẽ cần tín hiệu Redstone để hầu hết các Module hoạt động."
 	]
 	quest.63E4529AF8894018.title: "&lModular Routers"
@@ -282,12 +261,10 @@
 	quest.6648BC7D14233006.title: "&lAugments"
 	quest.674F28BCA2E4A3C8.quest_desc: [
 		"Khi di chuyển item, Router có thể trở nên rất tham lam, lấy mọi item chúng có thể với được! "
-		""
 		"Với Regulator Augment, bạn có thể giới hạn lượng item được di chuyển."
 	]
 	quest.6B747129A85AA768.quest_desc: [
 		"Giờ còn giống Absorption Hopper hơn nữa! "
-		""
 		"Vacuum Module giờ sẽ hút cả XP Orbs lẫn Item. Việc bạn làm với XP là tùy bạn!"
 	]
 	quest.6E5954C257726F86.quest_desc: [

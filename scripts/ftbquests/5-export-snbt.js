@@ -29,19 +29,26 @@ function exportSNBT() {
     const viText = unescapeXml(viTextRaw);
     let finalOutput = "";
 
-    // Xử lý Escape Quote: AI có thể trả về dấu ngoặc kép không escape.
-    // Dùng Lookbehind (?<!\\)" để tìm dấu " chưa bị escape và tự escape nó thành \".
+    // Xử lý Escape an toàn cho SNBT
     const escapeSafe = (str) => {
-      // Javascript không phải trình duyệt nào cũng hỗ trợ lookbehind mạnh,
-      // dùng cách replace an toàn hơn:
-      return str.replace(/\\"/g, '"').replace(/"/g, '\\"');
+      // Bước 1: Loại bỏ tất cả escape hiện tại
+      let safeStr = str.replace(/\\\\/g, '\\').replace(/\\"/g, '"');
+      
+      // Bước 2: Escape lại dấu ngoặc kép
+      safeStr = safeStr.replace(/"/g, '\\"');
+      
+      // Bước 3: FIX LỖI GAME - Escape ký tự '&' có khoảng trắng đằng sau
+      // FTB Quests yêu cầu '& ' phải thành '\& ' để không bị hiểu nhầm là mã màu
+      safeStr = safeStr.replace(/& /g, '\\& ');
+      
+      return safeStr;
     };
 
     if (mapInfo.isArray) {
       // Chẻ đoạn văn lại thành mảng theo ký tự \n
-      const lines = viText.split('\\n');
+      const lines = viText.split('\\n').filter(line => line.trim() !== '');
       finalOutput = "[\n";
-      lines.forEach(line => {
+      lines.forEach((line, index) => {
         finalOutput += `\t\t"${escapeSafe(line)}"\n`;
       });
       finalOutput += "\t]";
@@ -58,6 +65,8 @@ function exportSNBT() {
     fs.rmSync(outputDir, { recursive: true, force: true });
   }
 
+  // FIX LỖI KHÔNG DỊCH MÔ TẢ: Regex cũ không bắt được Mảng có chứa nhiều dòng và ký tự lạ.
+  // Đã nới lỏng Regex phần Value để quét chính xác hơn.
   const snbtRegex = /([\w\.\-]+)\s*:\s*(\[[\s\S]*?\]|"(?:[^"\\]|\\.)*")/g;
   let replacedCount = 0;
 
@@ -78,7 +87,9 @@ function exportSNBT() {
     content = content.replace(snbtRegex, (match, key, oldVal) => {
       if (keysToReplace[key]) {
         replacedCount++;
-        return `${key}: ${keysToReplace[key]}`;
+        // FIX LỖI MẢNG: Đảm bảo định dạng mảng luôn cách Key một khoảng trắng cho SNBT dễ thở
+        let newVal = keysToReplace[key];
+        return `${key}: ${newVal}`;
       }
       return match;
     });

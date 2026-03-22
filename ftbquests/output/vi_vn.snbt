@@ -80,26 +80,21 @@
 	]
 	quest.00EFC7B327E79076.quest_desc: [
 		"Sau khi dùng đi hàng tỷ năng lượng trong SPS, cuối cùng chúng ta cũng tạo ra được &dAntimatter Pellets&r."
-		""
 		"Đưa Khí Antimatter bạn nhận được từ SPS vào Máy kết tinh hóa học và bạn sẽ nhận được 1 Antimatter Pellet cho mỗi 1000mb bạn tạo ra."
 	]
 	quest.010607466D565B53.quest_desc: [
 		"Hãy kết nối với Mẹ Thiên nhiên đi."
-		""
 		"Với &aGiày Rễ&r thiên nhiên là bạn tốt nhất của bạn! Khi đứng trên cỏ bạn sẽ hồi máu. Đồng thời, khi ăn thức ăn khi đứng trên cỏ, nó sẽ có tác dụng như bạn đã dùng xương lên cỏ."
 	]
 	quest.010607466D565B53.quest_subtitle: "Chân"
 	quest.010607466D565B53.title: "&aGiày Rễ"
 	quest.0108F3EFDFD6DFD0.quest_desc: [
 		"Storage Link cho phép bạn kết nối nhiều kho không được gắn vào Storage Controller hoặc bất kỳ khối nào được kết nối với nó."
-		""
 		"Vì vậy, đây là cách để kết nối không dây một 'multiblock' của các kho mà không cần phải chuột phải từng cái."
-		""
 		"Phạm vi 14 khối vẫn áp dụng."
 	]
 	quest.01119871B1D5C576.quest_desc: [
 		"Hầu hết mọi &6Làng&r đều có thể có &6&lTu sĩ&r trong đó. Điều này bao gồm cả &6Làng&r từ mod."
-		""
 		"Thông thường họ ở giữa &6Làng&r như gần chợ. Không phải mọi &6Làng&r đều có một người."
 		"{image:atm:textures/questpics/iron_spells/spells_village.png width:200 height:100 align:center}"
 	]
@@ -125,13 +120,11 @@
 		"Một khi đã kích hoạt, Reactor có thể đưa ra tới 80MRF/t với thiết lập đúng. Nó cũng có thể được làm mát bằng nước để tạo ra hơi nước, có thể đưa vào &9Industrial Turbine&r để tạo ra còn nhiều năng lượng hơn.\"
 		"\"
 		"Để xây dựng Fusion Reactor, chúng ta cần theo một mẫu đơn giản. Mỗi mặt sẽ trông như thế này:\"
-		""
 		"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
 		"{@pagebreak}"
 		"Đối với mặt trên, chúng ta muốn thay thế khối giữa bằng Fusion Reactor Controller.\"
 		"\"
 		"Đối với các cổng, bạn có thể thay thế bất kỳ Reactor Glass nào ở các cạnh. Đối với thiết lập này, chúng ta sẽ cần hai cổng để nhập &cDeuterium&r và &eTritium&r, sau đó một cổng để xuất năng lượng.\"
-		""
 		"{image:atm:textures/questpics/mek/completed_fusion_reactor.png width:175 height:150 align:1}"
 	]
 	quest.0152C49AB74B9D32.quest_subtitle: "Nguồn Năng Lượng Tốt Nhất Trong Pack"
@@ -148,9 +141,7 @@
 	]
 	quest.01F3F0C25BA72BDA.quest_desc: [
 		"Ngoài việc lưu trữ vật phẩm và chất lỏng, AE2 còn cung cấp cách thức tự nhiên để lưu trữ toàn bộ &estructures&f bên trong các ô lưu trữ, không khác biệt lắm so với mod Compact Machines. "
-		""
 		"Cổng &bSpatial IO Port&f cho phép các cấu trúc được chứa trong &bSpatial Containment Structure&f được thu vào một ô lưu trữ được thiết kế đặc biệt, kích hoạt qua tín hiệu redstone. "
-		""
 		"Nếu một sinh vật hoặc người chơi vô tình đứng bên trong SCS khi không gian đang được thu, họ cũng sẽ được dịch chuyển đến nơi mà phần còn lại của không gian đi, tức là trong một dimension chuyên dụng. Chỉ cần đảm bảo bạn có cách để ra vào nếu bạn là người bị thu."
 	]
 	quest.01F3F0C25BA72BDA.title: "Spatial IO"
@@ -267,11 +258,8 @@
 	quest.05B0A7D0B991050F.title: "Lò phản ứng (Cứng cáp)"
 	quest.05D20B506213A449.quest_desc: [
 		"&9Rotor Tuabin&r được đặt ở giữa Tuabin. Với mỗi Rotor Tuabin, bạn sẽ cần 2 &aLưỡi Tuabin&r. Đối với Tuabin này, chúng ta sẽ sử dụng 3 Rotor."
-		""
 		"Khi nhìn vào Rotor, nhấp chuột phải với &aLưỡi Tuabin&r sẽ đặt chúng trực tiếp lên Rotor. Rotor càng cao, Lưỡi càng dài. Đối với công trình này, chúng ta sử dụng tổng cộng 6 Lưỡi. Nếu bạn dự định xây dựng Tuabin lớn hơn, bạn sẽ cần tăng chiều rộng của Tuabin tùy theo số Lưỡi bạn dự định sử dụng."
-		""
 		"&9Rotational Complex&r phải được đặt ở đỉnh của Rotor Tuabin. Sau đó nó được bao quanh bởi &ePressure Dispersers&r."
-		""
 		"Các Dispersers phải lấp đầy toàn bộ lớp nơi Rotational Complex đặt."
 	]
 	quest.05D20B506213A449.title: "&aRotor"
@@ -283,52 +271,40 @@
 	quest.062AA943A1629A86.title: "&cR&6a&ei&2n&3b&9o&5w &cC&eo&3a&5l"
 	quest.0650996C7818ADB5.quest_desc: [
 		"Máy phát nhiệt có 2 chế độ để tạo điện:"
-		""
 		"&9Thụ động:&r Bao quanh máy phát với khối nguồn dung nham hoặc khối chảy tạo ra điện thụ động bằng cách tạo nhiệt. Đặt một khối nguồn dung nham ở trên, và để nó chảy xuống các cạnh. Đảm bảo kết nối ống dẫn trước!"
-		""
 		"&9Chủ động:&r Đặt vật liệu cháy như than hoặc gỗ vào máy phát sẽ đốt nhiên liệu để tạo điện."
 	]
 	quest.0650996C7818ADB5.quest_subtitle: "Máy phát điện cơ bản"
 	quest.066F78936C8F943B.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods. "
-		""
 		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. "
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.067AB3E4C4492F0D.quest_desc: [
 		"Không muốn khai thác một loạt các Quặng bạn có? Tại sao không để Router làm giúp bạn? "
-		""
 		"Bạn có thể dùng Placer để đặt các Quặng xuống, sau đó để Enchanted Breaker khai thác Quặng. Breaker cần Pickaxe dùng để chế tạo nó phải được Enchant trước, chính Module thì không thể Enchant được. "
-		""
 		"Bạn có thể cần một Router khác để nhặt các Quặng rơi."
 		"{image:atm:textures/questpics/router/router_break.png width:150 height:80 align:center}"
 	]
 	quest.067AB3E4C4492F0D.title: "Router cho Khai thác"
 	quest.068728DE3B9B13C3.quest_desc: [
 		"&dSupercritical Phase Shifter&r (SPS) là một cấu trúc multiblock khác được dùng để đưa Polonium vào với lượng lớn năng lượng để tạo ra khí &dAntimatter&r, có thể được kết tinh thành pellet."
-		""
 		"Để xây SPS, bạn cần làm tổng cộng 72 &9SPS Casings&r (60 cho phần xây, 12 để làm cổng), 3 &9SPS Ports&r, 122 Reactor Glass, và một item khác chúng ta sẽ nói ở nhiệm vụ tiếp theo. Hãy lấy vật liệu trước!"
 	]
 	quest.068728DE3B9B13C3.title: "&dSupercritical Phase Shifter"
 	quest.0696B725E840B996.quest_desc: [
 		"Để đưa bất cứ thứ gì vào hoặc ra khỏi Lò phản ứng phân hạch, chúng ta cần &aFission Reactor Ports&r. Chúng có thể được cấu hình để đầu vào hoặc đầu ra bằng cách dùng &9Configurator&r. "
-		""
 		"Mỗi Lò phản ứng phân hạch &acần tối thiểu 4 Cổng&r:"
-		""
 		" - 1 Đầu vào Dung môi"
 		" - 1 Đầu ra Dung môi"
 		" - 1 Đầu vào Nhiên liệu phân hạch"
 		" - 1 Đầu ra Chất thải"
-		""
 		"Đối với bản dựng khởi đầu này, hãy đặt một cổng ở mỗi phía như hình dưới đây. Đảm bảo cấu hình chúng khớp với danh sách đầu vào và đầu ra!"
-		""
 		"{image:atm:textures/questpics/mek/port_example.png width:200 height:200 align:1}"
 	]
 	quest.0696B725E840B996.title: "Tương tác với Lò phản ứng phân hạch"
 	quest.06B85804163DD18B.quest_desc: [
 		"The Soaryn Box (Soaryn là tác giả của XyCraft) là rương của XyCraft."
-		""
 		"Nó sẽ không giữ vật phẩm khi block bị phá! Tôi tự hỏi những ô vuông trên nó có chức năng gì?"
 	]
 	quest.06F2C42E6408149E.quest_desc: [
@@ -339,21 +315,18 @@
 	quest.06F8EDF7513F8611.title: "&dMực Huyền thoại&r"
 	quest.074EC1E636CD6605.quest_desc: [
 		"&cGiáp Netherite&r là tốt nhất mà &l&2Vanilla&r có thể có. Nó có cùng Điểm giáp với &bKim cương&r nhưng có nhiều Độ bền giáp hơn."
-		""
 		"Có lẽ vì bạn cần &bKim cương&r để chế tạo nó!"
 	]
 	quest.074EC1E636CD6605.quest_subtitle: "20"
 	quest.074EC1E636CD6605.title: "&cGiáp Netherite"
 	quest.07753C5D94312A50.quest_desc: [
 		"&3Nâng cấp&r: Máy phát điện trái ngược với &3Nâng cấp&r: Nhà máy, thay vì dùng Năng lượng để nấu chảy, nó nấu chảy để tạo Năng lượng. Bạn sẽ không còn nấu chảy vật phẩm trong nó nữa, mỗi Nhiên liệu dùng sẽ được chuyển thành Năng lượng!"
-		""
 		"(Tôi tự hỏi liệu kết nối Máy phát điện và Lò nấu Nhà máy có tốt hơn không thay vì chỉ dùng Nhiên liệu trong một cái)"
 	]
 	quest.07753C5D94312A50.title: "&3Nâng cấp&r: Máy phát điện"
 	quest.077A214422FEFF02.quest_subtitle: "&f6.5 &cSát thương"
 	quest.0790D3BB481162A6.quest_desc: [
 		"Cần một Bàn chế tạo di động? Hoặc một Bàn rèn di động? "
-		""
 		"&l&8Crafting On A Stick&r bổ sung các phiên bản di động của một số trạm chế tạo yêu thích của bạn! Đây là một thứ phải có trong giai đoạn đầu."
 	]
 	quest.0790D3BB481162A6.quest_subtitle: "Ít đặt chỗ, nhiều chế tạo"
@@ -380,9 +353,7 @@
 	quest.07FDA46D83F8360D.title: "Đệm Dịch Chuyển"
 	quest.08245411AFDB63DB.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các modpack AllTheMods."
-		""
 		"Vì tất cả các modpack &6AllTheMods&r được cấp phép theo &eTất cả các quyền được bảo lưu&r, nhiệm vụ này không được phép sử dụng trong bất kỳ modpack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được ẩn cố ý, nếu bạn thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.083D458032F0325C.quest_desc: [
@@ -391,7 +362,6 @@
 	quest.083D458032F0325C.quest_subtitle: "O"
 	quest.08697EB269B011FD.quest_desc: [
 		"Với &dRonaza's Contact&r, bạn có thể nâng cấp &bIesnium Sacrificial Bowl&r của mình lên Eldritch Chalice. Khi được sử dụng trong nghi lễ, nó giảm thời gian hoàn thành... hoàn toàn. "
-		""
 		"Đúng vậy, Eldritch Chalice khiến tất cả các nghi lễ hoàn thành ngay lập tức!"
 	]
 	quest.0893EFCAC7031FEA.quest_desc: [
@@ -464,18 +434,14 @@
 	quest.0A1D4228271DECA3.title: "&5Bùa Thu nhỏ&r"
 	quest.0A25276925EB0CBA.quest_desc: [
 		"Khi bạn đã thu thập tất cả Chalk có màu và Foundation Chalk, bạn có thể thực hiện nghi lễ loại thứ hai &dkhông có Demon&r, &dRonaza's Contact&r. Đây là nghi lễ tối thượng, sử dụng mọi thứ bạn đã học được cho đến nay!"
-		""
 		"Nó có số lần sử dụng hạn chế, nhưng mọi thứ được tạo ra từ nghi lễ này đều cực kỳ mạnh mẽ!"
 	]
 	quest.0A25276925EB0CBA.quest_subtitle: "Với kho báu thiêng liêng này, ta triệu hồi..."
 	quest.0A25276925EB0CBA.title: "&dLiên lạc của Ronaza"
 	quest.0A3C464EF7CDD5F6.quest_desc: [
 		"&4Kệ Địa Ngục&r là cách giới thiệu đầu tiên của bạn về &cQuanta&r, chúng cho &c3% Quanta&r và &a3 Eterna&r. "
-		""
 		"Tốt hơn các Kệ thông thường phải không? "
-		""
 		"Bạn sẽ cần 16 cái cho bước tiếp theo, 15 &4Kệ Địa Ngục&r xung quanh &5Bàn khảo&r, với 1 cái trong Túi đồ của bạn. "
-		""
 		"Làm 11 cái đầu tiên và tôi sẽ cho bạn 5 &4Kệ Địa Ngục&r còn lại!"
 		"{image:atm:textures/questpics/apothic/enchant_hellshelf.png width:100 height:100 align:center}"
 	]
@@ -512,7 +478,6 @@
 		"Để chúng ta có thể chỉ định &c&mQuỷ&r &9Bạn bè&r nào chúng ta muốn triệu hồi, chúng ta cần tạo một &bSách Ràng buộc&r cụ thể.\"
 		"\"
 		"Để làm điều này, bạn cần tinh chế một ít Thuốc nhuộm Đen trong &dSpiritfire&r để lấy Mực tinh khiết. Với thứ này, chúng ta sẽ tạo &bSách Ràng buộc&r đầu tiên, nó sẽ triệu hồi một &aQuỷ Foliot&r."
-		""
 		"Một cách khác, bạn có thể tạo một Sách Ràng buộc trống, có thể được nhuộm sau đó để phù hợp với cấp độ nghi lễ bạn cần."
 	]
 	quest.0B3EA604C5172D98.title: "&bSách &dRàng buộc"
@@ -529,11 +494,8 @@
 	quest.0BCCDE24D378F260.title: "&dKhung Máy Nâng Cao"
 	quest.0BD6365534BF04D5.quest_desc: [
 		"Với Lime Chalk, đã đến lúc khám phá các &5Nghi Lễ Chiếm Hữu&r. Các nghi lễ này hơi khác với những cái khác vì chúng đều yêu cầu một con sinh vật sống để hiến tế, thường là những sinh vật nhỏ như Gà, Ong, Dơi, v.v. Tuy nhiên, khi nghi lễ trở nên phức tạp hơn, chúng sẽ yêu cầu những hiến tế ngày càng lớn."
-		""
 		"Ngay cả khi bạn đã đặt tất cả các vật phẩm cần thiết và Sách Ràng Buộc vào Bát Hiến Tế Vàng, Nghi Lễ sẽ không bắt đầu cho đến khi bạn giết con sinh vật hiến tế trên các ký hiệu."
-		""
 		"Được khuyến nghị là bạn nên tạo một loại vật phẩm bắt sinh vật như Empty Soul Gem, Jar, Mob Imprisonment Tool, hoặc Quantum Catcher!"
-		""
 		"Tầng đầu tiên của &5Nghi Lễ Chiếm Hữu&r là &eHeidryn's Lure&r, chỉ được dùng để lấy các vật phẩm thông thường như Đầu Xương và Đá End. Vì vậy, bạn có thể bỏ qua thẳng sang tầng thứ hai của nghi lễ, &aIhagan's Enthrallment&r."
 	]
 	quest.0BD6365534BF04D5.quest_subtitle: "Bạn sẽ gọi ai?"
@@ -544,9 +506,7 @@
 	quest.0C856BBB1679A7DD.quest_subtitle: "Và Các Vật Phẩm Hữu Ích Khác!"
 	quest.0C93D7A607AB8B83.quest_desc: [
 		"Để xác nhận các khối, mở bản đồ của bạn bằng phím &6M&r, sau đó nhấp vào biểu tượng &aKhối Đã Xác Nhận&r ở góc trên bên trái."
-		""
 		"Để xác nhận một khối, nhấp chuột trái và kéo để xác nhận."
-		""
 		"Để buộc tải một khối, shift + nhấp chuột trái vào khối. Nếu thực hiện đúng, bạn sẽ thấy các đường kẻ xuyên qua khối."
 	]
 	quest.0CC0632E8276C787.quest_desc: [
@@ -641,13 +601,11 @@
 		"Sinh vật hòa bình -> Nhiều Pink Slime hơn."
 		"Sinh vật hung dữ -> Nhiều thịt hơn."
 	]
-	quest.0E8647B8EB4AAC41.title: "Pink Slime & Thịt lỏng"
+	quest.0E8647B8EB4AAC41.title: "Pink Slime \& Thịt lỏng"
 	quest.0E9CE6241CDBC420.quest_desc: [
 		"Cái &9Ranged Pump&r đặc biệt đến mức nó có mod riêng!"
-		""
 		"Cái &9Pump&r sẽ thu thập &9Water Sources&r bên dưới và thay thế chúng bằng Stone."
 		"Tuy nhiên nó cần Energy để hoạt động, nhưng rất đáng, nó có phạm vi cực lớn!"
-		""
 		"Cái &9Water&r thu thập được sẽ cần được Piped ra ngoài."
 	]
 	quest.0E9CE6241CDBC420.title: "&l&9Máy bơm tầm xa"
@@ -656,7 +614,6 @@
 	]
 	quest.0EC2053B191C55C6.quest_desc: [
 		"Chiết xuất nhựa từ khúc gỗ, chạy nhanh hơn khi được cấp năng lượng."
-		""
 		"Kiểm tra JEI để xem khúc gỗ chấp nhận và lượng nhựa. Khúc gỗ tốt nhất để dùng là Acacia."
 	]
 	quest.0ED11FCF6298CE85.quest_desc: [
@@ -666,28 +623,23 @@
 	quest.0ED11FCF6298CE85.title: "§4Trang phục Tông đồ"
 	quest.0EED5D755D2C866A.quest_desc: [
 		"§d§lEnder§r được dùng để lấy toàn bộ sức mạnh của §dEndermen§r và §dEnder Dragon§r, và tất nhiên là sử dụng cho bản thân. §dDịch chuyển§r, §dQuả cầu lửa§r, và §dHơi thở Rồng§r chỉ là một vài trong số đó!"
-		""
 		"§d§lEnder's§r Vật liệu trọng tâm là §dEnder Pearls§r."
-		""
 		"Và các §dCuộn§r của nó có màu §5Tím§r với chữ §dHồng§r."
 	]
 	quest.0EED5D755D2C866A.title: "§d§lEnder"
 	quest.0EFF1AA37772156B.quest_desc: [
 		"Khối này cung cấp nước cho nhà bếp đa khối."
-		""
 		"Nó cũng có thể cung cấp nước vô hạn bằng cách bơm nước qua cáp hoặc ống dẫn."
 	]
 	quest.0EFF1AA37772156B.quest_subtitle: "1 Khối là đủ!"
 	quest.0EFF1AA37772156B.title: "Bồn rửa = Nước vô hạn"
 	quest.0F026D5A17CCCF51.quest_desc: [
 		"§dNetherite§r items thậm chí tốt hơn tổng thể, và sẽ không cháy trong lava! Tuy nhiên bạn vẫn sẽ cháy, ngay cả khi đang mặc giáp. Đừng thử."
-		""
 		"Những item này có thể được dùng để làm một số công cụ và giáp tốt nhất trong game."
 	]
 	quest.0F026D5A17CCCF51.title: "§dHạng Netherite"
 	quest.0F03E75CF79BADD7.quest_desc: [
 		"MEGA Cells§f cung cấp §bTế bào Lưu trữ Hàng loạt§f đặc chế, bị giới hạn không quá §omột§r loại item có thể lưu trữ trên mỗi tế bào nhưng có thể lưu trữ một số lượng §o§lVÔ HẠN§r* của loại item đó. Trước khi nó chấp nhận một loại item, nó phải được lọc trước bằng Bàn làm việc Tế bào."
-		""
 		"*§oVề kỹ thuật là 'max long'. Nếu bạn biết, bạn biết.§r"
 	]
 	quest.0F03E75CF79BADD7.quest_subtitle: "Hàng loạt và cắt"
@@ -700,9 +652,7 @@
 	quest.0F1D6F4729CC38F3.title: "Trang trí giáp Rib"
 	quest.0F326EEEC2EBE4E5.quest_desc: [
 		"Sử dụng Buồng Làm Phong Phú, bạn có thể làm phong phú vật phẩm để chuyển chúng thành phiên bản đã làm phong phú."
-		""
 		"Những vật phẩm \"đã làm phong phú\" này cung cấp 8 lần lượng mb trong Máy Pha Kim Loại."
-		""
 		"Nếu bạn dự định làm nhiều thép, hãy làm phong phú Than gỗ trước tiên!"
 	]
 	quest.0F326EEEC2EBE4E5.quest_subtitle: "Hãy làm phong phú vật phẩm trước tiên!"
@@ -718,7 +668,6 @@
 		"Với cuốc cấp Diamond, bạn sẽ có thể khai thác &dObsidian&r. Obsidian có thể được dùng để tạo cổng đến &cNether&r.\"
 		"\"
 		"Khung cổng có thể có nhiều kích cỡ khác nhau, nhưng hầu hết đều dùng hình dạng cơ bản 'Cửa'. Đây là hình dạng rỗng 4x5, sử dụng ít nhất 10 Obsidian. Bạn không cần dùng Obsidian cho các góc, chỉ cần khung cổng thôi!\"
-		""
 		"{image:atm:textures/questpics/gettingstarted/example_netherportal.png width:175 height:201 align:1}"
 	]
 	quest.0F3D51FFD2FE8DCB.title: "&cĐến Nether&r!"
@@ -753,44 +702,33 @@
 	]
 	quest.0FF852DE33E41C90.quest_desc: [
 		"Nếu chúng ta muốn tạo ra lượng lớn năng lượng, chúng ta cần một cách để lưu trữ tất cả nó, và những Khối Năng lượng đó không đủ dùng."
-		""
 		"Chúng ta sẽ tạo một khối đa khối có thể tùy chỉnh dùng để lưu trữ lượng lớn năng lượng, nhưng trước tiên, chúng ta cần làm một ít Bụi Lithium!"
-		""
 		"Bạn nên có một ít Nước mặn được tạo ra từ nhiệm vụ trước đó bằng cách sử dụng &aNhà bay hơi nhiệt&r. Chạy &eNước mặn&r qua một &aNhà bay hơi nhiệt&r khác để có Lithium lỏng, sau đó sử dụng &9Máy ngưng tụ quay&r để có Lithium mà bạn có thể chạy qua &9Máy kết tinh hóa học&r để có &aBụi Lithium&r."
 	]
 	quest.0FF852DE33E41C90.title: "Lưu trữ Năng lượng Nâng cao"
 	quest.0FFF2BEE5D8EBE12.title: "Lò phản ứng (Niotic)"
 	quest.103834774B57D611.quest_desc: [
 		"Cổng End Mini sẽ cần khá nhiều &dKệ End&r. Đây là các cấp cuối cùng của Kệ mà bạn sẽ nhận được từ &5&lApotheosis&r. Bạn sẽ cần &dHơi thở Rồng được tăng cường&r để chế tạo chúng."
-		""
 		"Sau đó bạn chỉ cần Mắt Ender mà bạn cần phải chế tạo chúng để thực sự có được &dKệ End&r."
-		""
 		"Nếu bạn somehow đến được &d&lThe End&r và có được Kệ mà không có Mắt Ender thì tôi ấn tượng!"
 	]
 	quest.104EBBC08B4733F5.quest_desc: [
 		"&dMáy mô phỏng&r là máy chính trong HNN."
-		""
 		"Khi được cấp năng lượng, nó sẽ chạy mô phỏng dựa trên &bMô hình Dữ liệu&r được đặt bên trong. Năng lượng yêu cầu cũng phụ thuộc vào Mô hình Dữ liệu được đặt bên trong, và có thể thấy trong tooltip của Mô hình."
-		""
 		"Máy cũng yêu cầu ít nhất một &9Ma trận Dự đoán&r để chạy mô phỏng."
-		""
 		"Kết quả mô phỏng sẽ được xuất ra Ma trận. Các mô phỏng luôn tạo ra một loại &eDự đoán Chung&r, có thể được sử dụng trong các công thức chế tạo khác nhau. Chúng cũng thay đổi tùy theo nguồn gốc của quái vật trong Mô hình Dữ liệu."
-		""
 		"Nếu mô phỏng thành công, bạn sẽ nhận được một &dDự đoán Quái vật&r dựa trên mô hình. Cấp độ cao hơn của Mô hình Dữ liệu được sử dụng, tỷ lệ thành công cho mô phỏng càng cao."
 	]
 	quest.104EBBC08B4733F5.title: "&aMô phỏng Cái chết"
 	quest.105442DA79829777.quest_desc: [
 		"Với 8 &7Sách&r và một Đe, chúng ta có thể làm &8Cuốn sách Phá bỏ&r. Thực ra là 8 cuốn, nhưng bạn hiểu ý rồi!"
-		""
 		"Bằng cách kết hợp một Món đồ với &8Cuốn sách&r trong Đe, chúng ta có thể lấy đi một nửa &5Phép thuật&r khỏi Món đồ."
-		""
 		"Điều này sẽ dẫn đến việc Món đồ bị vỡ và mất hiệu lực sau khi hoàn thành. Tôi không khuyên dùng nó, thay vào đó bạn nên nâng cấp nó!"
 	]
 	quest.105442DA79829777.quest_subtitle: "Một nửa Phép thuật, làm vỡ Món đồ"
 	quest.105442DA79829777.title: "&8Cuốn sách Phá bỏ"
 	quest.10672B5991E5FC34.quest_desc: [
 		"Đồ của tôi, đừng đụng vào."
-		""
 		"Chỉ bạn mới có thể sử dụng và nghịch với Router sau khi lắp Nâng cấp."
 	]
 	quest.1069244EB72F64CA.quest_desc: [
@@ -799,9 +737,7 @@
 	quest.10E8BC20D406D9FB.quest_subtitle: "Tạo ra nhiều loại Vật liệu Nether"
 	quest.110BF3A2BE85F911.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods."
-		""
 		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.110D27EA86CDA62B.quest_desc: [
@@ -809,19 +745,14 @@
 	]
 	quest.1112E4E2CCEB2467.quest_desc: [
 		"Vậy bây giờ, bạn nên có 5 máy đã sẵn sàng để xử lý quặng của mình. Bạn đã sẵn sàng để làm nó phức tạp hơn chưa?"
-		""
 		"Nhà máy của bạn nên là: Buồng Tiêm Hóa chất > Buồng Làm Sạch > Máy Dập > Buồng Làm Giàu > Lò/Nhà Luyện kim."
-		""
 		"Dễ dàng đến giờ, phải không?"
-		""
 		"Vậy hãy thắt dây an toàn. Sắp trở nên hoang dã đây."
 	]
 	quest.1112E4E2CCEB2467.quest_subtitle: "Nhà máy Quặng Cấp 3"
 	quest.111E4ACF7D570EE8.quest_desc: [
 		"Chỉ là Cấu trúc khó nhất trong &2&lVanilla Minecraft&r. Vì vậy tất nhiên đó là nơi bạn sẽ phải tìm kiếm &6Allthemodium&r!"
-		""
 		"Bạn có thể tìm thấy Quặng trên tường của các Hang động xung quanh các Thành phố Cổ, nó Tỏa sáng nên sẽ dễ nhận biết nhưng rất hiếm!"
-		""
 		"{image:atm:textures/questpics/allthemodium/all_city.png width:200 height:100 align:center}"
 	]
 	quest.111E4ACF7D570EE8.title: "Thành phố Cổ"
@@ -865,9 +796,7 @@
 	quest.122E6E7CABCB17E7.title: "&7Dép Mèo&r"
 	quest.12449D23295CF9ED.quest_desc: [
 		"Mặc dù có thể không có con &9Sứa&r nào trong &2Minecraft&r, chúng ta vẫn có thể lấy được sức mạnh của chúng! Với &9Vòng cổ Sứa&r! Khi đeo nó, khả năng thứ nhất và thụ động cho phép bạn không chìm trong nước, có thể đi trên mặt nước."
-		""
 		"Khả năng thứ hai, cũng là một khả năng thụ động, khiến bạn có thể chích những sinh vật đến gần. Nó có thể được nâng cấp để gây nhiều sát thương hơn."
-		""
 		"Khả năng cuối cùng trao một hiệu ứng cho Khả năng thứ hai. Bất kỳ sinh vật nào bị Khả năng thứ hai đánh trúng sẽ bị tê liệt! May mắn là giờ không còn con &9Sứa&r nào trong &2Minecraft&r nữa..."
 	]
 	quest.12449D23295CF9ED.quest_subtitle: "Tìm thấy trong Tàu đắm và Di tích Đại dương"
@@ -879,9 +808,7 @@
 	quest.1245126B4338C019.title: "Viền Giáp Vex"
 	quest.12A63C5F8E918266.quest_desc: [
 		"Những &ađôi giày cá&r này giúp bạn bơi nhanh hơn với Khả năng thứ nhất. Nâng cấp chúng để bơi nhanh hơn một chút!"
-		""
 		"Khả năng thứ hai cũng hoạt động với &9Nước&r, nhưng là nước từ trên trời. Bạn sẽ chạy nhanh hơn khi trời mưa."
-		""
 		"Khả năng cuối cùng ảnh hưởng đến phổi của bạn, bạn có cơ hội không sử dụng Bong bóng Oxy khi dưới nước."
 	]
 	quest.12A63C5F8E918266.quest_subtitle: "Tìm thấy trong Tàu đắm và Di tích Đại dương"
@@ -895,9 +822,7 @@
 	]
 	quest.12D271359D48210E.quest_desc: [
 		"Lò phản ứng nhiệt hạch cần nhiên liệu rất đặc biệt: &dD-T Fuel&r chính xác."
-		""
 		"Có hai cách để cấp nhiên liệu cho Lò phản ứng: Hoặc là bơm D-T Fuel trực tiếp vào Lò phản ứng với tốc độ 1,000mb/t, hoặc là bơm từng nhiên liệu một cách riêng biệt với tốc độ kiểm soát."
-		""
 		"Để bắt đầu, hãy bơm chúng riêng biệt. Chúng ta có thể cần biết cách chế tạo chúng nữa."
 	]
 	quest.12D271359D48210E.title: "Cấp nhiên liệu cho &dLò phản ứng nhiệt hạch"
@@ -939,7 +864,6 @@
 	quest.13F77C38AC015E9F.title: "&bTháp Núi"
 	quest.140DE53DC0FCD9F4.quest_desc: [
 		"&bME Annihilation Plane&f có thể được sử dụng để tự động phá bất kỳ khối nào trước nó và trả lại bất cứ thứ gì rơi ra từ khối đó trực tiếp vào mạng ME. "
-		""
 		"Như một lợi ích bổ sung, Annihilation Plane có thể được phù phép giống như một công cụ đào thông thường, ảnh hưởng đến vật rơi từ khối giống như công cụ phù phép đó. Điều này làm cho nó lý tưởng để xử lý khối quặng khi được phù phép với Fortune, ví dụ. "
 		"Bất kỳ phép màu nào thêm vào đều làm tăng đáng kể lượng năng lượng tiêu thụ của máy bay mỗi lần một khối bị phá. Phù phép máy bay với &eEfficiency&f sẽ giảm tổng mức năng lượng tiêu thụ do tất cả các phép màu khác gây ra, trong khi phép &eUnbreaking&f cho máy bay cơ hội chỉ sử dụng năng lượng đôi khi, tương tự như Unbreaking trên công cụ thông thường."
 	]
@@ -964,7 +888,6 @@
 	quest.144BB025516E0994.title: "&3Thỏi Vibranium&r"
 	quest.145C8235BCCB9BA8.quest_desc: [
 		"Nếu chúng ta muốn thu thập tất cả các Chalk, chúng ta sẽ cần triệu hồi và giết một &cAfrit&r không thân thiện."
-		""
 		"Mặc dù đây không phải là &5Possession Ritual&r, bạn sẽ cần một sinh vật sống để hiến tế cho nghi lễ này. Trong trường hợp này, chúng ta sẽ hiến tế một con Bò. Xin lỗi Betsy!"
 	]
 	quest.145C8235BCCB9BA8.quest_subtitle: "R.I.P. Betsy"
@@ -976,13 +899,9 @@
 	quest.145E7D1A88B83DDD.title: "&9Khăn choàng tàng hình&r"
 	quest.1482F2D45E8F761D.quest_desc: [
 		"Đã đến lúc thu thập vật liệu cần thiết để xây dựng lò phản ứng."
-		""
 		"Giống như hầu hết các khối đa của Mekanism, lò phản ứng có thể có kích thước tùy chỉnh tùy theo nhu cầu của bạn. Chúng phải có hình hộp chữ nhật, với kích thước tối thiểu bên ngoài là 3 rộng, 4 cao và 3 sâu. Kích thước tối đa là 18x18x18. &aChúng ta sẽ xây một lò 5x5 để bắt đầu&r."
-		""
 		"Các cạnh của vỏ ngoài &bphải&r được làm từ &aVỏ Lò Phản ứng Phân hạch&r, trong khi các mặt có thể là vỏ hoặc &bKính Lò Phản ứng&r, Cổng Lò Phản ứng, hoặc Bộ điều hợp logic lò phản ứng. Chúng ta sẽ đề cập đến chúng sau."
-		""
 		"Bây giờ, hãy xây một Lò Phản ứng phân hạch 5x5x5 cơ bản!"
-		""
 		"Cần thêm trợ giúp để xây dựng? Giữ &dw&r khi di chuột qua Vỏ Lò Phản ứng Phân hạch sẽ hiển thị Ponder có thể giúp bạn xây dựng nó."
 	]
 	quest.1482F2D45E8F761D.quest_subtitle: "Vỏ và Kính"
@@ -1000,11 +919,8 @@
 	quest.149BD1A9F82FA19A.quest_subtitle: "&f6 &cSát thương"
 	quest.14B3542ECB59869C.quest_desc: [
 		"Máy &5Loot Fabricator&r là máy giúp bạn có được những chiến lợi phẩm ngọt ngào từ Dự đoán Quái vật."
-		""
 		"Khi được cấp năng lượng và có một Dự đoán Quái vật thành công, bạn sẽ có thể chọn món đồ nào bạn muốn nhận từ Mô hình Dữ liệu của quái vật đó. Máy sẽ ghi nhớ lựa chọn của bạn, vì vậy nó có thể được tự động hóa."
-		""
 		"Ví dụ về Dự đoán Quái vật:"
-		""
 		"- &dEnder Dragons&r để lấy &dDragon Eggs"
 		" - &2Zombies&r để lấy Sắt"
 		" - &0Withers&r để lấy &5Nether Stars"
@@ -1012,13 +928,9 @@
 	quest.14B3542ECB59869C.title: "Tạo &dChiến lợi phẩm"
 	quest.14D772808D1BEAE2.quest_desc: [
 		"Ma trận cảm ứng cho phép bạn tùy chỉnh lượng năng lượng bạn có thể lưu trữ và truyền bằng cách thêm Tế bào cảm ứng và Bộ cung cấp cảm ứng bên trong cấu trúc nhiều khối."
-		""
 		"Tế bào cảm ứng tăng tổng lượng năng lượng có thể lưu trữ."
-		""
 		"Bộ cung cấp cảm ứng tăng tốc độ truyền tổng cả vào và ra khỏi Ma trận."
-		""
 		"Bạn có thể tùy chỉnh số lượng bạn muốn của mỗi loại bên trong cấu trúc nhiều khối, nhưng bạn sẽ cần ít nhất một của mỗi loại. Chúng cũng có các cấp độ cao hơn để tăng tổng dung lượng lưu trữ và truyền của bạn."
-		""
 		"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
 	]
 	quest.14D772808D1BEAE2.title: "&aTùy chỉnh &9Giới hạn Năng lượng"
@@ -1029,7 +941,6 @@
 	quest.151D836C7B0E6FAF.title: "&3Khiên Vibranium"
 	quest.15540271BF17C2E4.quest_desc: [
 		"&lChào mừng đến với XyCraft!&r"
-		""
 		"Loạt mod này chủ yếu dành cho XyCraft: World và Machines!"
 		"World cung cấp cho chúng ta những Viên ngọc có thể được tìm thấy khi khai thác."
 	]
@@ -1110,39 +1021,30 @@
 	quest.1697CC05D08B388D.title: "Gà phải đi"
 	quest.16A6C47E35F3B9D0.quest_desc: [
 		"Một khi đã có &9Máy ly tâm đồng vị&r, chúng ta có thể đưa &2Uranium Hexafluoride&r vào và tạo ra &3Nhiên liệu phân hạch&r!"
-		""
 		"Thấy không, chuyện đó không tệ chứ?"
 	]
 	quest.16A6C47E35F3B9D0.title: "&3Nhiên liệu phân hạch"
 	quest.16AAC61729C44881.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các gói AllTheMods Modpacks."
-		""
 		"Vì tất cả các gói &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ gói công cộng nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.16B4A00948D1F60D.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các gói AllTheMods Modpacks."
-		""
 		"Vì tất cả các gói &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ gói công cộng nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.16D0F1E3CEB60ABF.title: "Cần câu sắt"
 	quest.1710B3D05215A71E.quest_desc: [
 		"&bP2P&f (peer-to-peer) là một hệ thống mạnh mẽ trong AE2, cho phép truyền item, chất lỏng và thậm chí nhiều hơn mà không cần bất kỳ bộ lưu trữ ME trung gian nào."
-		""
 		"Nhấp chuột phải vào đường hầm P2P với một số item nhất định sẽ &eđiều chỉnh&f đường hầm thành loại có khả năng truyền thứ khác, chẳng hạn như item qua ống, năng lượng qua cáp, tín hiệu redstone và (mặc định) thậm chí cả kết nối ME."
-		""
 		"Các đường hầm P2P phải được liên kết với nhau bằng cách sử dụng một &eMemory Card&f, được chi tiết trong nhiệm vụ tiếp theo."
 	]
 	quest.1710B3D05215A71E.quest_subtitle: "Bỏ qua trung gian"
 	quest.1710B3D05215A71E.title: "Đường hầm P2P"
 	quest.172D2A634E849562.quest_desc: [
 		"Với khả năng thu hoạch &cIesnium&r, chúng ta có thể triệu hồi các Quỷ để làm theo yêu cầu của chúng ta trong các mỏ... ý tôi là... giúp chúng ta thu thập quặng. Chắc chắn không khai thác Quỷ hay bất cứ điều gì."
-		""
 		"Để làm điều này, chúng ta cần tạo một &dDimensional Mineshaft&r để truy cập Thế giới Khai thác Quỷ. Bạn cũng sẽ cần một Mining Demon bị giam trong một chiếc đèn, mà bạn sẽ đặt bên trong Mineshaft để nó hoạt động. Mặc dù bất kỳ cấp độ nào cũng sẽ hoàn thành nhiệm vụ này, các cấp độ cao hơn hoạt động nhanh hơn và có cơ hội cao hơn trong việc khai thác Iesnium cho bạn."
-		""
 		"Các Mineshaft không tự động xuất hàng. Bạn sẽ cần trích xuất các item bằng cách sử dụng Hoppers, Transporting Demons, hoặc một số phương pháp khác như Item Pipes. Nó sẽ hủy bất kỳ item nào vượt quá giới hạn lưu trữ của nó."
 	]
 	quest.172D2A634E849562.title: "&cKhai thác Quỷ"
@@ -1188,9 +1090,7 @@
 	quest.1827DEEA2DF1B144.title: "Thực phẩm và Nông nghiệp"
 	quest.1848F431D0380DA9.quest_desc: [
 		"Tương tự như chức năng Sửa chữa bằng Phấn của &aStrigeor's Higher Binding&r, &cSevira's Permanent Confinement&r có thể được dùng để sửa chữa vật dụng bằng sức mạnh của một Afrit Demon."
-		""
 		"Nghi lễ này có thể sửa chữa gần như mọi thứ, vì vậy &eDemon Miners&r, công cụ và áo giáp đều có thể được khôi phục độ bền ban đầu! "
-		""
 		"Tất cả vật dụng được sửa chữa bằng nghi lễ này đều giữ nguyên thuộc tính ban đầu (affixes, enchantments, v.v), vì vậy đừng lo lắng về những phép thuật quý giá của bạn!"
 	]
 	quest.1848F431D0380DA9.quest_subtitle: "Độ bền gần như miễn phí!"
@@ -1239,9 +1139,7 @@
 	quest.18DB8C875F2331B2.quest_subtitle: "Tìm thấy ở Thành phố End và Tàu End"
 	quest.18DFB25DC48D8BF7.quest_desc: [
 		"Cấu trúc Chứa Không gian (SCS) bao gồm một lưới các &bSpatial Pylons&f bao phủ thể tích bạn muốn đặt trong một ô Spatial IO. Tối thiểu, một SCS yêu cầu ba hàng khối spatial pylon, mỗi hàng cho một chiều của không gian được chứa (dài, rộng, cao). "
-		""
 		"Tuy nhiên, Spatial IO là một tính năng cực kỳ tốn năng lượng, đặc biệt khi cố gắng chứa các không gian lớn hơn (lên tới 128x128x128). Việc có thêm nhiều spatial pylons trong SCS xung quanh thể tích mong muốn sẽ tăng tổng &eefficiency&f của nó, cho phép nó sử dụng ít năng lượng hơn để chứa. "
-		""
 		"Ngoài ra, hãy lưu ý rằng mỗi pylon riêng lẻ (bất kể chiều dài) chiếm một kênh. Đối với các không gian đặc biệt lớn, bạn có thể muốn xây dựng một mạng lưới chuyên dụng với một bộ điều khiển để chứa tất cả các pylon cần thiết."
 	]
 	quest.18E0F5A78F696FA3.quest_desc: [
@@ -1321,36 +1219,27 @@
 	quest.1AD87CB3226ED224.title: "Im nào, đừng đánh thức quái!"
 	quest.1B0087400B0B8B49.quest_desc: [
 		"Lò phản ứng (&9Reactor&r) là một máy phát điện nhiều khối 3x4x3 đốt &aUrananite&r làm nhiên liệu để sản xuất FE."
-		""
 		"Để xây nó, bạn cần tổng cộng 36 Khối Lò phản ứng. Khi cầm 36 trong tay, đặt một khối sẽ tự động xây lò phản ứng. Đảm bảo dọn chỗ trước!"
-		""
 		"Bạn sẽ muốn làm mát lò phản ứng để nó tạo ra nhiều FE hơn, và bạn có thể làm điều này với chất làm mát rắn hoặc lỏng &bcoolant&r. Để dùng chất làm mát rắn, bạn cũng cần cung cấp cho nó một ít chất làm mát lỏng. &bDry Ice&r là một chất làm mát rắn tuyệt vời! (Lưu ý: 1 Xô Nước là đủ)."
-		""
 		"Bạn cũng có thể tăng sản lượng FE bằng cách giữ đầy bộ đệm nhiên liệu, cũng như thêm cả Than và Đá Đỏ vào Lò phản ứng. Dùng Khối của cả hai cũng sẽ hoạt động!"
 	]
 	quest.1B0087400B0B8B49.title: "Lò phản ứng (Khởi đầu)"
 	quest.1B5177A774FCEF64.quest_desc: [
 		"Trước khi chúng ta bắt đầu nhờ sự giúp đỡ của bạn bè Ác quỷ, chúng ta sẽ cần tạo ra vật phẩm quan trọng nhất cho Nghi lễ: &aChalk&r."
-		""
 		"Có một số màu phấn cần thiết, với Nghi lễ cấp cao hơn yêu cầu nhiều màu để kích hoạt. Để bắt đầu, &bWhite Chalk&r là dễ có nhất."
-		""
 		"Bắt đầu bằng cách ném Otherstone vào lò nung, và ném Otherworld Logs vào &dSpiritfire&r. Với các vật phẩm bạn tạo ra, bạn sẽ có thể làm Impure White Chalk."
-		""
 		"Để tinh khiết bất kỳ mảnh Chalk nào, chỉ cần ném nó vào &dSpiritfire&r để làm sạch. Dùng Purified Chalk trên mặt đất sẽ vẽ các ký hiệu &mdemonic&r đẹp trên mặt đất. Chúng là một đau khổ để gỡ bỏ, trừ khi tất nhiên, bạn tự làm cho mình &aChalk Brush&r. Làm đi, nó đáng giá."
 	]
 	quest.1B5177A774FCEF64.title: "Chuẩn bị cho Nghi lễ: &ePhấn"
 	quest.1B686954D34A0F23.quest_desc: [
 		"Cờ lắc &bQuartz Wrench&f làm đúng như một cờ lắc mod công nghệ thông thường. Nó xoay các khối và thiết bị theo mặt bạn nhấp chuột phải vào và tháo dỡ chúng khi nhấp chuột phải trong khi lén."
-		""
 		"Cờ lắc này có cả hai loại Certus Quartz và Nether Quartz."
 	]
 	quest.1B686954D34A0F23.quest_subtitle: "Làm đúng như bạn mong đợi"
 	quest.1B686954D34A0F23.title: "Cờ lắc Thạch anh"
 	quest.1B6DDF50D00CBB31.quest_desc: [
 		"Pha trộn Sắt với Than hoặc Than củi trong một Metallurgic Infuser sẽ cho bạn Enriched Iron."
-		""
 		"Pha trộn Enriched Iron với thêm Than hoặc Than củi sẽ cho bạn Steel Dust, có thể nung chảy thành Thép."
-		""
 		"Đây là thành phần chế tạo chính trong nhiều công thức trong Mekanism."
 	]
 	quest.1B6DDF50D00CBB31.title: "Thép"
@@ -1369,9 +1258,7 @@
 	quest.1BA3D15FFE7DBE59.title: "Latex và Plastic? Hả?"
 	quest.1BDB369FD243D4C6.quest_desc: [
 		"Có thể nói là item hữu ích nhất bạn có thể tạo trong Occultism, &bIesnium Anvil&r là phiên bản siêu mạnh của Vanilla Anvil."
-		""
 		"Được tạo bằng &9Uphyxes' Inverted Tower&r, nó:"
-		""
 		"- Không thể phá hủy."
 		"- Tăng mức độ tối đa của mọi phép thuật khi kết hợp trên nó lên một cấp."
 		"- Chi phí XP chỉ một nửa so với ước tính (làm tròn xuống, vì vậy nếu nói 25, nó sẽ tốn 12)."
@@ -1451,15 +1338,10 @@
 	quest.1DE0F289821F55D1.title: "&aLàm Phấn"
 	quest.1DE8B0C9A7195720.quest_desc: [
 		"Sau khi bạn đã đặt xong tất cả các block cần thiết để xây dựng Lò phản ứng, nó sẽ phát ra các hạt đỏ để cho thấy nó đã hoàn thành."
-		""
 		"Nhấp chuột phải vào bất kỳ đâu trên Lò phản ứng sẽ mở ra &aGiao diện&r. Nó sẽ chứa tất cả thông tin bạn cần để vận hành Lò phản ứng đúng cách, cũng như hai nút để bật và tắt Lò phản ứng."
-		""
 		"Bên trái, bạn có 2 bể chứa: Một cho &bChất làm mát&r và một cho &3Nhiên liệu phân hạch&r. Bên phải, bạn có một cho &8Chất thải phóng xạ&r, và một cho &bChất làm mát đã đun nóng&r, mà rất có thể sẽ là &bHơi nước&r."
-		""
 		"Thanh &cNhiệt độ&r sẽ cho bạn biết lò phản ứng nóng đến mức nào. Sau một nhiệt độ nhất định, Lò phản ứng sẽ bắt đầu nhận &4Sát thương&r, và cuối cùng sẽ khiến Lò phản ứng nổ."
-		""
 		"Để điều chỉnh &cTỷ lệ đốt&r của Nhiên liệu phân hạch và xem thêm thống kê, nhấp vào tab (I) ở phía bên trái. Ở đây, bạn có thể điều chỉnh Giới hạn tỷ lệ, điều khiển lượng nhiên liệu lò phản ứng đốt mỗi tick."
-		""
 		"{image:atm:textures/questpics/mek/reactor_interface_1.png width:200 height:150 align:1}"
 		"{image:atm:textures/questpics/mek/reactor_interface_2.png width:200 height:150 align:1}"
 	]
@@ -1467,14 +1349,11 @@
 	quest.1DE8B0C9A7195720.title: "Giao Diện Lò Phản Ứng Phân Hạch"
 	quest.1E00DBAACDF4404F.quest_desc: [
 		"Máy Thu Thập hoạt động như một Ống hút Hấp thụ rất rẻ tiền."
-		""
 		"Nó sẽ nhặt tất cả các vật phẩm trong bán kính 3 block và đặt vào kho hàng phía dưới hoặc kho của chính nó. Nó có thể được tắt bằng Redstone!"
 	]
 	quest.1E1EB7DC19DDCFB7.quest_desc: [
 		"Để tạo công cụ và áo giáp Netherite, bạn cần tìm &6Mẫu rèn Netherite&r trong các rương nằm trong Bastion."
-		""
 		"Chúng có thể kết hợp với một miếng &cNetherite&r và một công cụ hoặc áo giáp Kim cương trên một &aBàn rèn&r để nâng cấp chúng lên &cNetherite&r."
-		""
 		"Mẹo: Đừng dùng hết các mẫu của bạn một lúc! Bạn có thể tạo bản sao bằng cách sử dụng công thức để tạo thêm một cái."
 	]
 	quest.1E1EB7DC19DDCFB7.title: "&6Mẫu rèn Netherite&r"
@@ -1490,7 +1369,6 @@
 	quest.1E3E688B3B52C4D2.title: "Trang trí áo giáp Raiser"
 	quest.1E40ACF3E69A4100.quest_desc: [
 		"Bạn có cần phải uống nó không? Tôi không biết, nó cứ đứng đó và hoạt động... "
-		""
 		"Với &6Bình kháng độc&r, các hiệu ứng tiêu cực (như Hủy diệt hay Độc) sẽ có thời gian bị rút ngắn! Rất hữu ích khi đối mặt với Phù thủy hoặc Xương sống Wither."
 	]
 	quest.1E40ACF3E69A4100.quest_subtitle: "Đai"
@@ -1528,9 +1406,7 @@
 	quest.1F81EA5E45424308.title: "&f&lTruyền Năng Lượng"
 	quest.1FAAF8216CDC3AC6.quest_desc: [
 		"Bơm chất thải phóng xạ vào &9Solar Neutron Activator&r sẽ cho bạn &dPolonium&r."
-		""
 		"Cho Polonium qua Pressurized Reaction Chamber với một ít Fluorite Dust và bạn sẽ nhận được &9Polonium Pellets&r. Bạn sẽ cần một lượng lớn những thứ này cho tương lai."
-		""
 		"Lưu ý: Điều này cũng sẽ tạo ra phụ phẩm là &7Spent Nuclear Waste&r, cần được bơm vào Waste Barrel để lưu trữ."
 	]
 	quest.1FAFDB20F504688E.quest_desc: [
@@ -1557,54 +1433,40 @@
 	quest.1FE052F643401232.quest_subtitle: "Cơ Sở Nâng Cấp"
 	quest.1FE17B1C7C639F88.quest_desc: [
 		"Bộ Điều Khiển Kho cho phép bạn làm việc với nhiều kho như thể chúng là một khối kho lớn duy nhất."
-		""
 		"Điều này cho phép một mạng lưới kho rất lớn, có thể kết hợp với các mod như Applied Energistics hoặc Integrated Dynamics, vì Bộ Điều Khiển Kho đóng vai trò là điểm vào/ra cho tất cả các kho được kết nối với nó."
-		""
 		"Việc kết nối có thể được thực hiện bằng cách đơn giản đặt các kho cạnh Bộ Điều Khiển Kho hoặc cạnh những kho đã được kết nối (cách này hoạt động trong phạm vi 14 khối từ bộ điều khiển theo mọi hướng)."
 	]
 	quest.201EE3566D4D3123.quest_desc: [
 		"Để khai thác &6Allthemodium&r bạn sẽ cần một Cuốc thuộc &5Netherite&r Cấp hoặc cao hơn!"
-		""
 		"Một khi bạn cuối cùng cũng có được Quặng (trước tiên tôi khuyên bạn nên xử lý nó bằng Fortune, Occultism, hoặc Mekanism để có nhiều hơn) thì bạn có một vài lựa chọn về việc làm gì với nó."
-		""
 		"Tôi khuyên bạn nên làm 2 Bệnh Tự Động Dịch Chuyển với &6Nuggets&r! Bạn có thể dùng chúng để đến &7&lThế Giới Khai Thác&r tìm thêm &6Allthemodium&r hoặc &b&lThe Other&r tìm các cuộc phiêu lưu khác."
-		""
 		"Sau đó tôi khuyên bạn nên nâng cấp Cuốc của mình để bạn có thể Khai Thác &3Vibranium&r. Phần còn lại tùy bạn!"
 		"{image:atm:textures/questpics/allthemodium/all_1.png width:100 height:100 align:center}"
 	]
 	quest.201EE3566D4D3123.title: "&6Thỏi Allthemodium"
 	quest.204B969DA081056A.quest_desc: [
 		"Chúng có thể xuất hiện ở hầu hết mọi nơi &2Vanilla&r Quái Vật Thù Địch xuất hiện. Chúng không phải là trùm, chỉ là kẻ thù nhiều hơn!"
-		""
 		"Chúng có 25 Điểm &cMáu&r và có nhiều đòn tấn công: &aRăng Nanh&r từ mặt đất như &aEvokers&r làm và một quả &bTuyết Bóng&r chúng có thể bắn bạn."
-		""
 		"Chúng cũng có thể triệu hồi Zombie và Skeleton để giúp đánh bạn. Chúng sẽ không rơi bất cứ thứ gì và xuất hiện với Giáp từ mặt đất."
-		""
 		"Chúng sẽ rơi Arcane Essence khi chết cùng với đôi khi một &3Tòa Thư&r!"
 		"{image:atm:textures/questpics/iron_spells/spells_necromancer.png width:100 height:200 align:center}"
 	]
 	quest.204B969DA081056A.title: "Pháp Sư Xác Sống"
 	quest.2077D64428E9C067.quest_desc: [
 		"Một khái niệm quan trọng trong AE2 là một kỹ thuật được gọi là '&emạng con&f', trong đó một mạng ME riêng biệt bổ sung (một &emạng con&f) hoạt động cùng với mạng chính để thực hiện một chức năng hoặc quy trình chuyên biệt."
-		""
 		"Điều phân biệt một mạng con với một mạng riêng biệt hoàn toàn thường là việc sử dụng &bSợi Thạch Anh&f như một phần cáp. Khi được đặt giữa hai đoạn cáp không được kết nối, Sợi Thạch Anh không truyền dữ liệu hoặc kênh nào giữa chúng, thay vào đó chỉ truyền năng lượng."
-		""
 		"Do đó, một mạng con ở phía bên kia của Sợi Thạch Anh có thể được cấp nguồn hoàn toàn bởi nguồn năng lượng của mạng chính, mà không cần bất kỳ nguồn điện phụ trợ nào khác."
 	]
 	quest.2077D64428E9C067.quest_subtitle: "Điều này có công dụng bên ngoài việc chế tạo cáp."
 	quest.2077D64428E9C067.title: "Quên không nhắc đến"
 	quest.209DC1E9AD4C5A84.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng đồng đóng góp&r để sử dụng trong AllTheMods Modpacks."
-		""
 		"Vì tất cả các gói &6AllTheMods&r đều được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ gói công cộng nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.20D4568857887D38.quest_desc: [
 		"Đôi khi Router có thể ở trong tình huống nguy hiểm, như triệu hồi Wither."
-		""
 		"Để bảo vệ nó bạn sẽ cần Blast Upgrade."
-		""
 		"TNT sẽ không phá nó, Wither sẽ không phá nó, chỉ có bạn."
 	]
 	quest.20EC8001A05CE2C8.quest_desc: [
@@ -1676,7 +1538,6 @@
 		"Bạn có thể tìm thấy nó bằng cách chải Suspicious Soul Sand. \"
 		"\"
 		"Nó được tìm thấy trong Bastions ở &l&cThe Nether&r.\"
-		""
 		"{image:atm:textures/questpics/allthemodium/all_bastion.png width:200 height:100 align:center}"
 		"{image:atm:textures/questpics/allthemodium/all_soul.png width:200 height:100 align:center}"
 	]
@@ -1702,7 +1563,6 @@
 		"&9Supercharged Coils&r được đặt trên SPS Port ở trung tâm của hai mặt, như hình dưới đây. Khi được cấp năng lượng, chúng sẽ siêu nạc Polonium thành Antimatter. Chỉ cần 1, nhưng bạn có thể dùng 2 nếu muốn.\"
 		"\"
 		"Để sản xuất 1mb Antimatter, bạn cần 40MRF. Nếu bạn chưa bắt đầu làm &cFusion Reactor&r, đây là thời điểm tốt để làm nó!\"
-		""
 		"{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1}"
 	]
 	quest.2331FCDD2F2B709A.title: "Cuộn Siêu Nạc"
@@ -1718,9 +1578,7 @@
 	quest.233C7CAA573D6045.title: "&lMô-đun"
 	quest.233E438357CD89F6.quest_desc: [
 		"&9Van turbine&r được dùng để bơm vào &bHơi nước&r, cũng như bơm ra năng lượng mà turbine tạo ra."
-		""
 		"&8Ống thông gió turbine&r được dùng để bơm ra nước dư thừa khi sử dụng &aMáy ngưng tụ bão hòa&r. Nếu không, chúng giúp tăng tổng lưu lượng hơi nước trong turbine. Tổng số ống thông gió cũng giới hạn tổng Lưu lượng Hơi nước. Ống thông gió cũng có thể dùng trên mặt trên của turbine, nhưng trong bản thiết kế này, chúng ta sẽ chỉ dùng chúng trên các mặt ngoài."
-		""
 		"&aMáy ngưng tụ bão hòa&r được dùng để chuyển đổi &bHơi nước&r trở lại thành nước. Chúng được đặt trên hoặc phía trên lớp chứa Cuộn dây điện từ."
 	]
 	quest.233E438357CD89F6.title: "Các &aCổng"
@@ -1810,7 +1668,6 @@
 		"Rõ ràng nó là một Kim tự tháp và không, cái này không có tầng hầm! \"
 		"\"
 		"Thay vào đó nó có Piglich.\"
-		""
 		"{image:atm:textures/questpics/allthemodium/all_pyramid.png width:200 height:100 align:center}"
 	]
 	quest.24934231538B6492.title: "Kim Tự tháp Cổ"
@@ -1900,19 +1757,14 @@
 	]
 	quest.26D306418545A2D6.quest_desc: [
 		"Lò phản ứng &dFusion Reactor&r có thể sản xuất tới 200MRF/t khi tự vận hành, nhưng trước tiên chúng ta cần hiểu một số cơ chế."
-		""
 		"Cách dễ nhất để sản xuất năng lượng là bơm riêng Deuterium và Tritium, sau đó điều chỉnh lượng nhiên liệu đốt cháy bằng &aTỷ lệ tiêm&r trong &cThẻ Nhiên liệu&r."
-		""
 		"Giá trị này phải là số chẵn với tối đa 98, vì nó kết hợp nhiên liệu D-T bên trong chính Lò phản ứng. Mức tiêu thụ của mỗi nhiên liệu bằng một nửa Tỷ lệ tiêm mỗi tick, nghĩa là 49mb/t cho mỗi loại ở mức tối đa."
-		""
 		"Tuy nhiên, bạn có thể tiêm trực tiếp &dD-T Fuel&r, nhưng sẽ không thể điều chỉnh Tỷ lệ tiêm. Điều này sẽ tạo ra lượng năng lượng khổng lồ mỗi tick, nhưng với mức tiêu thụ nhiên liệu cao hơn nhiều là 500mb/t cho mỗi nhiên liệu."
-		""
 		"{image:atm:textures/questpics/mek/fusion_fuelui1.png width:175 height:150 align:1}"
 	]
 	quest.26D306418545A2D6.title: "&dNguồn Năng lượng Cuối Cùng"
 	quest.2748ACEAB96A5F60.quest_desc: [
 		"Lò Sắt (Iron Furnaces) (Đừng nhầm lẫn với các tựa đề, trong đó &lIron Furnaces&r là tên mod và tên Item) hoạt động nhanh hơn cả Lò Bình thường và Lò Đồng. Chúng mất 160 Tick để hoạt động, tương đương 8 giây."
-		""
 		"Chúng có thể được chế tạo từ một Lò Bình thường hoặc &6Lò Đồng&r! Và chúng có thể được biến thành &7Lò Bạc&r hoặc &eLò Vàng&r."
 	]
 	quest.2748ACEAB96A5F60.title: "&fLò Sắt"
@@ -1924,11 +1776,8 @@
 	quest.2786D5AC19163524.title: "Honey, có một cái lò trong nhà bếp"
 	quest.27A4FA38992448A0.quest_desc: [
 		"Flux Networks cũng cung cấp cách để sạc đồ của bạn không dây, thậm chí xuyên qua các chiều không gian!"
-		""
 		"Một khi bạn đã gắn một Plug vào hệ thống năng lượng, bạn sẽ muốn chế tạo &9Flux Controller&r và đặt nó xuống."
-		""
 		"Nhấp chuột phải vào nó để mở giao diện, và chuyển đến thẻ \"Sạc không dây\". Từ đó, bạn có thể chọn từng phần trong kho đồ của mình mà bạn muốn giữ sạc. Để kích hoạt, hãy nhấn nút chuyển đổi ở dưới cùng để bật Sạc không dây, sau đó nhấn apply!"
-		""
 		"{image:atm:textures/questpics/basic_power/wireless_ui.png width:125 height:150 align:center}"
 	]
 	quest.27A4FA38992448A0.title: "Sạc không dây"
@@ -1993,14 +1842,12 @@
 	quest.28E60192912BEBAD.title: "&l&2Dân Làng Dễ"
 	quest.29448D08C8777425.quest_desc: [
 		"Đến tối nay anh ấy sẽ ngủ với cá."
-		""
 		"&cMũ Người Câu Cá&r giúp bạn dụ cá và làm tăng cơ hội nhận được vật phẩm hiếm!"
 	]
 	quest.29448D08C8777425.quest_subtitle: "Đầu"
 	quest.29448D08C8777425.title: "&cMũ Người Câu Cá"
 	quest.2960FFE0C53DFEB1.quest_desc: [
 		"&cSự Giam Cầm Vĩnh Viễn Của Sevira&r là cấp độ thứ ba của &6Nghi Lễ Thấm Nhuần&r. Nó chủ yếu được dùng để tạo ra cấp độ tiếp theo của phấn nền tảng, Phấn Đen."
-		""
 		"Nó cũng được dùng để tạo ra một vài vật phẩm có thể tăng tốc độ tạo và thực hiện nghi lễ một cách đáng kể."
 	]
 	quest.2960FFE0C53DFEB1.quest_subtitle: "Nghi Lễ \"Even More Everything\""
@@ -2009,23 +1856,18 @@
 	quest.29A05589E96C0569.quest_subtitle: "Cấp độ: &54"
 	quest.29C83B00AC4AFC23.quest_desc: [
 		"Bây giờ bạn đã đi được xa đến thế này, bạn có thể tự hỏi, điều gì tiếp theo? Ồ, còn rất nhiều thứ để khám phá trong Occultism!"
-		""
 		"Bạn có thể xem một danh sách toàn diện về mọi nghi lễ và vật phẩm trong &6Từ Điển Linh Hồn&r của bạn, bạn có thể thử xem qua tất cả kết quả của các nghi lễ để xem liệu bạn có thể tìm thấy thứ gì khiến bạn thích thú!"
-		""
 		"Nếu bạn chưa làm, bạn có thể bố trí và trang trí ba khu vực nghi lễ riêng biệt, một cho Mời Gọi, một cho Chiếm Hữu, và một cho Thấm Nhuần."
-		""
 		"Luôn luôn có những cách mới để sử dụng từng tính năng tưởng chừng bình thường để tối đa hóa trải nghiệm của bạn với modpack. Chúc bạn chế tạo nghi lễ vui vẻ!"
 	]
 	quest.29C83B00AC4AFC23.title: "Tiếp theo là gì?"
 	quest.2A3683BF7E50EF83.quest_desc: [
 		"Hầu hết các vật phẩm chúng ta cần từ &3Otherworld&r gần đây chỉ cần một ít Spiritfire. Tuy nhiên, chúng ta sẽ cần sự trợ giúp của &3Third Eye&r để tìm quặng &3Otherworld&r."
-		""
 		"Chúng ta cũng cần một cuốc đặc biệt để có thể khai thác nó. Để làm được điều này, chúng ta cần Hòa trộn một con Demon vào &dSpirit Attuned Pickaxe Head&r để tạo ra một cuốc có thể phá vỡ loại quặng mới này."
 	]
 	quest.2A3683BF7E50EF83.title: "Công cụ nghề nghiệp: Cuốc Hòa trộn"
 	quest.2A5004EB99AE4F96.quest_desc: [
 		"Có nhiều vật phẩm Otherworld hơn mà bạn sẽ cần thu thập, và việc ăn &cDemon's Dream Fruit&r mỗi lần bạn cần hiệu ứng &7Third Eye&r thật phiền phức."
-		""
 		"Đây chính là lý do tại sao &dKính Otherworld&r tồn tại! Khi trang bị (ngay cả trong khe Curios), nó cung cấp hiệu ứng Third Eye!"
 	]
 	quest.2A5004EB99AE4F96.quest_subtitle: "Dừng ăn quả đó đi!"
@@ -2041,8 +1883,7 @@
 	]
 	quest.2AD68066C1948C90.quest_desc: [
 		"Cái &eFoliot Crusher&r đầu tiên thật tuyệt, nhưng nếu tôi nói với bạn rằng bạn có thể triệu hồi một con demon cho bạn 6 bụi mỗi quặng thô nó nghiền?"
-		""
-		"& amp;9Marid Crusher&r làm chính xác điều đó. Để triệu hồi một con, bạn sẽ cần sử dụng &9Fatma's Incentivized Attraction&r."
+		"\& amp;9Marid Crusher&r làm chính xác điều đó. Để triệu hồi một con, bạn sẽ cần sử dụng &9Fatma's Incentivized Attraction&r."
 	]
 	quest.2AD68066C1948C90.quest_subtitle: "Triệu hồi Tối đa"
 	quest.2AD68066C1948C90.title: "&9Sự Hấp Dẫn Được Khuyến Khích Của Fatma"
@@ -2071,38 +1912,29 @@
 	]
 	quest.2B3F2F470E06BC40.quest_desc: [
 		"Với tất cả các khối đã thu thập, đã đến lúc xây dựng thứ này. Dưới đây là hướng dẫn văn bản, hoặc bạn có thể xem Ponder!"
-		""
 		"The SPS sẽ có kích thước 7x7 khi xây, nhưng nó không phải là một khối lập phương. Nó tuân theo một mẫu đơn giản, mà bạn có thể làm theo các hình ảnh bên dưới như một hướng dẫn xây dựng. Mẫu trông như thế này:"
-		""
 		"{image:atm:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:1}"
-		""
 		"Mỗi mặt, bao gồm đáy và đỉnh, sẽ tuân theo mẫu này. Các Cuộn dây Siêu nạp (Supercharged Coils) nên được đặt đối diện nhau ở trung tâm của các mặt tương ứng, và hai cổng còn lại sẽ được dùng để bơm vào Polonium, và bơm ra Khí Antimatter."
 		"{@pagebreak}"
 		"Dưới đây là cấu trúc hoàn thành:"
-		""
 		"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
 	]
 	quest.2B5E14A47062F83C.quest_subtitle: "Chữ R trong Roy G. Biv"
 	quest.2B5E14A47062F83C.title: "§cViên ngọc Xychorium Đỏ"
 	quest.2B60D123123A5E8E.quest_desc: [
 		"Tại sao đặt một vị trí để Năng lượng có thể đi đến? Tại sao không để nó tự do! "
-		""
 		"Giống như thả một đàn Ong, Năng lượng sẽ đi khắp mọi nơi gần như tức thì (với ít tiếng ù ù hơn). Bất kỳ khối nào cần Năng lượng ở gần sẽ được sạc không dây."
 	]
 	quest.2B76B2F18C2C47D2.quest_desc: [
 		"Khi đốt nhiên liệu, Lò phản ứng phân hạch tạo ra một lượng nhiệt lớn. Để ngăn Lò phản ứng biến thành TNT, chúng ta cần đảm bảo nó được làm mát đúng cách."
-		""
 		"Cách dễ nhất là cung cấp cho Lò phản ứng §9Nước§r từ một Cái bồn (Sink). Cái bồn là nguồn nước vô hạn, điều này §othực sự tuyệt vời trong tình huống như thế này§r."
-		""
 		"Bơm nước vào một trong các Cổng của Lò phản ứng được đặt thành §ađầu vào§r để đổ đầy Lò phản ứng bằng nước. Nước này sẽ được đun nóng khi Lò phản ứng chạy và chuyển thành §bHơi nước§r, mà bạn có thể dùng để tạo năng lượng trong một §9Tuabin Công nghiệp§r."
-		""
 		"§eNatri§r cũng có thể được dùng như một chất làm mát hiệu quả hơn nhiều. Điều này cho phép tỷ lệ đốt cao hơn và nhiệt độ lõi thấp hơn."
 	]
 	quest.2B76B2F18C2C47D2.quest_subtitle: "H2O Chất lượng cao"
 	quest.2B76B2F18C2C47D2.title: "Làm mát Lò phản ứng"
 	quest.2B901ECF97FFA181.quest_desc: [
 		"Khi bạn cuối cùng kết hợp các Mảnh Ancient Knowledge, bạn sẽ nhận được... §9Bản thảo Eldritch§r! Đó là lớp cuối cùng! "
-		""
 		"§9Eldritch§r là lớp cuối, mạnh nhất trong tất cả §3Phép thuật§r. Chúng được chế tạo với §9Mảnh Echo§r và cần được học từ §9Bản thảo§r để sử dụng. Mỗi §9Bản thảo§r chỉ dùng một lần."
 	]
 	quest.2B901ECF97FFA181.title: "§9§lEldritch"
@@ -2157,18 +1989,14 @@
 	quest.2CF6EA138B53CE1B.title: "&5Unobtainium&r - &3Vibranium&r Thỏi hợp kim"
 	quest.2CF96A264EB5522C.quest_desc: [
 		"&9Tháp Đảo Ngược của Uphyxes&r là cấp độ cao nhất của &6Nghi thức Truyền&r. Nó không có nhiều công dụng như ba cấp độ khác, nhưng vẫn cần thiết cho \"giai đoạn cuối\" của Occultism. "
-		""
 		"Chủ yếu, nó được dùng để tạo Bụi Dragonyst, là nguyên liệu chính cho Phấn Hồng."
 	]
 	quest.2CF96A264EB5522C.quest_subtitle: "Infusion Tối Đa"
 	quest.2CF96A264EB5522C.title: "&9Tháp Đảo Ngược của Uphyxes"
 	quest.2D64EF8D803AF9DA.quest_desc: [
 		"Cổng đắt nhất chúng ta có thể làm. Đầu tiên, cho &dTrứng Rồng&r, bạn không cần phải liên tục vắt sữa &dCon Rồng&r, bạn có thể dùng &l&bHNN&r hoặc &l&2MA&r để lấy chúng, hoặc dùng Extrator để làm thêm! "
-		""
 		"Sau đó, bạn sẽ cần &dHơi Thở Rồng Được Hòa Trộn&r từ Enchanting. "
-		""
 		"Ở đó bạn sẽ cần &9Kệ Sculk Được Chạm Bởi Linh Hồn&r để Enchant nó và để làm Cổng. "
-		""
 		"Nếu bạn đang tự hỏi tại sao Cổng không hoạt động, đó là vì bạn đã ở trong &2&lOverworld&r! Đùa thôi, bạn không thể dùng nó!"
 	]
 	quest.2D8026E10FBA7A72.quest_desc: [
@@ -2177,9 +2005,7 @@
 	quest.2D8026E10FBA7A72.title: "&6Allthemodium &5Hợp Kim &3Cuốc"
 	quest.2D84DA544D7A24FA.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6Nhân viên AllTheMods&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các Modpack AllTheMods. "
-		""
 		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6Đội AllTheMods&r mà không có sự cho phép rõ ràng. "
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn thấy cái này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.2DD5F0693780B10A.quest_desc: [
@@ -2188,13 +2014,9 @@
 	]
 	quest.2E274BEEF2B0B8C7.quest_desc: [
 		"Được rồi, hãy bắt đầu bằng cách làm Sulfur Dioxide trước."
-		""
 		"Bắt đầu bằng cách đặt Gunpowder vào một &aChemical Injection Chamber&r riêng với Hydrogen Chloride để tạo Sulfur Dust. HOẶC bạn có thể nghiền Sulfur từ Thermal Series thành Sulfur Dust, tùy bạn."
-		""
 		"Đưa Sulfur Dust vào máy này, &aChemical Oxidizer&r, sẽ tạo ra Sulfur Dioxide. Bây giờ chúng ta cần tạo Sulfur Trioxide."
-		""
 		"Gửi Sulfur Dioxide vào Chemical Infuser để kết hợp với Oxygen tạo Sulfur Trioxide. Gửi Trioxide vào Chemical Infuser khác để kết hợp với Water Vapor tạo Sulfuric Acid."
-		""
 		"Nhiều thứ quá."
 	]
 	quest.2E68E1D96B25336D.quest_desc: [
@@ -2209,38 +2031,27 @@
 	quest.2E85D6E2CFCC356E.title: "&3Lò Vibranium"
 	quest.2E9C035EEE7E5C34.quest_desc: [
 		"Dây cương cổ điển. Dùng cái này để đưa động vật vào khu vực trang trại của bạn."
-		""
 		"Đây không phải là cùng một thứ với quặng."
 	]
 	quest.2E9C035EEE7E5C34.quest_subtitle: "Đi nào, chú chó nhỏ"
 	quest.2E9C035EEE7E5C34.title: "Chúng ta làm việc này theo cách cổ điển"
 	quest.2E9FC7DC2AC6FD8E.quest_desc: [
 		"&8Chất thải phóng xạ&r có thể được đưa vào Máy ly tâm đồng vị để tạo ra &9Plutonium&r."
-		""
 		"Đưa Plutonium vào Buồng phản ứng áp suất với một ít nước và &7Bột Fluorite&r sẽ cho bạn &9Viên Plutonium&r. Chúng được dùng để chế tạo vật liệu cuối game!"
-		""
 		"Lưu ý: Điều này cũng sẽ tạo ra sản phẩm phụ là &7Chất thải phóng xạ đã qua sử dụng&r, cần được bơm vào Thùng chứa chất thải để lưu trữ."
 	]
 	quest.2EB7784D5296F410.quest_desc: [
 		"Nhấp chuột phải vào một khối Flux Network hoạt động sẽ cho bạn giao diện này."
-		""
 		"Mỗi Phích cắm hoặc Điểm có thể được đặt tên, có mức độ ưu tiên tùy chỉnh và giới hạn truyền năng lượng tùy chỉnh. Điều này cho phép kiểm soát hoàn toàn tất cả các phần của hệ thống."
-		""
 		"&aBypass Limit&r bỏ qua giới hạn đã đặt."
-		""
 		"Có một số thẻ khác để xem, chủ yếu là để thống kê trên mạng lưới của bạn!"
-		""
 		"{image:atm:textures/questpics/basic_power/flux_ui.png width:125 height:150 align:center}"
 	]
 	quest.2EC2FA680076C07D.quest_desc: [
 		"Để nâng cấp &9Kệ sâu&r xa hơn, thật bất ngờ là chúng ta không cần &d&lPhép thấm&r! Thay vào đó chúng ta cần nhiều chế tạo hơn!"
-		""
 		"Đầu tiên, là 5 &3Khối Sculk&r và một &3Chất xúc tác Sculk&r. Cả hai đều có thể tìm thấy trong &9Deep Dark&r và sẽ cần &5Lụa chạm&r để thu thập."
-		""
 		"Cuối cùng là &9Xúc tu Warden&r... đây là vật rơi từ &9&lWarden&r... Đúng vậy, bạn sẽ cần giết &9&lWarden&r."
-		""
 		"Khi bạn có tất cả những thứ đó, bạn có thể chế tạo một trong những &7Kệ sách&r tốt nhất! Một cái cho &a10 Eterna&r, &c10% Quanta&r, và &515% Arcana&r."
-		""
 		"Và quan trọng nhất, cho chúng ta tối đa &aEterna&r là &a80&r! Gần đến 100!"
 	]
 	quest.2EC2FA680076C07D.title: "&9Kệ Sculk Vang vọng"
@@ -2259,18 +2070,14 @@
 	quest.2EE4E88FC814AFA4.quest_subtitle: "Cấp: &91"
 	quest.2EE8FCB63A338BC4.quest_desc: [
 		"The &cR&6a&ei&2n&3b&9o&5w &cF&6u&er&2n&3a&9c&5e&r thực sự cần mọi lò khác để chế tạo. 8 &cR&6a&ei&2n&3b&9o&5w &cP&6l&ea&2t&3i&9n&5g&r và 1 &cR&6a&ei&2n&3b&9o&5w &cC&eo&3r&5e&r mang lại cho chúng ta lò tốt nhất có thể tưởng tượng!"
-		""
 		"Có, nó mất 20 Tick để nấu chảy hoặc 1 Giây để nấu chảy, nhưng nó không nấu chảy 1 vật phẩm. Bạn hỏi bao nhiêu vật phẩm? Có bao nhiêu vật phẩm trong một chồng?"
 	]
 	quest.2EE8FCB63A338BC4.title: "&cR&6a&ei&2n&3b&9o&5w &cF&6u&er&2n&3a&9c&5e"
 	quest.2EF4DD5CC254CC80.quest_subtitle: "Để Truyền Dịch"
 	quest.2F16B6A173525277.quest_desc: [
 		"Mảnh ghép cuối cùng cho bất kỳ mạng ME lớn nào là &bME Controller&f. "
-		""
 		"Một bộ điều khiển cung cấp cho Mạng ME số kênh lớn hơn rất nhiều so với 8 kênh tiêu chuẩn cho mạng tạm thời, cung cấp 32 kênh từ mỗi mặt của khối, tổng cộng 216 kênh. "
-		""
 		"Điều đó chỉ dành cho bộ điều khiển một khối, tuy nhiên, vì ME Controller thực chất là một cấu trúc nhiều khối. Bộ điều khiển có thể lên đến kích thước 7x7x7 khối và có thể có bất kỳ sắp xếp tự do nào trong kích thước tối đa đó. Mỗi khối riêng lẻ có thể cung cấp một bộ kênh riêng biệt, miễn là không có khối điều khiển nào bị bao quanh bởi 4 khối khác trên cùng một mặt phẳng. "
-		""
 		"Một Mạng ME chỉ có thể chứa một bộ điều khiển nhiều khối tại bất kỳ thời điểm nào. Cố gắng kết nối nhiều hơn một bộ điều khiển ở các phần riêng biệt của mạng sẽ gây ra xung đột, tắt toàn bộ mạng."
 	]
 	quest.2F556E7919582D2D.quest_desc: [
@@ -2301,9 +2108,7 @@
 	quest.2FD22502E6481269.title: "Trinity Gem"
 	quest.2FE4B7B70D90A455.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các Modpack AllTheMods."
-		""
 		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.3009018DEC1EC952.quest_desc: [
@@ -2312,30 +2117,23 @@
 	quest.3009018DEC1EC952.title: "&lThời Gian Phiêu Lưu!"
 	quest.300F2E45D185A9A1.quest_desc: [
 		"&lIron&r đã mang đến cho chúng ta một Magic Mod tuyệt vời và rất vui vẻ! &lIron's Spells 'N Spellbooks!&r "
-		""
 		"&lIron's Spells&r xoay quanh việc tạo ra và sử dụng &3Spells&r! Mỗi &3Spell&r có Độ hiếm, Cấp và Lớp! Và tất cả chúng đều có thể được sử dụng trong một Spellbook. "
-		""
 		"Bạn sẽ không thể chỉ tạo bất cứ thứ gì bạn muốn với &7Iron&r và &cRedstone&r, bạn sẽ cần phải đứng dậy, Phiêu lưu và Chiến đấu!"
 	]
 	quest.300F2E45D185A9A1.title: "&lIron's Spells 'N Spellbooks"
 	quest.3025081DA6D2B398.quest_desc: [
 		"Thông thường Router điều khiển các Module nhưng với Augment này, Module trở nên hỗn loạn! AWOl! Hoàn toàn vô chính phủ! "
-		""
 		"Nó sẽ lắng nghe kích hoạt Redstone của chính nó thay vì của Router."
 	]
-	quest.3027584AA6138E6D.title: "Chèn & Trích xuất Băng chuyền"
+	quest.3027584AA6138E6D.title: "Chèn \& Trích xuất Băng chuyền"
 	quest.309B6B8368E535A0.quest_desc: [
 		"Một Router thực hiện hành động mỗi khi nó có một tick. "
-		""
 		"Mặc định là 20 Tick hoặc 1 Giây. "
-		""
 		"Điều này có thể được giảm số Tick với Speed Upgrade!"
 	]
 	quest.30B0240543253EFB.quest_desc: [
 		"Pylons là một mod tuyệt vời được tạo bởi &aMutant Gumdrop&r của chúng ta!"
-		""
 		"Đừng để kích thước của mod khiến bạn đánh giá thấp nó! Nó cung cấp nhiều Pylon có thể được sử dụng cho nhiều mục đích để giúp chơi Minecraft dễ dàng hơn."
-		""
 		"Để bắt đầu, bạn sẽ cần một ít Polished Blackstone để chế tạo chúng."
 	]
 	quest.30B0240543253EFB.title: "&lPylons"
@@ -2407,7 +2205,6 @@
 		"Laser Amplifier có một chấm đỏ trên một mặt. Đây là thứ bạn muốn chỉ về Laser Focus Matrix.\"
 		"\"
 		"Hãy chắc chắn tắt Laser Amplifier (hoặc kích hoạt điều khiển Redstone) và đợi nó lưu trữ &cít nhất 400MRF&r, sau đó nó sẽ sẵn sàng.\"
-		""
 		"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1}"
 	]
 	quest.320CC038A64A3195.title: "Phương pháp khởi động: &dLaser Focus Array"
@@ -2433,36 +2230,25 @@
 	quest.32AE664113F01CF7.title: "&eSpace Dissector"
 	quest.32C7D8AE859BF89E.quest_desc: [
 		"Nó có thể là &dObsidian&r nhưng đừng lo bạn không cần một &bDiamond Pickaxe&r để lấy nó, chỉ cần để chế tạo nó."
-		""
 		"Nó hoạt động mỗi 20 Tick hoặc mỗi Giây. Đúng không phải Giây mà chỉ là Giây."
-		""
 		"Nó có thể được chế tạo với một &3Crystal Furnace&r hoặc &aEmerald Furnace&r, và có thể được chế tạo thành một &5Netherite Furnace&r!"
 	]
 	quest.32C7D8AE859BF89E.title: "§dLò Đá Obsidian"
 	quest.32D2CE292E088939.title: "§cQuả Cầu Nâng Cấp Lửa§r"
 	quest.32E52AD6EF194A60.quest_desc: [
 		"Cột Đuổi Người hoạt động như một cách để giữ người khác khỏi sân nhà bạn."
-		""
 		"Khi được đặt xuống, nó sẽ giữ mọi Người chơi không có trong danh sách trắng khỏi một số lượng Khu vực xác định xung quanh nó."
-		""
 		"Các Khu vực được đặt trong GUI của nó ở góc trái trên từ 1x1, 3x3, hoặc 5x5 Khu vực."
-		""
 		"Ngoài ra, không thể đặt nó quá gần Điểm Sinh. Chúng tôi biết các bạn troll muốn gì và chúng tôi sẽ không cho phép!"
-		""
 		"Để thêm người chơi vào danh sách trắng, hãy xem Nhiệm vụ Lọc Người chơi!"
 	]
 	quest.32E52AD6EF194A60.quest_subtitle: "Ra khỏi sân nhà tôi!"
 	quest.33106E24A3B5DDD8.quest_desc: [
 		"Bước tiếp theo trong hành trình của bạn sẽ là tìm &eQuặng Iesnium&r trong Nether."
-		""
 		"Không có hiệu ứng của &3Con Mắt Thứ Ba&r, nó sẽ trông giống hệt Netherrack. Hãy đảm bảo đã trang bị &dKính Otherworld&r!"
-		""
 		"Để định vị quặng, hãy thử dùng &aGậy Chiêm Bạc&r. Bạn cần đồng hòa nó với Netherrack trước, sau đó giữ chuột phải để sử dụng. Sau vài giây, bạn sẽ thấy một hạt phát ra theo hướng về Quặng Iesnium gần nhất. Bạn chỉ có thể khai thác quặng bằng &dCuốc Đã Ngâm Tẩm&r!"
-		""
 		"Vì bạn không thể phá quặng này thành bụi gấp đôi bằng phương pháp thông thường, hãy thử dùng Máy Nghiền Foliot để nhân đôi số ingot từ mỗi quặng thô!"
-		""
 		"Lưu ý: Nếu bạn không thấy hạt, hãy đảm bảo cài đặt hạt của bạn được bật!"
-		""
 		"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
 	]
 	quest.33106E24A3B5DDD8.title: "§cIesnium: Quặng của Thế Giới Khác§r"
@@ -2485,7 +2271,7 @@
 	]
 	quest.338BD467EBE6EE1F.quest_subtitle: "Tiền đồn Kẻ cướp"
 	quest.338BD467EBE6EE1F.title: "Trang trí giáp Lính canh"
-	quest.339DF320DDCAD98B.title: "Vận chuyển Vật thể & chất lỏng"
+	quest.339DF320DDCAD98B.title: "Vận chuyển Vật thể \& chất lỏng"
 	quest.33AADC1B97E9F7A9.quest_desc: [
 		"Xe lửa có Rương là xe lửa có rương bên trong. Bạn không thể lái những cái này nhưng chúng có thể hữu ích để vận chuyển vật thể qua hệ thống Đường ray."
 	]
@@ -2554,7 +2340,6 @@
 	]
 	quest.3593D955361B0C6D.quest_desc: [
 		"Để khởi động lò phản ứng nhiệt hạch, chúng ta cần một liều nhiên liệu D-T ngay lập tức. Nó được tạo ra bằng cách kết hợp &cDeuterium&r và &eTritium&r cùng nhau trong một Máy Phun Hóa Chất."
-		""
 		"Bắt đầu bằng cách chế tạo một &4Hohlraum&r và đặt nó vào Máy Phun (nơi có biểu tượng cộng) để lấp đầy bằng nhiên liệu D-T. Bây giờ chúng ta đã sẵn sàng khởi động Lò Phản ứng!"
 	]
 	quest.3593D955361B0C6D.title: "Máy Phun Nhiên Liệu"
@@ -2577,11 +2362,8 @@
 	quest.35CC898E0E49FE58.title: "&8Flux Networks"
 	quest.361CCBD353D6FF34.quest_desc: [
 		"Với 1k Storage Component, bạn giờ đây có thể chế tạo một 1k ME Item Storage Cell để bắt đầu hệ thống lưu trữ vật phẩm kỹ thuật số của mình. Bạn có thể sẽ muốn phần lớn dung lượng lưu trữ dành cho vật phẩm, vì vậy bạn có thể sẽ muốn làm một vài &bME Item Storage Cells&f. "
-		""
 		"ME Item Storage Cells mỗi cái có thể chứa tới 63 loại vật phẩm khác nhau. Mỗi loại vật phẩm mới được thêm vào ô sẽ chiếm một phần nhất định của tổng dung lượng ô lưu trữ tính bằng byte. Đối với mỗi loại đã có sẵn, 1 'byte' tính cho 8 vật phẩm cùng loại đó. "
-		""
 		"Ví dụ, một 1k Item Storage Cell chỉ chứa đá sỏi có thể chứa tới 8128 đá sỏi (8*1024b - 8b/type * 1 type). "
-		""
 		"Nếu một ô trống, nó có thể được tái sử dụng bằng cách tháo nó thành component và housing tương ứng. Điều này được thực hiện bằng cách nhấn Shift và nhấp phải vào không trống khi ô ở trong tay."
 	]
 	quest.361CCBD353D6FF34.title: "Lưu Trữ Vật Phẩm"
@@ -2609,9 +2391,7 @@
 	quest.36A3ECD4F6CA2732.quest_subtitle: "&f8 &cSát thương tấn công"
 	quest.36B1995B495AA674.quest_desc: [
 		"Để bắt đầu hành trình vào thế giới của các Lò phản ứng Mekanism, chúng ta sẽ bắt đầu bằng việc chế tạo một &aLò phản ứng phân hạch&r. Đây là những cấu trúc nhiều khối tạo ra một lượng nhiệt khổng lồ bằng cách đốt cháy &3Nhiên liệu phân hạch&r. Lò phản ứng này không tự sản xuất năng lượng, nhưng nhiệt độ sinh ra có thể được dùng để đun nóng &bChất làm mát&r để tạo năng lượng trong một &aTua-bin công nghiệp&r."
-		""
 		"Lò phản ứng phân hạch có thể rất nguy hiểm, vì một sự cố nóng chảy có thể gây ra một &cvụ nổ&r cũng như &2Bức xạ&r lan ra trong bán kính 5 chunk, kéo dài trong vài tuần trong game. "
-		""
 		"Nhưng chúng ta sẽ chuẩn bị cho điều đó. Hãy chế tạo một Bộ đồ phòng xạ, đề phòng trường hợp... đúng chứ?"
 	]
 	quest.36B1995B495AA674.quest_subtitle: "Màu cam = Bảo vệ phóng xạ"
@@ -2624,9 +2404,7 @@
 	quest.36CF8D1DD1EF6307.quest_subtitle: "2 Khối Xanh Nhạt Ướt"
 	quest.36DEA17CBB696CC7.quest_desc: [
 		"Nếu bạn nhấp chuột phải vào Phích cắm, bạn sẽ thấy Giao diện Flux Network. Ở góc trên cùng bên phải, nhấn vào nút + để tạo mạng lưới đầu tiên của bạn. Bạn sẽ cần đặt mật khẩu để tạo mạng lưới, nhưng bạn cũng có thể đặt màu!"
-		""
 		"Từ đây, bạn có thể chuyển đến tab Lựa chọn Mạng lưới để kích hoạt mạng lưới của mình trên Phích cắm. Nếu Phích cắm được kết nối với một nguồn năng lượng, bây giờ bạn có thể sử dụng nguồn năng lượng đó ở bất kỳ đâu trong hệ thống của mình bằng cách sử dụng một Flux Point!"
-		""
 		"Mẹo chuyên gia: Bạn có thể tạo nhiều mạng lưới nếu bạn muốn các nguồn năng lượng khác nhau cung cấp năng lượng cho các phần khác nhau của hệ thống của bạn!"
 	]
 	quest.36DEA17CBB696CC7.quest_subtitle: "Trở thành Quản trị viên Mạng lưới!"
@@ -2694,7 +2472,6 @@
 		"&6Hostile Neural Networks&r (viết tắt HNN) là một mod xoay quanh việc mô phỏng việc giết quái vật để có loot!\"
 		"\"
 		"Để làm điều này, bạn sẽ thu thập \"dữ liệu\" về quái vật, sau đó chạy mô phỏng từ dữ liệu để tạo ra item rơi ra của chúng!\"
-		""
 		"{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"
 	]
 	quest.37EBB8E0D6E5F821.title: "Chào mừng đến với &9Hostile Neural Networks&r!"
@@ -2714,9 +2491,7 @@
 	]
 	quest.38A1295878B68F83.quest_desc: [
 		"Không, không phải loại đó."
-		""
 		"&cAfrit Demons&r là Quỷ của &cLửa&r. Chúng là những Quỷ tiên tiến hơn, trong đó một số là bạn bè và một số thì... không. Tất cả phụ thuộc vào mức độ nghi lễ có thể kiểm soát &cAfrit&r. "
-		""
 		"Bởi vì chúng ta chưa có Red Chalk, tất cả những gì chúng ta có thể triệu hồi là một &9Unbound&r Demon, có nghĩa là nó không thể được kiểm soát và sẽ bạo lực."
 	]
 	quest.38A1295878B68F83.quest_subtitle: "Quỷ Nóng!"
@@ -2727,35 +2502,27 @@
 	quest.3917DECAEF56A06A.title: "&fCấp thu hoạch 2"
 	quest.395668FBCB6537AF.quest_desc: [
 		"Những 'Babes' thích &eBling&r! &eBastion Ring&r rất phù hợp cho người trao đổi. Khi đeo nó, Piglins sẽ trung lập với bạn giống như khi bạn đeo &eGold&r. Điều này không có nghĩa là bạn có thể tự do lục soát rương của chúng. &eRing&r cũng sẽ cho bạn cơ hội nhận thêm chiến lợi phẩm từ việc trao đổi. "
-		" "
 		"(Khi đeo &eRing&r, Piglins có thể chỉ bạn đến Bastion gần nhất)."
 	]
 	quest.395668FBCB6537AF.quest_subtitle: "Có thể tìm thấy ở Ruined Portals, Nether Fortresses và Bastions."
 	quest.395668FBCB6537AF.title: "&eBastion Ring"
 	quest.395A33977B18B9AD.quest_desc: [
 		"Sau khi cố gắng thu hoạch &5Piles of Armor&r, chúng dường như sống dậy như thể có một cơ thể đang sử dụng chúng. "
-		""
 		"Chúng có 60 Trái tim và chúng khác với các boss khác vì chúng không sử dụng phép thuật, mà tôi tin rằng chúng là thứ được tạo ra từ phép thuật. Chúng sẽ tấn công bằng thanh kiếm của mình, hoặc vung kiếm hoặc xông vào bạn. "
-		""
 		"Theo những gì tôi đã thấy, chúng sẽ tấn công mọi thứ chúng thấy ngoại trừ các &5&lKnights&r khác! "
-		""
 		"Khi bị giết, chúng rơi Netherite Scraps và Cinder Essence, chắc chắn sẽ rất hữu ích!"
 		"{image:atm:textures/questpics/iron_spells/spells_knight.png width:100 height:200 align:center}"
 	]
 	quest.395A33977B18B9AD.title: "&5&lKnight Cổ xưa"
 	quest.39605F1FEB1A5A1C.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Community contributor&r để sử dụng trong các Modpack AllTheMods. "
-		""
 		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. "
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.39605F1FEB1A5A1C.title: "Mọi quyền được bảo lưu"
 	quest.39647A2473F6F7D7.quest_desc: [
 		"Bước tiếp theo của chúng ta là thử nghiệm với &6Infusion Rituals&r. Các nghi lễ này được sử dụng để thổi hồn vào các vật phẩm với ma thuật của quỷ dữ."
-		""
 		"Tầng đầu tiên của &6Infusion Rituals&r là &eEziveus' Spectral Compulsion&r. Chúng ta sẽ sử dụng nghi lễ này để tạo ra một số vật phẩm mà bạn sẽ cần trong suốt mod này."
-		""
 		"Khuyến nghị tạo nghi lễ này ở một khu vực riêng biệt với nghi lễ đầu tiên của bạn, vì ba loại nghi lễ chính xây dựng dựa trên tầng trước đó."
 	]
 	quest.39647A2473F6F7D7.quest_subtitle: "Thêm một ít Demon Dust™ vào!"
@@ -2767,7 +2534,6 @@
 	quest.39796D8EE440F318.title: "Trang trí giáp Dune"
 	quest.3999760881C855FA.quest_desc: [
 		"Máy này sẽ là máy thứ 3 trong Nhà máy Chế biển Quặng Cấp 4 của bạn."
-		""
 		"Nó lấy Slurry Quặng Sạch từ Máy Rửa Hóa chất và biến nó thành Tinh thể, mà sau đó Máy Tiêm Hóa chất có thể xử lý tiếp."
 	]
 	quest.3999760881C855FA.quest_subtitle: "Biến Slurry Quặng thành Tinh thể"
@@ -2776,7 +2542,6 @@
 	quest.39B4F361EF611927.title: "&l&8La bàn của Wither"
 	quest.39E4FC9BA89E44BC.quest_desc: [
 		"Balloon on a Stick là nguồn bay sáng tạo sớm và bị hạn chế."
-		""
 		"Đặt cây cọc xuống và bạn sẽ được gắn với một quả bóng bay! Nhấn space hai lần để bắt đầu bay nhưng đừng đi quá xa. Đi quá xa bạn sẽ bị tách ra và rơi."
 	]
 	quest.39E4FC9BA89E44BC.quest_subtitle: "Lên!"
@@ -2800,9 +2565,7 @@
 	quest.3ABE7074E500494D.title: "&7Áo giáp Thép"
 	quest.3ADCAD65EA6900BA.quest_desc: [
 		"&2Khảo cổ&r cho phép người chơi tìm thấy vật phẩm bên trong các khối &aNghi ngờ&r như Cát và Sỏi."
-		""
 		"Các khối này có thể được tìm thấy trong các cấu trúc khác nhau như Đổ nát Đại dương Ấm, Kim tự tháp Sa mạc, Giếng Sa mạc, và &eĐổ nát Đường mòn&r."
-		""
 		"Để lộ ra một vật phẩm từ khối Nghi ngờ, bạn cần tạo một &aBàn chải&r để chải khối và lộ ra vật phẩm."
 	]
 	quest.3ADCAD65EA6900BA.title: "&2Khảo cổ&r!"
@@ -2881,7 +2644,6 @@
 		"Bố cục cơ bản của nhà máy bạn nên là:\"
 		"\"
 		"Quặng thô đi vào Buồng Hòa tan Hóa chất > bơm MỘT KHÍ đến Máy Rửa Hóa chất > bơm MỘT KHÍ đến Máy Kết tinh Hóa chất >  xuất tinh thể đến Buồng Tiêm Hóa chất > xuất mảnh đến Buồng Thanh lọc > xuất cục đến Máy nghiền > xuất bụi bẩn đến Buồng Làm giàu > xuất bụi sạch đến Lò nung.\"
-		""
 		"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true}"
 	]
 	quest.3C49F2EEDCCAF1DF.quest_subtitle: "Tôi biết, đây là nhiều."
@@ -2903,9 +2665,7 @@
 		"Lấy được &bEther Gas&r đầu tiên có thể hơi đáng sợ.\"
 		"\"
 		"&bEther Gas&r được tạo từ việc khoan Wither, dùng Fluid Drill với &5Purple Lens&r."
-		""
 		"Nhưng đừng lo về Wither, Industrial Foregoing có một máy giúp bạn với nhiệm vụ đó. &4Stasis Chamber&r là máy đóng băng mọi thứ trên nó trong khu vực 3x3, bao gồm Wither."
-		""
 		"&cHy vọng bạn không hết năng lượng, vì nếu hết... Tôi hy vọng bạn sẵn sàng chiến đấu với &0Wither&c."
 	]
 	quest.3CB7884B7B32CF00.quest_subtitle: "Ether Gas? Hả?"
@@ -2924,9 +2684,7 @@
 	quest.3D31B94CC42BCE43.quest_subtitle: "Tất cả phép thuật, không làm hỏng"
 	quest.3D41D0092D94636B.quest_desc: [
 		"Nếu tôi nói với bạn Demon's Fruit dễ cháy thì sao?"
-		""
 		"Ném &cDemon's Dream Fruit&r xuống và đốt nó sẽ tạo ra &dSpiritfire&r. Đây là cách chúng ta chuyển đổi một số item overworld thành vật liệu &9Otherworld&r."
-		""
 		"Nó cũng khá đẹp."
 	]
 	quest.3D41D0092D94636B.title: "Ngọn lửa của &9Thế giới khác"
@@ -2940,7 +2698,6 @@
 	quest.3D72E3E53E7306FA.title: "&cTrang phục pháp sư lửa"
 	quest.3D77DE9CC51C866F.quest_desc: [
 		"OreBerries có thể được chế tạo hoặc tìm thấy trong thế giới."
-		""
 		"Chúng cũng tương thích với Pylon Thu hoạch từ mod Pylons, và sản lượng của chúng đã được tăng cường khi sử dụng pylon để tự động hóa."
 	]
 	quest.3D77DE9CC51C866F.title: "OreBerries"
@@ -2958,24 +2715,19 @@
 	quest.3DDB0DDA7571B2C1.title: "Bộ phát mức ME"
 	quest.3DDF87A1E5F5D009.quest_desc: [
 		"Ban đầu, bạn có thể tạm thời chế tạo các máy cấp &7Starter&r và &bBasic&r bằng sắt, nhưng về sau bạn sẽ cần tạo vật liệu được nạp năng lượng bằng &9Energizing Orb&r."
-		""
 		"&9Energizing Orb&r sẽ nạp năng lượng cho các vật phẩm bằng các &aEnergizing Rod&r ở gần trong phạm vi 9x9 xung quanh nó, tạo ra vật liệu tốt hơn để bạn sử dụng tiến qua các &eTiers&r trong Powah."
-		""
 		"Để cấp năng lượng cho quả cầu, bạn cần gắn các Energizing Rod vào các Energy Cable đang được cung cấp năng lượng. Nếu bạn muốn Orb nạp năng lượng nhanh hơn, hãy làm nhiều rod hơn, nâng cấp lên các rod cấp cao hơn, hoặc cả hai! Để kiểm tra xem các Rod có được kết nối không, hãy đặt &aWrench&r của bạn vào chế độ liên kết và bạn có thể liên kết bất kỳ Rod nào với Orb."
-		""
 		"{image:atm:textures/questpics/powah/powah_energizing.png width:200 height:200 align:1}"
 	]
 	quest.3DDF87A1E5F5D009.title: "&9Energizing Orb&r"
 	quest.3E0643EA9183CDAE.quest_desc: [
 		"'Đó là chiếc mũ của ông ấy, Mr Krabs! Ông ấy là số 1!' "
-		""
 		"Làm đúng giống như chiếc &6Drinking Hat&r thông thường, chỉ là trông ngầu hơn nhiều!"
 	]
 	quest.3E0643EA9183CDAE.quest_subtitle: "Đầu"
 	quest.3E0643EA9183CDAE.title: "&9Mũ uống độc đáo&r"
 	quest.3E1A3BC8642390B3.quest_desc: [
 		"'Tôi là Marry Poppins các bạn ơi!' "
-		""
 		"&4Chiếc ô&r là một công cụ rất hữu ích được thêm bởi &l&3Artifacts&r! Nó có thể được cầm trước mặt bạn để hoạt động như một khiên, bằng cách giữ Right Click. Hoặc nó có thể được sử dụng để làm chậm cú ngã của bạn chỉ bằng cách cầm nó!"
 	]
 	quest.3E1A3BC8642390B3.quest_subtitle: "Độc nhất"
@@ -2987,18 +2739,14 @@
 	quest.3E33730DC2115D26.title: "&eRương vàng"
 	quest.3E3CBDCEAB0FF28F.quest_desc: [
 		"&9Deep Learner&r là một trong những thành phần cốt lõi của HNN."
-		""
 		"Với vật phẩm này, bạn có thể nhấp chuột phải để mở HUD và lưu trữ &6Data Models&r để thu thập dữ liệu khi giết quái."
-		""
 		"Mỗi Learner có thể chứa 4 Data Models, và miễn là bạn có Learner ở bất kỳ đâu trong túi đồ, nó sẽ thu thập dữ liệu cho các Data Models được đặt bên trong!"
-		""
 		"Lưu ý: Bạn có thể có nhiều Deep Learner trong túi đồ, và nó sẽ đếm số lần giết cho tất cả Data Models bên trong tất cả các Learner."
 	]
 	quest.3E3CBDCEAB0FF28F.quest_subtitle: "HUD Học tập"
 	quest.3E3CBDCEAB0FF28F.title: "&aQuái học tập"
 	quest.3E3DF8E967D95DB0.quest_desc: [
 		"Khi sử dụng thành phần lưu trữ 64k trở lên, Matter Condenser có thể ngưng tụ nhiều hơn để tạo ra một &bSingularity&f. Một Singularity đơn lẻ yêu cầu 256000 vật phẩm để hủy bỏ. Đó chính xác là &o4000 stack&r!"
-		""
 		"Hãy xem điều gì xảy ra khi bạn ném Singularity này xuống đất cùng một mảnh &eEnder Dust&f. Bạn sẽ phải gây một số thiệt hại cho môi trường xung quanh khi làm việc này, nhưng may mắn thay AE2 cung cấp &bTiny TNT&f riêng của nó để giảm thiểu điều đó."
 	]
 	quest.3E3DF8E967D95DB0.quest_subtitle: "Vật chất Siêu Đặc"
@@ -3049,22 +2797,18 @@
 	quest.3EA883C0BB7BD38F.title: "Mary có một con cừu con"
 	quest.3EC8A0B89788D079.quest_desc: [
 		"Tôi không có tay, tôi có &9Bơm chân&r. "
-		""
 		"&9Bơm chân&r sẽ hoạt động như một thuộc tính Đi bộ dưới nước tốt hơn nhiều. Bạn có thể bơi và đi bộ qua &9Nước&r nhanh hơn rất nhiều!"
 	]
 	quest.3EC8A0B89788D079.quest_subtitle: "Chân"
 	quest.3EC8A0B89788D079.title: "&9Bơm chân&r"
 	quest.3EC9D0DA61B45328.quest_desc: [
 		"Máy phát điện này có thể đốt cả Hydrogen và Ethylene để tạo ra năng lượng."
-		""
 		"Lưu ý: Việc đốt Hydrogen sẽ không tạo ra nhiều năng lượng hơn chi phí để chạy một Máy tách điện ly. Hãy dùng cho Ethylene thay vào đó."
 	]
 	quest.3EC9D0DA61B45328.quest_subtitle: "Đốt khí để tạo điện!"
 	quest.3F5010269469EBE0.quest_desc: [
 		"Bên trong lò phản ứng được xây dựng từ các cột sử dụng một số khối &aLắp ráp nhiên liệu phân hạch&r, với một &aLắp ráp thanh điều khiển&r đặt ở đỉnh mỗi cột. Những cột này có thể cao từ 1 đến 15 khối, tùy thuộc vào kích thước của lò phản ứng."
-		""
 		"Đối với bản thiết kế này, chúng ta sẽ đặt 2 Lắp ráp nhiên liệu phân hạch ở trung tâm của multiblock, và sau đó đặt Lắp ráp thanh điều khiển ngay phía trên nó."
-		""
 		"{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1}"
 	]
 	quest.3F5010269469EBE0.title: "Bên trong Lò phản ứng: Điều khiển Nhiên liệu"
@@ -3072,11 +2816,8 @@
 	quest.3F68BA498E877C8C.title: "&aNgọc Xychorium Xanh"
 	quest.3F8D515D7B81B0E3.quest_desc: [
 		"Một Mẫu Rèn Khác nữa?!?!?!"
-		""
 		"May mà bạn không cần Khảo cổ cho cái này!"
-		""
 		"Bạn sẽ phải kiếm được chúng bằng cách đánh bại Máy sinh quái thử thách, được tìm thấy trong cấu trúc Hầm ngục ở &b&lThe Other&r. Cụ thể hơn là các Phòng Thư viện!"
-		""
 		"{image:atm:textures/questpics/allthemodium/all_library.png width:200 height:100 align:center}"
 	]
 	quest.3F8D515D7B81B0E3.title: "&5Mẫu Rèn Unobtainium"
@@ -3085,17 +2826,13 @@
 	]
 	quest.3FFF9018DA2A2763.quest_desc: [
 		"Khi chúng ta bắt đầu đốt Nhiên liệu Phân hạch trong lò phản ứng, chúng ta sẽ có &bCoolant&r nóng và &8Nuclear Waste&r."
-		""
 		"Đây là nơi Bức xạ phát sinh. Miễn là nó được giữ &oan toàn trong một số container hoặc máy&r, bạn sẽ không có đổ vỡ....phải không?"
-		""
 		"Cách tốt nhất để lưu trữ bất kỳ chất phóng xạ nào là sử dụng &2Radioactive Waste Barrel&r. Chúng sẽ lưu trữ phế liệu một cách an toàn, đồng thời làm phân rã khí một cách chậm mà không gây đổ vỡ bức xạ. Bạn không muốn Nuclear Waste của mình nằm trong Reactor vì nó khiến nó sản xuất nhiều nhiệt hơn, vì vậy hãy đặt một cổng để &axuất Waste&r và vận chuyển nó đến thùng!"
-		""
 		"&9Lưu ý quan trọng&r: Phá hủy &nbất kỳ&r máy, thùng, ống, hay &obất cứ thứ gì&r có khí Phóng xạ bên trong &csẽ gây rò rỉ Bức xạ&r. Điều đó bao gồm các sản phẩm của Nuclear Waste, như Polonium hay Plutonium."
 	]
 	quest.3FFF9018DA2A2763.title: "Xử lý &8Nuclear Waste"
 	quest.4007DFA7CC3A5FF2.quest_desc: [
 		"Để tiết kiệm bạn khỏi việc &ocả phần nhiệm vụ này&r bị phủ ngập bằng các nâng cấp, hãy xem các nâng cấp Sophisticated Backpack"
-		""
 		"Bạn sẽ cần tạo ra phiên bản tương đương của Sophisticated Storage, nhưng chúng hoạt động gần như giống nhau."
 	]
 	quest.4007DFA7CC3A5FF2.quest_subtitle: "Nền tảng Nâng cấp"
@@ -3106,25 +2843,18 @@
 	quest.401BB95B740385B7.title: "&6Thánh Quả Cầu Nâng Cấp&r"
 	quest.403F76908A8A5661.quest_desc: [
 		"Cột Phóng Đẩy (Pylon) sẽ đẩy người chơi ra khỏi khu vực, nhưng nếu bạn muốn &lmột số&r người chơi ở gần thì sao! Khi đó bạn sẽ cần một Bộ lọc Người chơi (Player Filter). "
-		""
 		"Dùng click phải vào người chơi với Bộ lọc để thêm họ vào, sau đó đặt Bộ lọc vào Cột Phóng Đẩy để đưa họ vào Danh sách Trắng (Whitelist)! "
-		""
 		"Vậy khi mọi người khác bị đẩy ra, bạn bè của bạn sẽ không bị! "
-		""
 		"Ngoài ra, mặc định Chủ sở hữu (Owner) của Cột Phóng Đẩy sẽ không bị đẩy ra."
 	]
 	quest.40788326E791845D.quest_desc: [
 		"Ép là một từ khá nhàm chán. "
-		""
 		"Máy Ép (Extruder) sẽ đặt các khối trong Bộ đệm của Router thành một hàng phía trước Router khi được cấp Tín hiệu Đá đỏ. Khi Tín hiệu bị tắt, nó sẽ phá tất cả các khối đó. "
-		""
 		"Rất hữu ích cho Cửa!"
 	]
 	quest.407EFAF528871014.quest_desc: [
 		"Để bắt đầu phân tách nước, chúng ta cần một nguồn nước. Bồn rửa (Kitchen Sink) cung cấp nước vô hạn và có thể dễ dàng được thiết lập để bơm nước ra."
-		""
 		"Một cách khác, bạn luôn có thể sử dụng nguồn nước vô hạn kinh điển với một Máy bơm từ Mekanism."
-		""
 		"Bơm nước vào Máy Tách Điện Hóa (Electrolytic Separator) của bạn để tách nước thành Hydrogen và Oxygen."
 	]
 	quest.407EFAF528871014.quest_subtitle: "Nguồn Nước Vô Hạn Toàn Năng"
@@ -3171,18 +2901,15 @@
 	quest.41EB0C570FC54F43.quest_subtitle: "Lưu trữ Tất Cả Khí"
 	quest.4204702AA6FBF40B.quest_desc: [
 		"Đứng trên vật phẩm này sẽ sạc bất kỳ vật phẩm có nguồn năng lượng từ bất kỳ mod nào."
-		""
 		"Điều này cũng cần thiết cho Robit."
 	]
 	quest.420FE84DEE12CCE0.quest_desc: [
 		"Lò &eVàng&r tốt hơn các lò Sắt với thời gian nấu là 120 Tick."
-		""
 		"Nó có thể được chế tạo từ &7Bạc&r hoặc Lò Sắt và có thể chế tạo thành lò &bKim Cương&r!"
 	]
 	quest.420FE84DEE12CCE0.title: "&eLò Vàng"
 	quest.4236B9F071BE18F3.quest_desc: [
 		"Để làm Axit Sunfuric, bạn cần tạo &aHơi Nước&r."
-		""
 		"Bơm một ít nước vào máy này và nó sẽ chuyển nó thành hơi nước."
 	]
 	quest.427014BDE06DE631.quest_desc: [
@@ -3207,9 +2934,7 @@
 	quest.42822B1E8A53D051.title: "&l&9Phần thưởng Overworld:&r&e Skeleton"
 	quest.429B5A81DF6C43FE.quest_desc: [
 		"&6Abras' Open Commanding Conjure&r được dùng để đưa một con quỷ &cAfrit&r vào một con Lợn. Vì nghi lễ này được thực hiện mà không dùng Phấn đỏ, nên nó chỉ đủ mạnh để triệu hồi một con quỷ &9chưa ràng buộc&r."
-		""
 		"Cụ thể, nghi lễ này sẽ tạo ra một &cAfrit&r chiếm hữu Zombified Piglin, sẽ rơi ra một ít Demonic Meat, được dùng để chế tạo Phấn hồng."
-		""
 		"&4CẢNH BÁO: BẠN CÓ THỂ PHẢI LÀM NGHI LỄ NÀY NHIỀU LẦN ĐỂ CÓ ĐỦ THỊT QUỶ."
 	]
 	quest.429B5A81DF6C43FE.quest_subtitle: "Sao... Đầy thịt..."
@@ -3227,13 +2952,9 @@
 	quest.42D7C8CD8E6F5CD7.title: "Không AI"
 	quest.42F50CE7FE715583.quest_desc: [
 		"Để nâng cấp số lượng stack mà kho lưu trữ phép thuật của bạn có thể chứa, bạn sẽ cần tạo &dStorage Stabilizers&r."
-		""
 		"Sau khi tạo, chúng phải chỉ thẳng vào phần Dimensional Matrix của Storage Actuator của bạn, không phải phần đếm. Chúng có thể cách xa tới 5 khối, nhưng phải có tầm nhìn trực tiếp đến Ma trận."
-		""
 		"Bất cứ khi nào bạn muốn nâng cấp lên Stabilizer cấp cao hơn, phá nó sẽ không phá hủy các item bên trong. Tuy nhiên, bạn sẽ không thể thêm thêm item nào vào kho lưu trữ của mình cho đến khi nó được thay thế hoặc nâng cấp."
-		""
 		"Dưới đây là một ví dụ về thiết lập đơn giản!"
-		""
 		"{image:atm:textures/questpics/occultism/storageupgradeexample.png width:200 height:150 align:1}"
 	]
 	quest.42F50CE7FE715583.title: "&aNâng Cấp Kho Phép Thuật Của Chúng Ta"
@@ -3346,9 +3067,7 @@
 	]
 	quest.47358ADC1470C82A.quest_desc: [
 		"&cQuả Mơ Ác Quỷ&r hoàn toàn tốt cho sức khỏe của bạn. Có thể có một số tác dụng phụ bạn nên biết."
-		""
 		"Khi bạn tiêu thụ một quả, bạn có cơ hội nhận được hiệu ứng của &3Mắt Thứ Ba&r, cho phép bạn nhìn thấy &9Thế Giới Khác&r. Một số vật phẩm trong thế giới có thể không như vẻ ngoài, và bạn sẽ cần thị giác \"này\" để tìm thấy một số vật phẩm cần thiết cho sự tiến trình."
-		""
 		"Hoặc bạn có thể đốt nó và bỏ qua việc tìm phần lớn chúng. Đó là tùy bạn."
 	]
 	quest.47358ADC1470C82A.quest_subtitle: "Sẵn Sàng cho Chuyến Đi"
@@ -3438,42 +3157,31 @@
 	quest.49F08DE190AAD0D8.title: "&3Tăng cường&r: Nhà máy"
 	quest.4A03A671757B2EBF.quest_desc: [
 		"Độ bền, Mức chất lỏng, Mức năng lượng, Cấp độ phép thuật và Giá trị dinh dưỡng đều là các danh mục chúng ta có thể sử dụng với Bộ lọc Kiểm tra."
-		""
 		"Sau đó chúng ta chọn nếu muốn nó Lớn hơn, Nhỏ hơn, Bằng nhau, hoặc kết hợp với Số lượng."
-		""
 		"Tiếp theo chúng ta đặt Số lượng và bấm nút Cộng để thêm vào Bộ lọc."
-		""
 		"Điều này có thể được dùng để chỉ giữ lại Công cụ có Độ bền cao hoặc Thực phẩm có Giá trị dinh dưỡng cao."
 	]
 	quest.4A079D40C0AF6BC3.quest_desc: [
 		"Không, nó không được tìm thấy trong &5&lThe Beyond&r. "
-		""
 		"Bạn có thể tìm thấy &5Quặng Unobtainium&r rất hiếm ở Vùng đất cao của End. Những nơi này thường là nơi End Cities xuất hiện! "
-		""
 		"Bạn sẽ cần một &3Cuốc Vibranium&r (hoặc cùng Cấp) để Khai thác quặng. "
-		""
 		"Tôi có cần phải nói với bạn để Xử lý quặng không?"
 		"{image:atm:textures/questpics/allthemodium/all_3.png width:100 height:100 align:center}"
 	]
 	quest.4A079D40C0AF6BC3.title: "&5Thỏi Unobtainium&r"
 	quest.4A1C8125896F7F1A.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Nhân sự&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong AllTheMods Modpacks."
-		""
 		"Vì tất cả các gói &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ gói công cộng nào không được phát hành bởi &6AllTheMods Đội ngũ&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.4A4C71C43519D5FE.quest_desc: [
 		"Để triệu hồi boss của Nether, chúng ta cần thu thập một vài vật phẩm trước. "
-		""
 		"Chúng ta cần có ít nhất 3 &5Đầu Xương Wither&r. Những thứ này là vật rơi hiếm khi giết &7Wither Skeletons&r, hoặc có thể chế tạo từ vật rơi phổ biến hơn, &3Mảnh Đầu Wither&r. "
-		""
 		"Bạn cũng sẽ cần ít nhất 4 miếng Soul Sand, và có lẽ một số áo giáp khá tốt."
 	]
 	quest.4A4C71C43519D5FE.title: "&6Triệu Hồi &5Wither"
 	quest.4A7AEBEB87CEC274.quest_desc: [
 		"Tôi không nghĩ tôi có quyền sử dụng một thương hiệu cụ thể của &cGiày Chạy Bộ&r nên hãy dùng trí tưởng tượng của bạn về chúng là gì. "
-		""
 		"&cGiày Chạy Bộ&r sẽ cho bạn Tăng Tốc khi Xé, vì vậy bạn sẽ nhanh hơn nữa khi Chạy! Cũng cung cấp nhảy tự động khi Xé..."
 	]
 	quest.4A7AEBEB87CEC274.quest_subtitle: "Chân"
@@ -3486,30 +3194,24 @@
 	]
 	quest.4AB0DD227471FDBF.quest_desc: [
 		"Chương này dành cho mọi thứ liên quan đến năng lượng!"
-		""
 		"Tại đây bạn sẽ tìm thấy các cách cơ bản để tạo, lưu trữ và truyền năng lượng."
 	]
 	quest.4AB0DD227471FDBF.quest_subtitle: "Tất Cả Năng Lượng!"
 	quest.4AB0DD227471FDBF.title: "§cNăng Lượng Cơ Bản"
 	quest.4ABF0727AA569DD9.quest_desc: [
 		"Để cung cấp nhiên liệu cho Lò phản ứng nhiệt hạch, chúng ta cần tạo hai loại khí khác nhau, loại này là §cĐơteri§r."
-		""
 		"Để làm được điều này, chúng ta cần tạo một số bơm điện và lắp cho chúng Bộ lọc Nâng cấp. Đặt chúng lên một khối nguồn nước, cấp cho chúng một ít năng lượng, và chúng sẽ bơm ra §5Nước Nặng§r."
-		""
 		"Bơm Nước Nặng vào Máy tách điện ly để thu được §cĐơteri§r."
 	]
 	quest.4ABF0727AA569DD9.title: "Cung cấp nhiên liệu cho Lò phản ứng: §cĐơteri"
 	quest.4AFF81D3D0E78255.quest_desc: [
 		"Máy này cần nước để vận hành, và sử dụng nước để làm sạch \"Bùn Quặng\" thành \"Bùn Quặng Sạch\"."
-		""
 		"Nó sẽ là phần 2 của Nhà máy Chế biến Quặng Cấp 4 của bạn."
 	]
 	quest.4AFF81D3D0E78255.quest_subtitle: "Cho Quặng Một Bữa Tắm"
 	quest.4B2146C9527C54E7.quest_desc: [
 		"Rõ ràng bây giờ bạn đang ở Chương 2, bạn đã đánh bại §2§lMinecraft Gốc§r!"
-		""
 		"Đến lúc này bạn nên có §5Netherite§r và đã giết tất cả các boss mà §2§lMinecraft§r có. Vậy tiếp theo là gì?"
-		""
 		"§6§lAllthemodium§r là tiếp theo! Để bắt đầu lấy §6Allthemodium§r, bạn sẽ cần §5Netherite§r. Hãy bắt đầu từ đó!"
 	]
 	quest.4B2146C9527C54E7.title: "&6&lAllthemodium"
@@ -3533,7 +3235,6 @@
 	quest.4BDE773C3359D584.quest_subtitle: "Một Robot Mini Đồng Hành Cùng Bạn Trong Chuyến Đi"
 	quest.4BF0BB763BFFACF0.quest_desc: [
 		"Có thể nói, tài nguyên quan trọng tiếp theo bạn cần là &eFluix&f, được sử dụng trong hầu hết các thiết bị AE2 và đóng vai trò là nguyên liệu cơ bản để chế tạo mọi cáp trong mạng ME."
-		""
 		"Bạn thường sẽ muốn sản xuất số lượng lớn chúng, và cách làm là tạo ra một &bTinh thể Fluix&f bằng cách ném &eQuặng Nether&f, &e&ođược nạp điện&r&e Certus quartz&r và &eĐá đỏ&f cùng vào một vũng nước. Điều này sẽ cho bạn một &eTinh thể Fluix&r mà bạn có thể biến thành bụi trong một Máy khắc."
 	]
 	quest.4BF0BB763BFFACF0.title: "Fluix"
@@ -3548,20 +3249,15 @@
 	]
 	quest.4C873491F6F0FFAF.quest_desc: [
 		"Sử dụng &dSpiritfire&r, chúng ta có thể chuyển đổi một số vật liệu Overworld thành biến thể Otherworld của chúng. Bạn cũng có thể tìm thấy một số vật liệu Otherworld bằng cách chịu tác động của &bCon mắt thứ ba&r và phiêu lưu vào thế giới. Bạn có thể ngạc nhiên với những gì bạn tìm thấy. Để dễ dàng hơn, có các công thức chế tạo cho vật liệu cơ bản bằng cách ném chúng vào &dSpiritfire&r."
-		""
 		"&bAndesite&r chuyển thành &3Otherstone&r, có thể được dùng để thắp sáng một &dSpiritfire&r vĩnh cửu."
-		""
 		"&aCây non sồi&r chuyển thành &9Cây non sồi&r nhưng chúng không giống nhau. Khi trưởng thành, chúng sẽ trông giống hệt một cây sồi thông thường. Tuy nhiên, dưới tác động của &bCon mắt thứ ba&r, bạn sẽ có thể thu hoạch biến thể Otherworld."
-		""
 		"Nếu bạn gặp khó khăn trong việc thu thập các khúc gỗ (nếu chúng biến thành khúc gỗ sồi thông thường ngay cả khi có &bCon mắt thứ ba&r), hãy thử thu thập chúng từ phía trên."
-		""
 		"&eKim cương&r sẽ biến thành &dNgọc linh hồn&r được dùng trong một số công thức chúng ta sẽ cần sau này."
 	]
 	quest.4C873491F6F0FFAF.title: "&dChuyển Đổi Bằng Spiritfire&r"
 	quest.4C8C56F960D92E9D.quest_subtitle: "&f51 &cSát thương"
 	quest.4CC963F5AECF285A.quest_desc: [
 		"Bình thường Router di chuyển 1 vật phẩm mỗi xung của nó. Điều này có thể được nhân đôi và chồng! với Nâng cấp Chồng. "
-		""
 		"1 Nâng cấp Chồng là 2 Vật phẩm, 2 Chồng là 4 Vật phẩm, và 6 Chồng là 64 Vật phẩm một giây."
 	]
 	quest.4CCA1E2AAA9AB9D9.quest_desc: [
@@ -3571,9 +3267,7 @@
 	quest.4CCA1E2AAA9AB9D9.title: "&5Trang phục Điện Ảnh Thuật Sư"
 	quest.4CE571F942461909.quest_desc: [
 		"Túi Nghi Lễ rất tiện, nhưng mất rất nhiều thời gian để đặt tất cả các khối. Bây giờ bạn có thể thực hiện nghi lễ &cGiam Cầm Vĩnh Viễn của Sevira&r, bạn có thể tạo ra Túi Nghi Lễ Thủ Công!"
-		""
 		"Túi Nghi Lễ Thủ Công hoạt động gần như giống hệt Túi Nghi Lễ thông thường, ngoại trừ nó lập tức đặt tất cả các vật phẩm cần thiết cho nghi lễ, và có thêm khả năng nhấp chuột phải vào Bát Vàng để xóa tất cả Ký hiệu Phấn và thu thập tất cả các vật phẩm khác (Sọ, Nến và Tinh Thể) và trả chúng vào Túi."
-		""
 		"Không, nó không khôi phục độ bền của Phấn."
 	]
 	quest.4CE571F942461909.title: "Dụng cụ Của Nghề: Túi Nghi Lễ Thủ Công"
@@ -3583,7 +3277,6 @@
 	quest.4D07B0A4A2E77CDA.title: "Số lượng thực thể tối đa"
 	quest.4D3379D38237F830.quest_desc: [
 		"Khi đeo &bnhững thứ này&r ở Chân bạn có thể thực hiện một phép lạ! Đi trên &9Nước&r! "
-		""
 		"Thực ra là chạy trên &9Nước&r, bạn phải đang Chạy nước rút để có thể chạy qua &9Nước&r. Khi bạn dừng Chạy nước rút bạn sẽ bắt đầu Chìm."
 	]
 	quest.4D3379D38237F830.quest_subtitle: "Chân"
@@ -3600,9 +3293,7 @@
 	]
 	quest.4DE1158931F84F22.quest_desc: [
 		"Khi bạn đã có Cuốc cấp Sắt hoặc tốt hơn, bạn sẽ có thể khai thác &cRedstone&r. "
-		""
 		"Redstone bắt đầu hành trình của bạn vào nhiều mod kỹ thuật, như tạo năng lượng hoặc làm các thiết bị kỹ thuật xinh xắn. "
-		""
 		"Đây là tài nguyên bạn sẽ muốn rất nhiều!"
 	]
 	quest.4DE1158931F84F22.title: "&cRedstone&r"
@@ -3618,25 +3309,19 @@
 	quest.4E28B67554CBDAB7.title: "§6Allthemodium §5Hợp kim §3Kiếm"
 	quest.4E3355FDCB65BB63.quest_desc: [
 		"§aEvoker§r được biết đến là một Miniboss mạnh mẽ và nguy hiểm của Minecraft. Tất nhiên, §lIron§r đã thêm một phiên bản còn mạnh hơn và nguy hiểm hơn! Và đúng vậy, §eBook§r này là một vật rơi hiếm từ cả hai! "
-		""
 		"Nó có 10 ô phép nhưng 3 đã bị chiếm. §aFang Strike§r, §aFang Ward§r, và §aVex Swarm§r đều đi kèm với §eBook§r và không thể di chuyển. "
-		""
 		"Ngoài ra còn tăng cường §a§lTriệu hồi§r!"
 	]
 	quest.4E3355FDCB65BB63.title: "§aSách phép Triệu hồi"
 	quest.4E5238F00CEED8B2.quest_desc: [
 		"Luyện kim quặng thô ngay từ đầu là cần thiết, nhưng bạn đang bỏ lỡ nguồn tài nguyên dư thừa!"
-		""
 		"Có một số cách để nhân đôi sản lượng từ mỗi quặng thô, nhưng một trong những cách dễ nhất là tạo và sử dụng một §eOre Hammer§r."
-		""
 		"Chúng sẽ phân hủy 1 quặng thô thành 2 bụi, có thể được luyện thành phôi, hiệu quả nhân đôi sản lượng phôi của bạn!"
-		""
 		"Muốn nhiều hơn từ mỗi quặng thô? Hãy xem mod §5Occultism§r!"
 	]
 	quest.4E5238F00CEED8B2.title: "§eNhân đôi quặng cơ bản"
 	quest.4E737C490DCC5D6C.quest_desc: [
 		"Áo giáp cơ bản tốt nhất bạn có thể có!"
-		""
 		"Sẽ cần để chế tạo Mekasuit, mặc dù nó tốt hơn!"
 		"{image:atm:textures/questpics/allthemodium/all_armor_uno.png width:100 height:175 align:center}"
 	]
@@ -3646,11 +3331,8 @@
 	quest.4E82E843737045D9.title: "§d§lHồn rồng"
 	quest.4E895C54651A3CB3.quest_desc: [
 		"§8Sách phép§r là §7Sách§r... chỉ là §7Sách§r hữu ích hơn!"
-		""
 		"Mỗi §8Sách phép§r được chế tạo với §7Sách§r, §7Gậy§r, §cBlaze Rods§r và §cBột§r."
-		""
 		"§8Sách phép§r có thể được §5thêm phép§r, như §7Vật phẩm§r, để có được §5phép§r nhất định."
-		""
 		"Còn có §8Tomes of Scrapping§r có thể được dùng trong §7Anvil§r để lấy §5phép§r khỏi §7Vật phẩm§r."
 	]
 	quest.4E895C54651A3CB3.title: "&8&lSách"
@@ -3683,30 +3365,20 @@
 	quest.4F1FFC02F4EAA2E6.title: "Cấp: &4Nitro"
 	quest.4F35D04721DFC9FF.quest_desc: [
 		"Loại nghi lễ đầu tiên chúng ta sẽ thực hiện là &9Nghi lễ Triệu hồi&r. Những nghi lễ này được dùng để triệu hồi các loại Quỷ hữu ích khác nhau để hỗ trợ bạn trong việc nghiền nát, luyện kim, và hơn thế nữa khi bạn đạt đến các cấp độ nghi lễ cao hơn."
-		""
 		"Đối với nghi lễ đầu tiên, chúng ta muốn triệu hồi một Quỷ &aFoliot Crusher&r. Quỷ này sẽ nghiền nát đồ vật cho chúng ta, điều mà chúng ta cần để chế tạo một số loại Phấn (Chalk) cấp cao hơn!"
-		""
 		"Để bắt đầu, kết hợp Sách Chưa Ràng Buộc (Unbound Book) của bạn với &aTừ điển Linh hồn&r (Dictionary of Spirits) trong lưới chế tạo. Điều này sẽ ràng buộc một Quỷ vào Sách, đó là thứ chúng ta cần cho nghi lễ."
-		""
-		"Nói về Từ điển Linh hồn của bạn, đã đến lúc mở nó ra! Ở bên trái, nhấp vào tab &dPentacles&r và nhấp vào &bVòng tròn Aviar&r. Bạn có thể phải đọc một chút để mở khóa nó. Cũng có cách nhấp \\\"Đánh dấu Tất cả Đã Đọc\\\" để mở khóa mọi thứ trong Sách."
-		""
+		"Nói về Từ điển Linh hồn của bạn, đã đến lúc mở nó ra! Ở bên trái, nhấp vào tab &dPentacles&r và nhấp vào &bVòng tròn Aviar&r. Bạn có thể phải đọc một chút để mở khóa nó. Cũng có cách nhấp \\"Đánh dấu Tất cả Đã Đọc\\" để mở khóa mọi thứ trong Sách."
 		"Đây là thứ chúng ta sẽ dùng để triệu hồi bạn mới. Ở phía bên phải, bạn có thể nhấp vào biểu tượng mắt ở góc dưới bên trái của hình ảnh để xây dựng đường nét nghi lễ cho bạn trong thế giới. Điều này rất hữu ích!"
-		""
 		"Khi bạn đã hoàn thành nghi lễ nhiều khối, đặt 4 (hoặc nhiều hơn cho các nghi lễ sau) Cái bát hiến tế (Sacrificial Bowls) ở bất kỳ đâu trong bán kính ngang 8 khối từ Cái bát hiến tế trung tâm và sử dụng các vật phẩm cần thiết trên chúng. Khi bạn đặt Sách Đã Ràng Buộc (Bound Book) vào Cái bát hiến tế Vàng, nghi lễ sẽ bắt đầu!"
-		""
 		"Đây là hình dạng của nghi lễ."
-		""
 		"{image:atm:textures/questpics/occultism/aviarcircle_v2.png width:200 height:200 align:1}"
 	]
 	quest.4F35D04721DFC9FF.quest_subtitle: "Vòng tròn Aviar"
 	quest.4F35D04721DFC9FF.title: "&bNghi lễ Đầu tiên &dcủa chúng ta"
 	quest.4F436770D30D8520.quest_desc: [
 		"Chúng ta sẽ cần thêm 3 máy vào cấu hình hiện tại."
-		""
 		"Phần đầu tiên của quy trình là Buồng Hòa tan Hóa học (Chemical Dissolution Chamber)."
-		""
 		"Máy này yêu cầu &aAxit Sunfuric&r để phá vỡ quặng thô thành \"Bùn Quặng\" (Ore Slurry)."
-		""
 		"Để có Axit Sunfuric, chúng ta sẽ cần một cấu hình mới, được giải thích thêm trong các nhiệm vụ tiếp theo."
 	]
 	quest.4F436770D30D8520.title: "Sự Khởi đầu của Nhà Máy Quặng Cấp 4"
@@ -3719,9 +3391,7 @@
 	]
 	quest.501A0AEEC73C0790.quest_desc: [
 		"&6Piglich&r là một Trùm được thêm bởi &6&lAllthemodium&r, sống trong Kim Tự tháp Cổ xưa ở &l&bThe Other&r."
-		""
 		"Khi chết, hắn sẽ rơi 1 Trái tim của hắn! Bạn sẽ cần giết 9 con để chế tạo một Khối của nó..."
-		""
 		"May mắn thay, có cách để canh tác chúng!"
 	]
 	quest.501A0AEEC73C0790.title: "&6Khối Trái tim Piglich"
@@ -3764,21 +3434,16 @@
 	quest.512396B331108BAF.quest_subtitle: "Cấp: &e5"
 	quest.5151CDD8FCDE7A07.quest_desc: [
 		"Chào mừng đến với Công cụ Cơ bản!"
-		""
 		"Bạn đã bao giờ có một công cụ mà bạn chưa từng thấy hay nghe thấy và muốn biết nó nằm ở đâu giữa các công cụ khác? Khi đó, những nhiệm vụ này hoàn hảo cho bạn!"
-		""
 		"(Các thanh kiếm được sắp xếp theo sát thương cơ bản, các thanh kiếm có thể nâng cấp hoặc dùng để tăng sát thương không được bao gồm)."
-		""
 		"Các nhiệm vụ cho tất cả các cuốc và thanh kiếm là TÙY CHỌN!"
 	]
 	quest.5151CDD8FCDE7A07.quest_subtitle: "Tất cả Công cụ"
 	quest.5151CDD8FCDE7A07.title: "Công cụ Cơ bản!"
 	quest.516E66BE01EE5B31.quest_desc: [
 		"&8Tomes of Weaponry&r sẽ cung cấp &5phép thuật&r cho Kiếm và Rìu. "
-		""
 		"Chủ yếu là những phép thuật giúp giết chết mục tiêu! Như &5Sharpness &f và &5Fire Aspect&r. "
 		"&8Tomes of Archery&r sẽ cung cấp &5phép thuật&r cho vũ khí tầm xa, cung và nỏ. "
-		""
 		"&5Piercing&f, &5Power&f, và &5Knockback&r!"
 	]
 	quest.516E66BE01EE5B31.title: "&8Weapon Tomes"
@@ -3790,9 +3455,7 @@
 	quest.51DBE688ED630DB1.quest_subtitle: "Cấp: &54"
 	quest.51DE3157DE3E57B8.quest_desc: [
 		"Việc lưu trữ thì tốt và hữu ích, nhưng hệ thống lưu trữ sẽ có ích gì nếu nó bị tắc nghẽn bởi nguyên liệu thô cần được chế tạo và xử lý thành sản phẩm, trong khi bạn vẫn phải tự tay làm tất cả? "
-		""
 		"Hệ thống &etự động chế tạo&f của AE2 bắt đầu bằng &bME Pattern Provider&f. Pattern Provider giữ các item gọi là &bPatterns&f (được đề cập trong nhiệm vụ tiếp theo) được lập trình để giữ một công thức nào đó biến đầu vào thành đầu ra cụ thể. Lên đến 9 pattern có thể xếp vào một provider. "
-		""
 		"Bạn thường sẽ sử dụng nhiều pattern provider rải rác khắp căn cứ, đó là lý do tại sao hữu ích khi có &bPattern Access Terminal&f để truy cập từ xa nội dung của tất cả các provider trên mạng ME rộng lớn của bạn."
 	]
 	quest.51DE3157DE3E57B8.quest_subtitle: "Đặt hàng"
@@ -3833,7 +3496,6 @@
 	quest.523DC411241B470A.title: "&6Loại bỏ Phép thuật Tiêu cực"
 	quest.525F25F4ADE45B50.quest_desc: [
 		"&bME Formation Plane&f hoạt động tương tự như Bus lưu trữ, nhưng coi cả thế giới là phương tiện lưu trữ của nó. Nói cách khác, nó sẽ đặt bất kỳ khối nào trong bộ lọc của nó ngay phía trước nó. "
-		""
 		"Điều này có thể hữu ích trong các tình huống mà một khối có thể được xử lý chỉ bằng cách đặt nó và phá nó bằng một công cụ nhất định."
 	]
 	quest.525F25F4ADE45B50.quest_subtitle: "RA ĐI"
@@ -3885,7 +3547,6 @@
 	]
 	quest.53DEA3DFEDC4809E.quest_desc: [
 		"Đừng lo, đây là nghi lễ cuối cùng trong loạt nghi lễ Abras. Nó được dùng để triệu hồi quỷ &9Marid&r, nhưng mặc dù sử dụng Phấn Đỏ, nó không đủ mạnh để &9trói&r Quỷ. Điều này có nghĩa là, thật không may, bạn sẽ phải chiến đấu với nó."
-		""
 		"Nghi lễ này sử dụng một Thương như một vật tế, điều này gây nhầm lẫn vì hầu hết các vật tế là sinh vật sống. Vì vậy, thay vì giết một sinh vật trên vòng tròn nghi lễ đã hoàn thành, bạn chỉ cần ném Thương vào bát ở trung tâm để bắt đầu nghi lễ."
 	]
 	quest.53DEA3DFEDC4809E.quest_subtitle: "Đó là Chim? Đó là Máy bay? Không, đó là một &9Marid&r chưa bị trói!"
@@ -3901,7 +3562,6 @@
 	quest.541446863A72B96C.title: "&7Mực Thông Thường&r"
 	quest.54378277B8D28B1D.quest_desc: [
 		"Một \"nâng cấp\" cho Phấn Cầu Vồng, dành cho những người không thích những ký hiệu nhanh chóng chuyển màu làm hỏng thẩm mỹ được tạo công sức."
-		""
 		"Có chức năng giống như Phấn Cầu Vồng, ngoại trừ tất cả các ký hiệu sẽ hiện lên màu trắng."
 	]
 	quest.544791880F315D5A.quest_desc: [
@@ -3937,18 +3597,15 @@
 		"Khi bạn đã sẵn sàng, đặt &5Hohlraum&r vào &aFusion Reactor Controller&r, bơm nhiên liệu, sau đó kích hoạt Laser Amplifier của bạn.\"
 		"\"
 		"Nếu làm đúng, &nbạn sẽ thấy Lò phản ứng kích hoạt!&r\"
-		""
 		"{image:atm:textures/questpics/mek/fusion_activated.png width:225 height:150 align:1}"
 	]
 	quest.54D8B9CB3F98040F.title: "&dTôi nghĩ chúng ta đã sẵn sàng"
 	quest.55186B8602689B66.quest_desc: [
 		"Thẻ nhớ &bMemory Card&f là một công cụ có hai chức năng khác nhau. Chức năng đơn giản nhất là lưu cấu hình của các thiết bị khác nhau (như bộ lọc whitelist) để sao chép sang thiết bị cùng loại khác."
-		""
 		"Chức năng thứ hai của thẻ nhớ là liên kết các &eP2P tunnel&f với nhau. Khi làm vậy, P2P tunnel được liên kết sẽ được gán một ID duy nhất, được lưu trên thẻ nhớ để liên kết tiếp."
 	]
 	quest.551A4916F032ACCF.quest_desc: [
 		"Lò rèn phép thuật có nhiều công dụng nhất trong các khối của &lIron Spells&r."
-		""
 		"Bạn có thể kết hợp &3Spell&r cùng loại Mực để nâng cấp nó."
 		"Nó có thể kết hợp &3Scroll&r thành Vũ khí để sử dụng cùng chúng, như một thanh Kiếm."
 		"Bạn cũng có thể thiết lập Affinity cho Nhẫn bằng Upgrade Orbs, hoặc thêm Upgrade Orbs vào Vũ khí và Trang bị."
@@ -3956,9 +3613,7 @@
 	]
 	quest.552F0B9B00F4F914.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Community contributor&r để sử dụng trong AllTheMods Modpacks."
-		""
 		"Vì tất cả các gói &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ gói công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.553220A2CD7CAFE4.quest_desc: [
@@ -3967,24 +3622,19 @@
 	quest.553220A2CD7CAFE4.quest_subtitle: "Tất cả đã bọc"
 	quest.553C44F85E508DE3.quest_desc: [
 		"Cái này là duy nhất vì nó không chỉ dùng cho 1 Router mà cho nhiều Router."
-		""
 		"Nếu bạn muốn nhiều Router hoạt động cùng lúc thì mỗi Router cần một Sync Upgrade."
-		""
 		"Cần được điều chỉnh trong GUI riêng của nó."
 	]
 	quest.554F47A0AF7506EC.quest_subtitle: "59,049 Đá End"
 	quest.555ED1E39131D91B.quest_desc: [
 		"Bạn không nên bước vào &bTower&r, &b&lCryomancer&r không thích Người chơi, chúng thù địch với bạn."
-		""
 		"&b&lCryomancer&r sẽ ngay lập tức tấn công bạn bằng &bIce Spells&r. Thậm chí có thể sử dụng động vật chống lại bạn! Hy sinh động vật để thắng một trận chiến, hắn thật lạnh lùng!"
-		""
 		"Khi bị giết, hắn sẽ rơi Arcane Essence, Inks, &bIce Runes&r, và &bIce Scrolls&r."
 		"{image:atm:textures/questpics/iron_spells/spells_cryomancer.png width:100 height:200 align:center}"
 	]
 	quest.555ED1E39131D91B.title: "&b&lCryomancer"
 	quest.5560F303C452E110.quest_desc: [
 		"Extruder đẩy khối và entity, tại sao không đẩy thêm nữa!"
-		""
 		"Các entity, không phải khối."
 	]
 	quest.55820773BDD5319D.quest_desc: [
@@ -4018,7 +3668,6 @@
 	quest.56EC79AF11B0869E.title: "&9Xeovrenth Adjure"
 	quest.57282D7E31EE61EE.quest_desc: [
 		"Khi bạn đã thu thập được một ít &aRaw Iesnium Ores&r, bạn có thể sẽ muốn dùng vài thanh đầu tiên để làm một &dIesnium Pickaxe&r. Điều này không chỉ khai thác Iesnium giống như Infused Pickaxe, mà còn bền hơn nhiều."
-		""
 		"Hãy tự làm một cái cho mình!"
 	]
 	quest.57282D7E31EE61EE.title: "&aCuốc Thế Giới Khác&r"
@@ -4045,16 +3694,13 @@
 	quest.57F47BA495B27F83.title: "&9Cấp khai thác 1"
 	quest.5831B3192C0E8C56.quest_desc: [
 		"Bạn muốn truy cập kho từ xa? Điều này có thể thực hiện bằng &eWormhole Ổn định&r hoặc &aBộ truy cập kho&r."
-		""
 		"Để sử dụng &eWormhole Ổn định&r, shift-click (nhấn giữ Shift và click) vào một &dBộ kích hoạt kho&r để liên kết. Sau đó bạn có thể đặt Wormhole để hoạt động như một vị trí kho khác."
-		""
 		"&Bộ truy cập kho&r được liên kết theo cách tương tự, nhưng hoạt động như một remote không dây thậm chí có thể hoạt động xuyên qua các chiều không gian!"
 	]
 	quest.5831B3192C0E8C56.title: "&aTruy cập từ xa"
 	quest.58445E5B3957ACC8.title: "Đá phát sáng tinh chế"
 	quest.58495CFBF4F20CE9.quest_desc: [
 		"Nó hoạt động giống như bàn bếp, ngoại trừ là ở trong không khí."
-		""
 		"Và bạn không thể đặt vật gì lên trên nó."
 	]
 	quest.58495CFBF4F20CE9.quest_subtitle: "Nhiều không gian cho hoạt động!"
@@ -4130,7 +3776,6 @@
 	quest.5A23107C363A209E.quest_subtitle: "Tạo ra các vật liệu End đa dạng"
 	quest.5A94A2664BFDD7B9.quest_desc: [
 		"Chào mừng đến với Chương Lưu trữ Cơ bản!"
-		""
 		"Bạn sẽ tìm thấy tất cả các cách cơ bản để lưu trữ item mà không cần nguồn năng lượng, cũng như các item hữu ích cho nhu cầu lưu trữ của bạn!"
 	]
 	quest.5A94A2664BFDD7B9.title: "Lưu trữ Cơ bản"
@@ -4150,33 +3795,21 @@
 	quest.5AC497F76A086A5C.title: "&l&9Phần thưởng Overworld:&r&e Phù thủy"
 	quest.5ACE97EE75813006.quest_desc: [
 		"Đây là nguồn thông tin chính về &dNghi lễ&r. Dưới đây là những kiến thức cơ bản:"
-		""
 		"&lCấp độ của Nghi lễ&r:"
-		""
 		"Nghi lễ có (về cơ bản) bốn cấp độ dựa trên sức mạnh của Quỷ mà bạn đang triệu hồi. Cấp độ đầu tiên là &eFoliot&r, sau đó là &aDijini&r, &cAfrit&r, và &9Marid&r. Một số nghi lễ rơi vào các cấp độ trung gian, chẳng hạn như cấp độ &6Unbound Afrit&r."
-		""
 		"&lCác loại Nghi lễ&r:"
-		""
 		"Có năm loại nghi lễ chính, nhưng chúng ta chỉ cần bốn loại cho sự tiến hóa. Ba loại chính là &9Nghi lễ Triệu hồi&r, &5Nghi lễ Chiếm hữu&r, và &6Nghi lễ Thấm nhuần&r. Mỗi loại sẽ được giải thích lần đầu tiên khi chúng xuất hiện trong các nhiệm vụ này. Loại nghi lễ thứ tư là một loại &dNghi lễ không có Quỷ&r, nghĩa là nó sử dụng các phần từ cả ba loại để thực hiện một hành động đặc biệt mà không cần sử dụng trực tiếp Quỷ."
-		""
 		"Loại thứ năm, &eNghi lễ Thân quen&r, không cần thiết cho sự tiến hóa. Nhưng chúng vẫn có thể triệu hồi một số người bạn hữu ích để giúp đỡ bạn!"
-		""
 		"&lPhấn (Chalks)&r:"
-		""
 		"Có hai loại phấn: Phấn nền (Foundation Chalks) và Phấn màu (Colored Chalks)."
-		""
 		"Phấn nền được sử dụng trong mọi nghi lễ, và mỗi cấp độ cao hơn sẽ có màu tối hơn, bắt đầu từ Phấn trắng (White Chalk) và kết thúc bằng Phấn đen (Black Chalk)."
-		""
 		"Phấn màu là loại được sử dụng phổ biến nhất, nhưng màu sắc của Phấn không trực tiếp tương quan với sức mạnh của nó giống như Phấn nền."
 	]
 	quest.5ACE97EE75813006.title: "Những kiến thức cơ bản về Nghi lễ"
 	quest.5AE80FF518B1BBA6.quest_desc: [
 		"Mệt mỏi vì phải mang theo Phấn, Nến, Đầu lâu và Tinh thể? Hãy tạo một Túi Nghi lễ (Ritual Satchel)!"
-		""
 		"Bằng cách nhấn Shift + chuột phải với Túi Nghi lễ trong tay, bạn có thể đổ đầy nó với tất cả nguyên liệu cần thiết để vẽ một vòng tròn nghi lễ."
-		""
 		"Khi bạn đã chất đầy Túi, chỉ cần chuột phải vào bất kỳ khối xem trước nào để bắt đầu (từ từ) tự động đặt tất cả các ký hiệu (runes) cho nghi lễ được chọn."
-		""
 		"Nếu một mảnh phấn bên trong túi giảm dưới 40% độ bền, hiệu ứng phép thuật lấp lánh trên vật phẩm này sẽ biến mất để báo hiệu rằng có thể đã đến lúc sửa chữa hoặc thay thế một số Phấn của bạn."
 	]
 	quest.5AE80FF518B1BBA6.quest_subtitle: "Nghi lễ túi!"
@@ -4262,30 +3895,22 @@
 	quest.5C83D5CDD980FD9A.title: "Trang trí giáp mõm"
 	quest.5CD8D169181C7339.quest_desc: [
 		"Ba vật phẩm cuối cùng này đại khái là một số đồ chơi bổ sung do AE2 cung cấp và không nhất thiết phù hợp với bất kỳ cây nhiệm vụ nào."
-		""
 		"&bCharged Staff&f đơn giản chỉ là một cây gậy có năng lượng, gây 3 tim sát thương và tiêu thụ 300AE mỗi lần đánh. Nó cũng sử dụng cơ chế chiến đấu trước phiên bản 1.9, nghĩa là bạn có thể spam-click như những ngày xưa cũ."
-		""
 		"&bEntropy Manipulator&f, khi &oused&r trên một số khối trong thế giới, sẽ nung chúng ngay tại chỗ, như cát thành kính và quặng kim loại thành phôi kim loại. Nếu không, nó sẽ đơn giản đốt lửa trên khối."
-		""
 		"Cuối cùng, &bMatter Cannon&f hoạt động tương tự Color Applicator như một ô dành riêng để chứa các vật phẩm 'đạn' như Matter Balls và nugget sắt/vàng, sau đó có thể bắn ra để gây sát thương cho quái vật hoặc phá khối. 'Đạn' nặng hơn là Matter Balls trong Matter Cannon có thể được thay thế bằng &bPaint Balls&f, sẽ tạo hiệu ứng bắn phết sơn lên mặt của bất kỳ khối nào bị bắn trúng. &bLumen Paint Balls&f là một biến thể của paint balls chỉ dùng riêng cho Matter Cannon, mà sơn phết của chúng cũng phát ra một chút ánh sáng khi hiện diện trong thế giới."
 	]
 	quest.5CD8D169181C7339.quest_subtitle: "Quá nóng cho ATF"
 	quest.5CD8D169181C7339.title: "Những... Vũ khí?"
 	quest.5CE44C58A470E48E.quest_desc: [
 		"&l&3Artifacts&r là một mod tuyệt vời bổ sung &l&3Artifacts&r sẽ làm trải nghiệm Minecraft của bạn dễ dàng và vui vẻ hơn!"
-		""
 		"Tất cả &l&3Artifacts&r đều có thể được tìm thấy từ việc khám phá, khai quật, hoặc giết Kẻ mạo danh!"
-		""
 		"Kẻ mạo danh được tìm thấy trong các trại lửa dưới lòng đất, trông giống như Rương bình thường! Nhưng một khi bạn đến quá gần, chúng sẽ tấn công!"
 	]
 	quest.5CE44C58A470E48E.title: "&l&3Bảo vật"
 	quest.5CF320E9C4C1B1E1.quest_desc: [
 		"ATM10 là một bộ mod &aKitchensink&r, nghĩa là bạn có tự do khám phá và chơi bộ modpack theo cách bạn muốn!"
-		""
 		"Tuy nhiên, có một mục tiêu cuối cùng: Tạo ra &6ATM Star&r!"
-		""
 		"Chuỗi nhiệm vụ này phục vụ như một hướng dẫn cho tất cả người chơi, cho dù bạn mới bắt đầu Minecraft hay đã chơi qua các bộ ATM trước đó."
-		""
 		"Giống như gần như mọi bộ modpack, hãy thu thập một ít gỗ để bắt đầu!"
 	]
 	quest.5CF320E9C4C1B1E1.title: "&eChào mừng đến với phần Bắt đầu&r!"
@@ -4339,9 +3964,7 @@
 	quest.5E1D4169C083ACEF.title: "&cBảng đánh lửa"
 	quest.5E24012A3D9B72A1.quest_desc: [
 		"Vật phẩm không phải là thứ duy nhất có thể lưu trữ trong các ô ME. &bÔ lưu trữ Dung dịch ME&f có thể lưu trữ chất lỏng như nước, lava và bất kỳ loại dầu và nhiên liệu modded nào, chỉ để đưa ra một vài ví dụ. "
-		""
 		"Lưu ý rằng tất cả các ô lưu trữ, bất kể chúng' được thiết kế để lưu trữ thứ gì, chỉ khác nhau về phần vỏ; cả ô vật phẩm và ô dung dịch đều sử dụng cùng một loại thành phần lưu trữ để chế tạo. "
-		""
 		"Đối với dung dịch, 1 byte tương đương với 8 xô (8000mb)."
 	]
 	quest.5E41363F9AE243F3.quest_desc: [
@@ -4443,7 +4066,6 @@
 		"Về cơ bản, những Adapter này cho phép chúng ta điều khiển Lò phản ứng bằng &cRedstone&r. Chỉ với một cái, bạn có thể dùng cần gạt để bật và tắt lò phản ứng. Tuy nhiên, chúng ta sẽ dùng chúng để kiểm soát thiệt hại.\"
 		"\"
 		"Bạn cũng có thể thiết lập chúng để phát tín hiệu Redstone dựa trên một điều kiện nhất định trong Lò phản ứng, như &cDamage Critical&r hoặc &8Insufficient Fuel&r. Điều này hữu ích để thiết lập circuit breaker để tắt Lò phản ứng nếu những điều đó xảy ra.\"
-		""
 		"{image:atm:textures/questpics/mek/logic_adapter.png width:150 height:125 align:1}"
 	]
 	quest.5FDB48511EC1C580.quest_subtitle: "Bởi vì Chúng ta đều đã làm nổ Lò phản ứng trước đây"
@@ -4461,7 +4083,6 @@
 		"Bạn sẽ cần ít nhất 1 controller, và ít nhất 2 valves.\"
 		"\"
 		"Bơm nước vào, và bạn sẽ bắt đầu thu thập brine, có thể được bơm vào một &aElectrolytic Separator&r để chiết xuất &6Chlorine&r từ khí.\"
-		""
 		"{image:atm:textures/questpics/mek/thermalplant.png width:100 height:100 align:1}"
 	]
 	quest.603877AB96321F1A.quest_subtitle: "Nước biến thành Nước muối!"
@@ -4519,11 +4140,8 @@
 	quest.61847F47CCA225D9.title: "Lò Bạc"
 	quest.61999669BDE127F9.quest_desc: [
 		"Nếu bạn chưa nhận ra, việc làm và làm lại nghi lễ nhiều lần rất làm hao mòn độ bền của Phấn (Chalk) của bạn. "
-		""
 		"Nếu bạn lo lắng về việc Phấn của bạn bị gãy, nhưng không muốn làm lại toàn bộ nghi lễ để tạo một phấn mới, thì nghi lễ này dành cho bạn!"
-		""
 		"Sử dụng sức mạnh của một &aDijinni&r, bạn có thể sửa chữa bất kỳ màu nào của Phấn đến mức tối đa!"
-		""
 		"Ngoài ra, bạn có thể dùng thứ như &aEternal Stella&r từ mod Forbidden Arcanus để bảo tồn vĩnh viễn Phấn của bạn!"
 	]
 	quest.61999669BDE127F9.quest_subtitle: "Bạn phá nó, &mwe&r Quỷ sửa nó!"
@@ -4591,13 +4209,9 @@
 	quest.62D39F68DE6E44A4.title: "&5Arcana"
 	quest.6313B18820445882.quest_desc: [
 		"&9Industrial Turbine&r là một cấu trúc đa khối khổng lồ được dùng để chuyển đổi &cHeated Coolant&r thành năng lượng. Kích thước tối thiểu là 5x5x5, với kích thước tối đa là 17x17x18."
-		""
 		"Để xây dựng Turbine, chúng ta sẽ cần một số khối nên hãy bắt đầu với những thứ cơ bản."
-		""
 		"Giống như hầu hết các multiblock của Mekanism, khung phải được làm từ &eTurbine Casings&r. Tuy nhiên, thay vì Reactor Glass, bạn có thể dùng &bStructural Glass&r hoặc Casings cho mỗi mặt."
-		""
 		"Chúng ta sẽ xây dựng Turbine này, và nhiệm vụ yêu cầu chính xác các vật liệu cần thiết."
-		""
 		"{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1}"
 	]
 	quest.6313B18820445882.quest_subtitle: "Xây dựng khung"
@@ -4644,7 +4258,6 @@
 	quest.641888DC7BC40AA9.title: "&aPháo đài Evoker"
 	quest.6431A384DDFBF439.quest_desc: [
 		"&bNetwork Tool&f là một công cụ quan trọng trong AE2, được sử dụng để hiển thị nhiều chi tiết khác nhau của mạng lưới trên màn hình như tổng mức tiêu thụ năng lượng và dung lượng lưu trữ. "
-		""
 		"Như một phần thưởng bổ sung, nó còn cung cấp kho đồ nhỏ của riêng mình để giữ &eupgrade cards&f, có thể truy cập khi nhìn vào màn hình của bất kỳ thiết bị có thể nâng cấp nào để thay thế dễ dàng. Tuy nhiên, nó không thể xoay các khối gắn vào mạng ME như một cái mỏ vít thông thường, chỉ có thể tháo dỡ chúng khi đang rình."
 	]
 	quest.6431A384DDFBF439.title: "Công cụ Mạng"
@@ -4655,22 +4268,18 @@
 	quest.643FB1A3ED0EA9EC.title: "Van"
 	quest.6451D5022BCB5E7E.quest_desc: [
 		"Thịt bò vĩnh cửu, à sai mod rồi. §cInfinity Ham§r hoạt động như một nguồn thức ăn vô hạn. Ăn hết thịt trên xương và nó sẽ tái tạo sau một thời gian. Bạn có thể nâng cấp nó để lấp đầy bụng nhiều hơn."
-		""
 		"Khả năng thứ hai của §cInfinity Ham§r là ướp nó trong các Potion. Khi bạn làm vậy, mỗi lần ăn từ §cHam§r bạn sẽ nhận được hiệu ứng Potion đó. Tuy nhiên, nếu bạn ăn hết thịt, nó sẽ mất hiệu ứng."
 	]
 	quest.6451D5022BCB5E7E.quest_subtitle: "Có thể tìm thấy trong Hầm mỏ hoặc Pháo đài"
 	quest.6451D5022BCB5E7E.title: "§cInfinity Ham"
 	quest.64D0D69ADB8820DA.quest_desc: [
 		"§8Fluid Void§r là một khối chặn mọi nước được kết nối với nó."
-		""
 		"Các khối nguồn hoặc nước chảy, bất cứ gì trong bán kính 1 khối đều biến mất."
 	]
 	quest.64D0D69ADB8820DA.title: "§8Fluid Void"
 	quest.652A14E17DDE97E6.quest_desc: [
 		"Một cái khác cần Ruined Book để chế tạo. Bạn có thể tìm thấy Ruined Books trong các Rương của §9Ancient City§r."
-		""
 		"Bạn cũng cần Dragon Skin rơi từ §dEnder Dragon§r!"
-		""
 		"Nó sẽ có 12 §3Spell§r Slot và tăng cường §dEnder Spells§r!"
 	]
 	quest.652A14E17DDE97E6.title: "§dDragonskin Spell Book"
@@ -4681,11 +4290,8 @@
 	quest.654F5C84114A31A1.title: "&4Bộ đồ bù nhìn"
 	quest.6581D4AF1A6DE230.quest_desc: [
 		"Quỷ thích nến. Tôi nghĩ vậy."
-		""
 		"Gần như mọi nghi lễ triệu hồi bạn bè đều cần một ít nến. Bạn có thể tạo &aCon dao lưỡi búa&r và giết một số heo, bò, cừu, ngựa, hoặc thậm chí Lạc đà thương gia để lấy một ít &aMỡ&r để làm chúng. Thực tế, bạn nên tìm Lạc đà thương gia. Tôi nghe nói chúng làm nến rất tốt. &mTôi hoàn toàn không vừa mới bịa ra chuyện đó&r."
-		""
 		"Nếu không, nến Vanilla cũng có thể dùng được!"
-		""
 		"&9Tinh thể linh hồn&r cũng được dùng trong một số nghi lễ, vậy nên hãy làm một ít ngay bây giờ!"
 	]
 	quest.6581D4AF1A6DE230.title: "Chuẩn bị cho một nghi lễ: &aNến"
@@ -4693,7 +4299,6 @@
 	quest.659A903F97F93BE2.title: "Bánh mì của sự sống"
 	quest.65A529C8238E89F1.quest_desc: [
 		"Nhờ &5&lMekanism&r chúng ta giờ có thể làm giáp từ &9Lapis Lazuli&r! "
-		""
 		"Nó khá tệ thôi..."
 	]
 	quest.65A529C8238E89F1.quest_subtitle: "9"
@@ -4713,9 +4318,7 @@
 	quest.66039B738CF0718A.title: "&3Vibranium&r - &6Allthemodium&r Thỏi hợp kim"
 	quest.661C072E48F8D41F.quest_desc: [
 		"&6Đồng&r là một trong những quặng phổ biến nhất bạn có thể tìm thấy, vậy tại sao không dùng một đống &6đồng&r thừa để nâng cấp lò nung của bạn!"
-		""
 		"Lò nung thông thường mất 200 Tick để nung chảy 1 vật phẩm, (20 Tick = 1 Giây) trong khi &6Lò đồng&r chỉ mất 180 Tick."
-		""
 		"Chúng có thể được chế tạo thành &7Bạc&r hoặc &fLò sắt&r."
 	]
 	quest.661C072E48F8D41F.title: "&6Lò đồng"
@@ -4751,9 +4354,7 @@
 	quest.66ECC26BC81D0093.title: "Cấp độ: &bCơ bản"
 	quest.672134A1A620EEAB.quest_desc: [
 		"Có nhiều cách để lưu trữ năng lượng! "
-		""
 		"&9Powah&r cung cấp lưu trữ tuyệt vời bằng &aEnergy Cells&r có thể nâng cấp, hoặc bạn luôn có thể chọn phong cách multiblock của &aRFTools&r dùng &aPowercells&r! Lựa chọn thuộc về bạn. "
-		""
 		"Lưu ý: Bạn chỉ cần tạo một trong các vật phẩm để hoàn thành nhiệm vụ."
 	]
 	quest.673FCBF8685D0EEE.quest_desc: [
@@ -4762,7 +4363,6 @@
 		"Bạn sẽ cần tạo một cấu trúc hình hộp chữ nhật. Các cạnh phải được làm từ &8Induction Casings&r. Các mặt có thể làm từ Casings, &aStructural Glass&r, hoặc &cInduction Ports&r. Tốt nhất nên có 2 Ports: một cho đầu vào, một cho đầu ra. Chúng có thể thay đổi bằng &eConfigurator&r.\"
 		"\"
 		"Đối với công trình này, chúng ta sẽ làm một khối 5x5x5. Nhiệm vụ này yêu cầu chính xác số vật liệu cần thiết để xây dựng.\"
-		""
 		"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
 	]
 	quest.673FCBF8685D0EEE.quest_subtitle: "Bố của Energy Cube"
@@ -4776,7 +4376,6 @@
 	quest.67704F7341EDCC49.title: "&bBa lô Kim cương"
 	quest.677365A816994C8B.quest_desc: [
 		"Máy Phát Người Chơi &9 sẽ sạc đồ của người chơi mà không dây. Trước tiên, bạn phải ràng buộc nó với một người chơi bằng &9Thẻ Ràng Buộc&r. Đây là thẻ cơ bản cho phép máy phát chỉ hoạt động trong cùng một chiều không gian. Bạn có thể nâng cấp bằng cách sử dụng &dThẻ Ràng Buộc (Dimensional)&r thay thế. "
-		""
 		"Lưu ý: Để nhận được Player Aerial Pearl, hãy sử dụng Aerial Pearl lên một Zombie hoặc Husk."
 	]
 	quest.677A701E06422CF3.quest_desc: [
@@ -4786,7 +4385,6 @@
 	quest.677A701E06422CF3.title: "&cGiày Trượt"
 	quest.67884BFA27870CCE.quest_desc: [
 		"&dLời Triệu Hồi Không Ràng Buộc của Osorin&r là cấp độ thứ hai của &dNghi Lễ Không Quỷ&r. Cấp độ đầu tiên không hữu ích cho sự tiến triển chút nào, nó chỉ được dùng để hồi sinh Familiars và biến Vexes thành Allays. "
-		""
 		"Nghi lễ này được dùng để tạo ra rất nhiều khối, vật phẩm và nguyên liệu hiếm mà bạn có thể không thể (hoặc khó) có được cách khác."
 	]
 	quest.67884BFA27870CCE.quest_subtitle: "Dành cho những người ít thích thử nghiệm phòng thí nghiệm."
@@ -4802,7 +4400,6 @@
 		"&9Mekanism's&r &aInduction Matrix&r là cách tối ưu để lưu trữ năng lượng của bạn.\"
 		"\"
 		"Nếu bạn đang tìm kiếm kho lưu trữ năng lượng tốt nhất trong game, hãy xem chương nhiệm vụ &aMekanism:&r &dReactors&r.\"
-		""
 		"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:center fit:true}"
 	]
 	quest.682034C680FDEDC2.title: "Lưu trữ Năng lượng Nhiều hơn"
@@ -4876,7 +4473,6 @@
 	quest.68E6AE1B9EBCEFFF.title: "&3Chùy Vibranium"
 	quest.690B89D23134B624.quest_desc: [
 		"Lấy phấn của bạn, vẽ nghi lễ &dLiên hệ Ronaza&r của bạn, và sẵn sàng tạo ra PHẤN TUYỆT ĐỐI!"
-		""
 		"Thay vì phải mang theo một bộ đầy đủ 16 cây phấn, bạn có thể sử dụng Phấn Cầu Vồng để vẽ một Rune đổi màu được tính là bất kỳ cái nào trong số chúng!"
 	]
 	quest.690B89D23134B624.title: "&cR&6a&ei&an&9b&5o&dw&r Phấn"
@@ -5000,9 +4596,7 @@
 	quest.6C001E18093FC037.title: "Cây trồng"
 	quest.6C1BBA559963B3DF.quest_desc: [
 		"&aDictionary Of Spirits&r đóng vai trò như Sổ tay Hướng dẫn cho &dOccultism&r. Bạn chắc chắn cần làm cái này nếu bạn muốn tiếp tục với mod!"
-		""
 		"Từ điển có một hướng dẫn theo kiểu nhiệm vụ bên trong nếu bạn thích đọc nó thay vì làm những nhiệm vụ này!"
-		""
 		"Bạn cũng sẽ cần cuốn sách này để chế tạo một số thứ trong pack, vì vậy bạn gần như phải làm nó. :)"
 	]
 	quest.6C1BBA559963B3DF.title: "Cuốn sách nhỏ về &cDemons"
@@ -5042,11 +4636,8 @@
 	quest.6CAD67D21E1EA861.title: "&7&lBộ phát Nexium"
 	quest.6CC5FE34778F0DFA.quest_desc: [
 		"Khi chơi modpack này, bạn chắc chắn sẽ có quá nhiều item. Nó chỉ đơn giản là hoạt động, và nếu bạn chưa giải quyết được vấn đề lưu trữ, thì &dDimensional Storage&r có thể là giải pháp phù hợp cho bạn!"
-		""
 		"Để bắt đầu với giải pháp lưu trữ kỳ diệu này, bạn cần chế tạo &dDimensional Storage Actuator&r và đặt nó xuống thế giới. Nó hoạt động giống như một Shulker Box, nghĩa là nếu bạn phá nó, nó sẽ không mất bất kỳ item nào được lưu bên trong."
-		""
 		"Mặc định, nó có 128 ô lưu trữ, mỗi ô có thể chứa tối đa 16 chồng item, ngoại trừ các item có dữ liệu &5NBT&r. Chúng sẽ không chồng được và sẽ chiếm toàn bộ một ô, vì vậy hãy chắc chắn để những item này ra ngoài!"
-		""
 		"Nếu bạn không chắc chắn item nào có dữ liệu NBT, bạn luôn có thể xem nhiệm vụ \"NBT and You\" trong chuỗi nhiệm vụ Storage để biết thêm thông tin về NBT!"
 	]
 	quest.6CC5FE34778F0DFA.title: "&c&mDemonir&r &dKho lưu trữ Ma thuật&r!"
@@ -5162,7 +4753,6 @@
 	quest.6E3D53D1C4569A89.title: "&aNâng cấp máy bơm kinh nghiệm"
 	quest.6E5954C257726F86.quest_desc: [
 		"Lọc theo từng mod có thể rất hữu ích."
-		""
 		"Để sử dụng, hãy đặt một vật phẩm từ một mod cụ thể, sau đó nó sẽ hiển thị tên mod, và nhấn nút Cộng để thêm nó!"
 	]
 	quest.6E9041744C592573.quest_desc: [
@@ -5175,26 +4765,20 @@
 	quest.6ECDD26CCCBC07C3.title: "&6Áo giáp Allthemodium"
 	quest.6EDAB29FBD3C60A3.quest_desc: [
 		"Vùng sinh thái này được giới thiệu trong Bản cập nhật Hoang dã!"
-		""
 		"Cẩn thận! Bạn có thể vô tình triệu hồi một người bạn mới."
-		""
 		"P.S. - Anh ta không thân thiện."
 	]
 	quest.6EDAB29FBD3C60A3.title: "&6Tham quan Vùng &dTối Sâu&r!"
 	quest.6EE5BE5693E8ACE4.quest_desc: [
 		"Trong &dThế giới Cuối&r, bạn sẽ tìm thấy trùm cuối cùng của Minecraft gốc: &5Rồng End&r."
-		""
 		"Ở đỉnh mỗi cột Đá Obsidian, bạn sẽ tìm thấy Pha lê End chữa lành cho Rồng. Hãy đảm bảo phá chúng trước tiên! Chúng cũng gây nhiều sát thương, nên hãy tạo khoảng cách!"
-		""
 		"Khi đánh bại, một &dTrứng Rồng&r sẽ xuất hiện ở đỉnh Cổng Thoát. Nó không thể khai thác như các khối thường, nhưng bị ảnh hưởng bởi trọng lực."
 	]
 	quest.6EE5BE5693E8ACE4.title: "&5Thế giới Cuối"
 	quest.6EE68EEFE388CF8A.quest_subtitle: "&f4 &cSát Thương Tấn Công"
 	quest.6F3D0A248B5A9CA2.quest_desc: [
 		"&bÔ Dự Trữ Không Gian&f được dùng để chứa một thể tích xác định mỗi cái, và có ba dung lượng khác nhau cho phép tối đa 2x2x2, 16x16x16 và 128x128x128 khối không gian. "
-		""
 		"Khi mã hóa, một ô được cấp phát một phần không gian trong &ekhông gian lưu trữ&f, cùng với một ID duy nhất tương ứng với vùng được cấp phát cho ô. Một ô đã mã hóa vẫn có thể được dùng trong Cổng Vào/Ra Không Gian để lấy lại bất kỳ khối và thực thể nào đã lưu trữ. "
-		""
 		"Từ đó, bất kỳ khối nào nằm trong vùng không gian của ô hoặc trong một SCS có cùng kích thước như cái dùng để mã hóa ban đầu đều có thể được di chuyển ngược lại về thế giới bình thường hoặc vào không gian tương ứng. Nếu có khối vừa trong vùng không gian vừa trong SCS, chúng sẽ đơn giản là hoán đổi vị trí cho nhau."
 	]
 	quest.6F3D0A248B5A9CA2.title: "Ô Dự Trữ Không Gian"
@@ -5239,16 +4823,13 @@
 	]
 	quest.6FF54B5D953E1797.quest_desc: [
 		"Nếu bạn biết thuật ngữ '§4Berserk§r' trong hầu hết các trò chơi, điều đó sẽ giúp bạn hiểu '§cRage Glove§r' hoạt động như thế nào. Nếu bạn không biết, cơ bản của §4Berserk§r là khi ai đó có máu thấp hoặc nhận nhiều sát thương, họ thường sẽ gây ra sát thương cao hơn và nhanh hơn. Đó là điều xảy ra với Khả năng Đầu tiên, khi bạn nhận sát thương, bạn tích lũy điểm có thể đổi lấy sát thương và tốc độ cao hơn! "
-		" "
 		"Khả năng Thứ hai làm điều đó một cách thụ động, và cho bạn Hồi sinh theo lượng máu bạn đã mất. "
-		" "
 		"Khả năng Thứ ba là một khả năng chủ động, khi sử dụng nó (Alt Tab) bạn sẽ lao và tấn công bất kỳ sinh vật nào bạn đang nhìn vào. Khi bị đánh trúng, nó sẽ đốt cháy chúng §cFire§r, gây chảy máu, và bất kỳ điểm §4Berserk§r tích lũy nào sẽ gây thêm sát thương!"
 	]
 	quest.6FF54B5D953E1797.quest_subtitle: "Có thể tìm thấy ở Cổng Phá hủy, Pháo đài Nether và Bastion"
 	quest.6FF54B5D953E1797.title: "§cRage Glove"
 	quest.6FFFAE334DFAAAAB.quest_desc: [
 		"Như bạn có thể đã nhận thấy, nghi lễ thường... hơi chậm. Nhưng không còn nữa! Sử dụng §cSevira's Permanent Confinement§r, bạn có thể tạo ra §bIesnium Ritual Bowl§r."
-		""
 		"Khi sử dụng thay cho Golden Ritual Bowl, nó giảm đáng kể thời gian thực hiện nghi lễ, xuống còn một phần tư thời gian ban đầu!"
 	]
 	quest.6FFFAE334DFAAAAB.quest_subtitle: "Nghi lễ Siêu tốc độ!"
@@ -5257,16 +4838,13 @@
 	]
 	quest.70B6C9409AE69284.quest_desc: [
 		"Nature's Compass cung cấp cho bạn danh sách các vùng sinh thái bạn có thể tìm kiếm."
-		""
 		"Chọn một vùng sinh thái, sau đó nhấn 'Tìm kiếm.' Bạn sẽ thấy một số thông tin ở góc trái trên, và la bàn sẽ chỉ hướng đến vùng sinh thái đó."
-		""
 		"Explorer's Compass hoạt động tương tự nhưng dành cho cấu trúc, thay vì vùng sinh thái."
 	]
 	quest.70B6C9409AE69284.quest_subtitle: "Giúp tìm Vùng sinh thái/Cấu trúc"
 	quest.70B6C9409AE69284.title: "La bàn để Tìm kiếm"
 	quest.70C7D92844089DEB.quest_desc: [
 		"Giống như các Pendant khác, cái này có cơ hội làm tổn thương kẻ tấn công bạn, chỉ với Tia chớp! "
-		""
 		"Ngoài ra còn khiến nếu bạn (không) may mắn bị Tia chớp đánh trúng, nó sẽ không làm bạn bị thương."
 	]
 	quest.70C7D92844089DEB.quest_subtitle: "Vòng cổ"
@@ -5317,7 +4895,6 @@
 		"Để lấy nó, bạn sẽ cần chải suspicious Clay.\"
 		"\"
 		"Bạn có thể tìm thấy nó trên sàn của Ancient City.\"
-		""
 		"{image:atm:textures/questpics/allthemodium/all_clay.png width:200 height:100 align:center}"
 	]
 	quest.71E4FD61787DE299.title: "&6Allthemodium Smithing Template"
@@ -5368,11 +4945,8 @@
 	quest.728BE1816DA23DC0.title: "Giết Rồng End"
 	quest.72989212DD45DC10.quest_desc: [
 		"Để tìm quả trứng này, bạn sẽ cần quét đi &aCát đáng ngờ&r trong các tàn tích Đại dương Ấm."
-		""
 		"Bạn có thể đặt quả Trứng vào thế giới và nó sẽ từ từ nở thành một &dSnifflet&r. Việc này mất khoảng 20 phút để nở bình thường, nhưng có thể đặt trên một khối Rêu để tăng gấp đôi tốc độ nở, chỉ mất 10 phút."
-		""
 		"Snifflet cuối cùng sẽ phát triển thành một &dSniffer&r trưởng thành có thể đào lên các vật phẩm như &2Torchflower Seeds&r hoặc &2Pitcher Pods&r khi chúng đi qua các khối mà chúng có thể đào."
-		""
 		"Bạn có thể giao phối 2 Sniffer trưởng thành bằng cách sử dụng Torchflowers."
 	]
 	quest.72989212DD45DC10.quest_subtitle: "Người họ xa của Scruff McGruff"
@@ -5384,7 +4958,6 @@
 	quest.729DCB919A92B735.title: "Trang trí Giáp Bolt"
 	quest.72A71E1D6D8996FD.quest_desc: [
 		"Đây có phải là code? Tôi không phải là lập trình viên!? Tôi chỉ muốn tạo ra những nhiệm vụ này! "
-		""
 		"Ở đây, bạn có thể nhập một Regex vào thanh Tìm kiếm và nhấn nút Cộng để thêm nó vào Bộ lọc. Bất cứ khi nào Regex đó xuất hiện, nó sẽ bị lọc ra."
 	]
 	quest.72AB70FD8D8FABBF.quest_subtitle: "&cThe Nether&r!"
@@ -5414,30 +4987,25 @@
 	quest.7338CA23B27B2AF8.quest_subtitle: "&f12 &cSát thương tấn công"
 	quest.73B73870B29DFAD9.quest_desc: [
 		"Một trong chúng ta! Một trong chúng ta!"
-		""
 		"Chiếc &eMũ Người Làng&r khiến người làng tin rằng bạn đến từ cùng một thị trấn nên họ loại bỏ Thuế Người Ngoài Thị Trấn. Giao dịch với Người Làng rẻ hơn."
 	]
 	quest.73B73870B29DFAD9.quest_subtitle: "Đầu"
 	quest.73B73870B29DFAD9.title: "&eMũ Người Làng"
 	quest.73B8A70240E6070E.quest_desc: [
 		"Tìm một con Bò và nhấp chuột phải vào nó bằng một Xô."
-		""
 		"Thật đấy, tại sao không có Bò đực?"
 	]
 	quest.73B8A70240E6070E.quest_subtitle: "Tại sao trong trò chơi không có Bò đực?"
 	quest.73B8A70240E6070E.title: "Vắt sữa bò - Kiếm lời"
 	quest.73D60868024FF907.quest_desc: [
 		"Dung dịch MK2!"
-		""
 		"Bất kỳ Nguồn Dung dịch nào gần đây đều có thể sử dụng với cái này, không chỉ kề cận."
 	]
 	quest.73D6B980D35082A0.quest_desc: [
 		"Cái này mất một chút thời gian để giải thích nên hãy kiên nhẫn."
-		""
 		"Đầu tiên, tìm một &aPháo đài Evoker&r."
 		"Tiếp theo, tìm một Sách Nghiên cứu được ẩn trong đó. Sau đó, nhờ một Thương nhân đang bị bắt làm con tin trong &aPháo đài&r dịch nó. (Giống như những người dịch nhiệm vụ con tin của chúng ta!)"
 		"Một khi đã dịch xong, hãy mang nó đến &6&lLinh mục&r trong một &6Làng&r để đổi lấy &eSách Phép&r!"
-		""
 		"Nó tăng cường &6Phép Thánh&r và đừng lo, các Thương nhân con tin rất rất hiếm, cứ tiếp tục tìm kiếm!"
 	]
 	quest.73D6B980D35082A0.title: "&6Kinh Thánh Người Làng"
@@ -5569,14 +5137,12 @@
 	quest.7749703A10B78AB1.title: "&8Chiếc đai Drowned"
 	quest.7778937DF377C1B4.quest_desc: [
 		"Đây là một lựa chọn tuyệt vời để tạo ra sức mạnh."
-		""
 		"Nó tạo ra khoảng 96FE/t ở mực nước biển, và tăng dựa trên độ cao của bạn. Càng cao Y level, nó càng tạo ra nhiều sức mạnh hơn!"
 	]
 	quest.7778937DF377C1B4.quest_subtitle: "Tạo năng lượng từ gió"
 	quest.779CA0C49F93C4F9.quest_subtitle: "729 Đá Obsidian"
 	quest.77C9EE701F72586D.quest_desc: [
 		"&bÔ di động&f hoạt động giống hệt ô thông thường, có thể được chèn vào rương hoặc ổ đĩa và được lấp đầy tương ứng. "
-		""
 		"Tuy nhiên, khác với ô thông thường, nội dung của chúng cũng có thể được truy cập độc lập thông qua chính vật phẩm ô, giống như một cái ba lô kỹ thuật số mang hương vị ME."
 	]
 	quest.77F241BEE9902751.quest_desc: [
@@ -5626,7 +5192,6 @@
 	quest.78AA7BFABBFB9973.title: "&2Kinh Druid"
 	quest.78D1C97A542133D8.quest_desc: [
 		"Augments là các Nâng cấp cho Lò Luyện Sắt!"
-		""
 		"Ở góc trên bên phải của giao diện Lò Luyện sẽ có nút để xem phần Augment. Sẽ có vị trí Đỏ, Xanh lá, và Xanh lam, mỗi vị trí có thể chứa 1 Augment màu tương ứng."
 	]
 	quest.78D1C97A542133D8.title: "&lNâng cấp"
@@ -5647,20 +5212,15 @@
 	quest.78E66F1DE42C747A.title: "Vô hạn §9Mảnh Echo§r?"
 	quest.78ECC28DD4BA9696.quest_desc: [
 		"Trong khi bạn có thể lấy được phần lớn vật liệu §dThế giới khác§r bằng Spiritfire, bạn cũng có thể sử dụng §9Gậy Tiên tri§r để định vị những vật liệu này."
-		""
 		"Trước tiên, bạn sẽ cần kết nối Gậy với vật liệu bạn đang tìm kiếm. Ví dụ, nếu bạn đang săn lùng §8Đá Thế giới khác§r, bạn có thể sử dụng Gậy trên §aĐá andesit§r để giúp định vị Đá Thế giới khác trong thế giới."
-		""
 		"Một khi đã kết nối với một vật liệu, bạn có thể giữ chuột phải với Gậy trong tay, và một hạt phát ra theo hướng của vật liệu gần nhất mà nó đã kết nối."
-		""
 		"Bạn vẫn cần phải chịu tác động của §3Con mắt thứ ba§r để có thể thu hoạch khối Thế giới khác."
 	]
 	quest.78ECC28DD4BA9696.quest_subtitle: "Săn lùng Vật liệu §dThế giới khác§r"
 	quest.78ECC28DD4BA9696.title: "Công cụ chuyên dụng: Gậy Tiên tri"
 	quest.78FEDE6FA4845585.quest_desc: [
 		"Một số §d§lPhép hòa trộn§r cần những lượng rất, rất chính xác của §aEterna§r, §cQuanta§r, hoặc §5Arcana§r."
-		""
 		"Để có được chúng, bạn có thể cần một trong những §7Kệ§r này."
-		""
 		"Mỗi cái giảm số lượng của essence tương ứng."
 	]
 	quest.78FEDE6FA4845585.title: "§4Lượng âm§r"
@@ -5669,9 +5229,7 @@
 	quest.7940E814260C556F.title: "§bHợp kim Củng cố"
 	quest.79757F66DF263FA0.quest_desc: [
 		"Để tạo ra phản ứng để Lò phản ứng bật, chúng ta sẽ cần đưa vào một lượng lớn năng lượng. §oVà tôi nói là một lượng lớn năng lượng§r."
-		""
 		"Điều này yêu cầu bạn thiết lập một số §9Tia laser§r mà tất cả cần được cấp năng lượng, sau đó bắn 400MFE trực tiếp vào Ma trận Tập trung Laser."
-		""
 		"Ma trận Tập trung Laser được đặt ở trung tâm của một mặt của Lò phản ứng nhiệt hạch. Chúng ta sẽ xây dựng các Tia laser tiếp theo."
 	]
 	quest.79757F66DF263FA0.quest_subtitle: "Tia Laser Khốn Kiếp"
@@ -5739,26 +5297,18 @@
 	quest.7AE502EDB73BD57A.quest_subtitle: "Nó nghiền mọi thứ."
 	quest.7B0764DDE94E73D0.quest_desc: [
 		"Sử dụng một số cơ chế vanilla và 2 &aFission Reactor Logic Adapters&r, chúng ta có thể tạo một công tắc đơn giản để ngắt và tắt lò phản ứng &o&e trong trường hợp mọi thứ trở nên điên rồ&r."
-		""
 		"Để làm điều này, chúng ta cần một mảnh Redstone, một Piston, một khối cát hoặc sỏi, và một Observer."
-		""
 		"Trên một mặt, chúng ta sẽ đặt một Logic Adapter xuống, sau đó bỏ qua một khối phía trên nó và đặt một Adapter khác. Đặt Adapter trên cùng thành &9Kích hoạt&r, và Adapter dưới cùng thành &cTổn thất nghiêm trọng&r."
-		""
 		"Tiếp theo, phía trước và bên dưới Adapter dưới, đặt bất kỳ khối xây dựng nào và gắn một mảnh Redstone lên nó dẫn từ Adapter. Sau đó chúng ta sẽ đặt một Piston hướng lên phía trước mảnh Redstone đó, rồi đặt mảnh cát hoặc sỏi lên Piston đó."
-		""
 		"Phần cuối cùng của công tắc, đặt Observer với mặt hướng &b ra ngoài về phía thiết lập Piston&r. &9Điều này quan trọng&r!"
-		""
 		"Bất cứ khi nào Lò phản ứng bị tổn thất nghiêm trọng, nó sẽ kích hoạt Adapter dưới, khiến Redstone nhận tín hiệu, sau đó kích hoạt Piston và đẩy cát/sỏi lên. Điều này sẽ kích hoạt Observer, sau đó tắt Lò phản ứng."
-		""
 		"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
 	]
 	quest.7B0764DDE94E73D0.quest_subtitle: "Cần hình ảnh? Xem Ponder!"
 	quest.7B0764DDE94E73D0.title: "Ví dụ về Công tắc"
 	quest.7B0DFA55B4D8B16D.quest_desc: [
 		"Để tạo một Cổng tùy chỉnh, đặt một khối Teleporter xuống. Kết nối nguồn điện vào khối."
-		""
 		"Tạo một \"Khung cổng\" với khối Teleporter làm đáy của cổng."
-		""
 		"Sản phẩm cuối cùng sẽ là một cấu trúc cổng 4x3, với hai khối ở giữa tạo thành cổng."
 	]
 	quest.7B0DFA55B4D8B16D.quest_subtitle: "Dịch chuyển tinh hoa"
@@ -5769,7 +5319,6 @@
 		"Đặt Energizing Orb xuống rồi đặt Energizing Rods hướng về nó. Energizing Rods cần được đặt trên một Power Source và sẽ gửi Năng lượng vào Orb. Lượng năng lượng mỗi cái chứa và gửi được xác định bởi Tier. \"
 		"\"
 		"Đặt các Ingot, 2 trái tim Piglich và một Khối Nitro Crystals X1 đã nén vào Orb (thứ tự không quan trọng). Sau khi 1 Tỷ FE được đưa vào Orb thông qua Rods, nó sẽ sẵn sàng!\"
-		""
 		"{ \"text\": \"POWAH QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }"
 	]
 	quest.7B4AF35313D7D779.quest_subtitle: "Bậc: &64"
@@ -5793,7 +5342,6 @@
 	quest.7BCD4A425CF6199B.title: "&#4E2C00Brown Chalk"
 	quest.7C07D6A33F7ADB02.quest_desc: [
 		"Đây là nâng cấp Ba lô, cho phép bạn đựng ba lô của mình bên trong ba lô khác."
-		""
 		"Vì vậy bạn có thể có ba lô trong ba lô khi cần ba lô của mình trong ba lô."
 	]
 	quest.7C07D6A33F7ADB02.quest_subtitle: "Ba lô trong ba lô của bạn?"
@@ -5808,7 +5356,6 @@
 	quest.7C3F65B5DAC7E57B.title: "&dShadow Glaive"
 	quest.7C61906C6C87C97D.quest_desc: [
 		"&9Electromagnetic Coil&r được đặt trực tiếp phía trên &aRotational Complex&r để chuyển năng lượng động thành điện năng."
-		""
 		"Bạn có thể sử dụng nhiều, với tối đa 7 cho một Turbine sử dụng 28 lưỡi. Chúng phải chạm vào một Coil khác, hoặc Rotational Complex."
 	]
 	quest.7C758209D06ED0E3.quest_desc: [
@@ -5918,7 +5465,6 @@
 	]
 	quest.7EFBAF3E281D2EBE.quest_desc: [
 		"Bus lưu trữ ME &bME Storage Bus&f, khi đối mặt với một container lưu trữ bên ngoài, sẽ cho phép container được sử dụng như thể nó là một phần của mạng ME, cho phép lấy vật phẩm ra từ container hoặc chèn vào nó hoàn toàn thông qua ME. "
-		""
 		"Bus lưu trữ có thể được lọc và được cấp ưu tiên cụ thể sao cho các vật phẩm cụ thể sẽ cố gắng đi đến bộ lưu trữ đính kèm trước, tuy nhiên nó sẽ không di chuyển ngược lại bất kỳ vật phẩm đã lọc nào từ bất kỳ đâu trong mạng đến bộ lưu trữ đính kèm của nó."
 	]
 	quest.7EFBAF3E281D2EBE.quest_subtitle: "Rương dự phòng"
@@ -5932,7 +5478,6 @@
 		"Hầu hết thời gian, Ma quỷ chỉ thích các vật phẩm nên đừng quá sợ hãi. Tuy nhiên, nếu bạn có con Bò yêu quý, bạn có thể cần phải lo lắng. Xin lỗi Betsy.\"
 		"\"
 		"&aChén hiến tế&r được dùng để đặt các vật phẩm cần thiết cho Lễ nghi. Chúng có thể được đặt ở bất kỳ đâu trong Lễ nghi, miễn là nó không che phủ bất kỳ phấn vẽ (Chalk) cần thiết nào. "
-		""
 		"Bây giờ, bạn chỉ cần bốn cái, nhưng sau này bạn sẽ cần hơn mười cái chén cho mỗi lễ nghi!\"
 		"\"
 		"&6Chén hiến tế vàng&r được dùng ở giữa Lễ nghi để kích hoạt nó, và thường cũng cần một Sách Ràng Buộc (Book of Binding) cho Lễ nghi bên trong nó."
@@ -5957,9 +5502,7 @@
 	quest.7F2D696AC9F4C4E4.title: "&bGương Ma thuật"
 	quest.7F59941D62E672B0.quest_desc: [
 		"Occultism cung cấp nhiều hơn chỉ là Quỷ để nghiền quặng của bạn!"
-		""
 		"Có những Quỷ có thể di chuyển đồ đạc cho bạn, chặt gỗ, và nhiều hơn nữa!!"
-		""
 		"Còn có cách để triệu hồi những người bạn tuyệt vời được gọi là &dThân tộc&r cho bạn các hiệu ứng đặc biệt và thậm chí chiến đấu cho bạn! Hãy chắc chắn xem các &dNghi thức Thân tộc&r trong sách hướng dẫn của bạn!"
 	]
 	quest.7F59941D62E672B0.title: "&dThân tộc"

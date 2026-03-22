@@ -22,16 +22,13 @@
 	quest.0E716B90E60C486B.title: "&4Dây chuyền hoảng loạn&r"
 	quest.11C5F17C6BB1237B.quest_desc: [
 		"Khi đeo &5Vòng tay hủy diệt&r, các tấn công cận chiến có cơ hội gây hiệu ứng Hủy diệt."
-		""
 		"Xin lỗi người dùng cung!"
 	]
 	quest.11C5F17C6BB1237B.quest_subtitle: "Cổ tay (Tay)"
 	quest.11C5F17C6BB1237B.title: "&5Vòng tay hủy diệt&r"
 	quest.122E6E7CABCB17E7.quest_desc: [
 		"Vì một lý do nào đó, Creepers sợ Mèo. Creepers cũng rất ngu ngốc và tin rằng những con Mèo mà đôi &7Dép&r của bạn trông giống là thật."
-		""
 		"Tất cả Creepers sẽ chạy xa bạn và không hung dữ khi đeo đôi &7Dép&r này."
-		""
 		"Ngoài ra còn phát ra tiếng kêu Mèo khi bạn bị tổn thương! (Tuy nhiên không thể đảm bảo bạn luôn hạ cánh an toàn trên đôi Chân của mình)."
 	]
 	quest.122E6E7CABCB17E7.quest_subtitle: "Bàn chân"
@@ -248,32 +245,25 @@
 	quest.5EB7CE3A1DCD3E9B.title: "&cUniversal Attractor&r"
 	quest.5F5E43B3F51CAE9E.quest_desc: [
 		"'Chúng thật là thần kỳ và ngon!' "
-		""
 		"Chiếc &aSuperstitious Hat&r cấp cho bạn một cấp độ Looting bổ sung khi giết quái vật! "
-		""
 		"Nó có thể chồng chất với các phép thuật!"
 	]
 	quest.5F5E43B3F51CAE9E.quest_subtitle: "Đầu"
 	quest.5F5E43B3F51CAE9E.title: "&aSuperstitious Hat"
 	quest.5FD6A738754F6013.quest_desc: [
 		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Community contributor&r để sử dụng trong các Modpack AllTheMods. "
-		""
 		"Vì tất cả các pack &6AllTheMods&r đều được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. "
-		""
 		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
 	]
 	quest.623796B1D7981E59.quest_desc: [
 		"'Cũng hãy thử Terraria!' "
-		""
 		"Khi trang bị, bạn sẽ nhận được 5 trái tim bổ sung! Hoặc 10 điểm máu! Tổng cộng lên đến 30 máu mặc định."
 	]
 	quest.623796B1D7981E59.quest_subtitle: "Thắt lưng"
 	quest.623796B1D7981E59.title: "&4Crystal Heart&r"
 	quest.62622137648A4F56.quest_desc: [
 		"Bạn có ghét phải Khai thác rồi Nấu chảy quặng của mình bằng hai vật phẩm khác nhau không? Vâng, giờ đây bạn có thể lười hơn bao giờ hết với &7Pickaxe Heater&r! "
-		""
 		"Khi đeo &7Pickaxe Heater&r, quặng bạn Khai thác sẽ tự động được Nấu chảy! "
-		""
 		"Có lẽ bạn nên cẩn thận với nó nếu bạn muốn Xử lý quặng."
 	]
 	quest.62622137648A4F56.quest_subtitle: "Tay"

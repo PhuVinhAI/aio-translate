@@ -61,11 +61,8 @@
 	quest.3514E9C1A8C7400C.title: "&bKhung Máy Đơn giản"
 	quest.3CB7884B7B32CF00.quest_desc: [
 		"Lần đầu tiên lấy được &bEther Gas&r có thể hơi đáng sợ."
-		""
 		"&bEther Gas&r được tạo ra bằng cách khoan Wither, sử dụng Fluid Drill với &5Purple Lens&r."
-		""
 		"Nhưng đừng lo về Wither, Industrial Foregoing có một máy giúp bạn với nhiệm vụ đó. &4Stasis Chamber&r là một máy đóng băng mọi thứ trên nó trong khu vực 3x3, bao gồm Wither."
-		""
 		"&cHy vọng bạn không hết năng lượng, vì nếu hết... Tôi hy vọng bạn sẵn sàng chiến đấu với &0Wither&c."
 	]
 	quest.3CB7884B7B32CF00.quest_subtitle: "Ether Gas? Hả?"
@@ -93,14 +90,12 @@
 	quest.540B857F043C24D5.title: "Điện sinh học"
 	quest.55820773BDD5319D.quest_desc: [
 		"&bIndustrial Foregoing&r (viết tắt IF) là mod công nghệ bổ sung nhiều máy móc với các công dụng đa dạng."
-		""
 		"Để bắt đầu, chế tạo một &aPity Machine Frame&r."
 	]
 	quest.55820773BDD5319D.quest_subtitle: "Cấp độ: &a1"
 	quest.55820773BDD5319D.title: "Industrial Foregoing"
 	quest.57C4A0BAE739E903.quest_desc: [
 		"Buồng hòa tan dùng để chế tạo các máy móc tiên tiến hơn."
-		""
 		"Bạn cần đổ một loại chất lỏng cụ thể vào cùng với các vật liệu cần thiết cho món bạn đang chế tạo. Kiểm tra JEI."
 	]
 	quest.57C4A0BAE739E903.quest_subtitle: "Bàn chế tạo?"

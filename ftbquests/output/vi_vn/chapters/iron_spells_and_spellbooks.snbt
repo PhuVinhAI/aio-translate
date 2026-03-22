@@ -283,23 +283,19 @@
 	quest.5DE863C3FB6492BE.title: "&4Trang Phục Tín Đồ"
 	quest.5ED368C926E5F32C.quest_desc: [
 		"Có một lớp cuối cùng của &3Phép Thuật&r mà tôi quên đề cập. Thực ra mọi kiến thức về những &9Phép Thuật&r này đã bị lãng quên, nên không chỉ mình tôi."
-		""
 		"Để lấy lại ký ức, chúng ta cần đi, lặng lẽ, theo con đường ký ức. Đó chính là &9Thành Phố Cổ&r."
 	]
 	quest.5ED368C926E5F32C.title: "Lớp Cuối Cùng..."
 	quest.60FAD8BF235E381B.title: "&bMực Hiếm&r"
 	quest.615C3E012B2DECD3.quest_desc: [
 		"&eSách Phép&r! Bạn còn có thể để &3Phép Thuật&r ở đâu nữa?"
-		""
 		"Bạn có thể thêm &3Cuộn Phép&r vào một &eSách Phép&r bằng cách đặt cả hai vào Bàn Khắc Chữ. Chúng có một số lượng giới hạn nhưng không còn phải lo lắng về Độ Hiếm."
-		""
 		"Khi &3Cuộn Phép&r được thêm vào &eSách Phép&r của bạn, chúng sẽ không bị tiêu hao mà thay vào đó là Mana sẽ bị tiêu hao."
 	]
 	quest.615C3E012B2DECD3.title: "&eSách Phép&r!"
 	quest.637C87D8968CD51A.title: "&aMực Phổ Thông&r"
 	quest.639531AB27DCD267.quest_desc: [
 		"&7Rune&r là cách chúng ta tạo ra các Lớp và các bộ phận của chúng. Để có được một &7Rune Trống&r, bạn có thể giết &4&lVua Xác&r hoặc làm sạch một Rune Khắc bằng Đá Tẩy Uế."
-		""
 		"Có 8 lớp khác nhau (1 lớp bí mật), mỗi lớp có &3Cuộn Phép&r, Vật Liệu Tập Trung, Nâng Cấp và Trang Phục riêng."
 	]
 	quest.639531AB27DCD267.title: "&lLớp"
