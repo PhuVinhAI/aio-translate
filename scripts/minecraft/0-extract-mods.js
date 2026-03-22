@@ -1,13 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const AdmZip = require('adm-zip');
+const PATHS = require('../../config/paths.config');
 
 // Cấu hình đường dẫn
-const MODS_DIR = path.join(__dirname, 'mods');
-const OUTPUT_FILE = path.join(__dirname, 'output_to_translate.json');
-
-// Khởi tạo object chứa dữ liệu tổng
-const masterTranslationDict = {};
+const MODS_DIR = path.join(PATHS.ROOT, 'mods');
+const OUTPUT_FILE = PATHS.MINECRAFT.INPUT_JSON;
 
 function safeJsonParse(content, modName, fileName) {
     try {
@@ -19,12 +17,14 @@ function safeJsonParse(content, modName, fileName) {
     }
 }
 
-function processMods() {
-    console.log(`Đang quét thư mục: ${MODS_DIR}`);
+function extractMods() {
+    console.log('\n=== [Minecraft 0] Extract Mods → JSON ===');
+    console.log(`Đang quét thư mục: ${MODS_DIR}\n`);
 
     if (!fs.existsSync(MODS_DIR)) {
         console.error('[LỖI] Không tìm thấy thư mục mods!');
-        return;
+        console.error('Vui lòng tạo thư mục "mods" và copy các file .jar vào đó.');
+        process.exit(1);
     }
 
     const files = fs.readdirSync(MODS_DIR);
@@ -32,6 +32,7 @@ function processMods() {
 
     console.log(`Tìm thấy ${jarFiles.length} mod. Bắt đầu trích xuất...\n`);
 
+    const masterTranslationDict = {};
     let processedCount = 0;
 
     jarFiles.forEach(jarName => {
@@ -86,7 +87,6 @@ function processMods() {
                     // Bỏ qua nếu key tiếng Anh rỗng
                     if (!value || typeof value !== 'string' || value.trim() === "") continue;
 
-                    // ĐÚNG CHUẨN SO KHỚP Ở ĐÂY:
                     // 1. Nếu file VI hoàn toàn KHÔNG CÓ key này -> Cần dịch
                     // 2. Nếu file VI có key này nhưng value bị để trống -> Cần dịch
                     if (!viJson.hasOwnProperty(key) || viJson[key].trim() === "") {
@@ -98,7 +98,9 @@ function processMods() {
                 if (missingCount > 0) {
                     masterTranslationDict[modId] = missingTranslations;
                     if (hasViFile) {
-                        console.log(` -> [UPDATE] '${modId}' có sẵn Tiếng Việt nhưng bị thiếu ${missingCount}/${totalEnKeys} keys (Cập nhật mod). Đã trích xuất phần thiếu!`);
+                        console.log(` -> [UPDATE] '${modId}' có sẵn Tiếng Việt nhưng bị thiếu ${missingCount}/${totalEnKeys} keys. Đã trích xuất phần thiếu!`);
+                    } else {
+                        console.log(` -> [NEW] '${modId}' chưa có Tiếng Việt. Cần dịch ${missingCount} keys.`);
                     }
                 } else if (hasViFile && missingCount === 0) {
                     console.log(` -> [SKIP] '${modId}' đã được dịch đủ 100% (${totalEnKeys} keys). Bỏ qua!`);
@@ -106,7 +108,6 @@ function processMods() {
             }
 
             processedCount++;
-            // Bỏ in đè (process.stdout.write) để console.log hiển thị rõ ràng hơn
             if (processedCount % 10 === 0) {
                 console.log(`... Đang xử lý: ${processedCount}/${jarFiles.length} mods`);
             }
@@ -117,11 +118,20 @@ function processMods() {
     });
 
     console.log('\nĐang ghi dữ liệu ra file...');
+    
+    if (!fs.existsSync(path.dirname(OUTPUT_FILE))) {
+        fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
+    }
+    
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(masterTranslationDict, null, 4), 'utf8');
 
     const totalModsNeedingTranslation = Object.keys(masterTranslationDict).length;
-    console.log(`[HOÀN THÀNH] Phát hiện ${totalModsNeedingTranslation} mod có key cần dịch.`);
-    console.log(`File xuất ra tại: ${OUTPUT_FILE}`);
+    console.log(`\n✅ [HOÀN THÀNH] Phát hiện ${totalModsNeedingTranslation} mod có key cần dịch.`);
+    console.log(`✅ File xuất ra tại: ${OUTPUT_FILE}`);
 }
 
-processMods();
+if (require.main === module) {
+    extractMods();
+}
+
+module.exports = { extractMods };

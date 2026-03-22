@@ -18,9 +18,12 @@ function runScript(scriptPath, description) {
 }
 
 async function main() {
+  // Bước 0: Extract mods từ .jar
+  runScript(path.join(PATHS.ROOT, 'scripts', 'minecraft', '0-extract-mods.js'), '0. Extract Mods từ .jar');
+
   if (!fs.existsSync(PATHS.MINECRAFT.INPUT_JSON)) {
     console.error(`❌ File không tồn tại: ${PATHS.MINECRAFT.INPUT_JSON}`);
-    console.error(`Vui lòng chạy script extract_lang.js trước để tạo output_to_translate.json`);
+    console.error(`Lỗi khi extract mods. Vui lòng kiểm tra thư mục mods/`);
     process.exit(1);
   }
 
