@@ -1,12 +1,36 @@
 node_modules/
+dist/
 .env
 *.log
 .DS_Store
+Thumbs.db
 
 # Data directories
 data/temp/
+data/*.backup_*
 data/source/versions/
 data/translation/versions/
+
+# Build artifacts
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Desktop.ini
+
+# Backup files
+*.backup_*
+*.bak
+
+# Temp files
+temp/
+tmp/
 
 # Keep structure but ignore content
 !data/temp/.gitkeep

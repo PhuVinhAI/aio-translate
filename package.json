@@ -1,38 +1,57 @@
 {
-  "name": "princess-connect-translation",
-  "version": "2.0.0",
-  "description": "Princess Connect! Re:Dive - Translation Tool (EN → VI)",
-  "main": "scripts/update.js",
+  "name": "minecraft-modpack-translation",
+  "version": "3.0.0",
+  "description": "Minecraft Modpack Translation Tool - AI-powered translation for Minecraft mods, FTB Quests, and KubeJS scripts",
+  "main": "dist/index.js",
+  "type": "commonjs",
   "scripts": {
-    "import": "node scripts/1-import-source.js",
-    "detect": "node scripts/2-detect-changes.js",
-    "translate": "node scripts/3-translate.js",
-    "merge": "node scripts/4-merge.js",
-    "export": "node scripts/5-export.js",
-    "update": "node scripts/update.js",
-    "compare": "node scripts/utils/compare-xml.js",
-    "count": "node scripts/utils/count-words.js",
-    "check-empty": "node scripts/utils/find-empty-entries.js",
-    "stardew": "node scripts/translate-stardew.js"
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "minecraft:extract": "ts-node src/scripts/minecraft/0-extract-mods.ts",
+    "minecraft:import": "ts-node src/scripts/minecraft/1-import-json.ts",
+    "minecraft:detect": "ts-node src/scripts/minecraft/2-detect-changes.ts",
+    "minecraft:translate": "ts-node src/scripts/minecraft/3-translate.ts",
+    "minecraft:merge": "ts-node src/scripts/minecraft/4-merge.ts",
+    "minecraft:export": "ts-node src/scripts/minecraft/5-export-resourcepack.ts",
+    "minecraft:update": "ts-node src/scripts/minecraft/update.ts",
+    "ftbquests:reset": "ts-node src/scripts/ftbquests/0-reset.ts",
+    "ftbquests:import": "ts-node src/scripts/ftbquests/1-import-snbt.ts",
+    "ftbquests:detect": "ts-node src/scripts/ftbquests/2-detect-changes.ts",
+    "ftbquests:translate": "ts-node src/scripts/ftbquests/3-translate.ts",
+    "ftbquests:merge": "ts-node src/scripts/ftbquests/4-merge.ts",
+    "ftbquests:export": "ts-node src/scripts/ftbquests/5-export-snbt.ts",
+    "ftbquests:update": "ts-node src/scripts/ftbquests/update.ts"
   },
   "keywords": [
-    "princess-connect",
+    "minecraft",
+    "modpack",
     "translation",
+    "ftb-quests",
+    "kubejs",
     "game-localization",
-    "ai-translation"
+    "ai-translation",
+    "vietnamese"
   ],
-  "author": "",
+  "author": "TomiWixoss",
   "license": "MIT",
   "dependencies": {
     "adm-zip": "^0.5.16",
     "aio-llm": "^1.0.5",
-    "dotenv": "^17.2.4"
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.5",
+    "@types/node": "^25.5.0",
+    "rimraf": "^6.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TomiWixoss/aio-translate.git"
   },
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/TomiWixoss/aio-translate/issues"
   },
