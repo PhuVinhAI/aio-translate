@@ -1,0 +1,358 @@
+{
+	quest.010607466D565B53.quest_desc: [
+		"Cảm giác gần gũi thiên nhiên. \"
+		"\"
+		"Với &aGiày Bám Rễ&r, thiên nhiên sẽ là người bạn thân của bạn! Khi đứng trên cỏ, bạn sẽ được Hồi tim. Hơn nữa, khi bạn Ăn thức ăn trong khi đứng trên cỏ, cỏ sẽ như được bạn Dùng xương lên vậy."
+	]
+	quest.010607466D565B53.quest_subtitle: "Chân"
+	quest.010607466D565B53.title: "&aGiày Bám Rễ"
+	quest.0A1D4228271DECA3.quest_desc: [
+		"Bạn đi đâu rồi?\"
+		"\"
+		"Ồ, bạn chỉ còn một nửa kích thước trước đây. Đủ nhỏ để lọt qua khe 1 Khối."
+	]
+	quest.0A1D4228271DECA3.quest_subtitle: "Dây chuyền"
+	quest.0A1D4228271DECA3.title: "&5Bùa Thu Nhỏ&r"
+	quest.0E716B90E60C486B.quest_desc: [
+		"Đôi khi cách tốt nhất để chiến đấu, không phải là chiến đấu... mà là chạy trốn! \"
+		"\"
+		"Với &4Dây chuyền Hoảng Sợ&r, khi bị tấn công bạn sẽ nhận được Hiệu ứng Tốc độ trong một thời gian ngắn. Chỉ đủ thời gian để chạy thoát!"
+	]
+	quest.0E716B90E60C486B.quest_subtitle: "Dây chuyền"
+	quest.0E716B90E60C486B.title: "&4Dây chuyền hoảng loạn&r"
+	quest.11C5F17C6BB1237B.quest_desc: [
+		"Khi đeo &5Vòng tay hủy diệt&r, các tấn công cận chiến có cơ hội gây hiệu ứng Hủy diệt."
+		""
+		"Xin lỗi người dùng cung!"
+	]
+	quest.11C5F17C6BB1237B.quest_subtitle: "Cổ tay (Tay)"
+	quest.11C5F17C6BB1237B.title: "&5Vòng tay hủy diệt&r"
+	quest.122E6E7CABCB17E7.quest_desc: [
+		"Vì một lý do nào đó, Creepers sợ Mèo. Creepers cũng rất ngu ngốc và tin rằng những con Mèo mà đôi &7Dép&r của bạn trông giống là thật."
+		""
+		"Tất cả Creepers sẽ chạy xa bạn và không hung dữ khi đeo đôi &7Dép&r này."
+		""
+		"Ngoài ra còn phát ra tiếng kêu Mèo khi bạn bị tổn thương! (Tuy nhiên không thể đảm bảo bạn luôn hạ cánh an toàn trên đôi Chân của mình)."
+	]
+	quest.122E6E7CABCB17E7.quest_subtitle: "Bàn chân"
+	quest.122E6E7CABCB17E7.title: "&7Dép Mèo&r"
+	quest.145E7D1A88B83DDD.quest_desc: [
+		"Bạn đi đâu rồi?"
+	]
+	quest.145E7D1A88B83DDD.quest_subtitle: "Khăn quàng (Dây chuyền)"
+	quest.145E7D1A88B83DDD.title: "&9Khăn choàng tàng hình&r"
+	quest.161A90E134592D0E.quest_desc: [
+		"Giống như Thịt bò sống thông thường, bạn có thể nấu &cThịt bò vĩnh cửu&r để nhận được &4Bít tết vĩnh cửu&r!\"
+		"\"
+		"Hoạt động giống hệt &cThịt bò vĩnh cửu&r nhưng có nhiều Điểm Thức ăn và Độ Bão hòa hơn."
+	]
+	quest.161A90E134592D0E.quest_subtitle: "Độc nhất"
+	quest.161A90E134592D0E.title: "&4Bít tết vĩnh cửu"
+	quest.16255FB20F35A9D9.quest_desc: [
+		"&3Ống thở&r cung cấp cho bạn một lượng nhỏ Khả năng Thở Nước khi bạn đi vào &9Nước&r. Tương tự như Mũ Rùa! Cẩn thận vì nó sẽ hết."
+	]
+	quest.16255FB20F35A9D9.quest_subtitle: "Đầu"
+	quest.16255FB20F35A9D9.title: "&3Ống thở"
+	quest.19B393433FB0C62F.quest_desc: [
+		"Bí mật của &cThằn lằn Lửa&r để đi trên &cLava&r nằm ở chân của chúng. Vì vậy, chúng tôi đã lấy chân của chúng và để bạn sử dụng thay thế! \"
+		"\"
+		"Khi nhấn Shift (Sneak) bạn có thể đi an toàn trên &cLava&r! Nhưng khi bạn ngừng nhấn Shift, bạn sẽ rơi vào &cLava&r. Chúng cũng cho phép bạn đi an toàn qua Khối Magma và các khối nóng khác!"
+	]
+	quest.19B393433FB0C62F.quest_subtitle: "Chân"
+	quest.19B393433FB0C62F.title: "&4Giày Thằn lằn Lửa&r"
+	quest.1E40ACF3E69A4100.quest_desc: [
+		"Bạn có cần phải uống nó không? Tôi không biết, nó cứ đứng đó và hoạt động... \"
+		"\"
+		"Với &6Bình Kháng Dược&r, các hiệu ứng tiêu cực (như Wither hay Độc) sẽ bị rút ngắn thời gian! Rất hữu ích khi đối đầu với Phù thủy hay Xương Sống Wither."
+	]
+	quest.1E40ACF3E69A4100.quest_subtitle: "Đai"
+	quest.1E40ACF3E69A4100.title: "&6Bình Kháng Dược&r"
+	quest.2215FB0777D7029D.quest_desc: [
+		"Gióng xương, đinh thúc, bít tất... gì cũng được! \"
+		"\"
+		"&7Giày Vững Vàng&r giúp bạn đứng vững trên chân. Bạn sẽ không bị đẩy lùi bởi các đòn tấn công và không trượt trên Băng nữa."
+	]
+	quest.2215FB0777D7029D.quest_subtitle: "Chân"
+	quest.2215FB0777D7029D.title: "&7Giày Vững Vàng&r"
+	quest.221C9EDA651144BA.quest_desc: [
+		"Gì &9Nước&r? \"
+		"\"
+		"Với &3Bùa Chìm&r, bạn di chuyển qua &9Nước&r như thể nó là Không khí! Tuy nhiên vẫn không thở được dưới nước..."
+	]
+	quest.221C9EDA651144BA.quest_subtitle: "Dây chuyền"
+	quest.221C9EDA651144BA.title: "&3Bùa Chìm&r"
+	quest.2607F3DC07049785.quest_desc: [
+		"Tại sao phải tốn thời gian ngồi xuống và ăn một bữa ăn nấu tại nhà ngon lành khi bạn có thể nhanh chóng Ăn và Uống! \"
+		"\"
+		"Với chiếc &6Mũ&r rất thời trang này, việc Ăn và Uống trở nên nhanh hơn nhiều."
+	]
+	quest.2607F3DC07049785.quest_subtitle: "Đầu"
+	quest.2607F3DC07049785.title: "&6Mũ nhựa uống"
+	quest.27E951F4F4F6F847.quest_desc: [
+		"Tương tự như &aMặt dây Gai&r, chỉ nóng hơn một chút. Không, nóng hơn nhiều! \"
+		"\"
+		"&cMặt dây Lửa&r có cơ hội đốt cháy kẻ tấn công bạn! Khi chúng bị cháy, &cMặt dây&r cũng sẽ cho bạn Kháng Lửa."
+	]
+	quest.27E951F4F4F6F847.quest_subtitle: "Vòng cổ"
+	quest.27E951F4F4F6F847.title: "&cMặt dây Lửa&r"
+	quest.29448D08C8777425.quest_desc: [
+		"Đến tối nay nó sẽ ngủ với các con Cá. \"
+		"\"
+		"&cMũ Câu Cá&r giúp bạn Thu hút Cá và tăng cơ hội nhận được Rơi Hiếm!"
+	]
+	quest.29448D08C8777425.quest_subtitle: "Đầu"
+	quest.29448D08C8777425.title: "&cMũ Câu Cá"
+	quest.2AD78E22988A92D3.quest_desc: [
+		"Tôi thấy bạn! \"
+		"\"
+		"Khi đeo &2Kính Thị Giác Đêm&r bạn có khả năng nhìn trong bóng tối! Không còn gì nhiều về chúng..."
+	]
+	quest.2AD78E22988A92D3.quest_subtitle: "Đầu"
+	quest.2AD78E22988A92D3.title: "&2Kính nhìn đêm"
+	quest.321F16645640C462.quest_desc: [
+		"Hạt ender là một cách di chuyển vui vẻ! (Hữu ích cho Bumblezone, tôi tự hỏi liệu chúng ta có nhận được một chương nhiệm vụ cho mod đó không!) Nhưng bạn có ghét việc Hạt ender bị tiêu hao khi dùng và mất 2 tim mỗi lần sử dụng không? \"
+		"\"
+		"Với &9Warp Drive&r, tất cả những vấn đề đó đều biến mất, rõ ràng làm cho Hạt ender trở thành phương tiện di chuyển tốt nhất! Thanh đói được tiêu hao thay vì Hạt ender và không còn nhận sát thương từ việc sử dụng Hạt ender nữa. Khi tất cả thanh đói bị cạn kiệt, nó sẽ quay lại tiêu hao Hạt ender."
+	]
+	quest.321F16645640C462.quest_subtitle: "Thắt lưng"
+	quest.321F16645640C462.title: "&9Warp Drive&r"
+	quest.3446803FB59D8875.quest_desc: [
+		"Trao cho bạn Gai nhọn. Không phải áo giáp của bạn, mà là bạn! Giống như Cá nóc!"
+	]
+	quest.3446803FB59D8875.quest_subtitle: "Vòng cổ"
+	quest.3446803FB59D8875.title: "&aMặt dây chuyền Gai nhọn&r"
+	quest.3525D5DCC3A534D9.quest_desc: [
+		"Bây giờ đây là một trong những thứ tôi yêu thích! \"
+		"\"
+		"&9Digging Claws&r sẽ 1. Tăng Tốc độ Khai thác của bạn, về cơ bản là một cấp độ Hiệu quả trên tất cả các Cuốc, và 2. Làm cho nắm đấm của bạn hoạt động như một Cuốc Đá! \"
+		"\"
+		"Rất hữu ích để xây dựng và chơi nói chung!"
+	]
+	quest.3525D5DCC3A534D9.quest_subtitle: "Tay"
+	quest.3525D5DCC3A534D9.title: "&9Digging Claws&r"
+	quest.3705D303CF423804.quest_desc: [
+		"Mặt kia của &aFeral Claws&r, chúng tăng Sát thương bạn gây ra khi đeo chúng."
+	]
+	quest.3705D303CF423804.quest_subtitle: "Tay"
+	quest.3705D303CF423804.title: "&eGăng Sức Mạnh&r"
+	quest.3B3BD39BA02DCA13.quest_desc: [
+		"Với &6Pocket Piston&r, các Đòn tấn công của bạn sẽ đánh trúng Kẻ thù xa hơn! \"
+		"\"
+		"Tôi tự hỏi cái nào thắng, &6Pocket Piston&r hay &7Steadfast Boots&r?"
+	]
+	quest.3B3BD39BA02DCA13.quest_subtitle: "Tay"
+	quest.3B3BD39BA02DCA13.title: "&6Pocket Piston&r"
+	quest.3E0643EA9183CDAE.quest_desc: [
+		"'Đó là chiếc Mũ của ông Krabs! Ông ấy là Số 1!' \"
+		"\"
+		"Làm đúng giống hệt chiếc &6Drinking Hat&r thông thường, chỉ là trông ngầu hơn!"
+	]
+	quest.3E0643EA9183CDAE.quest_subtitle: "Đầu"
+	quest.3E0643EA9183CDAE.title: "&9Mũ Uống Độc Đáo"
+	quest.3E1A3BC8642390B3.quest_desc: [
+		"'Tôi là Marry Poppins các bạn ơi!' \"
+		"\"
+		"&4Chiếc Ô&r là một công cụ rất hữu ích được thêm bởi &l&3Artifacts&r! Nó có thể được giữ phía trước bạn để hoạt động như một Tấm khiên, bằng cách giữ Chuột Phải. Hoặc nó có thể được dùng để làm chậm cú ngã bằng cách chỉ cần giữ nó!"
+	]
+	quest.3E1A3BC8642390B3.quest_subtitle: "Độc nhất"
+	quest.3E1A3BC8642390B3.title: "&4Ô&r"
+	quest.3EC8A0B89788D079.quest_desc: [
+		"Tôi không có Tay, tôi có &9Bàn chèo&r. \"
+		"\"
+		"&9Bàn chèo&r sẽ hoạt động như một &9Đi Bộ Đáy Nước&r tốt hơn nhiều. Bạn có thể Bơi và Đi bộ qua &9Nước&r nhanh hơn rất nhiều!"
+	]
+	quest.3EC8A0B89788D079.quest_subtitle: "Chân"
+	quest.3EC8A0B89788D079.title: "&9Bàn chèo&r"
+	quest.427014BDE06DE631.quest_desc: [
+		"Mọi thứ tôi đánh đều bốc lửa!!!!!"
+	]
+	quest.427014BDE06DE631.quest_subtitle: "Tay"
+	quest.427014BDE06DE631.title: "&cGăng Lửa&r"
+	quest.436E4E3515BCCDE9.quest_desc: [
+		"Khi trang bị &bĐám Mây trong Bình&r, bạn có thể nhấn phím Space hai lần để thực hiện nhảy đôi! Rất hữu ích cho parkour! \"
+		"\"
+		"Nó cũng tăng chiều cao bạn có thể rơi từ đó, giống như &dBunny Hoppers&r!"
+	]
+	quest.436E4E3515BCCDE9.quest_subtitle: "Thắt lưng"
+	quest.436E4E3515BCCDE9.title: "&bĐám mây trong chai&r"
+	quest.4564B577CB4EC046.quest_desc: [
+		"Khi giết hàng trăm con Bò, bạn có thể gặp một miếng Thịt Bò Hiếm. Không phải bị bệnh điên bò đâu, tôi là nói &cThịt Bò Vĩnh Cửu&r!\"
+		"\"
+		"&cThịt Bò Vĩnh Cửu&r có thể ăn như một miếng Thịt Bò Thường, nhưng nó sẽ không bị xóa khi ăn! Thay vào đó, nó sẽ có một thời gian hồi chiêu trước khi bạn có thể ăn lại.\"
+		"\"
+		"(Cũng hoạt động với ba lô tự động cho ăn!)"
+	]
+	quest.4564B577CB4EC046.quest_subtitle: "Độc nhất"
+	quest.4564B577CB4EC046.title: "&cThịt Bò Vĩnh Cửu&r"
+	quest.4933CF4675E77D50.quest_desc: [
+		"Sau khi bạn nhận sát thương từ Lửa, &5Đầu Lâu Obsidian&r sẽ kích hoạt và cho bạn một khoảng thời gian Kháng Lửa. Hy vọng đủ lâu để thoát khỏi ngọn lửa!"
+	]
+	quest.4933CF4675E77D50.quest_subtitle: "Vòng eo"
+	quest.4933CF4675E77D50.title: "&5Đầu Lâu Obsidian&r"
+	quest.4A7AEBEB87CEC274.quest_desc: [
+		"Tôi không tin rằng tôi có quyền sử dụng một thương hiệu cụ thể của &cGiày Chạy Bộ&r nên hãy dùng trí tưởng tượng của bạn để biết chúng là gì. \"
+		"\"
+		"&cGiày Chạy Bộ&r sẽ cho bạn Tăng Tốc khi Chạy Nước Rút, vì vậy bạn sẽ nhanh hơn nữa khi Chạy! Cũng cho bạn tự động nhảy khi Chạy Nước Rút..."
+	]
+	quest.4A7AEBEB87CEC274.quest_subtitle: "Chân"
+	quest.4A7AEBEB87CEC274.title: "&cGiày Chạy Bộ&r"
+	quest.4D3379D38237F830.quest_desc: [
+		"Khi đang mang &bnhững thứ này&r ở phần Chân, bạn có thể thực hiện một phép màu! Đi bộ trên &9Nước&r! \"
+		"\"
+		"Thực ra là chạy trên &9Nước&r, bạn phải đang Sprint (chạy nước rút) mới có thể chạy qua &9Nước&r. Một khi bạn ngừng Sprint, bạn sẽ bắt đầu chìm xuống."
+	]
+	quest.4D3379D38237F830.quest_subtitle: "Chân"
+	quest.4D3379D38237F830.title: "&bAqua-Dashers&r"
+	quest.5040B3D29F238BC0.quest_desc: [
+		"Thỏ, nhảy. Thỏ, nhảy. Thỏ, nhảy.\"
+		"\"
+		"Khi mang &dBunny Hoppers&r, bạn có thể nhảy cao gấp đôi và nhận một nửa sát thương từ rơi như thông thường! Nó không làm bạn bất khả xâm phạm với Sát thương từ Rơi, bạn vẫn có thể chết, chỉ là khó hơn."
+	]
+	quest.5040B3D29F238BC0.quest_subtitle: "Chân"
+	quest.5040B3D29F238BC0.title: "&dBunny Hoppers&r"
+	quest.50A32AC6EDBC5854.quest_desc: [
+		"Thức ăn một mình có thể khá nhàm chán, nhưng nó trở nên tốt hơn nhiều khi bạn có một món ăn kèm! Cụ thể hơn là một ít (một) &6Onion Ring&r!\"
+		"\"
+		"Khi mang &6Onion Ring&r, mọi thứ bạn ăn sẽ cho bạn một chút Tăng tốc."
+	]
+	quest.50A32AC6EDBC5854.quest_subtitle: "Tay"
+	quest.50A32AC6EDBC5854.title: "&6Onion Ring&r"
+	quest.589F1D502F680075.quest_desc: [
+		"Hoàn hảo cho các bữa tiệc bể bơi! \"
+		"\"
+		"Ngoài việc trông dễ thương và vui vẻ, &dHelium Flamingo&r cho phép bạn bơi trong Không khí. Đúng vậy, bạn nghe đúng! Bơi... trong... Không khí... \"
+		"\"
+		"Khi đang trong Không khí, như khi nhảy, bạn có thể nhấn CTRL để bắt đầu Bơi trong Không khí. Bạn có thể di chuyển xung quanh giống như trong Nước: Bơi lên, Bơi xuống, Bơi khắp nơi!"
+	]
+	quest.589F1D502F680075.quest_subtitle: "Đai"
+	quest.589F1D502F680075.title: "&dHelium Flamingo&r"
+	quest.5CE44C58A470E48E.quest_desc: [
+		"&l&3Artifacts&r là một mod tuyệt vời bổ sung &l&3Artifacts&r khiến trải nghiệm Minecraft của bạn dễ dàng và vui vẻ hơn!\"
+		"\"
+		"Tất cả &l&3Artifacts&r có thể được tìm thấy qua khám phá, khảo cổ, hoặc giết Mimics!\"
+		"\"
+		"Mimics được tìm thấy tại các trại lập trại dưới lòng đất, trông giống như Rương thông thường! Nhưng một khi bạn đến quá gần, chúng sẽ tấn công!"
+	]
+	quest.5CE44C58A470E48E.title: "&l&3Artifacts"
+	quest.5DE7C4FD5FA29236.quest_desc: [
+		"Bạn có ghét khi sắp giết một Endermen và nó dịch chuyển đi không? Không, bạn không ghét nó, bạn yêu thích nó! Bạn chỉ tức giận vì bạn ghen tị! Bạn muốn có nó! \"
+		"\"
+		"Và với &5Chorus Belt&r bạn có thể có được nó! Bạn sẽ dịch chuyển khi bị đánh sẽ giết bạn."
+	]
+	quest.5DE7C4FD5FA29236.quest_subtitle: "Đai"
+	quest.5DE7C4FD5FA29236.title: "&5Chorus Belt&r"
+	quest.5EB7CE3A1DCD3E9B.quest_desc: [
+		"Đó là một &cNam châm&r."
+	]
+	quest.5EB7CE3A1DCD3E9B.quest_subtitle: "Đai"
+	quest.5EB7CE3A1DCD3E9B.title: "&cUniversal Attractor&r"
+	quest.5F5E43B3F51CAE9E.quest_desc: [
+		"'Chúng thật là thần kỳ và ngon!' "
+		""
+		"Chiếc &aSuperstitious Hat&r cấp cho bạn một cấp độ Looting bổ sung khi giết quái vật! "
+		""
+		"Nó có thể chồng chất với các phép thuật!"
+	]
+	quest.5F5E43B3F51CAE9E.quest_subtitle: "Đầu"
+	quest.5F5E43B3F51CAE9E.title: "&aSuperstitious Hat"
+	quest.5FD6A738754F6013.quest_desc: [
+		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Community contributor&r để sử dụng trong các Modpack AllTheMods. "
+		""
+		"Vì tất cả các pack &6AllTheMods&r đều được cấp phép theo &eAll Rights Reserved&r, nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. "
+		""
+		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
+	]
+	quest.623796B1D7981E59.quest_desc: [
+		"'Cũng hãy thử Terraria!' "
+		""
+		"Khi trang bị, bạn sẽ nhận được 5 trái tim bổ sung! Hoặc 10 điểm máu! Tổng cộng lên đến 30 máu mặc định."
+	]
+	quest.623796B1D7981E59.quest_subtitle: "Thắt lưng"
+	quest.623796B1D7981E59.title: "&4Crystal Heart&r"
+	quest.62622137648A4F56.quest_desc: [
+		"Bạn có ghét phải Khai thác rồi Nấu chảy quặng của mình bằng hai vật phẩm khác nhau không? Vâng, giờ đây bạn có thể lười hơn bao giờ hết với &7Pickaxe Heater&r! "
+		""
+		"Khi đeo &7Pickaxe Heater&r, quặng bạn Khai thác sẽ tự động được Nấu chảy! "
+		""
+		"Có lẽ bạn nên cẩn thận với nó nếu bạn muốn Xử lý quặng."
+	]
+	quest.62622137648A4F56.quest_subtitle: "Tay"
+	quest.62622137648A4F56.title: "&7Pickaxe Heater&r"
+	quest.6A452BFC8A967C39.quest_desc: [
+		"Đeo những &aMóng vuốt&r này chỉ khiến bạn cảm thấy một cách đặc biệt. Adrenaline dâng trào, suy nghĩ ngừng lại, sức mạnh trỗi dậy như chưa từng có! \"
+		"\"
+		"Với &aMóng vuốt hoang dã&r, bạn sẽ Tấn công nhanh hơn rất nhiều với Vũ khí hoặc Cú đấm của mình."
+	]
+	quest.6A452BFC8A967C39.quest_subtitle: "Tay"
+	quest.6A452BFC8A967C39.title: "&aMóng vuốt hoang dã&r"
+	quest.6FBE5B5D5027B32C.quest_desc: [
+		"Đeo cái &7Mũ&r này khiến lũ sinh vật của bạn chạy như gió! \"
+		"\"
+		"Nó cũng rất đẹp."
+	]
+	quest.6FBE5B5D5027B32C.quest_subtitle: "Đầu"
+	quest.6FBE5B5D5027B32C.title: "&7Mũ Ca-bô-ô-ét"
+	quest.70C7D92844089DEB.quest_desc: [
+		"Giống như các Dây chuyền khác, cái này có cơ hội làm tổn thương kẻ tấn công bạn, chỉ bằng Tia chớp! \"
+		"\"
+		"Nó cũng khiến nếu bạn đủ (vô)may mắn bị Tia chớp đánh trúng, nó sẽ không làm bạn bị thương."
+	]
+	quest.70C7D92844089DEB.quest_subtitle: "Cổ"
+	quest.70C7D92844089DEB.title: "&bDây chuyền Sét&r"
+	quest.7188DC06A28AE30E.quest_desc: [
+		"Đeo cái &eMóc vàng&r này sẽ tăng lượng kinh nghiệm thu được từ kẻ thù bị kéo lên boong!"
+	]
+	quest.7188DC06A28AE30E.quest_subtitle: "Tay"
+	quest.7188DC06A28AE30E.title: "&eMóc Vàng&r"
+	quest.72D6265E35814927.quest_desc: [
+		"Hầu hết các trò chơi có hệ thống Máu và Sát thương đều có Khung Thời Gian Bất Khả Xâm Phạm. Sau khi bạn nhận sát thương, bạn sẽ có vài khung thời gian bất khả xâm phạm để: 1. Bạn không chết ngay lập tức bởi một đòn tấn công đơn giản và 2. Có thời gian để đánh trả. \"
+		"\"
+		"Với &eDây chuyền Thập tự&r, bạn có thêm vài khung thời gian bất khả xâm phạm. Điều đó có nghĩa là có thêm vài lần để đánh trả!"
+	]
+	quest.72D6265E35814927.quest_subtitle: "Dây chuyền"
+	quest.72D6265E35814927.title: "&eDây chuyền Thập tự&r"
+	quest.73B73870B29DFAD9.quest_desc: [
+		"Một trong chúng ta! Một trong chúng ta! \"
+		"\"
+		"Chiếc &eMũ Dân làng&r khiến các Dân làng tin rằng bạn đến từ cùng một Thị trấn, vì vậy họ loại bỏ Thuế Người Ngoài Thị trấn. Giao dịch với Dân làng sẽ rẻ hơn."
+	]
+	quest.73B73870B29DFAD9.quest_subtitle: "Đầu"
+	quest.73B73870B29DFAD9.title: "&eMũ Dân làng"
+	quest.73FC51144FC2DA52.quest_desc: [
+		"Với chiếc &7Găng tay&r này, bạn sẽ đánh cắp sự sống từ bất kỳ kẻ thù nào bạn đánh trúng!\"
+		"\"
+		"Ồ, xin lỗi, tôi quên mất... bleh bleh blehhh!"
+	]
+	quest.73FC51144FC2DA52.quest_subtitle: "Tay"
+	quest.73FC51144FC2DA52.title: "&7Găng Hút Máu&r"
+	quest.74B352457BF1541B.quest_desc: [
+		"Nếu bạn giống tôi, hay bất kỳ người tỉnh táo nào, bạn sẽ ghét Tuyết Bột. May mắn thay, &l&3Artifacts&r đã cung cấp cho chúng ta công cụ để đối phó với nó! Giày tuyết! \"
+		"\"
+		"Giày tuyết sẽ cho phép bạn đi an toàn trên Tuyết Bột giống như Giày da vậy. Bạn cũng sẽ nhận được tăng Tốc độ khi đi trên bất kỳ tuyết nào!"
+	]
+	quest.74B352457BF1541B.quest_subtitle: "Chân"
+	quest.7503823ACDDB0491.quest_desc: [
+		"Cái này và &aSuperstitious Hat&r mang lại cho bạn tất cả những bùa may mắn bạn cần!\"
+		"&2Lucky Scarf&r mang lại thêm một cấp độ May mắn cho các Cuốc của bạn."
+	]
+	quest.7503823ACDDB0491.quest_subtitle: "Khăn cổ (Dây chuyền)"
+	quest.7503823ACDDB0491.title: "&2Khăn May Mắn&r"
+	quest.789AF6D0A6321945.quest_desc: [
+		"Đó là Artifact quan trọng nhất! Mạnh mẽ nhất! Nguy hiểm nhất trong tất cả!"
+		"{@pagebreak}"
+		"Tôi thậm chí không chắc liệu tôi có nên giải thích nó làm gì không, nó quá nguy hiểm!"
+		"{@pagebreak}"
+		"Nếu bạn chắc chắn mình có thể kiểm soát được sức mạnh của nó, thì hãy tiếp tục đọc..."
+		"{@pagebreak}"
+		"Chưa muộn để quay lại!"
+		"{@pagebreak}"
+		"Được rồi, tôi đã cảnh báo bạn..."
+		"{@pagebreak}"
+		"Nhấn Shift để có cơ hội xì hơi khi &dĐệm Xì Hơi&r được trang bị."
+	]
+	quest.789AF6D0A6321945.quest_subtitle: "Độc nhất"
+	quest.789AF6D0A6321945.title: "&dĐệm Xì Hơi&r"
+	task.376652638B9221C9.title: "Mọi quyền được bảo lưu"
+	task.68DC39876E14FC1B.title: "Giết 1 Mimic"
+	task.72E89066290E3040.title: "Mọi quyền được bảo lưu"
+}

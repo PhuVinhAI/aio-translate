@@ -1,0 +1,412 @@
+{
+	quest.00EFC7B327E79076.quest_desc: [
+		"Sau khi dùng hết hàng triệu tỷ năng lượng trong SPS, cuối cùng chúng ta cũng có thể tạo ra &dViên phản vật chất&r."
+		""
+		"Đưa Khí phản vật chất bạn nhận được từ SPS vào Máy kết tinh hóa học và bạn sẽ nhận được 1 Viên phản vật chất cho mỗi 1000mb bạn tạo ra."
+	]
+	quest.0152C49AB74B9D32.quest_desc: [
+		"Bạn có thể đã nghe mọi người nói về cách &cLò phản ứng nhiệt hạch&r là nguồn năng lượng tốt nhất trong pack. Ừ, họ có thể đúng"
+		""
+		"Một khi đã kích hoạt, Lò phản ứng có thể đạt tới 80MRF/t với thiết lập đúng. Nó cũng có thể được làm mát bằng nước để tạo hơi nước, có thể đưa vào &9Tuabin Công nghiệp&r để tạo thêm năng lượng."
+		""
+		"Để xây dựng Lò phản ứng nhiệt hạch, chúng ta cần theo một mẫu đơn giản. Mỗi mặt sẽ trông như thế này:"
+		""
+		"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
+		"{@pagebreak}"
+		"Đối với mặt trên, chúng ta muốn thay thế khối giữa bằng Máy điều khiển Lò phản ứng nhiệt hạch."
+		""
+		"Đối với các cổng, bạn có thể thay thế bất kỳ Kính Lò phản ứng nào ở các cạnh. Đối với thiết lập này, chúng ta sẽ cần hai cổng để nhập &cDeuterium&r và &eTritium&r, sau đó một cổng để xuất năng lượng."
+		""
+		"{image:atm:textures/questpics/mek/completed_fusion_reactor.png width:175 height:150 align:1}"
+	]
+	quest.0152C49AB74B9D32.quest_subtitle: "Nguồn Năng lượng Tốt nhất trong Pack"
+	quest.0152C49AB74B9D32.title: "The &cLò phản ứng nhiệt hạch"
+	quest.05D20B506213A449.quest_desc: [
+		"The &9Trục rotor turbin&r được đặt ở giữa turbin. Với mỗi trục rotor turbin, bạn sẽ cần 2 &aLưỡi turbin&r. Đối với turbin này, chúng ta sẽ sử dụng 3 rotor."
+		""
+		"Khi nhìn vào rotor, nhấp chuột phải với &aLưỡi turbin&r sẽ đặt chúng trực tiếp lên rotor. Rotor càng cao, lưỡi càng dài. Đối với cấu trúc này, chúng ta sử dụng tổng cộng 6 lưỡi. Nếu bạn dự định xây dựng turbin lớn hơn, bạn sẽ cần tăng chiều rộng của turbin tùy theo số lưỡi bạn dự định sử dụng."
+		""
+		"The &9Phức hợp quay&r phải được đặt ở đỉnh của trục rotor turbin. Sau đó, nó được bao quanh bởi &eBộ phân tán áp suất&r."
+		""
+		"Các bộ phân tán phải lấp đầy toàn bộ lớp nơi phức hợp quay đặt."
+	]
+	quest.05D20B506213A449.title: "The &aTrục rotor"
+	quest.066F78936C8F943B.quest_desc: [
+		"Nhiệm vụ này được tạo bởi &6Đội ngũ AllTheMods&r, hoặc một &2Người đóng góp cộng đồng&r để sử dụng trong các modpack AllTheMods. \"
+		"\"
+		"Vì tất cả các modpack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, nhiệm vụ này không được phép sử dụng trong bất kỳ modpack công khai nào không được phát hành bởi &6Đội ngũ AllTheMods&r mà không có sự cho phép rõ ràng. \"
+		"\"
+		"Nhiệm vụ này được cố ý ẩn, nếu bạn thấy điều này, bạn đang ở chế độ chỉnh sửa."
+	]
+	quest.068728DE3B9B13C3.quest_desc: [
+		"The &dBộ chuyển pha siêu tới hạn&r (SPS) là một cấu trúc đa khối khác được dùng để pha trộn Polonium với lượng lớn năng lượng để tạo ra khí &dAntimatter&r, có thể được tạo tinh thể thành viên nén."
+		""
+		"Để xây dựng SPS, bạn sẽ cần tổng cộng 72 &9Vỏ SPS&r (60 cho phần xây, 12 để làm cổng), 3 &9Cổng SPS&r, 122 Kính Lò phản ứng, và một vật phẩm khác chúng ta sẽ nói trong nhiệm vụ tiếp theo. Hãy cùng lấy vật liệu trước!"
+	]
+	quest.068728DE3B9B13C3.title: "&dBộ chuyển pha siêu tới hạn"
+	quest.0696B725E840B996.quest_desc: [
+		"Để đưa bất cứ thứ gì vào hoặc ra khỏi Lò phản ứng phân hạch, chúng ta sẽ cần &aCổng Lò phản ứng phân hạch&r. Chúng có thể được cấu hình để đầu vào hoặc đầu ra bằng cách sử dụng &9Bộ cấu hình&r. \"
+		"\"
+		"Mỗi Lò phản ứng phân hạch &acần ít nhất 4 cổng&r:\"
+		"\"
+		" - 1 Đầu vào chất làm mát\"
+		" - 1 Đầu ra chất làm mát\"
+		" - 1 Đầu vào nhiên liệu phân hạch\"
+		" - 1 Đầu ra chất thải\"
+		"\"
+		"Đối với cấu trúc khởi đầu này, hãy đặt một cổng trên mỗi mặt như hình dưới đây. Hãy chắc chắn cấu hình chúng để khớp với danh sách đầu vào và đầu ra!\"
+		""
+		"{image:atm:textures/questpics/mek/port_example.png width:200 height:200 align:1}"
+	]
+	quest.0696B725E840B996.title: "Tương tác với Lò phản ứng phân hạch"
+	quest.07ECC87DFF2D3991.quest_desc: [
+		"Một khi bạn đã hoàn thành việc xây dựng &9Ma trận cảm ứng được nạp năng lượng&r đầu tiên, bạn sẽ thấy các hạt đỏ xung quanh cấu trúc để cho thấy nó đã hoàn thành.\"
+		"\"
+		"Đừng ngại nâng cấp với các Tế bào và Nhà cung cấp cấp cao hơn! Cần thêm không gian cho chúng? Kích thước tối đa của Ma trận cảm ứng có thể là 18x18x18."
+	]
+	quest.07ECC87DFF2D3991.title: "&aHoàn thành &9Ma trận"
+	quest.0FF852DE33E41C90.quest_desc: [
+		"Nếu chúng ta muốn tạo ra lượng năng lượng khổng lồ, chúng ta sẽ cần một cách để lưu trữ tất cả chúng, và những Khối Năng lượng đó sẽ không đủ.\"
+		"\"
+		"Chúng ta sẽ tạo một khối đa khối có thể tùy chỉnh dùng để lưu trữ lượng lớn năng lượng, nhưng trước tiên, chúng ta cần làm một ít Bụi Lithium!\"
+		"\"
+		"Bạn nên có một ít Nước muối đang được tạo ra từ nhiệm vụ trước đó bằng cách sử dụng &aNhà Bay hơi Nhiệt&r. Cho &eNước muối&r chạy qua một &aNhà Bay hơi Nhiệt&r khác để có Lithium lỏng, sau đó sử dụng &9Máy Ngưng tụ Xoay&r để có Lithium mà bạn có thể cho chạy qua &9Máy Kết tinh Hóa học&r để có &aBụi Lithium&r."
+	]
+	quest.0FF852DE33E41C90.title: "Lưu trữ Năng lượng Nâng cao"
+	quest.12D271359D48210E.quest_desc: [
+		"Lò phản ứng Nhiệt hạch yêu cầu nhiên liệu rất đặc biệt: &dNhiên liệu D-T&r chính xác."
+		""
+		"Có hai cách để đưa nhiên liệu vào Lò phản ứng: Hoặc bằng cách bơm trực tiếp Nhiên liệu D-T vào Lò phản ứng với tốc độ 1,000mb/t, hoặc bằng cách bơm từng nhiên liệu một với tốc độ kiểm soát."
+		""
+		"Để bắt đầu, hãy bơm chúng riêng biệt. Chúng ta có thể cần biết cách làm chúng nữa."
+	]
+	quest.12D271359D48210E.title: "Đưa nhiên liệu vào &dLò phản ứng Nhiệt hạch&r"
+	quest.1482F2D45E8F761D.quest_desc: [
+		"Đã đến lúc thu thập các vật liệu chúng ta cần để xây dựng lò phản ứng."
+		""
+		"Giống như hầu hết các khối đa khối của Mekanism, lò phản ứng có thể có kích thước tùy chỉnh tùy theo nhu cầu của bạn. Chúng phải có dạng hình hộp chữ nhật, với kích thước tối thiểu bên ngoài là 3 rộng, 4 cao và 3 sâu. Kích thước tối đa là 18x18x18. &aChúng ta sẽ xây một lò 5x5 để bắt đầu&r."
+		""
+		"Các cạnh của vỏ ngoài &bphải&r được làm từ &aVỏ Lò phản ứng Nhiệt hạch&r, trong khi các mặt có thể là vỏ hoặc &bKính Lò phản ứng&r, Cổng Lò phản ứng, hoặc Bộ điều khiển Lò phản ứng. Chúng ta sẽ đề cập đến chúng sau."
+		""
+		"Bây giờ, hãy xây một Lò phản ứng Nhiệt hạch cơ bản 5x5x5!"
+		""
+		"Cần thêm trợ giúp để xây dựng? Giữ &dw&r khi di chuột qua Vỏ Lò phản ứng Nhiệt hạch sẽ hiển thị Ponder có thể giúp bạn xây dựng nó."
+	]
+	quest.1482F2D45E8F761D.quest_subtitle: "Vỏ và Kính"
+	quest.1482F2D45E8F761D.title: "Cơ bản về Xây dựng Lò phản ứng Nhiệt hạch"
+	quest.14D772808D1BEAE2.quest_desc: [
+		"Ma trận Cảm ứng cho phép bạn tùy chỉnh lượng năng lượng bạn có thể lưu trữ và truyền bằng cách thêm các Tế bào và Nhà cung cấp bên trong cấu trúc khối đa khối.\"
+		"\"
+		"Các Tế bào Cảm ứng tăng tổng lượng năng lượng có thể lưu trữ.\"
+		"\"
+		"Các Nhà cung cấp Cảm ứng tăng tốc độ truyền tổng cả vào và ra khỏi Ma trận.\"
+		"\"
+		"Bạn có thể tùy chỉnh số lượng bạn muốn của mỗi loại bên trong khối đa khối, nhưng bạn sẽ cần ít nhất một cái của mỗi loại. Chúng cũng có các cấp độ cao hơn để tăng dung lượng lưu trữ và truyền tổng thể của bạn.\"
+		""
+		"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
+	]
+	quest.14D772808D1BEAE2.title: "&aTùy chỉnh &9Giới hạn Năng lượng của Chúng ta"
+	quest.16A6C47E35F3B9D0.quest_desc: [
+		"Một khi chúng ta có &9Máy ly tách Đồng vị&r, chúng ta có thể đưa &2Uranium Hexafluoride&r vào và tạo ra &3Nhiên liệu Phân hạch&r!"
+		""
+		"Thấy không, không tệ chứ?"
+	]
+	quest.16A6C47E35F3B9D0.title: "&3Nhiên liệu phân hạch"
+	quest.187A3F5B41D1C923.quest_desc: [
+		"Hãy lấy &2A xít sulfuric&r của chúng ta và kết hợp với &bFluorite&r trong một &9Phòng hòa tan hóa học&r để tạo ra &bA xít hydrofluoric&r."
+		""
+		"Chúng ta sắp thành công rồi!"
+	]
+	quest.187A3F5B41D1C923.title: "&bA xít hydrofluoric"
+	quest.1DE8B0C9A7195720.quest_desc: [
+		"Khi bạn đã đặt xong tất cả các khối cần thiết để xây dựng Lò phản ứng, nó sẽ phát ra những hạt đỏ để cho thấy nó đã hoàn thành."
+		""
+		"Nhấp chuột phải vào bất kỳ đâu trên Lò phản ứng sẽ mở ra &aGiao diện&r. Nó sẽ chứa tất cả thông tin bạn cần để vận hành Lò phản ứng đúng cách, cũng như hai nút để bật và tắt Lò phản ứng."
+		""
+		"Bên trái, bạn có 2 bể chứa: Một cho &bChất làm mát&r và một cho &3Nhiên liệu phân hạch&r. Bên phải, bạn có một cho &8Chất thải phóng xạ&r, và một cho &bChất làm mát đã nóng&r, có thể sẽ là &bHơi nước&r."
+		""
+		"Thanh &cNhiệt độ&r sẽ cho bạn biết Lò phản ứng nóng đến mức nào. Sau một nhiệt độ nhất định, Lò phản ứng sẽ bắt đầu nhận &4Sát thương&r, cuối cùng sẽ khiến Lò phản ứng nổ."
+		""
+		"Để điều chỉnh &cTỷ lệ đốt&r của Nhiên liệu phân hạch và xem thêm thống kê, nhấp vào tab (I) ở phía bên trái. Ở đây, bạn có thể điều chỉnh Giới hạn tỷ lệ, điều khiển lượng nhiên liệu Lò phản ứng đốt mỗi tick."
+		""
+		"{image:atm:textures/questpics/mek/reactor_interface_1.png width:200 height:150 align:1}"
+		"{image:atm:textures/questpics/mek/reactor_interface_2.png width:200 height:150 align:1}"
+	]
+	quest.1DE8B0C9A7195720.quest_subtitle: "Chắc chắn rồi, đó là các con số"
+	quest.1DE8B0C9A7195720.title: "Giao diện Lò phản ứng phân hạch"
+	quest.1FAAF8216CDC3AC6.quest_desc: [
+		"Bơm Chất thải phóng xạ vào một &9Bộ kích hoạt neutron mặt trời&r sẽ cho bạn &dPolonium&r."
+		""
+		"Cho Polonium qua một Buồng phản ứng áp suất với một ít Bụi Fluorite và bạn sẽ nhận được &9Viên Polonium&r. Bạn sẽ cần một lượng lớn những thứ này cho tương lai."
+		""
+		"Lưu ý: Điều này cũng sẽ tạo ra sản phẩm phụ là &7Chất thải phóng xạ đã qua sử dụng&r, cần được bơm vào một Thùng chứa chất thải để lưu trữ."
+	]
+	quest.2331FCDD2F2B709A.quest_desc: [
+		"&9Cuộn dây siêu nạp&r được đặt trên một Cổng SPS ở trung tâm của hai mặt, như hình dưới đây. Khi được cấp năng lượng, chúng sẽ siêu nạp Polonium thành Antimatter. Chỉ cần 1, nhưng bạn có thể dùng 2 nếu muốn."
+		""
+		"Để sản xuất 1mb Antimatter, bạn cần 40MRF. Nếu bạn chưa bắt đầu làm một &cLò phản ứng nhiệt hạch&r, bây giờ là thời điểm tốt để làm nó!"
+		""
+		"{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1}"
+	]
+	quest.2331FCDD2F2B709A.title: "Cuộn dây siêu nạp"
+	quest.233E438357CD89F6.quest_desc: [
+		"&9Van tuabin&r được dùng để bơm vào &bHơi nước&r, cũng như bơm ra năng lượng mà tuabin tạo ra."
+		""
+		"&8Ống thông gió tuabin&r được dùng để bơm ra nước thừa khi sử dụng &aMáy ngưng tụ bão hòa&r. Nếu không, chúng giúp tăng tổng lưu lượng hơi nước bên trong tuabin. Tổng số ống thông gió cũng giới hạn Tổng tỷ lệ lưu lượng Hơi nước. Ống thông gió cũng có thể được dùng trên mặt trên của tuabin, nhưng cho bản thiết kế này, chúng ta sẽ chỉ dùng chúng trên các mặt bên ngoài."
+		""
+		"&aMáy ngưng tụ bão hòa&r được dùng để chuyển đổi &bHơi nước&r trở lại thành nước. Chúng được đặt trên hoặc phía trên lớp chứa Cuộn dây điện từ."
+	]
+	quest.233E438357CD89F6.title: "Các Cổng &a"
+	quest.24174700F7FB771C.quest_desc: [
+		"Trong chương này, chúng ta sẽ sử dụng các máy Mekanism nâng cao để tạo ra các &aLò phản ứng nhiều khối mạnh mẽ&r, cũng như các cách thức nâng cao để tạo và lưu trữ năng lượng. Điều này cũng sẽ dẫn đến việc tạo ra &dViên phản vật chất&r, được dùng để làm &6Ngôi sao ATM&r, cũng như một số công cụ và vũ khí mạnh nhất trong bộ mod."
+	]
+	quest.24174700F7FB771C.title: "&aMekanism&r: &dLò phản ứng"
+	quest.26D306418545A2D6.quest_desc: [
+		"&dLò phản ứng nhiệt hạch&r có thể sản xuất lên đến 200MRF/t một mình, nhưng trước tiên chúng ta cần hiểu một số cơ chế.\"
+		"\"
+		"Cách dễ nhất để sản xuất năng lượng là bơm riêng Deuterium và Tritium, sau đó kiểm soát lượng nhiên liệu đốt bằng &aTỷ lệ tiêm&r trong &cThẻ Nhiên liệu&r.\"
+		"\"
+		"Đây phải là số chẵn với tối đa 98, vì nó kết hợp nhiên liệu D-T bên trong chính Lò phản ứng. Mức tiêu thụ của mỗi nhiên liệu bằng một nửa Tỷ lệ tiêm mỗi tick, nghĩa là 49mb/t cho mỗi loại ở mức tối đa.\"
+		"\"
+		"Tuy nhiên, bạn có thể tiêm trực tiếp &dNhiên liệu D-T&r, nhưng sẽ không thể kiểm soát Tỷ lệ tiêm. Điều này sẽ tạo ra lượng năng lượng khổng lồ mỗi tick, nhưng với tỷ lệ tiêu thụ nhiên liệu cao hơn nhiều là 500mb/t cho mỗi nhiên liệu.\"
+		""
+		"{image:atm:textures/questpics/mek/fusion_fuelui1.png width:175 height:150 align:1}"
+	]
+	quest.26D306418545A2D6.title: "&dNguồn Năng lượng Cuối Cùng"
+	quest.2B3F2F470E06BC40.quest_desc: [
+		"Với tất cả các khối đã thu thập, đã đến lúc xây dựng thứ này. Dưới đây là hướng dẫn văn bản, hoặc bạn có thể xem Ponder!\"
+		"\"
+		"SPS sẽ có kích thước 7x7 khi xây, nhưng nó không phải là một khối lập phương. Nó tuân theo một mẫu đơn giản, mà bạn có thể làm theo các hình ảnh bên dưới như một hướng dẫn xây dựng. Mẫu trông như thế này:\"
+		""
+		"{image:atm:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:1}"
+		"\"
+		"Mỗi mặt, bao gồm đáy và đỉnh, sẽ tuân theo mẫu này. Các Cuộn Siêu Điện nên được đặt đối diện nhau ở trung tâm của các mặt tương ứng, và hai cổng còn lại sẽ được dùng để bơm vào Polonium, và bơm ra Khí Phản Vật Chất."
+		"{@pagebreak}"
+		"Dưới đây là cấu trúc hoàn thành:\"
+		""
+		"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
+	]
+	quest.2B76B2F18C2C47D2.quest_desc: [
+		"Khi đốt nhiên liệu, Lò phản ứng phân hạch tạo ra một lượng nhiệt khổng lồ. Để ngăn Lò phản ứng chuyển thành TNT, chúng ta cần đảm bảo nó được làm mát đúng cách."
+		""
+		"Cách dễ nhất là cung cấp cho Lò phản ứng &9Nước&r từ một Cái Bồn. Cái Bồn là nguồn nước vô hạn, điều này &othực sự tuyệt vời trong tình huống như thế này&r."
+		""
+		"Bơm nước vào một trong các Cổng của Lò phản ứng được đặt thành &ađầu vào&r để đổ đầy Lò phản ứng bằng nước. Nước này sẽ được đun nóng khi Lò phản ứng chạy và chuyển thành &bHơi nước&r, mà bạn có thể dùng để tạo năng lượng trong một &9Tuabin Công nghiệp&r."
+		""
+		"&eNatri&r cũng có thể được dùng như một chất làm mát hiệu quả hơn nhiều. Điều này cho phép tỷ lệ đốt cao hơn và nhiệt độ lõi thấp hơn."
+	]
+	quest.2B76B2F18C2C47D2.quest_subtitle: "Nước H2O Chất Lượng Cao"
+	quest.2B76B2F18C2C47D2.title: "Làm Mát Lò Phản Ứng Của Chúng Ta"
+	quest.2E9FC7DC2AC6FD8E.quest_desc: [
+		"&8Rác phóng xạ&r có thể được đưa vào một Máy ly tâm Đồng vị để tạo ra &9Plutonium&r."
+		""
+		"Đưa Plutonium vào một Buồng Phản Ứng Áp suất với một ít nước và &7Bột Fluorite&r sẽ cho bạn &9Viên Plutonium&r. Những thứ này được dùng để làm vật liệu cuối game!"
+		""
+		"Lưu ý: Điều này cũng sẽ tạo ra sản phẩm phụ là &7Rác phóng xạ Đã qua sử dụng&r, cần được bơm vào một Thùng Rác để lưu trữ."
+	]
+	quest.31EEE2875595F315.quest_desc: [
+		"Bạn lẽ ra đã sản xuất &2Axit Sunfuric&r cho cơ sở Xử lý Quặng Cấp 4 rồi, nhưng đây là lời nhắc cách lấy nó.\"
+		"\"
+		"Bắt đầu bằng cách lấy &eLưu huỳnh&r bằng cách tìm thấy nó dưới lòng đất, hoặc trộn &bHydrogen Chloride&r với &3Thuốc súng&r trong một Buồng Tiêm Hóa chất.\"
+		"\"
+		"Lấy Bụi Lưu huỳnh và đưa qua một &9Oxy hóa Hóa chất&r để được &eLưu huỳnh Đioxit&r. Kết hợp nó với &bOxy&r trong một Máy Pha Hóa chất để được &eLưu huỳnh Trioxit&r.\"
+		"\"
+		"Tiếp theo, chúng ta sẽ kết hợp &bHơi nước&r với Lưu huỳnh Trioxit để tạo ra &2Axit Sunfuric&r."
+	]
+	quest.31EEE2875595F315.quest_subtitle: "Tóm tắt nhanh"
+	quest.31EEE2875595F315.title: "&2Axit Sunfuric"
+	quest.320CC038A64A3195.quest_desc: [
+		"Để xem hình ảnh, hãy xem Ponder bằng cách giữ &aW&r khi di chuột qua Laser Focus Matrix.\"
+		"\"
+		"Mục tiêu là nhắm mỗi Laser vào một Laser Amplifier. Dùng một cái khá chậm, vì vậy chúng ta sẽ làm vài cái.\"
+		"\"
+		"Trong hình dưới đây, bạn có thể thấy ví dụ về cách thiết lập. Gắn Laser trực tiếp vào nguồn năng lượng như Energy Cube được, hoặc bạn có thể đặt chúng trên ống hoặc cáp. Bạn muốn để một khối không gian trống giữa laser và Laser Amplifier.\"
+		"\"
+		"Laser Amplifier có một chấm đỏ trên một mặt. Đây là thứ bạn muốn chỉ về phía Laser Focus Matrix.\"
+		"\"
+		"Hãy chắc chắn tắt Laser Amplifier (hoặc kích hoạt điều khiển Redstone) và đợi nó lưu trữ &cthêm 400MRF&r, sau đó nó sẽ sẵn sàng.\"
+		""
+		"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1}"
+	]
+	quest.320CC038A64A3195.title: "Phương pháp Khởi động: &dLaser Focus Array"
+	quest.3591EAA8E397F992.quest_desc: [
+		"Hãy kiểm tra danh sách &omột lần nữa&r để đảm bảo chúng ta có mọi thứ sẵn sàng trước khi khởi động:\"
+		"\"
+		"1. Mặc Bộ đồ Bảo hộ Phóng xạ (an toàn là trên hết).\"
+		"2. Bơm Nước/coolant vào một Cổng đầu vào."
+		"3. Bơm Nhiên liệu Phân hạch vào một Cổng đầu vào."
+		"4. Một Cổng được đặt để xuất Nhiệt độ Coolant, hoặc vào thùng rác hoặc vào Tuabin Công nghiệp."
+		"5. Một Cổng được đặt để xuất chất Thải Phóng xạ dẫn đến Thùng Chứa chất Thải Phóng xạ hoặc máy để xử lý nó, hoặc cả hai!\"
+		"\"
+		"Nếu bạn đã sẵn sàng, hãy nhấn nút &eKích hoạt&r đó! Bạn cũng có thể điều chỉnh &3Tỷ lệ Đốt&r để sản xuất nhiều chất Thải Phóng xạ hơn, nhưng bắt đầu từ từ."
+	]
+	quest.3593D955361B0C6D.quest_desc: [
+		"Để khởi động Nhiệt hạch Tụ, chúng ta cần một liều nhanh nhiên liệu D-T. Được tạo bằng cách kết hợp &cDeuterium&r và &eTritium&r cùng nhau trong một Máy Pha Hóa chất."
+		""
+		"Bắt đầu bằng cách làm một &4Hohlraum&r và đặt nó vào Máy Pha (nơi có ký hiệu cộng) để đổ đầy nhiên liệu D-T. Bây giờ chúng ta đã sẵn sàng để khởi động Lò phản ứng!"
+	]
+	quest.3593D955361B0C6D.title: "Bơm Nhiên liệu"
+	quest.3663E93E169EF8E3.quest_desc: [
+		"Sử dụng một &9Máy Pha Hóa chất&r khác, chúng ta muốn kết hợp &bAxit Hydrofluoric&r của mình với &eOxit Uranium&r để tạo ra &2Hexafluorua Uranium&r."
+	]
+	quest.3663E93E169EF8E3.title: "&2Hexafluorua Uranium"
+	quest.36B1995B495AA674.quest_desc: [
+		"Để bắt đầu hành trình vào thế giới Lò phản ứng Mekanism, chúng ta sẽ bắt đầu bằng việc chế tạo một &aLò phản ứng phân hạch&r. Đây là cấu trúc đa khối tạo ra lượng nhiệt khổng lồ bằng cách đốt &3Nhiên liệu phân hạch&r. Lò phản ứng này không tự tạo ra năng lượng, nhưng nhiệt sinh ra có thể dùng để đun nóng &bChất làm mát&r để sau đó tạo năng lượng trong &aTuabin công nghiệp&r."
+		""
+		"Lò phản ứng phân hạch có thể rất nguy hiểm, vì sự cố nóng chảy có thể gây &ccháy nổ&r và &2Tia phóng xạ&r lan ra bán kính 5 khối, kéo dài vài tuần trong game."
+		""
+		"Nhưng chúng ta sẽ chuẩn bị cho điều đó. Hãy chế tạo một Bộ đồ bảo hộ phóng xạ, đề phòng... đúng chứ?"
+	]
+	quest.36B1995B495AA674.quest_subtitle: "Màu cam = Bảo vệ phóng xạ"
+	quest.36B1995B495AA674.title: "Trang bị cho Lò phản ứng"
+	quest.3AF4E5D4839CEF8B.quest_desc: [
+		"Khi chúng ta có được &eBánh Uranium (Yellow Cake Uranium)&r, chúng ta có thể đưa nó qua một &aMáy oxy hóa hóa học&r để tạo ra khí, &2Oxit Uranium&r."
+	]
+	quest.3AF4E5D4839CEF8B.title: "&eOxit Uranium"
+	quest.3B81800EE6E77EF2.quest_desc: [
+		"Lò phản ứng phân hạch cần &3Nhiên liệu phân hạch&r để vận hành. Nếu bạn tra cứu Nhiên liệu phân hạch ngay bây giờ trong JEI, tôi cá là bạn sẽ bị choáng ngợp với tất cả những thứ cần để làm nó. Không sao, bạn làm được. Hãy từng bước một."
+		""
+		"Tất cả đều xoay quanh việc tạo ra &eHexafluoride Uranium&r. Để làm được điều đó, hãy tập trung vào việc tạo hai khí này: &bAxit Hydrofluoric&r, và &eOxit Uranium&r."
+	]
+	quest.3F5010269469EBE0.quest_desc: [
+		"Phía trong lò phản ứng được xây dựng từ các cột sử dụng một số khối &aBộ lắp ráp Nhiên liệu phân hạch&r, với một &aBộ lắp ráp Thanh điều khiển&r đặt ở đỉnh mỗi cột. Chúng có thể cao từ 1 đến 15 khối, tùy thuộc vào kích thước lò phản ứng."
+		""
+		"Đối với bản thiết kế này, chúng ta sẽ đặt 2 Bộ lắp ráp Nhiên liệu phân hạch ở trung tâm cấu trúc đa khối của chúng ta, sau đó đặt Bộ lắp ráp Thanh điều khiển ngay phía trên nó."
+		""
+		"{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1}"
+	]
+	quest.3F5010269469EBE0.title: "Bên trong Lò phản ứng: Kiểm soát Nhiên liệu"
+	quest.3FFF9018DA2A2763.quest_desc: [
+		"Khi chúng ta bắt đầu đốt Nhiên liệu phân hạch trong lò phản ứng, chúng ta sẽ nhận được &bChất làm mát&r đã được đun nóng và &8Chất thải phóng xạ&r."
+		""
+		"Đây là lúc Tia phóng xạ bắt đầu. Miễn là nó &oan toàn trong một container hoặc máy nào đó&r, bạn sẽ không có đổ vỡ....đúng chứ?"
+		""
+		"Cách tốt nhất để lưu trữ bất kỳ chất phóng xạ nào là sử dụng một &2Thùng chứa Chất thải phóng xạ&r. Chúng sẽ lưu trữ chất thải một cách an toàn, đồng thời làm phân hủy khí một cách chậm mà không gây đổ chất phóng xạ. Bạn không muốn Chất thải phóng xạ của mình nằm trong Lò phản ứng vì nó khiến lò phản ứng tạo ra nhiều nhiệt hơn, vì vậy hãy thiết lập một cổng để &axuất chất thải&r và vận chuyển nó đến thùng!"
+		""
+		"&9Lưu ý quan trọng&r: Phá &nbất kỳ&r máy, thùng, ống, hay &obất cứ thứ gì&r có khí phóng xạ bên trong &csẽ gây rò rỉ phóng xạ&r. Điều đó bao gồm các sản phẩm của Chất thải phóng xạ, như Polonium hay Plutonium."
+	]
+	quest.3FFF9018DA2A2763.title: "Xử lý &8Chất thải phóng xạ"
+	quest.4189BC3DFB551F4C.quest_desc: [
+		"Nếu bạn đã lắp đặt Turbine đúng cách, bạn sẽ thấy các hạt particle màu đỏ xung quanh cấu trúc. Nhấp chuột phải vào Turbine sẽ mở giao diện."
+		""
+		"Giao diện này sẽ cung cấp mọi thông tin bạn cần biết, bao gồm Tổng Lưu lượng Hơi nước, cũng như Tổng lượng Hơi nước bên trong Turbine."
+		""
+		"Bên phải, bạn sẽ thấy thanh hiển thị Năng lượng được lưu trữ bên trong Turbine. Nếu thanh này đầy, Turbine sẽ tắt, trừ khi bạn đặt nó ở chế độ Vent Overflow."
+		""
+		"Hãy cùng khởi động nó!"
+		""
+		"Khi bạn đã có một Lò phản ứng phân hạch hoạt động hoàn toàn, bơm &bHơi nước&r trực tiếp vào van Turbine trên Turbine của bạn. Vì chúng ta đang sử dụng Saturating Condensers trong thiết kế này, bạn có thể bơm nước từ cửa thông gió Turbine trở lại Lò phản ứng nếu bạn muốn."
+	]
+	quest.4189BC3DFB551F4C.title: "Tạo Năng Lượng bằng Turbine!"
+	quest.4ABF0727AA569DD9.quest_desc: [
+		"Để cung cấp nhiên liệu cho Lò phản ứng nhiệt hạch của chúng ta, chúng ta cần tạo hai loại khí khác nhau, loại này là &cDeuterium&r."
+		""
+		"Để làm được điều này, chúng ta cần tạo một số Máy bơm Điện và lắp cho chúng Bản nâng cấp Bộ lọc. Đặt chúng phía trên một khối nguồn nước, cấp điện cho chúng, và chúng sẽ bơm ra &5Nước nặng&r."
+		""
+		"Bơm Nước nặng vào Máy tách Điện hóa để thu được &cDeuterium&r."
+	]
+	quest.4ABF0727AA569DD9.title: "Nạp Nhiên Liệu cho Lò Phản Ứng: &cDeuterium"
+	quest.54D8B9CB3F98040F.quest_desc: [
+		"Hohlraum đã được lấp đầy Nhiên liệu D-T? &oKiểm tra!&r\"
+		"\"
+		"Deuterium và Tritium đã sẵn sàng để bơm vào Lò phản ứng? &oKiểm tra!&r\"
+		"\"
+		"Máy khuếch đại Laser có ít nhất 400MRF sẵn sàng bắn vào Ma trận Tiêu điểm Laser? &oKiểm tra!&r\"
+		"\"
+		"Khi bạn đã sẵn sàng, đặt &5Hohlraum&r vào &aBộ điều khiển Lò phản ứng Nhiệt hạch&r, bơm nhiên liệu vào, sau đó kích hoạt Máy khuếch đại Laser của bạn.\"
+		"\"
+		"Nếu làm đúng, &nbạn sẽ thấy Lò phản ứng được kích hoạt!&r\"
+		""
+		"{image:atm:textures/questpics/mek/fusion_activated.png width:225 height:150 align:1}"
+	]
+	quest.54D8B9CB3F98040F.title: "&dTôi nghĩ chúng ta đã sẵn sàng"
+	quest.57534FA0E09C4975.quest_desc: [
+		"Đến lúc này, bạn đã sản xuất &aLithium&r. Bơm nó vào Máy kích hoạt neutron mặt trời để tạo &eTritium&r."
+	]
+	quest.57534FA0E09C4975.title: "Nạp Nhiên Liệu cho Lò Phản Ứng Nhiệt Hạch: &eTritium"
+	quest.5FDB48511EC1C580.quest_desc: [
+		"Sợ làm nổ Lò phản ứng phân hạch của bạn và gây ra rò rỉ Bức xạ lớn? Đừng lo, chúng ta đều vậy. &o*chèn ký ức tồi tệ ở đây*&r\"
+		"\"
+		"Vậy làm thế nào để ngăn chặn thảm họa thảm khốc như vậy? Bằng cách tạo một &aRơ-le cắt mạch&r sử dụng &dBộ điều khiển logic Lò phản ứng phân hạch&r. Bây giờ những thứ này không đảm bảo 100% sẽ ngăn được vụ nổ, nhưng chúng thực sự rất tốt để có."
+		""
+		"Về cơ bản, các Bộ điều khiển này cho phép chúng ta điều khiển Lò phản ứng bằng &cĐá đỏ&r. Với chỉ một cái, bạn có thể dùng cần gạt để bật và tắt lò phản ứng. Tuy nhiên, chúng ta sẽ sử dụng chúng để kiểm soát thiệt hại."
+		""
+		"Bạn cũng có thể đặt chúng để phát tín hiệu Đá đỏ dựa trên một điều kiện nhất định trong Lò phản ứng, như &cThiệt hại nghiêm trọng&r hoặc &8Nhiên liệu không đủ&r. Điều này hữu ích để thiết lập một rơ-le cắt mạch để tắt Lò phản ứng nếu những điều kiện đó xảy ra."
+		""
+		"{image:atm:textures/questpics/mek/logic_adapter.png width:150 height:125 align:1}"
+	]
+	quest.5FDB48511EC1C580.quest_subtitle: "Bởi vì chúng ta đều đã từng làm nổ một Lò phản ứng trước đây"
+	quest.5FDB48511EC1C580.title: "Hệ thống an toàn Lò phản ứng"
+	quest.6313B18820445882.quest_desc: [
+		"&9Industrial Turbine&r là một cấu trúc khối lớn được dùng để chuyển đổi &cHeated Coolant&r thành năng lượng. Kích thước tối thiểu là 5x5x5, tối đa là 17x17x18."
+		""
+		"Để xây dựng Turbine, chúng ta cần một số khối, vì vậy hãy bắt đầu với những kiến thức cơ bản."
+		""
+		"Giống như hầu hết các multiblock của Mekanism, khung phải được làm từ &eTurbine Casings&r. Tuy nhiên, thay vì Reactor Glass, bạn có thể dùng &bStructural Glass&r hoặc Casings cho mỗi mặt."
+		""
+		"Chúng ta sẽ xây dựng Turbine này, và nhiệm vụ yêu cầu chính xác vật liệu cần thiết."
+		""
+		"{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1}"
+	]
+	quest.6313B18820445882.quest_subtitle: "Xây dựng khung"
+	quest.6313B18820445882.title: "&9Tuabin Công nghiệp&r"
+	quest.673FCBF8685D0EEE.quest_desc: [
+		"Hầu hết mọi multiblock của Mekanism được xây dựng theo cùng một cách.\"
+		"\"
+		"Bạn sẽ cần tạo một cấu trúc hình hộp chữ nhật. Các cạnh phải được làm từ &8Induction Casings&r. Các mặt có thể được làm từ Casings, &aStructural Glass&r, hoặc &cInduction Ports&r. Tốt nhất nên có 2 Ports: một cho đầu vào, và một cho đầu ra. Chúng có thể được thay đổi bằng cách sử dụng &eConfigurator&r.\"
+		"\"
+		"Đối với bản xây dựng này, chúng ta sẽ làm một khối 5x5x5. Nhiệm vụ này yêu cầu chính xác số lượng vật liệu cần thiết để xây dựng nó.\"
+		""
+		"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
+	]
+	quest.673FCBF8685D0EEE.quest_subtitle: "Bố của Khối Năng lượng"
+	quest.673FCBF8685D0EEE.title: "Xây dựng &9Ma trận Cảm ứng&r"
+	quest.79757F66DF263FA0.quest_desc: [
+		"Để tạo ra phản ứng để Lò phản ứng bật, chúng ta sẽ cần đưa vào một lượng lớn năng lượng. &oVà tôi nói là một lượng rất lớn năng lượng&r."
+		""
+		"Điều này yêu cầu bạn thiết lập một số &9Lasers&r mà tất cả cần được cấp năng lượng, sau đó bắn 400MFE trực tiếp vào Laser Focus Matrix."
+		""
+		"Laser Focus Matrix được đặt ở trung tâm của một mặt của Fusion Reactor. Chúng ta sẽ xây dựng Lasers tiếp theo."
+	]
+	quest.79757F66DF263FA0.quest_subtitle: "Tia laser"
+	quest.79757F66DF263FA0.title: "Tiêu điểm Laser"
+	quest.7B0764DDE94E73D0.quest_desc: [
+		"Sử dụng một số cơ chế vanilla và 2 &aBộ điều hợp logic Lò phản ứng phân hạch&r, chúng ta có thể tạo một công tắc mạch đơn giản để ngắt và tắt lò phản ứng &o&ephòng khi mọi thứ trở nên điên rồ&r."
+		""
+		"Để làm điều này, chúng ta cần một mảnh Đá redstone, một Piston, một khối cát hoặc sỏi, và một Máy quan sát."
+		""
+		"Trên một mặt, chúng ta sẽ đặt một Bộ điều hợp logic xuống, sau đó bỏ qua một khối phía trên nó và đặt một Bộ điều hợp khác. Đặt Bộ điều hợp phía trên thành \"&9Kích hoạt&r\", và Bộ điều hợp phía dưới thành \"&cTổn thất nghiêm trọng&r\"."
+		""
+		"Tiếp theo, phía trước và bên dưới Bộ điều hợp phía dưới, đặt bất kỳ khối xây dựng nào và gắn một mảnh Đá redstone lên nó dẫn từ Bộ điều hợp. Sau đó chúng ta sẽ đặt một Piston hướng lên phía trước mảnh Đá redstone đó, rồi đặt mảnh cát hoặc sỏi của chúng ta lên Piston đó."
+		""
+		"Phần cuối cùng của công tắc, đặt Máy quan sát với mặt hướng &bra ngoài về phía thiết lập Piston&r. &9Điều này quan trọng&r!"
+		""
+		"Bất cứ khi nào Lò phản ứng có tổn thất nghiêm trọng, nó sẽ kích hoạt Bộ điều hợp phía dưới, khiến Đá redstone nhận được tín hiệu, sau đó kích hoạt Piston và đẩy cát/sỏi lên. Điều này sẽ kích hoạt Máy quan sát, và sau đó tắt Lò phản ứng."
+		""
+		"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
+	]
+	quest.7B0764DDE94E73D0.quest_subtitle: "Cần hình ảnh trực quan? Xem Ponder đi!"
+	quest.7B0764DDE94E73D0.title: "Ví dụ về Công tắc mạch"
+	quest.7C61906C6C87C97D.quest_desc: [
+		"&9Cuộn dây điện từ&r được đặt trực tiếp phía trên &aTập hợp quay&r để chuyển năng lượng cơ học thành điện năng."
+		""
+		"Bạn có thể sử dụng nhiều, tối đa 7 với một Tua-bin sử dụng 28 lưỡi dao. Chúng phải chạm vào một Cuộn dây điện từ khác, hoặc Tập hợp quay."
+	]
+	quest.7E17AB5A4492929E.quest_desc: [
+		"Mọi Lò phản ứng đều dùng uranium ở đâu đó làm nhiên liệu, phải không?"
+		""
+		"Đầu tiên, hãy thu thập một số &aThỏi uranium&r. Chúng ta cần xử lý chúng trong một &9Buồng làm giàu&r để biến chúng thành &eBánh uranium vàng&r."
+	]
+	quest.7E17AB5A4492929E.quest_subtitle: "Tất nhiên nó dùng uranium"
+	quest.7E17AB5A4492929E.title: "&auranium"
+	task.27709080B4B77B09.title: "Khởi động Lò phản ứng"
+	task.2A6E713A062510B6.title: "Đổ nhiên liệu cho Lò phản ứng"
+	task.2E3FF129C3668DD8.title: "Bộ cung cấp cảm ứng"
+	task.363BADA865C39474.title: "Mọi quyền được bảo lưu"
+	task.382818E289EC83A6.title: "&3Sản xuất Nhiên liệu Phân hạch&r"
+	task.4063C1B5F935A026.title: "Tế bào Cảm ứng"
+	task.559F3BFEC15996F8.title: "Công suất Tuabin"
+	task.59F0226D83026397.title: "Mọi quyền được bảo lưu"
+	task.5BC88AE46F95774D.title: "Đá sỏi hoặc Cát"
+	task.63C2897AE205D747.title: "Xây dựng SPS!"
+}

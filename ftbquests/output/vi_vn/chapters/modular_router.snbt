@@ -1,0 +1,341 @@
+{
+	quest.00E1F1279F97557B.quest_desc: [
+		"Tương tự như Extruder MK1 nhưng cái này tiên tiến hơn! Có thể sử dụng với Patterns nên khi đặt Blocks chúng sẽ theo pattern đó!"
+	]
+	quest.01C5D8357D8B0D62.quest_desc: [
+		"Nếu bạn biết Detector Rail hoạt động như thế nào thì Module này sẽ dễ hiểu với bạn. \"
+		"\"
+		"Về cơ bản, nếu một Item nhất định nằm trong Router, nó sẽ phát ra một Tín hiệu Redstone từ Router. \"
+		"\"
+		"Trong Module, bạn có thể thiết lập Item, nguồn phát tín hiệu, và cường độ tín hiệu."
+	]
+	quest.067AB3E4C4492F0D.quest_desc: [
+		"Không muốn đào một đống Quặng bạn có? Tại sao không để Routers làm hộ bạn? \"
+		"\"
+		"Bạn có thể dùng Placer để đặt Quặng xuống, sau đó để Enchanted Breaker đào Quặng. Breaker cần Búa dùng để chế tạo nó phải được phù phép trước, chính Module thì không thể phù phép được. \"
+		"\"
+		"Bạn có thể cần một Router khác để nhặt Quặng rơi ra."
+		"{image:atm:textures/questpics/router/router_break.png width:150 height:80 align:center}"
+	]
+	quest.067AB3E4C4492F0D.title: "Router cho Khai Thác"
+	quest.09E25B1CD6CABD5A.quest_desc: [
+		"Nâng cấp này khiến Router trở nên giống với một Khối Có Khung. \"
+		"\"
+		"Nhấn Shift + Chuột Phải lên một Khối để thay đổi hình dạng Router thành khối đó. \"
+		"\"
+		"Chỉ đừng làm mất nó!"
+	]
+	quest.0CE236731DF15DFF.quest_desc: [
+		"Tại sao phải chờ? Thông thường các vật thể rơi ra trong Minecraft cần một khoảng thời gian để chạm đất trước khi có thể nhặt lại. \"
+		"\"
+		"Nhưng tại sao phải chờ?\"
+		"\"
+		"Nâng cấp này cho phép Mô-đun Chân không không cần chờ và ngay lập tức hút các vật thể. \"
+		"\"
+		"Rất tốt để giảm lag!"
+	]
+	quest.0D5691403AEC25A8.quest_desc: [
+		"Router cũng có thể được dùng cho Nông nghiệp!\"
+		"\"
+		"Đầu tiên, bắt đầu với một Trang trại đơn giản. Sau đó, bạn sẽ cần một Mô-đun Kích hoạt và hướng nó về phía Cây trồng. Tiếp theo, đặt một Mô-đun Chân không vào Router của bạn để thu hoạch Cây trồng. Cuối cùng, bỏ tất cả vào Router, cấp nguồn bằng Đá Đỏ, và để nó tự canh tác!"
+		"{image:atm:textures/questpics/router/router_farm.png width:60 height:150 align:center}"
+	]
+	quest.0D5691403AEC25A8.title: "Router cho Nông nghiệp"
+	quest.0DC8B68CDF945348.quest_desc: [
+		"Router cho và Router lấy. \"
+		"\"
+		"Mô-đun này hữu ích cho Xây dựng giả hay thậm chí Khai thác! Nó có thể được cài đặt để gửi vật thể từ Bộ đệm của nó vào Kho đồ của bạn hoặc lấy vật thể từ Kho đồ của bạn vào Bộ đệm. \"
+		"\"
+		"Hoàn hảo cho Khai thác Dải, hãy để nó lấy tất cả Đá Cuội và Deepslate từ Kho đồ của bạn và bỏ vào Thùng Rác."
+	]
+	quest.10672B5991E5FC34.quest_desc: [
+		"Đồ của tôi, đừng chạm. \"
+		"\"
+		"Chỉ bạn mới có thể sử dụng và nghịch với Router sau khi đã lắp Nâng cấp."
+	]
+	quest.1069244EB72F64CA.quest_desc: [
+		"Tiêu thụ nhiều Năng lượng hơn với các Mô-đun Năng lượng!"
+	]
+	quest.143AE6889BDA9EF5.quest_desc: [
+		"Các Mô-đun chỉ có một số khe cho Vật thể Đã lọc, nếu bạn cần nhiều hơn thì hãy dùng cái này! Bộ lọc Vật thể Số lượng lớn. \"
+		"\"
+		"Bạn có thể đặt nhiều Vật thể hơn vào Danh sách Trắng hoặc Danh sách Đen của nó. Sau đó ném nó vào nơi mà các Bộ lọc thông thường đi! \"
+		"\"
+		"Sẽ cần để chế tạo các Bộ lọc Độc nhất hơn!"
+	]
+	quest.177396B9C4F9B3E2.quest_desc: [
+		"Tại sao phải chờ? Ồ, bạn có lý do hợp lý để chờ? Như là những vật thể có thể biến mất. Hừm, tôi chưa nghĩ đến chúng. \"
+		"\"
+		"Với Bổ trợ Trễ Nhặt, Mô-đun Chân không sẽ chờ 10 tick với mỗi Bổ trợ trong nó để nhặt các vật thể rơi!"
+	]
+	quest.185074907753AE77.quest_desc: [
+		"Nếu bạn đang sử dụng các Router, tôi hy vọng bạn có một chút kiến thức về trò chơi. \"
+		"\"
+		"Để tránh nhầm lẫn, 'void' một vật phẩm có nghĩa là xóa nó. \"
+		"\"
+		"Bất kỳ vật phẩm nào đi vào Router sẽ bị xóa vĩnh viễn! \"
+		"\"
+		"Khuyên nghị sử dụng Filters với cái này..."
+	]
+	quest.1A806C1A54B26EB5.quest_desc: [
+		"Bạn không muốn mọi thứ hoạt động ở phạm vi lớn hơn? Bạn muốn Vacuum của bạn để lại chỗ để thả vật phẩm trong Thế giới của bạn? Vậy tôi đoán bạn có thể giảm phạm vi (range down)."
+	]
+	quest.1AA81C41431FD145.quest_desc: [
+		"Kéo..! Kéo..! Kéo..! \"
+		"\"
+		"Puller trái ngược với Sender, nó kéo vật phẩm từ Kho (Inventory) vào Bộ đệm (Buffer) của Router. \"
+		"\"
+		"Kho phải liền kề với Router."
+	]
+	quest.20D4568857887D38.quest_desc: [
+		"Đôi khi Router có thể ở trong tình huống nguy hiểm, như triệu hồi Wither. \"
+		"\"
+		"Để bảo vệ nó, bạn sẽ cần Blast Upgrade. \"
+		"\"
+		"TNT không phá được nó, Wither không phá được nó, chỉ có bạn."
+	]
+	quest.233C7CAA573D6045.quest_desc: [
+		"Các module xác định hành động mà Router thực hiện.\"
+		"\"
+		"Chúng có thể khiến Router của bạn kéo vật phẩm từ Rương, hoặc đặt vật phẩm vào rương, hoặc thậm chí cả hai! Và còn nhiều hơn nữa!\"
+		"\"
+		"Các module được lắp vào chính Router và có thể lắp nhiều cái.\"
+		"\"
+		"Bộ lọc và Nâng cấp được lắp vào chính các module."
+	]
+	quest.233C7CAA573D6045.title: "&lModules"
+	quest.2405663C033CBDF1.quest_desc: [
+		"MK3 không quan tâm đến trục XYZ, tầm nhìn, hay Chiều không gian. \"
+		"\"
+		"Chỉ cần Kho ở trong cùng Thế giới Minecraft, nó có thể di chuyển vật phẩm vào đó. \"
+		"\"
+		"Chà, tôi thậm chí không chắc liệu Kho có cần phải trong trò chơi Minecraft để gửi đến không!"
+	]
+	quest.2447208F1DC74FFE.quest_desc: [
+		"Router có thể gây ồn, và tiếng ồn chắc chắn cộng dồn khi bạn có hàng trăm cái.\"
+		"\"
+		"Có lẽ sẽ tốt nếu đầu tư vào Muffer Upgrades!"
+	]
+	quest.247DAE5B4E1AC7F1.quest_desc: [
+		"Nước vào. \"
+		"Nước ra. \"
+		"\"
+		"Fluid Module sẽ lấy Nguồn Nước (Liquid Sources) từ gần Router và đặt vào một Bể (Tank) trong Bộ đệm, hoặc lấy Nước từ một Bể trong Bộ đệm của nó và đặt ra phía trước nó. \"
+		"\"
+		"Chỉ hoạt động với các khối liền kề Router, nếu bạn muốn phạm vi lớn hơn bạn sẽ cần..."
+	]
+	quest.2B60D123123A5E8E.quest_desc: [
+		"Tại sao phải đặt một vị trí để Năng lượng có thể đi đến? Tại sao không để nó tự do! \"
+		"Giống như thả một đàn ong, Năng lượng sẽ đi khắp nơi gần như tức thì (với ít tiếng vù hơn). Bất kỳ khối nào cần Năng lượng ở gần sẽ được sạc không dây."
+	]
+	quest.2BB5769119BA2472.quest_desc: [
+		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2cộng tác viên cộng đồng&r để sử dụng trong các Modpack AllTheMods. \"
+		"\"
+		"Vì tất cả các pack &6AllTheMods&r đều được cấp phép theo &eTất cả các quyền được bảo lưu&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. \"
+		"\"
+		"Nhiệm vụ này được cố ý ẩn, nếu bạn thấy điều này, bạn đang ở chế độ chỉnh sửa."
+	]
+	quest.2DD5F0693780B10A.quest_desc: [
+		"Khi sử dụng với Extruder MK2, các khối được ép sẽ bắt chước các khối thực tế. Khối Redstone sẽ phát Redstone, Glowstone sẽ phát ánh sáng, Grass sẽ hoạt động trong suốt. Nhưng chỉ với Augment này! \"
+		"Không hoạt động với Block Entities như Lò nướng (Furnaces) hay Buồng làm giàu (Enrichment Chambers)."
+	]
+	quest.3025081DA6D2B398.quest_desc: [
+		"Thông thường Router điều khiển các Module nhưng với Augment này, Module sẽ trở nên hỗn loạn! AWOl! Hoàn toàn vô chính phủ! \"
+		"\"
+		"Nó sẽ lắng nghe kích hoạt Redstone của chính nó thay vì của Router."
+	]
+	quest.309B6B8368E535A0.quest_desc: [
+		"Một Router thực hiện hành động mỗi khi nó có một tick. \"
+		"\"
+		"Mặc định là 20 Tick hoặc 1 Giây. \"
+		"\"
+		"Điều này có thể được giảm số Tick với Speed Upgrade!"
+	]
+	quest.326C63F7DC713E71.quest_desc: [
+		"Distributer là anh em một nửa của Sender Modules. (Chính xác là MK3, ở phía MK2). \"
+		"\"
+		"Thay vì gửi đến 1 Kho (Inventory), nó sẽ gửi đến nhiều kho được chọn. \"
+		"\"
+		"Nó có thể gửi theo nhiều chế độ: Round Robin, Ngẫu nhiên, Gần nhất trước, hoặc Xa nhất trước. Round Robin phân phối lượng đều cho mỗi kho lần lượt, như một người chia bài trong Poker. Ngẫu nhiên sẽ chọn ngẫu nhiên một kho để cung cấp. Các chế độ khác được xác định bởi khoảng cách từ Router."
+	]
+	quest.346B9339E3D66478.quest_desc: [
+		"Năng lượng là thứ được sử dụng bởi gần như mọi thứ nên bạn cần gửi nó đến hầu hết mọi nơi. May mắn thay, Energy Module sẽ giúp bạn! \"
+		"\"
+		"Energy Module sẽ di chuyển bất kỳ năng lượng nào được đưa vào nó, đến một nơi khác! Đến bất cứ nơi nào bạn thiết lập!"
+	]
+	quest.36DED7099E80ED51.quest_desc: [
+		"Cái này làm đúng như tên gọi, nó đặt Blocks. \"
+		"\"
+		"Thiết lập Hướng bạn muốn Block được đặt, tốt nhất là thiết lập Filter, sau đó ném Module và Blocks vào Router! Khi Redstone được thiết lập, các Block sẽ được đặt!"
+	]
+	quest.37F2BE3C2BAF7C2D.quest_desc: [
+		"Tags là một phần thiết yếu của Minecraft. \"
+		"\"
+		"Đối với những người không biết, chúng hoạt động như một công cụ tổ chức để giúp chọn các vật phẩm tương tự cho cùng một nhiệm vụ. Ví dụ như Bàn chế tạo được làm với bất kỳ Plank nào hoặc Cây được đốn nhanh nhất với bất kỳ Axe nào. \"
+		"\"
+		"Để lọc theo Tag, hãy đặt một vật phẩm vào, sau đó chọn tag từ các nhóm. Ví dụ như Iron Ore cho nhóm Ores."
+	]
+	quest.38954551309F42A7.quest_desc: [
+		"Sender Module MK2 hoạt động tương tự MK1 nhưng với ít ràng buộc hơn. \"
+		"\"
+		"MK2 không cần tầm nhìn trực tiếp hoặc phải trên cùng trục XYZ. \"
+		"\"
+		"Tuy nhiên, nó phải ở cùng Dimension, trừ khi bạn có..."
+	]
+	quest.3C54C36CE97A48DC.quest_desc: [
+		"Droppers rơi,\"
+		"Dispensers phát, \"
+		"Và Flingers ném! \"
+		"\"
+		"Thay vì đặt nhẹ nhàng các vật phẩm từ Buffer, Flinger Module sẽ ném chúng? Xa bao xa? Bạn quyết định!"
+	]
+	quest.40788326E791845D.quest_desc: [
+		"Extrude là từ khá nhạy cảm. "
+		""
+		"Máy Extruder sẽ đặt các khối vào Buffer của Router thành một hàng phía trước Router khi được cấp tín hiệu Redstone. Khi tín hiệu tắt, nó sẽ phá tất cả các khối đó. "
+		""
+		"Rất hữu ích cho Cửa!"
+	]
+	quest.417B88FEB1B8F44E.quest_desc: [
+		"Chúng hút thật đấy! Thật sự! "
+		""
+		"Mô-đun Chân không sẽ hút mọi vật phẩm trong khu vực đã đặt và di chuyển chúng đến Buffer của Router. Tương tự như Absorption Hopper. "
+		""
+		"Cũng có thể dùng với Tăng cường Kinh nghiệm!"
+	]
+	quest.475E1B94A61B9EB0.quest_desc: [
+		"Giống MK1, cái này cũng hút! Chỉ là không chỉ từ các kho hàng liền kề, mà còn từ bất kỳ kho hàng nào gần đó!"
+	]
+	quest.4A03A671757B2EBF.quest_desc: [
+		"Độ bền, Mức chất lỏng, Mức năng lượng, Cấp độ Phép thuật và Giá trị Thức ăn đều là các danh mục chúng ta có thể dùng với Bộ lọc Kiểm tra."
+		""
+		"Sau đó chúng ta chọn nếu muốn nó Lớn hơn, Nhỏ hơn, Bằng nhau, hoặc hỗn hợp của chúng với Số lượng Đánh số."
+		""
+		"Tiếp theo, chúng ta đặt một Số lượng Đánh số và nhấn Nút Cộng để thêm nó vào Bộ lọc."
+		""
+		"Điều này có thể dùng để chỉ giữ lại Công cụ có Độ bền cao hoặc Thức ăn có Giá trị Thức ăn cao."
+	]
+	quest.4CC963F5AECF285A.quest_desc: [
+		"Thông thường Router di chuyển 1 vật phẩm mỗi Tick của nó. Điều này có thể nhân đôi và chồng chất! với Nâng cấp Chồng. "
+		""
+		"1 Nâng cấp Chồng là 2 Vật phẩm, 2 Chồng là 4 Vật phẩm, và 6 Chồng là 64 Vật phẩm một giây."
+	]
+	quest.4EAFE7B240AF0A4D.quest_desc: [
+		"Không thể với tới thứ bạn cần? Hãy thử Khoảng cách Xa! "
+		""
+		"Với cái này mọi thứ sẽ thực hiện hành động nhưng ở khoảng cách xa hơn. Chân không có phạm vi cao hơn để nhặt vật phẩm. Năng lượng đi xa hơn. Flinger ném với sức mạnh lớn hơn!"
+	]
+	quest.4FA5192164E4A427.quest_desc: [
+		"Chất lỏng không chồng chất như Vật phẩm, vì vậy nâng cấp của nó hơi khác. Vẫn di chuyển nhiều hơn chỉ là với tốc độ khác."
+	]
+	quest.53A5F5E49EA8D5AF.quest_desc: [
+		"Đây là một ví dụ hay về việc sử dụng Modular Routers để tạo một Mob Farm dễ tổ chức siêu dễ. (Không bao gồm cách giết mob). "
+		""
+		"Để minh họa, tôi sẽ dùng một Wither Skeleton Farm. "
+		""
+		"Trước tiên, bạn muốn đưa Vật phẩm vào Buffer bằng Mô-đun Chân không. Tiếp theo, loại bỏ Stone Swords bằng Mô-đun Void. Để đảm bảo nó không xóa mọi thứ, hãy dùng Bộ lọc Danh sách trắng với Stone Sword trong đó và không khớp Sát thương. Sau đó, bạn sẽ cần một nơi để đặt Loot, tôi khuyên dùng Hệ thống Ngăn kéo. Sau đó, dùng Mô-đun Gửi để gửi Loot đến Hệ thống Lưu trữ. "
+		""
+		"Đó là tất cả những gì bạn cần!"
+		"{image:atm:textures/questpics/router/router_mob.png width:200 height:65 align:center}"
+	]
+	quest.53A5F5E49EA8D5AF.title: "Router cho Mob Farm"
+	quest.53B58FC3958750E7.quest_desc: [
+		"Bạn đã chơi với Placer quá nhiều và cần Phá những Khối đó? "
+		""
+		"Tầng và Phép thuật của nó được xác định bởi Pickaxe được dùng để chế tạo nó. "
+		""
+		"Bây giờ đặt khu vực và hy vọng đặt một Bộ lọc và để nó chạy! "
+		""
+		"Có thể dùng với một Placer để làm những việc như biến Quặng thành Vật phẩm."
+	]
+	quest.553C44F85E508DE3.quest_desc: [
+		"Cái này là duy nhất vì nó không chỉ dùng cho 1 Router mà còn cho nhiều Router. "
+		""
+		"Nếu bạn muốn nhiều Router hoạt động cùng lúc thì mỗi Router cần một Sync Upgrade. "
+		""
+		"Nó sẽ cần được điều chỉnh trong GUI riêng của nó."
+	]
+	quest.5560F303C452E110.quest_desc: [
+		"Extruder đẩy khối và entity, nhưng tại sao không đẩy thêm nữa! "
+		""
+		"Các entity, không phải các khối."
+	]
+	quest.5FB29F3F4DF17765.quest_desc: [
+		"Đôi khi bạn không muốn mọi Module di chuyển nhiều stack cùng lúc, vì vậy khi bạn chỉ muốn 1 Module làm vậy, hãy dùng Augment! Tuy nhiên, cái này không cộng dồn với Upgrades... thực tế nó sẽ ghi đè lên chúng."
+	]
+	quest.6063F4B7BE4D394C.quest_desc: [
+		"Các Sender Modules sẽ di chuyển Item trong Kho đệm (Buffer Slot) của Router sang Inventory khác. "
+		""
+		"MK1 chỉ di chuyển item vào các Inventory nằm trên cùng trục XYZ với Router và có tầm nhìn trực tiếp. Nếu có khối chắn đường, Sender MK1 sẽ không gửi được."
+	]
+	quest.63E4529AF8894018.quest_desc: [
+		"&lModular Routers&r là một mod về hậu cần. "
+		""
+		"Mọi thứ bắt đầu từ Router! Vậy hãy làm một cái! "
+		""
+		"Ngoài ra, Buffer là một slot item đơn lẻ trong Router nơi item sẽ đi vào và đi ra. Và nó sẽ cần tín hiệu Redstone để hầu hết các Module hoạt động."
+	]
+	quest.63E4529AF8894018.title: "&lModular Routers"
+	quest.6648BC7D14233006.quest_desc: [
+		"Augments tương tự Upgrades nhưng dành riêng cho từng Module!"
+	]
+	quest.6648BC7D14233006.title: "&lAugments"
+	quest.674F28BCA2E4A3C8.quest_desc: [
+		"Khi di chuyển item, Router có thể trở nên rất tham lam, lấy mọi item chúng có thể với được! "
+		""
+		"Với Regulator Augment, bạn có thể giới hạn lượng item được di chuyển."
+	]
+	quest.6B747129A85AA768.quest_desc: [
+		"Giờ còn giống Absorption Hopper hơn nữa! "
+		""
+		"Vacuum Module giờ sẽ hút cả XP Orbs lẫn Item. Việc bạn làm với XP là tùy bạn!"
+	]
+	quest.6E5954C257726F86.quest_desc: [
+		"Lọc theo từng mod có thể rất hữu ích.\"
+		"\"
+		"Để sử dụng, hãy đặt một vật phẩm từ một mod cụ thể vào, sau đó nó sẽ hiển thị tên mod, và nhấn nút Plus để thêm vào!"
+	]
+	quest.71A1FD0772453B51.quest_desc: [
+		"Bạn có ghét việc phải Right Click mọi thứ không? Từ cừu với kéo đến bò với xô? Đây là thế kỷ 21, chúng ta nên có Robot để làm mọi thứ! Hoặc ít nhất là Routers làm mọi thứ. \"
+		"\"
+		"Với Activator Module, nó sẽ hành động như thể bạn đang Right Click các thứ. \"
+		"\"
+		"Bạn có thể thiết lập nó sẽ Right Click cái gì, nó sẽ Tấn công hay Sử dụng Sinh vật hay Khối, nếu bạn Shift Right Click, và khoảng cách cần thiết trong Module."
+	]
+	quest.71FDF8CD953E46FC.quest_desc: [
+		"HAHAHA tôi có làm bạn sợ với vật phẩm Creative trong các nhiệm vụ không?\"
+		"\"
+		"Đừng lo, bạn sẽ không cần vật phẩm đó để hoàn thành chương này, tôi chỉ muốn làm bạn sợ\"
+		"\"
+		"Tôi đôi khi cũng có thể vui vẻ..."
+	]
+	quest.72A71E1D6D8996FD.quest_desc: [
+		"Đây là code à? Tôi không phải lập trình viên!? Tôi chỉ muốn tạo những nhiệm vụ này! \"
+		"\"
+		"Ở đây bạn có thể nhập một Regex vào thanh Tìm kiếm và nhấn nút Plus để thêm vào Bộ lọc. Bất cứ khi nào Regex đó xuất hiện, nó sẽ bị lọc ra."
+	]
+	quest.73D60868024FF907.quest_desc: [
+		"Fluid MK2! \"
+		"\"
+		"Bất kỳ Nguồn Lỏng nào gần đây đều có thể sử dụng với cái này, không chỉ kề cận."
+	]
+	quest.75FE0B514448865B.quest_desc: [
+		"Nâng cấp được bỏ trực tiếp vào Router và Router có thể chứa 5 cái. Nâng cấp ảnh hưởng trực tiếp đến tất cả Modules mà chúng có thể và thường có thể chồng chất!"
+	]
+	quest.75FE0B514448865B.title: "&lNâng cấp"
+	quest.76062D375E4CC8DD.quest_desc: [
+		"Chúng ta đã thấy Filters và chúng ta đã thấy Round Robins, giờ chúng ta đang thấy cả hai! Điều này hữu ích để giữ các Vật phẩm theo một thứ tự cụ thể như khi làm Hạt giống Nông nghiệp Huyền ảo!"
+	]
+	quest.7F8DEDD0A54D1E11.quest_desc: [
+		"Tôi tự hỏi Droppers làm gì? \"
+		"Tôi nghĩ chúng thả đồ... \"
+		"\"
+		"Bất kỳ vật phẩm nào trong Buffer sẽ được thả xuống đất. \"
+		"\"
+		"Có thể hữu ích với thứ gì đó như Botania!"
+	]
+	task.3007461CFCC0A013.title: "Mọi quyền được bảo lưu"
+	task.41EEE559F6402D81.title: "Mô-đun Sáng tạo"
+	task.631388151555159B.title: "Các Mô-đun Gửi"
+	task.76EEAE9313F68334.title: "Mọi quyền được bảo lưu"
+}

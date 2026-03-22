@@ -7,7 +7,7 @@ module.exports = {
     max_tokens: 16384,
   },
   translation: {
-    batchSize: 50,
+    batchSize: 10,
     parallelBatches: 10,
     maxRetries: 99,
     retryDelay: 3000,

@@ -1,0 +1,166 @@
+{
+	quest.062AA943A1629A86.quest_desc: [
+		"Bạn đã làm nổ &cR&6a&ei&2n&3b&9o&5w&r &cF&6u&er&2n&3a&9c&5e&r?!?! Chỉ đốt TNT ngay bên cạnh nó thôi? Bạn có điên không? Cái đó tốn biết bao nhiêu Lò nung và tài nguyên mà bạn chỉ cần làm nổ nó đi thôi!!! Ít nhất bạn có lấy được thứ gì tốt từ nó không? &cR&6a&ei&2n&3b&9o&5w&r &cC&eo&3a&5l&r? Than cháy mãi? Thực ra khá đáng giá đấy."
+	]
+	quest.062AA943A1629A86.title: "&cR&6a&ei&2n&3b&9o&5w &cC&eo&3a&5l"
+	quest.07753C5D94312A50.quest_desc: [
+		"&3Augment&r: Máy phát điện đối lập với &3Augment&r: Nhà máy, thay vì dùng Năng lượng để Nung chảy, nó Nung chảy để tạo Năng lượng. Bạn sẽ không còn nung chảy vật phẩm trong nó nữa, mỗi Nhiên liệu dùng sẽ được chuyển thành Năng lượng!"
+		""
+		"(Tôi tự hỏi liệu kết nối Máy phát điện và Nhà máy Lò nung có tốt hơn là chỉ dùng Nhiên liệu trong một cái không?)"
+	]
+	quest.07753C5D94312A50.title: "&3Augment&r: Máy phát điện"
+	quest.0AD2B11565B484E7.quest_desc: [
+		"Bạn sẽ cần mọi Lò nung trước &5Netherite&r cho những cái này. Vâng tất cả, ngay cả &6Đồng&r! Ngay cả &7Bạc&r! Ngay cả &3Pha lê&r!"
+	]
+	quest.0AD2B11565B484E7.title: "&cC&6ầ&eu&2v&3ồ&9n&5g &cL&6ớ&ep-&2p&3h&9ủ"
+	quest.0ADBE90B33ACC9FB.quest_desc: [
+		"&cC&6ầ&eu&2v&3ồ&9n&5g&r &cG&6e&en&2e&3r&9a&5t&ce&6r&r cung cấp một buff cho &cC&6ầ&eu&2v&3ồ&9n&5g&r &cF&6u&er&2n&3a&9c&5e&r khi sử dụng &3Augment&r: Generator. Nếu tất cả 9 Lò nung khác (không tính AllTheModium Furnaces và cao hơn) nằm xung quanh &cC&6ầ&eu&2v&3ồ&9n&5g&r &cF&6u&er&2n&3a&9c&5e&r, có &3Augment&r: Generator, và đang tích cực tạo Năng lượng (đã đổ nhiên liệu và chưa đầy) thì chúng sẽ tăng cường cho một &cC&6ầ&eu&2v&3ồ&9n&5g&r &cF&6u&er&2n&3a&9c&5e&r có &3Augment&r: Generator và đang hoạt động. Nó sẽ tạo thêm 2kFE mỗi tick!"
+	]
+	quest.0ADBE90B33ACC9FB.title: "&cC&6ầ&eu&2v&3ồ&9n&5g &cG&6e&en&2e&3r&9a&5t&co&6r"
+	quest.20EC8001A05CE2C8.quest_desc: [
+		"Nhiệt không dây là một cách vui vẻ và dễ dàng để cấp năng lượng cho các Lò nung. Đầu tiên, đặt Bộ phát Nhiệt không dây và đổ Năng lượng vào. Sau đó, đặt Bộ thu vào Bộ phát để liên kết. Cuối cùng, đặt Bộ thu vào phần Nhiên liệu của Lò nung để bắt đầu cấp năng lượng cho nó!"
+	]
+	quest.21EA29A8C7F950CE.quest_desc: [
+		"&bKim cương&r là thứ không thể thiếu của &2Minecraft&r, và của các Lò nung nâng cấp dường như...\"
+		" \"
+		"Chúng hoạt động nhanh hơn nữa, chỉ mất 80 Tick hoặc 4 Giây để nung chảy vật phẩm. Điều đó nhanh hơn cả Lò nung phun! \"
+		" \"
+		"Chúng chỉ được chế tạo bởi &eLò nung Vàng&r và có thể được chế tạo thành &3Lò nung Pha lê&r hoặc &aLò nung Ngọc lục bảo&r."
+	]
+	quest.21EA29A8C7F950CE.title: "&bLò nung Kim cương"
+	quest.2354BC5330350DF6.quest_desc: [
+		"Nếu &aNgọc lục bảo&r không phải sở thích của bạn thì &3Lò nung Pha lê&r có thể là thứ bạn muốn! \"
+		" \"
+		"Hoạt động giống như &aLò nung Ngọc lục bảo&r ở 40 Tick. \"
+		" \"
+		"Được làm từ &bLò nung Kim cương&r và có thể được chế tạo thành &dLò nung Obsidian&r. \"
+		" \"
+		"(Không, bạn không thể thấy các vật phẩm đang nung chảy bên trong, nó chỉ trong suốt thôi)"
+	]
+	quest.2354BC5330350DF6.title: "&3Lò nung Pha lê"
+	quest.25080E3295B1DF01.quest_desc: [
+		"&5Lò nung Unobtainium&r nung chảy vật phẩm nhanh hơn bất kỳ Lò nung nào khác trong pack!"
+	]
+	quest.25080E3295B1DF01.title: "&5Lò nung Unobtainium"
+	quest.2748ACEAB96A5F60.quest_desc: [
+		"Lò sắt (Đừng nhầm lẫn với các tiêu đề, với &lIron Furnaces&r là tên mod và tên vật phẩm) hoạt động nhanh hơn cả Lò thường và Lò đồng. Chúng mất 160 Tick để hoạt động, hoặc 8 giây."
+		""
+		"Chúng có thể được chế tạo từ một Lò thường hoặc &6Lò đồng&r! Và chúng có thể được chế tạo thành &7Lò bạc&r hoặc &eLò vàng&r."
+	]
+	quest.2748ACEAB96A5F60.title: "&fLò sắt"
+	quest.2E85D6E2CFCC356E.quest_desc: [
+		"&3Lò Vibranium&r còn tốt hơn cả &6Lò Allthemodium&r!"
+	]
+	quest.2E85D6E2CFCC356E.title: "&3Lò Vibranium"
+	quest.2EE8FCB63A338BC4.quest_desc: [
+		"&cLò &cC&6ầ&eu&2v&3ồ&9n&5g cần literally mọi Lò khác để chế tạo. 8 &cLớp&r &cC&6ầ&eu&2v&3ồ&9n&5g &cP&6l&ea&2t&3i&9n&5g&r và 1 &cLõi&r &cC&6ầ&eu&2v&3ồ&9n&5g &cC&eo&3r&5e&r cho chúng ta Lò tốt nhất có thể tưởng tượng!"
+		""
+		"Đúng, nó mất 20 Tick để nung hoặc 1 Giây để nung, nhưng nó không nung 1 vật phẩm. Bạn hỏi bao nhiêu vật phẩm? Bao nhiêu là một stack vật phẩm?"
+	]
+	quest.2EE8FCB63A338BC4.title: "&dLò Obsidian"
+	quest.32C7D8AE859BF89E.quest_desc: [
+		"Có thể là &dObsidian&r nhưng đừng lo bạn không cần &bDiamond Pickaxe&r để nhặt nó, chỉ cần để chế tạo."
+		""
+		"Nó hoạt động mỗi 20 Tick hoặc mỗi Giây. Đúng, không phải Giây, chỉ là Giây."
+		""
+		"Nó có thể được chế tạo với &3Lò Crystal&r hoặc &aLò Emerald&r, và có thể được chế tạo thành &5Lò Netherite&r!"
+	]
+	quest.32C7D8AE859BF89E.title: "&4Augment&r: Smoking biến Lò sắt của bạn thành Lò hun khói. Giờ nó sẽ chỉ hun đồ ăn nhưng nhanh gấp đôi! Giống như &4Augment&r: Blasting, cái này cũng có thể chồng với các nâng cấp khác!"
+	quest.33436ED0D9F128BD.quest_desc: [
+		"&4Augment&r: Smoking"
+	]
+	quest.33436ED0D9F128BD.title: "&4Augment&r: Blasting biến Lò sắt của bạn thành Lò nung cháy. Giờ nó sẽ chỉ nung các vật phẩm kim loại và quặng nhưng nhanh gấp đôi! Giống như &4Augment&r: Smoking, cái này cũng có thể chồng với các nâng cấp khác!"
+	quest.39605F1FEB1A5A1C.quest_desc: [
+		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2đóng góp viên cộng đồng&r để sử dụng trong các Modpack AllTheMods. \"
+		"\"
+		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eMọi quyền được bảo lưu&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng. \"
+		"\"
+		"Nhiệm vụ này được cố ý ẩn, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
+	]
+	quest.39605F1FEB1A5A1C.title: "Mọi quyền được bảo lưu"
+	quest.3A4C17878FC8315B.quest_desc: [
+		"Lò &6Allthemodium&r gần như giống với Lò Netherite. Bạn sẽ cần cái này để chế tạo Lò &3Vibranium&r."
+	]
+	quest.3A4C17878FC8315B.title: "&6Allthemodium Furnace"
+	quest.420FE84DEE12CCE0.quest_desc: [
+		"Lò &eVàng&r tốt hơn các lò Sắt với thời gian nấu 120 Tick.\"
+		"\"
+		"Nó có thể được chế tạo từ Lò &7Bạc&r hoặc Lò Sắt và được chế tạo thành Lò &bKim cương&r!"
+	]
+	quest.420FE84DEE12CCE0.title: "&eLò Vàng"
+	quest.47750F3CB020104C.quest_desc: [
+		"&lGenerator's Galore&r và &lIron Furnaces&r là hai mod khác nhau nhưng cũng tương tự. Cả hai đều bắt đầu với Lò huyền thoại!"
+	]
+	quest.47750F3CB020104C.quest_subtitle: "Tất cả bắt đầu từ đây"
+	quest.47750F3CB020104C.title: "Lò"
+	quest.49F08DE190AAD0D8.quest_desc: [
+		"&3Tăng cường&r: Nhà máy biến lò của bạn giống như Nhà máy Nung chảy từ Mekanism. Thay vì sử dụng Nhiên liệu, nó bây giờ sẽ sử dụng Năng lượng! Dẫn một ít Năng lượng vào và nó sẽ bắt đầu Nung chảy."
+	]
+	quest.49F08DE190AAD0D8.title: "&3Nâng cấp&r: Nhà máy"
+	quest.538821E23E39BE97.quest_desc: [
+		"&2Nâng cấp&r: Hiệu quả nhiên liệu dành cho tất cả những người yêu Trái đất, ôm cây cối, ủng hộ Captain Planet và các bạn hippie. Lò tiêu thụ một nửa lượng nhiên liệu và thời gian nướng cũng giảm một nửa. Than sẽ không chỉ nướng được 8 item mà còn nướng được 16 item!"
+	]
+	quest.538821E23E39BE97.title: "&2Nâng cấp&r: Hiệu quả nhiên liệu"
+	quest.553220A2CD7CAFE4.quest_desc: [
+		"Trong dịp Giáng sinh, tất cả các Rương trông như những món quà... nhưng các Lò thì nổi bật một cách khó chịu! Bây giờ điều đó có thể thay đổi với Giấy gói quà! Bạn có thể Nhấp chuột phải lên bất kỳ &lLò sắt&r nào và nó sẽ sẵn sàng cho mùa lễ hội! Và sau khi mùa lễ hội kết thúc, bạn có thể Shift + Nhấp chuột phải để mở gói ra!"
+	]
+	quest.553220A2CD7CAFE4.quest_subtitle: "Đã Gói Xong"
+	quest.61847F47CCA225D9.quest_desc: [
+		"Theo cùng kiểu này, những lò này nướng trong 140 Tick hoặc 7 giây."
+		""
+		"Chúng có thể được chế tạo từ &6Lò đồng&r hoặc Lò sắt và có thể được dùng để chế tạo &eLò vàng&r."
+	]
+	quest.61847F47CCA225D9.title: "Lò bạc"
+	quest.661C072E48F8D41F.quest_desc: [
+		"&6Đồng&r là một trong những quặng phổ biến nhất bạn có thể tìm thấy, vậy tại sao không dùng một đống &6đồng&r thừa để nâng cấp lò của bạn!"
+		""
+		"Lò thường mất 200 Tick để nướng 1 item, (20 Tick = 1 Giây) trong khi &6Lò đồng&r mất 180 Tick."
+		""
+		"Chúng có thể được chế tạo thành &7Lò bạc&r hoặc &fLò sắt&r."
+	]
+	quest.661C072E48F8D41F.title: "&6Lò đồng"
+	quest.686B25F2E9D8CC97.quest_desc: [
+		"Khi viết điều này, đang là cuối tháng Bảy nên tôi có khoảng 3 tháng cho đến Halloween. Nhưng chưa bao giờ quá sớm để bắt đầu trang trí ma quái! Giống như Spirit Halloween, chúng ta có thể bắt đầu có không khí ma quái 3 tháng trước khi nó thực sự bắt đầu. Lần này bằng cách Nhấp chuột phải lên Lò với Spook-alator! Một khi đã đến lúc bắt đầu chuẩn bị cho Lễ Tạ ơn, hãy Shift + Nhấp chuột phải để Hủy ma quái!"
+	]
+	quest.686B25F2E9D8CC97.quest_subtitle: "\"Đây là Halloween\""
+	quest.711DDD55CEC439E5.quest_desc: [
+		"The &aEmerald Furnace&r, tôi tự hỏi liệu người làng có sẽ trao đổi cho nó không? \"
+		" \"
+		"Nó hoạt động với 40 Tick hoặc chỉ 2 Giây để nấu chảy! Chớp mắt và bạn có thể bỏ lỡ nó. \"
+		" \"
+		"Chúng được chế tạo từ &bDiamond Furnace&r và có thể được biến thành &dObsidian Furnace&r."
+	]
+	quest.711DDD55CEC439E5.title: "&aEmerald Furnace"
+	quest.73FF01D830A669AA.quest_desc: [
+		"&4Augment&r: Blasting biến Lò Sắt của bạn thành Lò Sắt Nổ! Nó giờ sẽ chỉ nấu chảy Quặng nhưng với gấp đôi tốc độ! Có, điều này cộng dồn với hiệu ứng của các Nâng cấp khác và các cấp độ Lò khác nhau."
+	]
+	quest.73FF01D830A669AA.title: "&4Augment&r: Nổ"
+	quest.757B14D08A9A03C4.quest_desc: [
+		"Giống như hầu hết các máy móc Mod, Lò Sắt có Cấu hình. Cấu hình có thể được tìm thấy bằng cách nhấp vào Góc Trên Trái. Sẽ có các Đầu vào, Đầu ra, và Kích hoạt Redstone. Kích hoạt Redstone thay đổi khi Lò sẽ nấu chảy. Các nút trên cùng xác định liệu nó Tự động Đầu vào hay Đầu ra, có nghĩa là nó sẽ tự động di chuyển đến và từ các Kho đã kết nối. Các ô là mỗi phía của Lò và xác định liệu nó Đầu vào, Đầu ra, làm cả hai, Đầu vào Nhiên liệu, hoặc không làm gì. Điều này quan trọng đối với các Item được Dẫn qua ống vào hoặc ra. Bộ liên kết Cài đặt Lò sẽ sao chép tất cả các cài đặt này sang các Lò khác!"
+	]
+	quest.757B14D08A9A03C4.title: "Cấu hình"
+	quest.78D1C97A542133D8.quest_desc: [
+		"Nâng cấp là những Cải tiến cho Lò Sắt!"
+		""
+		"Ở Góc Trên Phải của Giao diện Lò sẽ là nút để xem Phần Nâng cấp. Sẽ có một chỗ Đỏ, Xanh lá, và Xanh dương, mỗi chỗ có thể giữ 1 Nâng cấp màu tương ứng."
+	]
+	quest.78D1C97A542133D8.title: "&lNâng cấp"
+	quest.79C4CF8D7312FC28.quest_desc: [
+		"Tốt nhất Vanilla có thể có! &5Netherite&r! Đừng lo bạn sẽ không cần Smithing Template cho nó, chỉ cần rất nhiều &5Netherite&r. \"
+		" \"
+		"Nó nấu chảy 1 item mỗi 5 Tick có nghĩa là 4 Item được nấu chảy mỗi Giây. Có, nó không còn là S.P.S. (Giây trên mỗi lần nấu) mà giờ là S.P.S. (Lần nấu trên mỗi Giây). \"
+		" \"
+		"Được chế tạo từ &dObsidian Furnace&r... chờ đợi, đây không phải là Lò cuối cùng?"
+	]
+	quest.79C4CF8D7312FC28.title: "&5Lò Netherite&r"
+	quest.7A615E2A152917AD.quest_desc: [
+		"Để làm điều này bạn cần 2 &5Lò Netherite&r và 7 mảnh kính, mỗi mảnh có màu của Cầu vồng. &cĐỏ&r, &6Cam&r, &eVàng&r, &2Xanh lá&r, &3Xanh dương&r, &9Lam&r- &5Tím&r, và &5Tím nhạt&r-&dĐỏ tươi&r. Đúng vậy! Toàn bộ Roy G. Bpm!"
+	]
+	quest.7A615E2A152917AD.title: "&cR&6a&ei&2n&3b&9o&5w &cC&eo&3r&5e"
+	quest.7F67849DE9F700D8.quest_desc: [
+		"&2Nâng cấp&r: Tốc độ làm cho lò của bạn nhanh hơn! &bLò Kim Cương&r sẽ nung chảy mỗi 40 Tick thay vì 80 Tick. Nhưng với chi phí là dùng gấp đôi Nhiên liệu."
+	]
+	quest.7F67849DE9F700D8.title: "&2Nâng cấp&r: Tốc độ"
+	task.38B6F45109CB033A.title: "Mọi quyền được bảo lưu"
+	task.5DB7A437BEC3E2D4.title: "Mọi quyền được bảo lưu"
+}

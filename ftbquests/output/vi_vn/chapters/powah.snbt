@@ -1,0 +1,108 @@
+{
+	quest.05B0A7D0B991050F.title: "Lò phản ứng (Cứng hóa)"
+	quest.08245411AFDB63DB.quest_desc: [
+		"Nhiệm vụ này được tạo bởi &6AllTheMods Staff&r, hoặc một &2Community contributor&r để sử dụng trong các Modpack AllTheMods."
+		""
+		"Vì tất cả các pack &6AllTheMods&r được cấp phép theo &eAll Rights Reserved&r, Nhiệm vụ này không được phép sử dụng trong bất kỳ pack công khai nào không được phát hành bởi &6AllTheMods Team&r mà không có sự cho phép rõ ràng."
+		""
+		"Nhiệm vụ này được ẩn có chủ ý, nếu bạn đang thấy điều này, bạn đang ở chế độ chỉnh sửa."
+	]
+	quest.0FD62827710F0AC6.quest_desc: [
+		"&cMagmator&r sẽ tạo ra FE khi được cung cấp Dung nham."
+	]
+	quest.0FFF2BEE5D8EBE12.title: "Lò phản ứng (Niotic)"
+	quest.1B0087400B0B8B49.quest_desc: [
+		"&9Lò phản ứng&r là một máy phát điện multiblock 3x4x3 đốt &aUrananite&r làm nhiên liệu để sản xuất FE."
+		""
+		"Để xây dựng nó, bạn cần tổng cộng 36 Khối Lò phản ứng. Khi cầm 36 trong tay, đặt một khối sẽ tự động xây lò phản ứng. Hãy đảm bảo dọn sạch một số không gian trước!"
+		""
+		"Bạn sẽ muốn làm mát lò phản ứng để nó tạo ra nhiều FE hơn, và bạn có thể làm điều này bằng chất làm mát rắn hoặc lỏng &bcoolant&r. Để sử dụng chất làm mát rắn, bạn cũng cần cung cấp cho nó một ít chất làm mát lỏng. &bBăng khô&r là một chất làm mát rắn tuyệt vời! (Lưu ý: 1 Xô nước sẽ đủ)."
+		""
+		"Bạn cũng có thể tăng sản lượng FE bằng cách giữ đầy bộ đệm nhiên liệu, cũng như thêm cả Than và Redstone vào Lò phản ứng. Sử dụng Khối của cả hai cũng sẽ hoạt động!"
+	]
+	quest.1B0087400B0B8B49.title: "Lò phản ứng (Starter)"
+	quest.1C273D9E046FD18A.quest_desc: [
+		"Được sử dụng để nạp năng lượng cho các vật phẩm bằng cách sử dụng Energizing Orb."
+	]
+	quest.25EFC21A3C48E0B6.title: "Cấp: &2Spirited"
+	quest.33816AF0E699F19F.quest_desc: [
+		"Khối này sẽ rút FE từ bất kỳ vật phẩm đã được sạc nào."
+	]
+	quest.341486C9F277FEB7.title: "Lò phản ứng (Spirited)"
+	quest.3CB6DC5B09C62CFE.quest_desc: [
+		"&5Cổng Ender&r được sử dụng để truyền năng lượng không dây đến và từ một khối liền kề vào &7Mạng Ender&r."
+		""
+		"Hãy coi chúng như các điểm truy cập không dây cho mạng năng lượng không dây của bạn."
+		""
+		"Lưu ý: Bạn chỉ có thể thêm &akhả năng lưu trữ năng lượng&r bằng cách sử dụng Ender Cell."
+	]
+	quest.3D5F87F8E6B89C1B.quest_desc: [
+		"Máy &7Furnator&r sẽ đốt các vật phẩm như than và gỗ để sản xuất FE."
+	]
+	quest.3DDF87A1E5F5D009.quest_desc: [
+		"Ở giai đoạn đầu, bạn có thể tạo các máy cấp &7Starter&r và &bBasic&r bằng sắt, nhưng về sau bạn sẽ cần tạo các vật liệu được nạp năng lượng bằng &9Energizing Orb&r."
+		""
+		"Cái &9Energizing Orb&r sẽ nạp năng lượng cho vật phẩm bằng cách sử dụng các &aEnergizing Rod&r lân cận trong phạm vi 9x9 xung quanh nó, tạo ra các vật liệu tốt hơn để bạn sử dụng và tiến qua các cấp &eTiers&r trong Powah."
+		""
+		"Để cung cấp năng lượng cho quả cầu, bạn cần kết nối Energizing Rods với các cáp năng lượng đang được cung cấp năng lượng. Nếu bạn muốn Orb nạp năng lượng nhanh hơn, hãy tạo thêm rods, nâng cấp lên rods cấp cao hơn, hoặc cả hai! Để kiểm tra xem Rods có được kết nối không, hãy đặt &aWrench&r của bạn vào chế độ liên kết và bạn có thể liên kết bất kỳ Rod nào với Orb."
+		""
+		"{image:atm:textures/questpics/powah/powah_energizing.png width:200 height:200 align:1}"
+	]
+	quest.3DDF87A1E5F5D009.title: "&9Energizing Orb"
+	quest.4F1FFC02F4EAA2E6.title: "Cấp: &4Nitro"
+	quest.52E59FCB39D66BCF.quest_desc: [
+		"Một trong những lựa chọn hàng đầu cho 'Điện thụ động', máy &9Thermal Generator&r sẽ tạo ra FE khi được đặt phía trên một &cHeat Source&r và được cung cấp nước liên tục."
+		""
+		"Hiện có 3 khối bạn có thể đặt máy này lên: một khối Magma tạo ra nhiệt thấp nhất, một khối nguồn lava tốt hơn một chút, hoặc một &cBlock of Blazing Crystal&r, cung cấp nhiệt cao nhất."
+	]
+	quest.562BD37539EE318E.title: "Cấp: &cBlazing"
+	quest.5BCA3F716348ECCD.quest_desc: [
+		"Cái &9Energy Hopper&r sẽ nạp điện cho bất kỳ vật phẩm có thể nạp điện nào trong kho của khối nó chỉ vào, như một cái rương."
+	]
+	quest.5E090C9BB4DAA5D4.title: "Cấp: &aEnergized"
+	quest.5F6152CF085D75D6.title: "Lò phản ứng (Cơ bản)"
+	quest.61A8FAEC4FF18449.quest_desc: [
+		"Chúng có thể được dùng để nạp điện cho vật phẩm trong kho của bạn, hoặc có thể dùng để tăng dung lượng năng lượng tổng thể của một kênh &7Ender Network&r."
+	]
+	quest.61DCECE1FC38E151.title: "Lò phản ứng (Nitro)"
+	quest.66ECC26BC81D0093.title: "Cấp độ: &bCơ bản"
+	quest.6754612E9AD4B9C0.title: "Lò phản ứng (Rực lửa)"
+	quest.677365A816994C8B.quest_desc: [
+		"Thiết bị &9Player Transmitter&r sẽ sạc đồ của người chơi không dây. Trước tiên, bạn phải liên kết nó với một người chơi bằng một &9Binding Card&r. Đây là thẻ cơ bản, chỉ cho phép máy phát hoạt động trong cùng một chiều không gian. Bạn có thể nâng cấp bằng cách sử dụng &dBinding Card (Dimensional)&r thay thế. "
+		""
+		"Lưu ý: Để nhận được Player Aerial Pearl, hãy sử dụng Aerial Pearl lên Zombie hoặc Husk."
+	]
+	quest.6B2027DA7AA6FF34.quest_desc: [
+		"&9Powah&r là một mod công nghệ về việc tạo ra, lưu trữ và truyền &dNăng lượng&r. Từ việc tạo FE cơ bản đến &aLò phản ứng&r sản xuất &b250k FE/t&r, Powah đã bao phủ mọi nhu cầu!\"
+		"\"
+		"Để bắt đầu, hãy đi ra ngoài và khai thác một ít &aUraninite&r!"
+	]
+	quest.6B2027DA7AA6FF34.title: "&aChào mừng đến với &9Powah&r!!!"
+	quest.6D88C19F47D0D469.title: "Cấp độ: &7Nhỏ"
+	quest.700F3FF7C23D0C0F.quest_desc: [
+		"&5Ender Cell&r sẽ lưu trữ năng lượng cho một kênh trong &7Ender Network&r của bạn. Để tăng công suất lưu trữ của mạng lưới, nhấp chuột phải vào Ender Cell để mở giao diện, sau đó thêm &aBattery&r hoặc &9Energy Cell&r để tăng tổng dung lượng."
+	]
+	quest.7678B5DD1339833E.quest_desc: [
+		"Tấm pin mặt trời tạo ra FE khi được tiếp cận trực tiếp với mặt trời. Tuy nhiên, bạn có thể sử dụng &7Lens of Ender&r để bỏ qua các khối chắn đường."
+	]
+	quest.78202A1CF5D86B94.quest_desc: [
+		"&9Power Bank&r của Powah.\"
+		"\"
+		"Chúng cũng có thể được sử dụng để nâng cấp tổng dung lượng lưu trữ năng lượng của &7Ender Networks&r không dây của bạn."
+	]
+	quest.7D52DD751DDADA1B.quest_desc: [
+		"Cáp cơ bản để truyền năng lượng."
+	]
+	quest.7D7983F39E6E818D.title: "Cấp: &9Niotic"
+	quest.7E92ED270C67FDE5.quest_desc: [
+		"Gần như mọi máy móc bạn có thể chế tạo trong mod đều yêu cầu &9Vỏ Dilectric&r."
+		""
+		"Bạn cần chế tạo &bPaste&r trước, cũng như một số &aThanh&r để tiến tới!"
+	]
+	quest.7E92ED270C67FDE5.title: "Bắt đầu với Thảm Dilectric"
+	task.09C7E50E7E13C53C.title: "Mọi quyền được bảo vệ"
+	task.17F07D6404668DE6.title: "Thanh Tăng Năng Lượng"
+	task.1F929F1DF23460AE.title: "Thẻ Ràng Buộc"
+	task.3282910297C28795.title: "Mọi quyền được bảo vệ"
+	task.36E378BF22554E0A.title: "Cáp Năng Lượng"
+}

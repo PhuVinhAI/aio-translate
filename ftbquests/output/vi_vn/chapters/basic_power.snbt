@@ -1,0 +1,193 @@
+{
+	quest.0AEC181F5E21A299.quest_desc: [
+		"Nếu bạn' đã từng nghe ai đó nói về \"Sức mạnh Dưa hấu\", thì đây chính là nó. Máy phát điện &dGas-Burning Generator&r của Mekanism có thể tạo ra một lượng điện lớn bằng cách bơm &9Ethylene&r được làm từ Dưa hấu.\"
+		"\"
+		"Để sản xuất &dEthylene&r, hãy bắt đầu bằng cách nghiền các vật liệu hữu cơ trong một &eCrusher&r để tạo ra &6Bio Fuel&r. Dưa hấu thường được dùng cho việc này! Sau đó, nó được bơm vào một &dPressurized Reaction Chamber&r (PRC).\"
+		"\"
+		"PRC cần Nước, Bio Fuel, và một ít Hydrogen để tạo Ethylene. Bạn có thể lấy Hydrogen từ việc tách nước trong một &9Electrolytic Separator&r.\"
+		"\"
+		"Khi bạn đã bắt đầu sản xuất Ethylene, hãy bơm nó vào Gas-Burning Generator để bắt đầu tạo điện!"
+	]
+	quest.0AEC181F5E21A299.quest_subtitle: "SỨC MẠNH DƯA HẤU!"
+	quest.0AEC181F5E21A299.title: "&9Mekanism: &dMáy phát điện đốt gas"
+	quest.0BB42C5861B22D32.quest_desc: [
+		"&bMycelial Reactor&r bao gồm tất cả các Mycelial Generators hoạt động cùng lúc, gần khối lò phản ứng, và nó sản xuất tổng cộng &a25MFE/t&r.\"
+		"\"
+		"Nghe có vẻ tốt, nhưng bạn cần tự động hóa một số thứ để nó hoạt động, xem mỗi Mycelial Generator tiêu thụ gì để hoạt động, và tự động hóa nó, hầu hết mọi thứ đều đơn giản, nhưng một số thì không... &oxem Mycelial Generator phù mê hoặc&r.\"
+		"\"
+		"Nhưng sau khi bạn tự động hóa tất cả, bạn không cần dừng lại ở một cái, bạn có thể tạo thêm nhiều lò phản ứng."
+	]
+	quest.0BB42C5861B22D32.quest_subtitle: "Đây không phải là Yourcelial Reactor"
+	quest.0BB42C5861B22D32.title: "&9Industrial Foregoing: &bMycelial Reactor"
+	quest.11D09E918015355C.quest_desc: [
+		"&cMáy phát nhiệt&r của Mekanism là một cách tiếp cận khác đối với sản xuất điện cơ bản. Nó có hai chế độ tạo điện:"
+		""
+		"&9Thụ động:&r Đặt nguồn dung nham hoặc khối dung nham chảy xung quanh máy sẽ tạo ra điện thụ động theo thời gian thông qua nhiệt. Đặt một khối nguồn dung nham phía trên và để nó chảy xuống các cạnh. Đảm bảo đã nối ống dẫn năng lượng trước!"
+		""
+		"&9Chủ động:&r Đặt vật liệu cháy như Than hoặc Gỗ vào máy sẽ đốt nhiên liệu để tạo điện. Cách này không hiệu quả lắm."
+	]
+	quest.11D09E918015355C.title: "&cMáy phát nhiệt"
+	quest.1BE26A00A420DAE3.quest_desc: [
+		"Trong mod này, bạn sẽ cần &aLõi Flux&r và &aKhối Flux&r để chế tạo các phần cốt lõi của mạng lưới của bạn. Làm vài cái mỗi loại!"
+	]
+	quest.1BE26A00A420DAE3.quest_subtitle: "Các Lõi bạn cần:"
+	quest.1BE26A00A420DAE3.title: "Vật liệu chế tạo \"Lõi\""
+	quest.1F81EA5E45424308.quest_desc: [
+		"Nếu bạn đang tìm kiếm các cách khác để lấy điện từ máy móc của mình, đây là nơi bạn có thể tìm thấy!"
+		""
+		"Có một số lựa chọn, cả &acó dây&r và &9không dây&r, để truyền điện."
+	]
+	quest.1F81EA5E45424308.title: "&f&lTruyền Điện"
+	quest.27A4FA38992448A0.quest_desc: [
+		"Flux Networks cũng cung cấp cách để sạc đồ của bạn không dây, thậm chí xuyên qua các chiều!"
+		""
+		"Khi bạn đã gắn một Plug vào hệ thống điện của mình, bạn sẽ muốn chế tạo &9Flux Controller&r và đặt nó xuống."
+		""
+		"Nhấp chuột phải vào nó để mở giao diện, và chuyển đến tab \"Wireless Charging\". Từ đó, bạn có thể chọn từng phần trong kho đồ của mình mà bạn muốn giữ sạc. Để kích hoạt, hãy nhấn nút chuyển đổi ở dưới cùng để bật Wireless Charging, sau đó nhấn áp dụng!"
+		""
+		"{image:atm:textures/questpics/basic_power/wireless_ui.png width:125 height:150 align:center}"
+	]
+	quest.27A4FA38992448A0.title: "Sạc không dây"
+	quest.2EB7784D5296F410.quest_desc: [
+		"Nhấp chuột phải vào khối Flux Network đang hoạt động sẽ cho bạn giao diện này."
+		""
+		"Mỗi Plug hoặc Point có thể được đặt tên, có mức ưu tiên tùy chỉnh và giới hạn truyền điện tùy chỉnh. Điều này cho phép kiểm soát hoàn toàn tất cả các phần của hệ thống."
+		""
+		"&aBỏ qua giới hạn&r bỏ qua giới hạn đã đặt."
+		""
+		"Có một số tab khác để xem, chủ yếu là thống kê về mạng của bạn!"
+		""
+		"{image:atm:textures/questpics/basic_power/flux_ui.png width:125 height:150 align:center}"
+	]
+	quest.35ABB0DEE70DF7FD.quest_desc: [
+		"Tin hay không tùy bạn, mod &aPowah&r có một số tùy chọn tuyệt vời để lấy... điện."
+		""
+		"Hãy chắc chắn xem chương nhiệm vụ &cPowah&r để tìm hiểu thêm!"
+	]
+	quest.35ABB0DEE70DF7FD.title: "Thêm &aPowah&r!"
+	quest.35CC898E0E49FE58.quest_desc: [
+		"&9Flux Networks&r là một mod nhằm trở thành giải pháp cho mọi nhu cầu về điện không dây của bạn."
+		""
+		"Mod này bản thân không có cách để tạo điện, nhưng nó có thể lưu trữ và truyền điện không dây, thậm chí xuyên qua các chiều không gian. Nó thậm chí có thể sạc các vật phẩm trong kho đồ của bạn."
+		""
+		"Bạn thậm chí có thể sạc Jetpack khi đang bay với mod này."
+		""
+		"Để bắt đầu với mod, bạn cần một ít Flux Dust. Đi đến Bedrock, sau đó ném một ít Redstone lên trên một số Bedrock. Đặt một số Obsidian ngay phía trên Redstone đang bay, sau đó nhấp chuột trái vào Obsidian."
+	]
+	quest.35CC898E0E49FE58.quest_subtitle: "Giải pháp điện không dây tối ưu"
+	quest.35CC898E0E49FE58.title: "&8Flux Networks"
+	quest.36DEA17CBB696CC7.quest_desc: [
+		"Nếu bạn nhấp chuột phải vào Plug, bạn sẽ thấy giao diện Flux Network. Ở góc trên cùng bên phải, nhấn nút + để tạo mạng đầu tiên của bạn. Bạn sẽ cần đặt mật khẩu để tạo mạng, nhưng bạn cũng có thể đặt màu!"
+		""
+		"Từ đây, bạn có thể chuyển đến tab Lựa chọn Mạng để kích hoạt mạng của bạn trên Plug. Nếu Plug được gắn vào nguồn điện, bạn giờ có thể khai thác nguồn điện đó ở bất kỳ đâu trong hệ thống bằng Flux Point!"
+		""
+		"Mẹo: Bạn có thể tạo nhiều mạng nếu bạn muốn các nguồn điện khác nhau cung cấp điện cho các phần khác nhau của hệ thống!"
+	]
+	quest.36DEA17CBB696CC7.quest_subtitle: "Trở thành Quản trị viên Mạng!"
+	quest.3BDB94F17765EE77.quest_desc: [
+		"Nếu bạn muốn tạo ra một lượng điện lớn, bạn có thể bắt đầu bằng cách mở rộng một số tùy chọn từ phần &9Điện Trò chơi Giữa&r. Làm cho &aLò phản ứng&r của bạn to hơn. Nâng cấp &9Máy phát nhiệt&r của bạn lên Nitro. Thử nghiệm tùy ý."
+		""
+		"Tuy nhiên, bạn có thể cần thêm điện nữa."
+	]
+	quest.3BDB94F17765EE77.quest_subtitle: "Nhiều Năng Lượng Hơn Bạn Cần"
+	quest.3BDB94F17765EE77.title: "Tùy Chọn Năng Lượng Cuối Game"
+	quest.42D173B9FF8D16E4.quest_desc: [
+		"Tìm kiếm các tùy chọn năng lượng giai đoạn đầu? Đây là những cách tốt để bắt đầu tạo năng lượng."
+		""
+		"Chúng không tạo ra nhiều năng lượng, nhưng thường dễ có được hoặc rẻ trong giai đoạn đầu!"
+	]
+	quest.42D173B9FF8D16E4.quest_subtitle: "Năng Lượng Khởi Động"
+	quest.42D173B9FF8D16E4.title: "&8&lTùy Chọn Năng Lượng Giai Đoạn Đầu"
+	quest.43D83CFA824B0A70.quest_desc: [
+		"&9Mekanism&r có một tùy chọn năng lượng cuối game khó vượt qua. &dFusion Reactor&r có thể sản xuất lên đến 80MRF/t, và nếu bạn muốn học cách xây dựng nó, hãy chắc chắn xem chương nhiệm vụ &aMekanism: &dReactors&r!"
+	]
+	quest.43D83CFA824B0A70.quest_subtitle: "Kích Hoạt Fusion!"
+	quest.43D83CFA824B0A70.title: "&9Mekanism: &dLò Phản Ứng Fusion"
+	quest.477B411F84342EEA.quest_desc: [
+		"Mekanism là một trong những mod tốt nhất để lưu trữ năng lượng, đặc biệt là trong giai đoạn đầu."
+		""
+		"Basic Energy Cube dễ cấu hình, dễ chế tạo và lưu trữ nhiều năng lượng. Nó cũng có thể nâng cấp, và có thể sạc các vật phẩm bên trong giao diện!"
+		""
+		"Để tìm hiểu thêm về nâng cấp Energy Cube cũng như mod, hãy đến chương nhiệm vụ &aMekanism&r!"
+	]
+	quest.477B411F84342EEA.title: "&9Mekanism: &aEnergy Cubes"
+	quest.48DC9E8E9D21A2FA.quest_desc: [
+		"Mekanism cung cấp một số cách tạo năng lượng bằng cách sử dụng tài nguyên tái tạo."
+		""
+		"Các &9Máy phát điện Mặt trời&r khai thác năng lượng của Mặt trời để đáp ứng nhu cầu năng lượng cơ bản. Nó không hoạt động vào ban đêm và phải có tầm nhìn trực tiếp lên bầu trời. Kính là được."
+		""
+		"Các &9Máy phát điện Gió&r cung cấp năng lượng thông qua gió. Trừ khi bạn đã tìm ra cách để nhân vật của mình quay nó thủ công, tốc độ quay phụ thuộc vào mức Y mà nó được đặt. Nó cũng cần có tầm nhìn trực tiếp lên bầu trời mà không có khối nào phía trên."
+	]
+	quest.48DC9E8E9D21A2FA.quest_subtitle: "Sức mạnh của Mặt trời..."
+	quest.48DC9E8E9D21A2FA.title: "&9Mekanism: &aNăng lượng tái tạo"
+	quest.4AB0DD227471FDBF.quest_desc: [
+		"Chương này dành cho mọi thứ liên quan đến năng lượng!"
+		""
+		"Ở đây bạn sẽ tìm thấy các cách cơ bản để tạo, lưu trữ và truyền năng lượng."
+	]
+	quest.4AB0DD227471FDBF.quest_subtitle: "Tất cả Năng lượng!"
+	quest.4AB0DD227471FDBF.title: "&cNăng lượng Cơ bản"
+	quest.56B6ABF3D6EA0D84.quest_desc: [
+		"Với Phích cắm của chúng ta đã được thiết lập, giờ đây chúng ta có thể khai thác năng lượng từ mạng lưới của mình. Các &9Flux Point&r làm chính xác điều đó. Nó chỉ dẫn năng lượng từ mạng lưới của bạn đến bất kỳ khối nào nó được gắn vào, bao gồm Pipes hoặc Cables, hoặc trực tiếp trên máy móc!"
+		""
+		"Một khi bạn đã đặt Flux Point trên máy móc hoặc khối bạn muốn cấp năng lượng, nhấp chuột phải vào nó và chọn mạng lưới của bạn trong tab \"Network Selection\". Giống như Phích cắm, bạn có thể điều chỉnh lượng năng lượng Flux Point rút ra, mức độ ưu tiên, v.v."
+	]
+	quest.56B6ABF3D6EA0D84.title: "Truy cập Năng lượng Mạng lưới"
+	quest.5C47935A3B2877FF.quest_desc: [
+		"Mekanism cung cấp một Cáp trông đẹp mắt để truyền năng lượng của bạn."
+		""
+		"Nếu máy móc bạn đang kết nối đến đã rút hoặc đẩy năng lượng, bạn sẽ không cần cấu hình Cáp. Nếu không, bạn sẽ cần một &9Máy cấu hình&r để cấu hình Cáp. Shift + nhấp chuột phải sẽ thay đổi Cáp sang chế độ rút hoặc đẩy."
+	]
+	quest.5C47935A3B2877FF.quest_subtitle: "Ống Dẫn Năng lượng của Mekanism"
+	quest.5C47935A3B2877FF.title: "&9Mekanism: &aCáp Vạn Năng"
+	quest.5E41363F9AE243F3.quest_desc: [
+		"Bạn không thể mãi dùng Than để cung cấp năng lượng cho căn cứ! Nếu bạn có một lượng tài nguyên đáng kể, đã đến lúc nâng cấp hệ thống năng lượng của mình!"
+		""
+		"Những lựa chọn này thường yêu cầu một chút thiết lập, nhưng tạo ra đủ năng lượng để bạn tiến xa trong cuộc chơi."
+	]
+	quest.5E41363F9AE243F3.title: "&b&lLựa Chọn Năng Lượng Giai Đoạn Giữa"
+	quest.5F078A574A783B02.quest_desc: [
+		"Món đồ đầu tiên bạn cần để bắt đầu Flux Network là một &9Flux Plug&r."
+		""
+		"Plug được dùng để \"rút\" năng lượng từ khối nó được gắn vào. Ngoài một bộ đệm nhỏ, Plug không lưu trữ bất kỳ năng lượng nào, vì vậy đừng lo nó sẽ hút cạn năng lượng của bạn."
+		""
+		"Được đề xuất đặt Plug trên một khối lưu trữ năng lượng như Energy Cube. Nó có thể kết nối với Cáp, Đường ống, hoặc đầu ra của bất kỳ máy móc sản xuất năng lượng nào."
+		""
+		"Để học cách thiết lập mạng lưới đầu tiên, hãy xem nhiệm vụ tiếp theo!"
+	]
+	quest.5F078A574A783B02.quest_subtitle: "Chỉ cần cắm vào!"
+	quest.5F078A574A783B02.title: "Bắt Đầu Mạng Lưới Của Bạn"
+	quest.682034C680FDEDC2.quest_desc: [
+		"&9Mekanism's&r &aInduction Matrix&r là cách tối ưu để lưu trữ năng lượng của bạn."
+		""
+		"Nếu bạn đang tìm kiếm cách lưu trữ năng lượng tốt nhất trong trò chơi, hãy xem chương nhiệm vụ &aMekanism:&r &dReactors&r."
+		""
+		"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:center fit:true}"
+	]
+	quest.682034C680FDEDC2.title: "Thêm Lưu Trữ Năng Lượng"
+	quest.76EA017B12E8F01B.quest_desc: [
+		"Phần này cho bạn thấy các cách khác nhau để lưu trữ năng lượng!"
+	]
+	quest.76EA017B12E8F01B.title: "&f&lLưu Trữ Năng Lượng"
+	quest.79AD74A863EA43CB.quest_desc: [
+		"Flux Networks cung cấp cách để lưu trữ năng lượng bạn tạo ra cho mạng lưới của mình!"
+		""
+		"Chúng có thể chứa lượng lớn năng lượng tổng thể và có thể nâng cấp để lưu trữ thêm nhiều hơn nữa!"
+	]
+	quest.79AD74A863EA43CB.quest_subtitle: "Lưu trữ Năng lượng"
+	quest.79AD74A863EA43CB.title: "Kho Flux"
+	quest.7FE969CB4B419FC6.quest_desc: [
+		"Với một chút công việc vào Mekanism, máy này cho phép bạn truyền mọi thứ không dây."
+		""
+		"Bạn có thể thiết lập các kênh cụ thể để truyền các vật phẩm riêng lẻ, năng lượng, hoặc thậm chí khí từ Mekanism. Nó khá tuyệt."
+	]
+	quest.7FE969CB4B419FC6.quest_subtitle: "Không chỉ dành cho Năng lượng"
+	quest.7FE969CB4B419FC6.title: "&9Mekanism: &6Quantum Entangloporter"
+	task.2D0212699F99459F.title: "Mạng lưới Đầu tiên"
+	task.35C1DBD4544C9BB0.title: "Tế bào Cảm ứng"
+	task.3D721B55E8D33FE8.title: "Giao diện Flux Networks"
+	task.44C02386C9B8E0D3.title: "Bộ cung cấp Cảm ứng"
+	task.59DE118DD6597A4E.title: "Máy phát năng lượng Mekanism tái tạo"
+	task.6C4B8A2662030CB0.title: "Cáp vạn năng"
+	task.76378687551A79C3.title: "Khối năng lượng"
+}
