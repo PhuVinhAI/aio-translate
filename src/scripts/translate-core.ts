@@ -84,14 +84,8 @@ export async function translateBatch(
     return `  <Text Key="${hashKey}">${escapeXml(e.text)}</Text>`;
   }).join('\n');
 
-  if (retryCount > MAX_RETRIES) {
-    console.log(`🔄 Batch ${batchIndex + 1}: Đã retry ${MAX_RETRIES} lần, gọi API mới (lần thử ${totalAttempts + 1})...`);
-    retryCount = 0;
-    messages = null;
-  }
-
-  if (!messages) {
-    const userPrompt = `Dịch ${batch.length} thẻ XML tiếng Anh sang tiếng Việt.
+  // Luôn tạo prompt mới cho mỗi lần gọi (không dùng lịch sử)
+  const userPrompt = `Dịch ${batch.length} thẻ XML tiếng Anh sang tiếng Việt.
 
 ${xmlInput}
 
@@ -112,15 +106,14 @@ ${xmlInput}
 
 Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên vẹn.`;
 
-    messages = [{ role: "user", content: userPrompt }];
-  }
+  const freshMessages = [{ role: "user" as const, content: userPrompt }];
 
   try {
     const response = await aio.chatCompletion({
       provider: config.api.provider as any,
       model: config.api.model,
       systemPrompt: config.systemPrompt,
-      messages: messages as any,
+      messages: freshMessages as any,
       temperature: config.api.temperature,
       top_p: config.api.top_p,
       max_tokens: config.api.max_tokens,
@@ -149,33 +142,23 @@ Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên v�
     const hasError = wrongCount || missingKeys.length > 0 || extraKeys.length > 0 || wrongKeys;
 
     if (hasError) {
-      console.log(`⚠️  Batch ${batchIndex + 1}: Sai Key (Retry ${retryCount}/${MAX_RETRIES}, Tổng lần ${totalAttempts + 1})`);
-
-      messages.push({ role: "assistant", content: translatedContent });
-
-      let errorMsg = `LỖI: Key không đúng!\nCần: ${expectedKeys.length} thẻ, Nhận: ${translatedKeys.length} thẻ\n\n`;
-
-      if (missingKeys.length > 0) {
-        errorMsg += `❌ THIẾU các Key:\n${missingKeys.join('\n')}\n\n`;
+      if (retryCount >= MAX_RETRIES) {
+        console.log(`❌ Batch ${batchIndex + 1}: Đã retry ${MAX_RETRIES} lần nhưng vẫn lỗi. Bỏ qua batch này.`);
+        throw new Error(`Batch ${batchIndex + 1} failed after ${MAX_RETRIES} retries`);
       }
-      if (extraKeys.length > 0) {
-        errorMsg += `❌ THỪA các Key:\n${extraKeys.join('\n')}\n\n`;
-      }
+
+      console.log(`⚠️  Batch ${batchIndex + 1}: Sai Key (Retry ${retryCount + 1}/${MAX_RETRIES})`);
+
+      let errorMsg = `Thiếu: ${missingKeys.length}, Thừa: ${extraKeys.length}`;
       if (wrongKeys && missingKeys.length === 0 && extraKeys.length === 0) {
-        errorMsg += `❌ SAI THỨ TỰ!\n\n`;
+        errorMsg = 'Sai thứ tự';
       }
+      console.log(`   ${errorMsg}`);
 
-      errorMsg += `✅ Trả về ĐÚNG ${expectedKeys.length} thẻ theo THỨ TỰ này:\n`;
-      expectedKeys.forEach((key, i) => {
-        errorMsg += `${i + 1}. Key="${key}"\n`;
-      });
-
-      messages.push({ role: "user", content: errorMsg });
-
-      console.log(`🔄 Retry ${retryCount + 1}/${MAX_RETRIES}...`);
       await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
 
-      return translateBatch(ctx, aio, entries, batchIndex, retryCount + 1, messages, totalAttempts + 1, completedBatches);
+      // Gọi lại với API mới hoàn toàn (không truyền messages)
+      return translateBatch(ctx, aio, entries, batchIndex, retryCount + 1, null, totalAttempts + 1, completedBatches);
     }
 
     console.log(`✅ Batch ${batchIndex + 1}: Hoàn thành với ${translatedEntries.length} thẻ`);
