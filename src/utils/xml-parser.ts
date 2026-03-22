@@ -36,7 +36,7 @@ export function unescapeXml(text: string): string {
  */
 export function parseXMLEntries(xmlContent: string): XMLEntry[] {
   const entries: XMLEntry[] = [];
-  const regex = /<Text Key="([^"]+)">([^<]*)<\/Text>/g;
+  const regex = /<Text Key="([^"]+)">([\s\S]*?)<\/Text>/g;
   let match;
 
   while ((match = regex.exec(xmlContent)) !== null) {
