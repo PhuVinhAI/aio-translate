@@ -1,0 +1,11 @@
+{
+    "itemGroup.rangedpumps": "Pump Phạm vi",
+    "block.rangedpumps.pump": "Pump",
+    "block.rangedpumps.pump.state": "%d mB của %s - %d / %d FE",
+    "block.rangedpumps.pump.state_empty": "Rỗng - %d / %d FE",
+    "block.rangedpumps.pump.state.energy": "Năng lượng không đủ.",
+    "block.rangedpumps.pump.state.redstone": "Không hoạt động do tín hiệu Redstone.",
+    "block.rangedpumps.pump.state.working": "Đang quét tại %d, %d, %d (phạm vi: %d của %d).",
+    "block.rangedpumps.pump.state.full": "Bể chứa nội bộ đã đầy.",
+    "block.rangedpumps.pump.state.done": "Hoàn thành."
+}

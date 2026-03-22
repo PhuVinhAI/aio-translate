@@ -1,0 +1,20 @@
+{
+    "ccl.commands.count.fail": "Không tìm thấy thực thể nào.",
+    "ccl.commands.count.total": "Tìm thấy %s thực thể.",
+    "ccl.commands.gc.after": "Sau:",
+    "ccl.commands.gc.before": "Trước:",
+    "ccl.commands.gc.performing": "Đang thu gom rác..",
+    "ccl.commands.killall.fail": "Không tìm thấy thực thể nào.",
+    "ccl.commands.killall.fail.player": "Bạn không thể giết người chơi bằng lệnh này.",
+    "ccl.commands.killall.success": "Đã giết %s thực thể.",
+    "ccl.commands.killall.success.line": "Đã giết %s",
+    "ccl.energy_bar.capacity": "Dung lượng:",
+    "ccl.energy_bar.energy_storage": "Kho lưu trữ năng lượng",
+    "ccl.energy_bar.rf": "RF",
+    "ccl.energy_bar.stored": "Lưu trữ:",
+    "ccl.fluid_tank.capacity": "Dung lượng:",
+    "ccl.fluid_tank.contains": "Chứa:",
+    "ccl.fluid_tank.fluid_storage": "Kho lưu trữ chất lỏng",
+    "ccl.fluid_tank.mb": "mB",
+    "ccl.fluid_tank.stored": "Lưu trữ:"
+}

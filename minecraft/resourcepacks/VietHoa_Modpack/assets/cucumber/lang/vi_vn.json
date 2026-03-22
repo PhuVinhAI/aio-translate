@@ -1,0 +1,18 @@
+{
+    "subtitle.cucumber.watering_can": "Bình tưới",
+    "tooltip.cucumber.hold_shift_for_info": "Giữ §e§oSHIFT §r§7để xem thông tin",
+    "tooltip.cucumber.uses_left": "%s Lần dùng còn lại",
+    "tooltip.cucumber.one_use_left": "1 Lần dùng còn lại",
+    "tooltip.cucumber.unlimited_uses": "Không giới hạn lần dùng",
+    "tooltip.cucumber.empty": "Trống",
+    "tooltip.cucumber.filled": "Đã đầy",
+    "tooltip.cucumber.hold_ctrl_for_tags": "Giữ CTRL để xem thẻ",
+    "tooltip.cucumber.data_components": "Thành phần dữ liệu:",
+    "tooltip.cucumber.hold_alt_for_data_components": "Giữ ALT để xem Thành phần dữ liệu",
+    "tooltip.cucumber.block_tags": "Thẻ block:",
+    "tooltip.cucumber.item_tags": "Thẻ item:",
+    "tooltip.cucumber.fluid_tags": "Thẻ chất lỏng:",
+    "tooltip.cucumber.not_yet_implemented": "Chưa được thực hiện",
+    "message.cucumber.filled_energy": "Cái %s này đã lấy năng lượng của bạn!",
+    "message.cucumber.filled_energy_error": "Cái %s này không thể lấy năng lượng của bạn."
+}

@@ -1,0 +1,10 @@
+{
+    "fusion.resource_packs.requires_newer_version": "(Được tạo cho phiên bản mới hơn của Fusion)",
+    "fusion.resource_packs.warning_screen.title": "Cảnh báo phiên bản Fusion",
+    "fusion.resource_packs.warning_screen.message": "Gói tài nguyên này được tạo cho phiên bản mới hơn của Fusion và có thể không hoạt động chính xác với phiên bản Fusion đã cài đặt.",
+    "fusion.resource_packs.warning_screen.confirmation": "Bạn vẫn muốn kích hoạt gói tài nguyên này?",
+    "fusion.resource_packs.warning_screen.current_version": "Phiên bản đã cài đặt:",
+    "fusion.resource_packs.warning_screen.required_version": "Phiên bản yêu cầu:",
+    "fusion.resource_packs.warning_screen.cancel": "Không",
+    "fusion.resource_packs.warning_screen.confirm": "Có"
+}

@@ -1,0 +1,17 @@
+{
+    "itemcollectors.block.basic_collector": "Máy thu thập vật phẩm cơ bản",
+    "itemcollectors.basic_collector.info": "Có thể nhặt vật phẩm trong khu vực xung quanh",
+    "itemcollectors.basic_collector.info.range": "Phạm vi: %s khối",
+    "itemcollectors.block.advanced_collector": "Máy thu thập vật phẩm nâng cao",
+    "itemcollectors.advanced_collector.info": "Có thể nhặt vật phẩm trong khu vực xung quanh, vật phẩm có thể được lọc",
+    "gui.itemcollectors.basic_collector.range": "Phạm vi (%1$dx%2$dx%3$d)",
+    "gui.itemcollectors.basic_collector.range.increase": "Tăng phạm vi",
+    "gui.itemcollectors.basic_collector.range.decrease": "Giảm phạm vi",
+    "gui.itemcollectors.advanced_collector.whitelist.on": "Danh sách trắng",
+    "gui.itemcollectors.advanced_collector.whitelist.off": "Danh sách đen",
+    "gui.itemcollectors.advanced_collector.durability.on": "Khớp NBT",
+    "gui.itemcollectors.advanced_collector.durability.off": "Bỏ qua NBT",
+    "gui.itemcollectors.advanced_collector.filter": "Bộ lọc",
+    "gui.itemcollectors.advanced_collector.show_area.on": "Hiển thị phạm vi",
+    "gui.itemcollectors.advanced_collector.show_area.off": "Ẩn phạm vi"
+}

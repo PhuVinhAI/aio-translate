@@ -1,0 +1,17 @@
+{
+    "_comment": "Cấu Hình NeoForge",
+    "item.measurements.tape_measure": "Thước Cuộn",
+    "text.autoconfig.measurements.title": "Các Phép Đo",
+    "text.autoconfig.measurements.option.client": "Máy Khách",
+    "text.autoconfig.measurements.option.client.lineColor": "Màu Đường",
+    "text.autoconfig.measurements.option.client.textColor": "Màu Chữ",
+    "text.autoconfig.measurements.option.client.textSize": "Cỡ Chữ",
+    "text.autoconfig.measurements.option.client.lineWidth": "Độ Dày Đường",
+    "text.autoconfig.measurements.option.client.lineWidthMax": "Độ Dày Đường Tối Đa",
+    "measurements.configuration.client": "Máy Khách",
+    "measurements.configuration.lineColor": "Màu Đường",
+    "measurements.configuration.textColor": "Màu Chữ",
+    "measurements.configuration.textSize": "Cỡ Chữ",
+    "measurements.configuration.lineWidth": "Độ Dày Đường",
+    "measurements.configuration.lineWidthMax": "Độ Dày Đường Tối Đa"
+}

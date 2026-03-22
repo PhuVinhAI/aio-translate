@@ -1,0 +1,16 @@
+{
+    "colorfulhearts.screen.configuration.title": "Trái tim nhiều màu",
+    "colorfulhearts.screen.configuration.colors.category": "Màu sắc",
+    "colorfulhearts.screen.health.title": "Màu máu",
+    "colorfulhearts.screen.absorption.title": "Màu hấp thụ",
+    "colorfulhearts.options.button.health_colors": "Máu",
+    "colorfulhearts.options.button.absorption_colors": "Hấp thụ",
+    "colorfulhearts.options.button.hearttype.normal": "Bình thường",
+    "colorfulhearts.options.button.hearttype.poisoned": "Độc",
+    "colorfulhearts.options.button.hearttype.withered": "Héo",
+    "colorfulhearts.options.button.hearttype.frozen": "Đóng băng",
+    "colorfulhearts.options.button.confirmsave": "Lưu & Thoát",
+    "colorfulhearts.options.button.cancel": "Hủy",
+    "colorfulhearts.options.button.vanillaheart.true": "Vanilla: Đúng",
+    "colorfulhearts.options.button.vanillaheart.false": "Vanilla: Sai"
+}

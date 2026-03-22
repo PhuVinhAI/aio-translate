@@ -1,0 +1,7 @@
+{
+    "cos.key.opencosarmorinventory": "Mở Kho Trang Phục Trang Sức",
+    "cos.gui.buttoncos": "Trang Phục Trang Sức",
+    "cos.gui.buttonnormal": "Bình Thường",
+    "cos.command.clearcosarmor.success.single": "Đã xóa %s vật phẩm trong kho trang phục trang sức từ người chơi %s",
+    "cos.command.clearcosarmor.success.multiple": "Đã xóa %s vật phẩm trong kho trang phục trang sức từ %s người chơi"
+}

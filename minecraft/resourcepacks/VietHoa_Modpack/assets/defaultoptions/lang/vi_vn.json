@@ -1,0 +1,7 @@
+{
+    "config.defaultoptions.title": "Tùy chọn mặc định",
+    "config.defaultoptions.defaultDifficulty": "Độ khó mặc định",
+    "config.defaultoptions.defaultDifficulty.tooltip": "Độ khó mặc định được chọn cho thế giới mới tạo.",
+    "config.defaultoptions.lockDifficulty": "Khóa độ khó",
+    "config.defaultoptions.lockDifficulty.tooltip": "Đặt thành true nếu độ khó cho thế giới mới nên bị khóa theo mặc định cụ thể. Điều này không thể được mở khóa bởi người chơi mà không có công cụ bên ngoài! Có lẽ là ý tưởng tồi. Tôi không khuyến nghị. Tại sao tôi lại thêm tùy chọn này?"
+}

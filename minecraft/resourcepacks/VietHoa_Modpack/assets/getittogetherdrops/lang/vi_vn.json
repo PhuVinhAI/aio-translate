@@ -1,0 +1,6 @@
+{
+    "getittogetherdrops.configuration.checkY": "Kiểm tra Y",
+    "getittogetherdrops.configuration.checkY.tooltip": "Đặt là true nếu bạn muốn các vật thể rơi cũng kiểm tra phía trên và phía dưới chúng, đặt là false nếu không (\"false\" là hành vi mặc định của vanilla).",
+    "getittogetherdrops.configuration.radius": "Bán kính",
+    "getittogetherdrops.configuration.radius.tooltip": "Bán kính (tính theo khối) mà các vật thể rơi nên kiểm tra xung quanh để tìm các vật thể rơi khác để kết hợp với nhau (\"0.5\" là hành vi mặc định của vanilla)."
+}

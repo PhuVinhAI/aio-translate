@@ -1,0 +1,5 @@
+{
+    "commands.polymorph.conflicts.starting": "Đang tìm kiếm xung đột công thức...",
+    "commands.polymorph.conflicts.success": "Tìm thấy %d xung đột tiềm ẩn. Kiểm tra logs/conflicts.log để biết thêm chi tiết.",
+    "polymorph.networking.failed": "Lỗi kết nối Polymorph: %s"
+}

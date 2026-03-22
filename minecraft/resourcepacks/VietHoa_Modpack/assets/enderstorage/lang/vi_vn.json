@@ -1,0 +1,10 @@
+{
+    "item.enderstorage.ender_pouch": "Túi Ender",
+    "block.enderstorage.ender_chest": "Rương Ender",
+    "enderstorage.command.no_colour": "Màu không hợp lệ: %s",
+    "enderstorage.command.usage": "enderstorage <freq>|(<colour> <colour> <colour>) [owner]",
+    "enderstorage.command.no_freq": "Tần số không hợp lệ",
+    "block.enderstorage.ender_tank": "Thùng Ender",
+    "enderstorage.command.no_arguments": "Số lượng đối số không hợp lệ",
+    "enderstorage.serverop": "Người quản trị"
+}

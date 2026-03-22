@@ -1,0 +1,15 @@
+{
+    "ftbquestslangsplitter.configuration.title": "Cấu hình trình tách ngôn ngữ FTB Quests",
+    "ftbquestslangsplitter.configuration.section.ftbquestslangsplitter.common.toml": "Cấu hình trình tách ngôn ngữ FTB Quests",
+    "ftbquestslangsplitter.configuration.section.ftbquestslangsplitter.common.toml.title": "Cấu hình trình tách ngôn ngữ FTB Quests",
+    "ftbquestslangsplitter.commands.unsupported_locale": "Ngôn ngữ %s không được hỗ trợ",
+    "ftbquestslangsplitter.commands.permission_denied": "Bạn không có quyền để chạy lệnh này",
+    "ftbquestslangsplitter.commands.lang_manager_force_saved": "Trình quản lý ngôn ngữ đã được lưu ép",
+    "ftbquestslangsplitter.commands.added_missing_lang_entries": "Đã thêm %s mục thiếu vào ngôn ngữ %s",
+    "ftbquestslangsplitter.commands.no_missing_entries": "Không có mục thiếu nào trong ngôn ngữ %s",
+    "ftbquestslangsplitter.commands.lang_file_split": "Tệp ngôn ngữ %s đã được tách thành công",
+    "ftbquestslangsplitter.commands.all_lang_file_split": "Tất cả các tệp ngôn ngữ đã được tách thành công",
+    "ftbquestslangsplitter.commands.file_already_exists": "Tệp tại %s đã tồn tại, bỏ qua...",
+    "ftbquestslangsplitter.commands.purged_merged_files": "Đã xóa các tệp đã hợp nhất",
+    "ftbquestslangsplitter.split.lang_saved_reminder": "Bạn đang ở chế độ chỉnh sửa và có vẻ như một tệp ngôn ngữ đã được lưu, hãy nhớ tách nó khi bạn đã hoàn thành!"
+}

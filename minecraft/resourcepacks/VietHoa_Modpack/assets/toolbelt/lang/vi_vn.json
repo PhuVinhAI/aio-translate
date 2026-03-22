@@ -1,0 +1,15 @@
+{
+    "item.toolbelt.belt": "Thùng đựng công cụ",
+    "item.toolbelt.pouch": "Túi đeo thùng",
+    "key.toolbelt.open": "Đổi công cụ",
+    "key.toolbelt.category": "Thùng đựng công cụ",
+    "key.toolbelt.slot": "Mở kho thùng đựng công cụ",
+    "key.toolbelt.cycle.left": "Chuyển công cụ sang trái",
+    "key.toolbelt.cycle.right": "Chuyển công cụ sang phải",
+    "text.toolbelt.empty": "TRỐNG",
+    "text.toolbelt.swap": "ĐỔI",
+    "text.toolbelt.insert": "CHÈN",
+    "text.toolbelt.extract": "RÚT",
+    "text.toolbelt.tooltip": "Nâng cấp: %s (%s ô)",
+    "text.toolbelt": "Thùng đựng công cụ"
+}

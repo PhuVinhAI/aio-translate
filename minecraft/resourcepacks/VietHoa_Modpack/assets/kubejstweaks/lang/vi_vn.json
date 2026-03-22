@@ -1,0 +1,6 @@
+{
+    "kubejstweaks.chat.click_here": "[nhấn vào đây]",
+    "kubejstweaks.chat.click_to_open_markdown": "Nhấn để mở markdown",
+    "kubejstweaks.debug.erroring_recipes_summary": "Một tệp markdown đã được tạo với các công thức lỗi: %s",
+    "kubejstweaks.chat.mod_id": "[KubeJS Tweaks] %s"
+}

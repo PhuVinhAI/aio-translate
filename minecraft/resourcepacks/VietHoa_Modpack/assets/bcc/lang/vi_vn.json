@@ -1,0 +1,4 @@
+{
+    "bcc.gui.tooltip.compatible_server": "§3Máy chủ: %s §2Máy khách (Bạn): %s",
+    "bcc.gui.tooltip.incompatible_server": "§6Bạn không chạy cùng phiên bản modpack §6với máy chủ :( §4Máy chủ: %s §4Máy khách (Bạn): %s"
+}

@@ -1,0 +1,14 @@
+{
+    "item.mob_bottle.tooltip": "Chứa : %s",
+    "item.mob_bottle.tooltip_empty": "Nhấp chuột phải vào thực thể đã bị thu nhỏ với một chai thủy tinh để bắt",
+    "item.mob_bottle.tooltip_with_name": "Chứa : %s (%s)",
+    "item.shrink.shrink_bottle": "Lọ thủy tinh",
+    "item.shrink.shrinking_device": "Thiết bị thu nhỏ cá nhân",
+    "itemGroup.shrink": "Thu nhỏ",
+    "key.shrink.category": "Thu nhỏ",
+    "key.shrink.shrink": "Bật/tắt thu nhỏ",
+    "shrink.deny_shrink": "Không thể thu nhỏ entity do tag từ chối",
+    "shrink.message.already_shrunk": "Không thể mở khi đã thu nhỏ",
+    "shrink.message.missing": "Thiếu thuộc tính thu nhỏ",
+    "shrink.message.power": "Không đủ năng lượng"
+}

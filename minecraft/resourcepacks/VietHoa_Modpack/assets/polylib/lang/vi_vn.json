@@ -1,0 +1,15 @@
+{
+    "energy_bar.polylib.energy_storage": "Kho năng lượng",
+    "energy_bar.polylib.capacity": "Công suất:",
+    "energy_bar.polylib.stored": "Đã lưu trữ:",
+    "energy_bar.polylib.rf": "RF",
+    "fluid_tank.polylib.fluid_storage": "Kho chất lỏng",
+    "fluid_tank.polylib.capacity": "Công suất:",
+    "fluid_tank.polylib.stored": "Đã lưu trữ:",
+    "fluid_tank.polylib.mb": "mB",
+    "fluid_tank.polylib.contains": "Chứa:",
+    "rs_mode.polylib.active_high": "Hoạt động với tín hiệu đá đỏ",
+    "rs_mode.polylib.active_low": "Hoạt động không có tín hiệu đá đỏ",
+    "rs_mode.polylib.always_active": "Luôn hoạt động",
+    "rs_mode.polylib.never_active": "Không hoạt động"
+}

@@ -1,0 +1,20 @@
+{
+    "badwithernocookiereloaded.general.tooltip": "Âm thanh và sự kiện cơ bản toàn cầu bạn có thể hủy",
+    "badwithernocookiereloaded.xtra.tooltip": "Âm thanh bổ sung đã địa phương hóa bạn có thể hủy",
+    "badwithernocookiereloaded.localized settings.silenceus": "Ví dụ: entity.sheep.step - dùng /listen cho âm thanh khác",
+    "bwncr.configuration.general": "Chung",
+    "bwncr.config.silenceUs": "Tắt âm thanh của chúng tôi",
+    "bwncr.config.silenceWither": "Tắt âm thanh Wither",
+    "bwncr.config.debugMode": "Chế độ gỡ lỗi",
+    "bwncr.config.silenceTrader": "Tắt âm thanh thương gia",
+    "bwncr.config.silenceLightning": "Tắt âm thanh sấm sét",
+    "bwncr.config.silenceDragon": "Tắt âm thanh Rồng",
+    "text.autoconfig.bwncr.title": "Bad Wither No Cookie - Reloaded",
+    "text.autoconfig.bwncr.option.general": "Chung",
+    "text.autoconfig.bwncr.option.general.silenceWither": "Tắt âm thanh Wither",
+    "text.autoconfig.bwncr.option.general.silenceTrader": "Tắt âm thanh thương gia",
+    "text.autoconfig.bwncr.option.general.silenceDragon": "Tắt âm thanh Rồng",
+    "text.autoconfig.bwncr.option.general.silenceLightning": "Tắt âm thanh sấm sét",
+    "text.autoconfig.bwncr.option.general.silenceUs": "Tắt âm thanh của chúng tôi",
+    "text.autoconfig.bwncr.option.general.debugMode": "Chế độ gỡ lỗi"
+}

@@ -1,0 +1,17 @@
+{
+    "block.epitaphs.grave": "Mộ",
+    "command.epitaphs.backup_failed": "Sao lưu thất bại. Kiểm tra nhật ký của bạn để biết thêm thông tin",
+    "command.epitaphs.backup_success": "Sao lưu hoàn tất",
+    "command.epitaphs.not_found": "Không tìm thấy mộ cho %s",
+    "command.epitaphs.restore_failed": "Khôi phục vật phẩm của người chơi %s thất bại. Kiểm tra nhật ký của bạn để biết thêm thông tin",
+    "command.epitaphs.restore_overflow": "Không thể chèn một số vật phẩm vào uuid %s.",
+    "command.epitaphs.restore_success": "Đã khôi phục vật phẩm của người chơi %s",
+    "container.epitaphs.grave": "Mộ",
+    "enchantment.epitaphs.experience_soulbound": "Kinh nghiệm Liên hồn",
+    "enchantment.epitaphs.soulbound": "Liên hồn",
+    "message.epitaphs.grave_error": "Đã xảy ra lỗi khi cố gắng tải mộ này. Kiểm tra nhật ký của bạn để biết thêm thông tin",
+    "message.epitaphs.grave_failed": "Đã xảy ra sự cố khi tạo mộ. Vật phẩm của bạn đang nằm trên mặt đất",
+    "message.epitaphs.grave_no_pos": "Không tìm thấy vị trí hợp lệ cho một mộ",
+    "message.epitaphs.grave_success": "Đã tạo một mộ với vật phẩm của bạn tại",
+    "message.epitaphs.no_access": "Mộ này thuộc về %s. Bạn không có quyền truy cập vào nó"
+}

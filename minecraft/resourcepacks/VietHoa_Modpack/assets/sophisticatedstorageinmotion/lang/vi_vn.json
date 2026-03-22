@@ -1,0 +1,10 @@
+{
+    "itemGroup.sophisticatedstorageinmotion": "Kho lưu trữ tinh tế đang di chuyển",
+    "item.sophisticatedstorageinmotion.storage_minecart": "%s Toa xe lửa",
+    "item.sophisticatedstorageinmotion.storage_boat": "%s Thuyền với %s",
+    "item.sophisticatedstorageinmotion.storage_raft": "%s Bè với %s",
+    "entity.sophisticatedstorageinmotion.storage_minecart": "%s Toa xe lửa",
+    "entity.sophisticatedstorageinmotion.storage_boat": "%s Thuyền với %s",
+    "entity.sophisticatedstorageinmotion.storage_raft": "%s Bè với %s",
+    "entity.sophisticatedstorageinmotion.chested_horse_with_storage": "%s với %s"
+}

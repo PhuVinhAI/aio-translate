@@ -1,0 +1,17 @@
+{
+    "text.appmek.chemical": "Hóa Chất",
+    "text.appmek.creative_tab": "Mekanistics Ứng Dụng",
+    "text.appmek.qio_frequency": "Tần số QIO (%s)",
+    "item.appmek.chemical_cell_housing": "Vỏ tế bào hóa học ME",
+    "item.appmek.chemical_storage_cell_1k": "Tế bào lưu trữ hóa học ME 1k",
+    "item.appmek.chemical_storage_cell_4k": "Tế bào lưu trữ hóa học ME 4k",
+    "item.appmek.chemical_storage_cell_16k": "Tế bào lưu trữ hóa học ME 16k",
+    "item.appmek.chemical_storage_cell_64k": "Tế bào lưu trữ hóa học ME 64k",
+    "item.appmek.chemical_storage_cell_256k": "Tế bào lưu trữ hóa học ME 256k",
+    "item.appmek.portable_chemical_cell_16k": "Tế bào hóa học di động 16k",
+    "item.appmek.portable_chemical_cell_1k": "Tế bào hóa học di động 1k",
+    "item.appmek.portable_chemical_cell_4k": "Tế bào hóa học di động 4k",
+    "item.appmek.portable_chemical_cell_64k": "Tế bào hóa học di động 64k",
+    "item.appmek.portable_chemical_cell_256k": "Tế bào hóa học di động 256k",
+    "item.appmek.chemical_p2p_tunnel": "Đường hầm hóa học P2P"
+}
