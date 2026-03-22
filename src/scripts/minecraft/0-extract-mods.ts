@@ -5,7 +5,7 @@ import { PATHS } from '../../config/paths.config';
 import { ModLanguageData } from '../../types';
 
 // Cấu hình đường dẫn
-const MODS_DIR = path.join(PATHS.ROOT, 'mods');
+const MODS_DIR = path.join(PATHS.ROOT, 'input', 'minecraft', 'mods');
 const OUTPUT_FILE = PATHS.MINECRAFT.INPUT_JSON;
 
 interface ModLangFiles {
@@ -34,7 +34,7 @@ function extractMods(): void {
 
   if (!fs.existsSync(MODS_DIR)) {
     console.error('[LỖI] Không tìm thấy thư mục mods!');
-    console.error('Vui lòng tạo thư mục "mods" và copy các file .jar vào đó.');
+    console.error('Vui lòng tạo thư mục "input/minecraft/mods" và copy các file .jar vào đó.');
     process.exit(1);
   }
 

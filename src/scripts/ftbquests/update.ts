@@ -21,9 +21,9 @@ async function main(): Promise<void> {
   if (!fs.existsSync(PATHS.FTBQUESTS.INPUT_DIR)) {
     console.error(`❌ Thư mục input không tồn tại: ${PATHS.FTBQUESTS.INPUT_DIR}`);
     console.error(`\n👉 HƯỚNG DẪN CÀI ĐẶT INPUT:`);
-    console.error(`1. Tạo thư mục: aio-translate/ftbquests/input/`);
-    console.error(`2. Copy file 'en_us.snbt' VÀ thư mục 'en_us' (từ config/ftbquests/quests/lang/ của modpack) ném vào thư mục 'input' vừa tạo.`);
-    console.error(`=> Tức là bạn sẽ có: ftbquests/input/en_us.snbt VÀ ftbquests/input/en_us/...`);
+    console.error(`1. Tạo thư mục: input/ftbquests/`);
+    console.error(`2. Copy file 'en_us.snbt' VÀ thư mục 'en_us' (từ config/ftbquests/quests/lang/ của modpack) vào thư mục 'input/ftbquests'.`);
+    console.error(`=> Tức là bạn sẽ có: input/ftbquests/en_us.snbt VÀ input/ftbquests/en_us/...`);
     process.exit(1);
   }
 
@@ -42,7 +42,7 @@ async function main(): Promise<void> {
 
   console.log('\n🎉 HOÀN THÀNH TẤT CẢ!');
   console.log(`📁 Kết quả: ${PATHS.FTBQUESTS.OUTPUT_DIR}`);
-  console.log(`👉 BƯỚC CUỐI CÙNG: Copy TOÀN BỘ nội dung bên trong thư mục 'output' (gồm file vi_vn.snbt và thư mục vi_vn) ném vào thư mục 'config/ftbquests/quests/lang/' của modpack.`);
+  console.log(`👉 BƯỚC CUỐI CÙNG: Copy TOÀN BỘ nội dung bên trong thư mục 'output/ftbquests' (gồm file vi_vn.snbt và thư mục vi_vn) vào 'config/ftbquests/quests/lang/' của modpack.`);
 }
 
 main();

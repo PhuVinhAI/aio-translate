@@ -35,7 +35,7 @@ function importFTBQuests(): void {
 
   if (!fs.existsSync(inputDir)) {
     console.error(`❌ Không tìm thấy thư mục input: ${inputDir}`);
-    console.error(`👉 HƯỚNG DẪN: Hãy tạo thư mục 'ftbquests/input' và ném cả file 'en_us.snbt' VÀ thư mục 'en_us' vào trong đó!`);
+    console.error(`👉 HƯỚNG DẪN: Hãy tạo thư mục 'input/ftbquests' và copy file 'en_us.snbt' VÀ thư mục 'en_us' vào đó!`);
     process.exit(1);
   }
 

@@ -5,11 +5,13 @@ dist/
 .DS_Store
 Thumbs.db
 
-# Data directories
-data/temp/
-data/*.backup_*
-data/source/versions/
-data/translation/versions/
+# Input/Output directories (user data)
+input/
+output/
+
+# Data directories (internal)
+data/
+temp/
 
 # Build artifacts
 *.tsbuildinfo
@@ -28,11 +30,8 @@ Desktop.ini
 *.backup_*
 *.bak
 
-# Temp files
-temp/
-tmp/
-
-# Keep structure but ignore content
-!data/temp/.gitkeep
-!data/source/versions/.gitkeep
-!data/translation/versions/.gitkeep
+# Keep structure
+!input/.gitkeep
+!output/.gitkeep
+!data/.gitkeep
+!temp/.gitkeep

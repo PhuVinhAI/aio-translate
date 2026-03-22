@@ -10,8 +10,7 @@ function resetFTBWorkflow(): void {
     PATHS.FTBQUESTS.TEMP_NEW,
     PATHS.FTBQUESTS.TEMP_TRANSLATED,
     PATHS.FTBQUESTS.TEMP_MERGED,
-    path.join(PATHS.TEMP.DIR, 'ftbquests-progress.json'),
-    path.join(PATHS.TEMP.DIR, 'temp-batches-ftbquests'),
+    path.join(PATHS.TEMP.DIR, 'ftbquests'),
     PATHS.FTBQUESTS.OUTPUT_DIR
   ];
 

@@ -10,8 +10,7 @@ function resetMinecraftWorkflow(): void {
     PATHS.MINECRAFT.TEMP_NEW,
     PATHS.MINECRAFT.TEMP_TRANSLATED,
     PATHS.MINECRAFT.TEMP_MERGED,
-    path.join(PATHS.TEMP.DIR, 'minecraft-progress.json'),
-    path.join(PATHS.TEMP.DIR, 'temp-batches-minecraft'),
+    path.join(PATHS.TEMP.DIR, 'minecraft'),
     PATHS.MINECRAFT.OUTPUT_DIR
   ];
 

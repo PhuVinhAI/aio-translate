@@ -11,10 +11,10 @@ async function translate(): Promise<void> {
 
   const ctx: TranslationContext = {
     config: minecraftTranslationConfig,
-    progressFile: path.join(PATHS.TEMP.DIR, 'minecraft-progress.json'),
+    progressFile: path.join(PATHS.TEMP.DIR, 'minecraft', 'progress.json'),
     inputFile: PATHS.MINECRAFT.TEMP_NEW,
     outputFile: PATHS.MINECRAFT.TEMP_TRANSLATED,
-    tempDir: path.join(PATHS.TEMP.DIR, 'temp-batches-minecraft'),
+    tempDir: path.join(PATHS.TEMP.DIR, 'minecraft', 'batches'),
     modeName: 'Minecraft Mods (Anh → Việt)'
   };
 

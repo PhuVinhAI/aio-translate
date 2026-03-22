@@ -42,6 +42,7 @@ async function main(): Promise<void> {
 
   console.log('\n🎉 HOÀN THÀNH TẤT CẢ!');
   console.log(`📁 Kết quả (Resource Pack): ${PATHS.MINECRAFT.OUTPUT_DIR}`);
+  console.log(`👉 BƯỚC CUỐI CÙNG: Copy thư mục 'output/minecraft/resourcepack' vào '.minecraft/resourcepacks/' của game.`);
 }
 
 main();

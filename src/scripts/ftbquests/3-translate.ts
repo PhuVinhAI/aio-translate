@@ -11,10 +11,10 @@ async function translate(): Promise<void> {
 
   const ctx: TranslationContext = {
     config: ftbquestsTranslationConfig,
-    progressFile: path.join(PATHS.TEMP.DIR, 'ftbquests-progress.json'),
+    progressFile: path.join(PATHS.TEMP.DIR, 'ftbquests', 'progress.json'),
     inputFile: PATHS.FTBQUESTS.TEMP_NEW,
     outputFile: PATHS.FTBQUESTS.TEMP_TRANSLATED,
-    tempDir: path.join(PATHS.TEMP.DIR, 'temp-batches-ftbquests'),
+    tempDir: path.join(PATHS.TEMP.DIR, 'ftbquests', 'batches'),
     modeName: 'FTB Quests (Anh → Việt)'
   };
 
