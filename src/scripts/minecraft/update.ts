@@ -32,7 +32,7 @@ async function main(): Promise<void> {
 
   const newContent = fs.readFileSync(PATHS.MINECRAFT.TEMP_NEW, 'utf-8');
   if ((newContent.match(/<Text Key=/g) || []).length > 0) {
-    runScript(path.join(PATHS.ROOT, 'src', 'scripts', '3-translate.ts'), '3. Dịch tự động');
+    runScript(path.join(PATHS.ROOT, 'src', 'scripts', 'minecraft', '3-translate.ts'), '3. Dịch tự động');
   } else {
     console.log('\n✅ Không có nội dung mới cần dịch!');
   }
