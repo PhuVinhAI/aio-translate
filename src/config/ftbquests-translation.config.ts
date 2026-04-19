@@ -3,9 +3,9 @@ import { TranslationConfig } from '../types';
 export const ftbquestsTranslationConfig: TranslationConfig = {
   api: {
     provider: 'nvidia',
-    model: 'stepfun-ai/step-3.5-flash',
+    model: 'mistralai/mistral-small-4-119b-2603',
     temperature: 0.3,
-    top_p: 0.9,
+    top_p: 0.95,
     max_tokens: 16384,
   },
   translation: {
