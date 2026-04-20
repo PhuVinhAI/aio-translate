@@ -54,6 +54,16 @@ export interface PathsConfig {
     MAPPING: string;
     REVERSE_MAPPING: string;
   };
+  TERRARIA: {
+    INPUT_DIR: string;
+    OUTPUT_DIR: string;
+    TEMP_EN_XML: string;
+    TEMP_NEW: string;
+    TEMP_TRANSLATED: string;
+    TEMP_MERGED: string;
+    MAPPING: string;
+    REVERSE_MAPPING: string;
+  };
 }
 
 export interface ModLanguageData {

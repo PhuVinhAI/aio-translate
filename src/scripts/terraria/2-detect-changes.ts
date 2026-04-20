@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 import { PATHS } from '../../config/paths.config';
 import { parseXMLToMap, mapToXML } from '../../utils/xml-parser';
 
@@ -20,12 +20,12 @@ function detectChanges(): void {
 
   const newEntries = new Map<string, string>();
 
-  for (const [hash, text] of enEntries.entries()) {
-    // Nếu chưa có trong mapping hoặc nội dung gốc thay đổi (nếu lưu originalValue trong mapping)
+  enEntries.forEach((text, hash) => {
+    // Nếu chưa có trong mapping hoặc chưa có bản dịch
     if (!mapping[hash] || !mapping[hash].translatedValue) {
       newEntries.set(hash, text);
     }
-  }
+  });
 
   const xmlContent = mapToXML(newEntries);
 

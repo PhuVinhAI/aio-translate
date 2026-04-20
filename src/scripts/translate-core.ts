@@ -1,6 +1,7 @@
 import { AIO } from 'aio-llm';
 import fs from 'fs';
 import path from 'path';
+import 'dotenv/config';
 import { parseXMLEntries, escapeXml, XMLEntry } from '../utils/xml-parser';
 import { createHashKey } from '../utils/hash';
 import { TranslationConfig } from '../types';

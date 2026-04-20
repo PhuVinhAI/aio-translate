@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 import { execSync } from 'child_process';
 import { PATHS } from '../../config/paths.config';
 
@@ -22,7 +22,8 @@ async function main(): Promise<void> {
   if (!fs.existsSync(PATHS.TERRARIA.INPUT_DIR)) {
     console.error(`❌ Thư mục input không tồn tại: ${PATHS.TERRARIA.INPUT_DIR}`);
     console.log(`👉 Vui lòng tạo thư mục này và đặt các file mod cần dịch vào.`);
-    process.exit(1);
+    // Fallback nếu người dùng chạy lần đầu mà chưa có folder
+    fs.mkdirSync(PATHS.TERRARIA.INPUT_DIR, { recursive: true });
   }
 
   runScript(path.join(PATHS.ROOT, 'src', 'scripts', 'terraria', '1-import-hjson.ts'), '1. Import HJSON/JSON → XML');

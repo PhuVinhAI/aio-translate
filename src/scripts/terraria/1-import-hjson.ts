@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 import { PATHS } from '../../config/paths.config';
 import { escapeXml } from '../../utils/xml-parser';
 import { backupFile } from '../../utils/backup';
@@ -72,7 +72,9 @@ function importTerraria(): void {
     if (file.endsWith('.json')) {
       // XỬ LÝ JSON CHUẨN (Dialogue Calamity)
       try {
-        const jsonData = JSON.parse(content);
+        // Xóa BOM nếu có trước khi parse
+        const cleanContent = content.replace(/^\uFEFF/, '');
+        const jsonData = JSON.parse(cleanContent);
         const processNode = (node: any, jsonPath: string) => {
           if (typeof node === 'string') {
             if (node.trim() === "" || node.startsWith('{$')) return;
@@ -137,6 +139,8 @@ function importTerraria(): void {
   xml += '</STBLKeyStringList>';
 
   if (!fs.existsSync(path.dirname(outputXml))) fs.mkdirSync(path.dirname(outputXml), { recursive: true });
+  if (!fs.existsSync(path.dirname(mappingFile))) fs.mkdirSync(path.dirname(mappingFile), { recursive: true });
+
   fs.writeFileSync(outputXml, xml, 'utf8');
   fs.writeFileSync(mappingFile, JSON.stringify(mapping, null, 2), 'utf8');
 

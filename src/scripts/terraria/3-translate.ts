@@ -1,4 +1,4 @@
-import path from 'path';
+import * as path from 'path';
 import { PATHS } from '../../config/paths.config';
 import { terrariaTranslationConfig } from '../../config/terraria-translation.config';
 import { runTranslation, TranslationContext } from '../translate-core';

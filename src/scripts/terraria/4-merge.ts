@@ -1,4 +1,4 @@
-import fs from 'fs';
+import * as fs from 'fs';
 import { PATHS } from '../../config/paths.config';
 import { parseXMLToMap } from '../../utils/xml-parser';
 import { backupFile } from '../../utils/backup';
@@ -26,11 +26,11 @@ function mergeTranslations(): void {
   const mapping = JSON.parse(fs.readFileSync(mappingFile, 'utf8'));
 
   // Cập nhật mapping với bản dịch mới
-  for (const [hash, translatedText] of translatedEntries.entries()) {
+  translatedEntries.forEach((translatedText, hash) => {
     if (mapping[hash]) {
       mapping[hash].translatedValue = translatedText;
     }
-  }
+  });
 
   // Ghi lại mapping.json
   fs.writeFileSync(mappingFile, JSON.stringify(mapping, null, 2), 'utf8');
@@ -39,13 +39,13 @@ function mergeTranslations(): void {
   let mergedXml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<STBLKeyStringList>\n';
 
   let count = 0;
-  for (const hash of enEntries.keys()) {
+  enEntries.forEach((_text, hash) => {
     const translation = mapping[hash]?.translatedValue;
     if (translation) {
       mergedXml += `  <Text Key="${hash}">${translation}</Text>\n`;
       count++;
     }
-  }
+  });
 
   mergedXml += '</STBLKeyStringList>';
   fs.writeFileSync(outputMergedXml, mergedXml, 'utf8');

@@ -10,7 +10,7 @@ export const terrariaTranslationConfig: TranslationConfig = {
   },
   translation: {
     batchSize: 20,
-    parallelBatches: 10,
+    parallelBatches: 15,
     maxRetries: 99,
     retryDelay: 3000,
   },

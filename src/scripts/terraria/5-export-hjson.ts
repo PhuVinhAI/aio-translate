@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 import { PATHS } from '../../config/paths.config';
 import { unescapeXml, parseXMLToMap } from '../../utils/xml-parser';
 
@@ -43,9 +43,9 @@ function exportTerraria(): void {
   // Tổ chức dữ liệu theo file
   const fileData: Record<string, any> = {};
 
-  for (const [hashKey, viTextRaw] of translatedEntries.entries()) {
+  translatedEntries.forEach((viTextRaw, hashKey) => {
     const mapInfo = mapping[hashKey];
-    if (!mapInfo) continue;
+    if (!mapInfo) return;
 
     const viText = unescapeXml(viTextRaw);
     if (!fileData[mapInfo.file]) fileData[mapInfo.file] = { hjson: {}, json: {} };
@@ -63,7 +63,7 @@ function exportTerraria(): void {
       }
       fileData[mapInfo.file].hjson[mapInfo.originalKey] = finalOutput;
     }
-  }
+  });
 
   if (fs.existsSync(outputDir)) fs.rmSync(outputDir, { recursive: true, force: true });
 
@@ -82,7 +82,9 @@ function exportTerraria(): void {
     if (relPath.endsWith('.json')) {
       // XỬ LÝ JSON (Calamity Dialogue)
       try {
-        const jsonData = JSON.parse(fs.readFileSync(srcFile, 'utf8'));
+        const rawContent = fs.readFileSync(srcFile, 'utf8');
+        const cleanContent = rawContent.replace(/^\uFEFF/, '');
+        const jsonData = JSON.parse(cleanContent);
         Object.entries(data.json).forEach(([jsonPath, translatedValue]) => {
           setValueByPath(jsonData, jsonPath, translatedValue as string);
           replacedCount++;
