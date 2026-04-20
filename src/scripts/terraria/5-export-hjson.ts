@@ -134,14 +134,14 @@ function exportTerrariaModSource(): void {
           // XÂY DỰNG LẠI GIÁ TRỊ FINAL SIÊU SẠCH
           let finalNewVal = cleanViText;
           const hasNewline = cleanViText.includes('\n') || cleanViText.includes('\r');
+
           // PHÒNG VỆ HJSON TỐI THƯỢNG:
-          // Bọc ngoặc kép nếu văn bản chứa dấu nháy ( ' hoặc " ), chứa dấu hai chấm,
-          // hoặc bắt đầu bằng các ký tự cấu trúc ( { [ )
-          const needsQuotes = cleanViText.includes("'") ||
+          // Bọc ngoặc kép nếu văn bản chứa các ký tự nhạy cảm, đặc biệt là các dấu ngắt quãng đứng đầu câu
+          const sensitiveStartChars = /^[{\[\]\}:,'"]/;
+          const needsQuotes = sensitiveStartChars.test(cleanViText) ||
                              cleanViText.includes('"') ||
-                             cleanViText.includes(':') ||
-                             cleanViText.startsWith('{') ||
-                             cleanViText.startsWith('[');
+                             cleanViText.includes("'") ||
+                             cleanViText.includes(': ');
 
           if (hasNewline) {
              // Định dạng đa dòng chuẩn: nháy tam mở -> xuống dòng -> nội dung -> xuống dòng -> nháy tam đóng
