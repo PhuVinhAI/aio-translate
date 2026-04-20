@@ -66,7 +66,13 @@ function exportTerrariaModSource(): void {
     } else if (mapInfo.isJson || mapInfo.originalValue.startsWith('"')) {
       finalValue = `"${viText.replace(/"/g, '\\"')}"`;
     } else {
-      finalValue = viText;
+      let finalViText = viText;
+      // PHÒNG VỆ HJSON: Nếu văn bản bắt đầu bằng { hoặc [ (biến số/mã màu), bắt buộc phải bọc ngoặc kép
+      const trimmed = viText.trim();
+      if (trimmed.startsWith('{') || trimmed.startsWith('[') || trimmed.includes(': ')) {
+        finalViText = `"${viText.replace(/"/g, '\\"')}"`;
+      }
+      finalValue = finalViText;
     }
     fileTranslations[mapInfo.file].push(finalValue);
   });
