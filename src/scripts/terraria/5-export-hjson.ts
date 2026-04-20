@@ -26,14 +26,16 @@ function setValueByPath(obj: any, jsonPath: string, value: string) {
   }
 }
 
-function exportTerrariaMod(): void {
-  console.log('\n=== [Terraria 5] Xuất dạng MOD Việt Hóa chuẩn (Thông minh) ===');
+function exportTerrariaModSource(): void {
+  const MOD_NAME = "TerrariaVietHoaAIO";
+  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (ModSources) ===`);
 
   const inputDir = fs.readdirSync(PATHS.TERRARIA.INPUT_DIR).length > 0
     ? PATHS.TERRARIA.INPUT_DIR
     : "C:/Users/tomis/Docs/aio-translate/ModLocalization";
 
-  const outputModDir = path.join(PATHS.TERRARIA.OUTPUT_DIR, 'TerrariaVietHoaAIO');
+  // Thư mục đích trong ModSources của người dùng
+  const outputModDir = "C:/Users/tomis/OneDrive/Tài liệu/My Games/Terraria/tModLoader/ModSources/" + MOD_NAME;
   const localizationDir = path.join(outputModDir, 'Localization');
 
   const mergedXml = PATHS.TERRARIA.TEMP_MERGED;
@@ -74,7 +76,7 @@ function exportTerrariaMod(): void {
   if (fs.existsSync(outputModDir)) fs.rmSync(outputModDir, { recursive: true, force: true });
   fs.mkdirSync(localizationDir, { recursive: true });
 
-  // 1. Tạo file build.txt với danh sách tham chiếu đầy đủ
+  // 1. Tạo file build.txt
   const modIds = [
     "AlchemistNPCLite", "AutoTrash", "BlueMoon", "BossChecklist", "BTitles",
     "CalamityAmmo", "CalamityCrossmodVulnerabilities", "CalamityHunt",
@@ -101,21 +103,26 @@ function exportTerrariaMod(): void {
   const descriptionTxt = "Bản dịch Tiếng Việt tổng hợp cho toàn bộ Modpack.\nĐược dịch tự động bởi AI (NVIDIA Mistral-Small).";
   fs.writeFileSync(path.join(outputModDir, 'description.txt'), descriptionTxt, 'utf8');
 
-  // Regex cải tiến: Chỉ bắt Key: Value, không bắt Key: { (đối tượng)
-  const hjsonRegex = /([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^#\n\r\{\}\[\]]+)(?!\s*\{)/g;
-  const jsonRegex = /"([\w\.\-]+)"\s*:\s*"((?:[^"\\]|\\.)*)"/g;
+  // 3. Tạo file .cs chuẩn ModSkeleton
+  const csContent = `using Terraria.ModLoader;\n\nnamespace ${MOD_NAME}\n{\n\tpublic class ${MOD_NAME} : Mod\n\t{\n\t}\n}`;
+  fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.cs`), csContent, 'utf8');
 
-  // Danh sách các Key hệ thống tuyệt đối không được ghi đè (vì chúng xác định cấu trúc đối tượng)
+  // 4. Tạo file .csproj
+  const csprojContent = `<Project Sdk="Microsoft.NET.Sdk">\n\t<Import Project="..\\tModLoader.targets" />\n\t<PropertyGroup>\n\t\t<TargetFramework>net8.0</TargetFramework>\n\t\t<ImplicitUsings>enable</ImplicitUsings>\n\t\t<Nullable>enable</Nullable>\n\t</PropertyGroup>\n</Project>`;
+  fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.csproj`), csprojContent, 'utf8');
+
+  const hjsonRegex = /([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^#\n\r\{\}\[\]]+)(?!\s*\{)/g;
   const systemKeys = new Set(['Mods', 'Localization', 'Configs']);
+
   let replacedCount = 0;
   let filesCreated = 0;
 
   for (const [relPath, data] of Object.entries(fileData)) {
     const srcFile = path.join(inputDir, relPath);
-    const modId = relPath.split(/[/\\]/)[0]; // Lấy tên Mod từ thư mục cha
+    const modId = relPath.split(/[/\\]/)[0];
 
-    // Tên file đích (phẳng hóa để tModLoader dễ nạp)
-    const flatFileName = relPath.replace(/[/\\]/g, '.');
+    // Quy tắc đặt tên file: en-US_Mods.TênMod.TênFileGốc.hjson
+    const flatFileName = `en-US_Mods.${modId}.${relPath.replace(/[/\\]/g, '.')}.hjson`;
     const destFile = path.join(localizationDir, flatFileName);
 
     if (relPath.endsWith('.json')) {
@@ -127,49 +134,35 @@ function exportTerrariaMod(): void {
           setValueByPath(jsonData, jsonPath, translatedValue as string);
           replacedCount++;
         });
-
-        // Luôn bọc JSON nếu chưa có cấu trúc chuẩn (Tùy biến cho Calamity Dialogue)
-        let jsonString = JSON.stringify(jsonData, null, 4);
-        fs.writeFileSync(destFile, jsonString, 'utf8');
+        fs.writeFileSync(destFile, JSON.stringify(jsonData, null, 4), 'utf8');
       } catch (e) {
         console.error(`❌ Lỗi ghi JSON file ${relPath}: ${(e as Error).message}`);
       }
     } else {
-      // XỬ LÝ HJSON
       let content = fs.readFileSync(srcFile, 'utf8');
-
-      // Thực hiện thay thế văn bản đã dịch
       content = content.replace(hjsonRegex, (match, key) => {
         const trimmedKey = key.trim();
-
-        // BỎ QUA nếu là key hệ thống hoặc không có bản dịch
-        if (systemKeys.has(trimmedKey) || !data.hjson[trimmedKey]) {
-          return match;
-        }
-
+        if (systemKeys.has(trimmedKey) || !data.hjson[trimmedKey]) return match;
         replacedCount++;
         return `${key}: ${data.hjson[trimmedKey]}`;
       });
 
-      // KIỂM TRA LỚP BỌC Mods: { ModId: { ... } }
-      // Nếu file chưa có "Mods:" ở những dòng đầu tiên, chúng ta sẽ tự động bọc nó lại
       const needsWrapping = !content.trim().startsWith('Mods:') && !content.includes(`${modId}:`);
-
       if (needsWrapping) {
         content = `Mods: {\n\t${modId}: {\n${content.split('\n').map(line => '\t\t' + line).join('\n')}\n\t}\n}`;
       }
-
       fs.writeFileSync(destFile, content, 'utf8');
     }
     filesCreated++;
   }
 
-  console.log(`✅ Đã đóng gói Mod Việt Hóa thông minh tại: ${outputModDir}`);
+  console.log(`✅ Đã tạo mã nguồn Mod tại: ${outputModDir}`);
   console.log(`📊 Đã xử lý ${filesCreated} files, ${replacedCount} câu thoại.`);
+  console.log(`👉 BƯỚC CUỐI: Vào game tModLoader > Develop Mods > Nhấn BUILD bản mod ${MOD_NAME}!`);
 }
 
 if (require.main === module) {
-  exportTerrariaMod();
+  exportTerrariaModSource();
 }
 
-export { exportTerrariaMod };
+export { exportTerrariaModSource };
