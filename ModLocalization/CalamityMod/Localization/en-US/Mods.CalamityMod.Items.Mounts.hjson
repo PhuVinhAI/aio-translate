@@ -1,0 +1,63 @@
+Brimrose: {
+	DisplayName: Brimrose
+	Tooltip: Summons a rideable Brimrose mount
+}
+
+ExoArmamentsKit: {
+	DisplayName: Exo Armaments Kit
+	Tooltip:
+		'''
+		Summons a rideable war machine
+		'A superweapon just right for your stature'
+		'''
+}
+
+ExoThrone: {
+	DisplayName: Exo Box
+	Tooltip:
+		'''
+		Materializes a quite cozy and extremely nimble flying Exo Throne mount
+		Hold [KEY] while sitting in the throne to move slower for more precision
+		'A comfortable gamer is a dangerous gamer'
+		'''
+}
+
+FollyFeed: {
+	DisplayName: Folly Feed
+	Tooltip: Summons a rideable monstrosity
+}
+
+GazeOfCrysthamyr: {
+	DisplayName: Gaze of Crysthamyr
+	Tooltip:
+		'''
+		Summons a rideable shadow dragon mount
+		Hold {$Key.UP} to ascend faster
+		'''
+}
+
+TheCartofGods: {
+	DisplayName: The Cart of Gods
+	Tooltip: ""
+}
+
+OnyxExcavatorKey: {
+	DisplayName: Onyx Excavator Key
+	Tooltip:
+		'''
+		Summons a rideable Onyx Drill mount
+		Hold <left> to drill blocks while moving either horizontally or downwards
+		The drill's pickaxe power and mining speed copy the best pickaxe in your inventory
+		'Irresponsibly demolishing all the neat world generation and causing unchecked ecological devastation? Splendid'
+		'''
+}
+
+SuspiciousLookingJellyBean: {
+	DisplayName: Suspicious Looking Jelly Bean
+	Tooltip: JELLY BEAN
+}
+
+TundraLeash: {
+	DisplayName: Tundra Leash
+	Tooltip: Summons a rideable Rimehound mount
+}

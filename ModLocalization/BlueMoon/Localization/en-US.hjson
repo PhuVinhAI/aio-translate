@@ -1,0 +1,104 @@
+Mods: {
+	BlueMoon: {
+		Items: {
+			BlueMedallion: {
+				Tooltip: Summons a rare Blue Moon at night
+				DisplayName: Blue Medallion
+			}
+
+			CherryAmulet: {
+				Tooltip: Summons a lovely Cherry Moon at night
+				DisplayName: Cherry Amulet
+			}
+
+			HarvestLantern: {
+				Tooltip: Summons a festive Harvest Moon at night
+				DisplayName: Harvest Lantern
+			}
+
+			HarvestMoonMusicBox: {
+				Tooltip: ""
+				DisplayName: Harvest Moon Music Box
+			}
+
+			CherryMoonMusicBox: {
+				Tooltip: ""
+				DisplayName: Cherry Moon Music Box
+			}
+
+			BlueMoonMusicBox: {
+				Tooltip: ""
+				DisplayName: Blue Moon Music Box
+			}
+
+			MintRing: {
+				Tooltip: Summons a refreshing Mint Moon at night
+				DisplayName: Mint Ring
+			}
+
+			MintMoonMusicBox: {
+				Tooltip: ""
+				DisplayName: Mint Moon Music Box
+			}
+
+			SapphireRing: {
+				DisplayName: Sapphire Ring
+				Tooltip: Gives the Lunar Empowerment Buff
+			}
+
+			TopazRing: {
+				DisplayName: Topaz Ring
+				Tooltip: Gives the Bountiful Harvest Buff
+			}
+
+			AmethystRing: {
+				DisplayName: Amethyst Ring
+				Tooltip: Gives the Floral Blessing Buff
+			}
+
+			EmeraldRing: {
+				DisplayName: Emerald Ring
+				Tooltip: Gives the Minty Freshness BUFF
+			}
+
+			MoonsRing: {
+				DisplayName: Moons Ring
+				Tooltip: Increases coin drops, health regeneration, critical chance, and magic damage.
+			}
+		}
+
+		Buffs: {
+			BountifulHarvestBuff: {
+				DisplayName: Bountiful Harvest
+				Description: The Harvest Moon's blessing fills your pockets with riches. Enemies drop more coins for you.
+			}
+
+			FloralBlessingBuff: {
+				DisplayName: Floral Blessing
+				Description: Embrace the Cherry Moon's healing aura. Your wounds mend swiftly.
+			}
+
+			LunarEmpowermentBuff: {
+				DisplayName: Lunar Empowerment
+				Description: The moon bestows some of its luck onto you.
+			}
+
+			MintyFreshnessBuff: {
+				DisplayName: Minty Freshness
+				Description: The Mint Moon's sparkling light enhances your magical abilities. You deal more damage and have lower cooldowns.
+			}
+
+			MoonsRingBuff: {
+				DisplayName: Moonlight Harmony
+				Description: You are blessed by the power of the four celestial moons.
+			}
+		}
+
+		Tiles: {
+			HarvestMoonMusicBoxTile.MapEntry: Harvest Moon Music Box
+			CherryMoonMusicBoxTile.MapEntry: Cherry Moon Music Box
+			BlueMoonMusicBoxTile.MapEntry: Blue Moon Music Box
+			MintMoonMusicBoxTile.MapEntry: Mint Moon Music Box
+		}
+	}
+}

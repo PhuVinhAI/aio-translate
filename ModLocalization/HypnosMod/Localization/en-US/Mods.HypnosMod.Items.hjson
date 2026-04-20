@@ -1,0 +1,44 @@
+HypnosTrophyInv: {
+	DisplayName: Hypnos Trophy Inv
+	Tooltip: ""
+}
+
+HypnosMask: {
+	DisplayName: Hypnos Mask
+	Tooltip: ""
+}
+
+HypnosMusicBox: {
+	DisplayName: Hypnos Music Box
+	Tooltip: ""
+}
+
+AergianTechnistaff: {
+	DisplayName: Aergian Technistaff
+	Tooltip:
+		'''
+		Summons an orbital Aergia Neuron
+		Holding right click causes the orbit to accelerate
+		Once fully charged, the ring can be thrown to chase enemies
+		'''
+}
+
+Neuraze: {
+	DisplayName: Neuraze
+	Tooltip:
+		'''
+		Rapidly fires spreads of five bullets
+		Pulls from the first five bullet types in your inventory
+		80% chance to not consume ammo
+		'''
+}
+
+Planetarium: {
+	Tooltip:
+		'''
+		Countless shooting stars streak across the sky tonight...
+		Should you choose the right one...
+		...it will carry your wish to thousands of distant worlds.
+		'''
+	DisplayName: Planetarium
+}

@@ -1,0 +1,80 @@
+// Plain stat boosts
+RogueDamage: "{0}% increased rogue damage"
+RogueCrit: "{0}% increased rogue critical strike chance"
+RogueDamageCrit: "{0}% increased rogue damage and critical strike chance"
+RogueVelocity: "{0}% increased rogue velocity"
+RogueStealth: +{0} maximum stealth
+CritDamageTootip: "{0}% critical strike damage"
+// Armor Set Bonus key states
+BothArmorSetBonusKeys: Press {0} or Double tap {1}
+NoArmorSetBonusKey: Press the Armor Set Bonus key
+ArmorSetBonusKey: Press {0}
+DoubleTapDown: Double tap {0}
+// Miscellaneous stats/info
+AggroBoost: Enemies are more likely to target you
+AggroReduction: Enemies are less likely to target you
+KnockbackImmunity: Grants immunity to knockback
+AbyssLightLevel: Reduces the darkness intensity of the abyss
+AbyssFlashlight: Increases flashlight width in the abyss
+AbyssGlow: Increases visibility range in the abyss
+AbyssBreathLevel1: Slightly reduces breath loss in the abyss
+AbyssBreathLevel2: Moderately reduces breath loss in the abyss
+AbyssBreathLevel3: Greatly reduces breath loss in the abyss
+AlcoholWarning: Drinking more than 3 different alcohols might not end well with your liver
+ArmorPenetration: Ignores {0} points of enemy Defense
+CanMineUelibloom: Can mine Uelibloom Ore
+NotConsumable: Not consumable
+SummonTagDamageFlat: "{0} summon tag damage"
+SummonTagDamageMult: "{0}x summon tag damage"
+SummonTagCrit: "{0}% summon tag critical strike chance"
+DodgeProvided: Grants or improves the ability to dodge attacks
+DodgeInformation:
+	'''
+	[i/Terraria:BlackBelt] Attacks that deal less than 5% of your max life in damage will not be dodged
+	[i/Terraria:BlackBelt] This dodge has a maximum cooldown of 90 seconds, shortened depending on the dodged attack's damage
+	[i/Terraria:BlackBelt] Equipping multiple accessories that give this ability to dodge will reduce the cooldown by 15% each
+	'''
+ReflectInformation:
+	'''
+	Projectiles that deal less than 5% of your max life in damage will not be reflected
+	The reflect has a cooldown that ranges between 20 and 90 seconds depending on the reflected projectile's damage
+	This cooldown is shared with all other dodges and reflects
+	'''
+GrappleStats:
+	'''
+	Reach: {0} tiles
+	Launch Velocity: {1}
+	Reelback Velocity: {2}
+	Pull Velocity: {3}
+	'''
+WingStats:
+	'''
+	Flight time: {0} seconds
+	Max horizontal speed: {1} mph
+	Max vertical speed: {2} mph
+	'''
+WingStatsAcceleration:
+	'''
+	Horizontal acceleration: {0} mph/s
+	Vertical acceleration:
+	{1} mph/s
+	{2} mph/s if ascending slower than {3} mph
+	{4} mph/s if ascending while falling
+	'''
+WingStatsHover:
+	'''
+	Max hover speed: {0} mph
+	Hover acceleration: {1} mph/s
+	'''
+YoyoStats:
+	'''
+	Reach: {0} tiles
+	Speed: {1}
+	Duration: {2} seconds
+	'''
+YoyoStatsInfinite:
+	'''
+	Reach: {0} tiles
+	Speed: {1}
+	Infinite throw duration
+	'''

@@ -1,0 +1,72 @@
+Mods: {
+	EvilPylon: {
+		Tiles: {
+			CorruptionPylonTile.MapEntry: Corruption Pylon
+			CrimsonPylonTile.MapEntry: Crimson Pylon
+			HellPylonTile.MapEntry: Hell Pylon
+			CloudPylonTile.MapEntry: Cloud Pylon
+			SunplatePylonTile.MapEntry: Sunplate Pylon
+			BonePylonTile.MapEntry: Bone Pylon
+		}
+
+		Items: {
+			CorruptionPylon: {
+				DisplayName: Corruption Pylon
+				Tooltip:
+					'''
+					Teleport to another pylon
+					The nature of the Corruption allows you to teleport to this pylon without nearby villagers
+					You can only place one per type and in the matching biome
+					'''
+			}
+
+			CrimsonPylon: {
+				DisplayName: Crimson Pylon
+				Tooltip:
+					'''
+					Teleport to another pylon
+					The nature of the Corruption allows you to teleport to this pylon without nearby villagers
+					You can only place one per type and in the matching biome
+					'''
+			}
+
+			HellPylon: {
+				DisplayName: Hell Pylon
+				Tooltip:
+					'''
+					Teleport to another pylon
+					The nature of the Underworld allows you to teleport to this pylon without nearby villagers
+					You can only place one per type and in the matching biome
+					'''
+			}
+
+			CloudPylon: {
+				DisplayName: Cloud Pylon
+				Tooltip:
+					'''
+					You are allowed to teleport to this pylon without nearby villagers because there's no vanilla villager loves to living in the sky
+					You can only place one per type and in the matching biome
+					'''
+			}
+
+			SunplatePylon: {
+				DisplayName: Sunplate Pylon
+				Tooltip:
+					'''
+					You are allowed to teleport to this pylon without nearby villagers because there's no vanilla villager loves to living in the sky
+					You can only place one per type and in the matching biome
+					'''
+			}
+
+			BonePylon: {
+				DisplayName: Bone Pylon
+				Tooltip:
+					'''
+					Teleport to another pylon
+					The nature of the Dungeon allows you to teleport to this pylon without nearby villagers
+					You can only place one per type and in the matching biome
+					'''
+			}
+		}
+	}
+}

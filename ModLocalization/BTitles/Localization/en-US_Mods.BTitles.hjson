@@ -1,0 +1,68 @@
+Configs: {
+	GeneralConfig: {
+		Headers: {
+		}
+
+		Position: {
+		}
+
+		CustomPositionX.Tooltip: ""
+		CustomPositionY.Tooltip: ""
+
+		Scale: {
+		}
+
+		UseCustomTextColors: {
+		}
+
+		ShowIcons: {
+		}
+
+		DisplaySubtitle: {
+		}
+
+		EnableBackgrounds: {
+		}
+
+		HideWhileInventoryOpen: {
+		}
+
+		CustomBiomeNames: {
+		}
+
+		EnableDraggableTitle: {
+		}
+
+		BiomeCheckDelay: {
+		}
+
+		TitleAnimation: {
+		}
+
+		VisibilityDuration: {
+		}
+
+		TransitionInDuration: {
+		}
+
+		TransitionOutDuration: {
+		}
+
+		HideWhileBossIsAlive: {
+			Label: Hide While Boss Is Alive
+			Tooltip: Should titles be hidden while a boss is alive
+		}
+	}
+
+	PositionOption.Tooltip: ""
+	ScaleOption.Tooltip: ""
+	BiomeNameMapping.Tooltip: ""
+
+	CurrentName: {
+	}
+
+	NewName: {
+	}
+
+	TitleAnimationType.Tooltip: ""
+}

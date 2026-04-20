@@ -1,0 +1,11 @@
+ArrowLeft: {
+	DisplayName: Previous page
+	Tooltip: ""
+}
+
+ArrowRight: {
+	DisplayName: Next page
+	Tooltip: ""
+}
+
+Buyback: Buyback

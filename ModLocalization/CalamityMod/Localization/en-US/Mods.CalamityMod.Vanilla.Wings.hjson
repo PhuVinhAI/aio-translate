@@ -1,0 +1,14 @@
+BeeWings: Decreases fall speed while not pressing {$Key.DOWN}
+BoneWings: Halves flight time when taking a hit
+DemonWings: Increases fall speed
+FestiveWings: Spawns ornaments which restore flight time
+FinWings: Allows quick travel in water
+TatteredFairyWings: Leaves a trail of flight draining fairy dust
+WingsNebula: Greatly increases the pickup range of Nebula armor's nebula boosters while hovering
+WingsSolar: Solar Flare armor's shield restores flight time whenever a charge is consumed
+WingsStardust:
+	'''
+	Greatly increases Stardust armor's stardust guardian attack range
+	Stardust guardian damage increases the lower your flight time
+	'''
+WingsVortex: Vortex armor's stealth gradually restores flight time while activated

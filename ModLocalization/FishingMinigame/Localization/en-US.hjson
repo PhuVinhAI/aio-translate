@@ -1,0 +1,122 @@
+Mods: {
+	FishingMinigame: {
+		Items: {
+			FishingGloves: {
+				DisplayName: Fishing Gloves
+				Tooltip:
+					'''
+					Increases the length of the green bar while fishing, making the timing more forgiving
+					Increases fishing skill by 5
+					'''
+			}
+
+			SoothingLure: {
+				DisplayName: Soothing Lure
+				Tooltip:
+					'''
+					Slows down the green bar while fishing
+					Increases fishing skill by 10
+					'''
+			}
+
+			FishHandlersGloves: {
+				DisplayName: Fish Handler's Gloves
+				Tooltip:
+					'''
+					Increases the length of the green bar while fishing
+					Slows down the green bar while fishing
+					Adds an extra possible catch to the fishing minigame
+					Increases fishing skill by 7
+					'''
+			}
+
+			LuckySock: {
+				DisplayName: Lucky Sock
+				Tooltip: Adds an extra possible catch to the fishing minigame
+			}
+
+			HellfireBait: {
+				DisplayName: Hellfire Bait
+				Tooltip: Your bobber explodes on catch, killing many nearby fish for you to collect
+			}
+
+			ManglerHat: {
+				DisplayName: Molten Angler Hat
+				Tooltip: Allows fishing in lava
+			}
+
+			ManglerPants: {
+				DisplayName: Molten Angler Pants
+				Tooltip: Permanent inferno potion effect
+			}
+
+			ManglerVest: {
+				DisplayName: Molten Angler Vest
+				Tooltip: Temporary lava immunity
+			}
+
+			BanglerHat: {
+				DisplayName: Honeyed Angler Hat
+				Tooltip: Permanent honey buff
+			}
+
+			BanglerPants: {
+				DisplayName: Honeyed Angler Pants
+				Tooltip: You can catch honeyfins anywhere
+			}
+
+			BanglerVest: {
+				DisplayName: Honeyed Angler Vest
+				Tooltip: You release bees when damaged
+			}
+		}
+
+		Angler: {
+			InProgress: In Progress
+			DailyQuest: Daily Quest
+			NormalQuest: Normal Quest
+			AlreadyInProgress: Quest Already In Progress
+			AlreadyDone: Quest Already Done Today
+			Quest: " Quest"
+			AnglerArmor: Angler Armor
+			MermaidVanity: Mermaid Vanity
+			FishVanity: Fish Vanity
+			Available: Available
+			NormalQuestTime: "{0} until next quest"
+			DoneToday: Done Today
+
+			Quests: {
+				NoQuest: You want something specific? You're gonna have to work harder for that!
+				QuestDone: Nice trading with you.
+				NotAgain: I'm not running a charity, come back later.
+				CatchOne: (Catch a {0} {1})
+				CatchMultiple: (Catch {2} {0} {1})
+				2354: Those glowing fish in the mushroom biome are really attractive to other fish. If you bring me one, I might share some of the resulting concoction
+				2356: I'm curious about whats inside those little boxes you sea floating out in the water. Bring me one and I'll give you something to help with finding even more of them
+				2355: Those bats underground are really great at sensing their surroundings without being able to see. Maybe if you bring me a similar fish, we'll be able to sense what's under the water!
+				2428: I want another one of those bunny fish pets! Bring me one and I'll get you your own pet bunny!
+				2368: You wanna get your hands on the same fishing gear as me, eh? Prove you're worth it and catch one of the fastest fish in the sea!
+				5139: You need one of those fancy bobbers? Ill give it to you if you bring me some lunch!
+				2373: Want your line to never break? Gimme something to test these lines on, and I'll give you the one that doesn't break.
+				2374: You're gonna need another trinket to really get in the mood of angling. Get me some of those fatty jungle fish and I'll work on a replica for you.
+				2375: Those cods with two heads have the mysterious ability to make things you use not get used. Bring me some and I'll get you a special tackle box with the same ability.
+				3120: I need a new night light! Get me a glowy fish and I'll reward you with something to keep track of your skill.
+				3037: Get me some of those fish from that cold place and I'll give you that radio, I guess
+				3096: Those fish from the sky are really good at calming you down when cooked into a stew, and I need more! bring me them and I'll give you the telescope I usually use for finding those sky lakes.
+				2360: This useless thing? sure, I'll hand it over for uuuh... some of those weird underground fish.
+				4067: Yes! The fish cart is the best cart! I'll get you a brand new cart for the small price of a Rockfish!
+				2419: This odd piece? Ok... bring me some breakfast and I'll hand it over.
+				2498: You want this goofy looking piece? Sure, just get me some reference material and I'll give you this one.
+				3183: Ah, my favorite bug snatcher. I'll hand it over if you make me the richest kid alive!
+				2294: You want my favorite rod too? Ok fine, but only if you make me even richer!
+				2422: This beauty is great for fishing up a pre-cooked meal. I'll let you have it for an exotic lava fish!
+				3032: Those sponges are hard to craft, you know? I'll get you one if you get me some essential materials.
+				3031: Ah, the perfect tool for making your own pond, anywhere you want. I can get you one but I'm gonna need a lot more water.
+				5303: Need to clean up that pesky sticky stuff? Bring me one of those fish known for making it and I'll get you the tool for getting rid of it.
+				5302: How much of this honey stuff do you need?? Well, get me those super sweet fish that dwell in it and I'll get you your tool.
+				2494: And now you want to fly like the fish? I'm gonna need some souls of flying fish for that one.
+				HellfireBait: Using explosives to get several catches at once sure is satisfying, but this stuff is rare. I can only afford to give you a few in exchange for some fiery catches.
+			}
+		}
+	}
+}
