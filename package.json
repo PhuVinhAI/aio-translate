@@ -22,7 +22,13 @@
     "ftbquests:translate": "ts-node src/scripts/ftbquests/3-translate.ts",
     "ftbquests:merge": "ts-node src/scripts/ftbquests/4-merge.ts",
     "ftbquests:export": "ts-node src/scripts/ftbquests/5-export-snbt.ts",
-    "ftbquests:update": "ts-node src/scripts/ftbquests/update.ts"
+    "ftbquests:update": "ts-node src/scripts/ftbquests/update.ts",
+    "terraria:import": "ts-node src/scripts/terraria/1-import-hjson.ts",
+    "terraria:detect": "ts-node src/scripts/terraria/2-detect-changes.ts",
+    "terraria:translate": "ts-node src/scripts/terraria/3-translate.ts",
+    "terraria:merge": "ts-node src/scripts/terraria/4-merge.ts",
+    "terraria:export": "ts-node src/scripts/terraria/5-export-hjson.ts",
+    "terraria:update": "ts-node src/scripts/terraria/update.ts"
   },
   "keywords": [
     "minecraft",

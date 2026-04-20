@@ -37,7 +37,7 @@ export const PATHS: PathsConfig = {
   FTBQUESTS: {
     INPUT_DIR: path.join(ROOT, 'input', 'ftbquests'),
     OUTPUT_DIR: path.join(ROOT, 'output', 'ftbquests'),
-    
+
     TEMP_EN_XML: path.join(ROOT, 'temp', 'ftbquests', 'en.xml'),
     TEMP_NEW: path.join(ROOT, 'temp', 'ftbquests', 'new.xml'),
     TEMP_TRANSLATED: path.join(ROOT, 'temp', 'ftbquests', 'translated.xml'),
@@ -45,6 +45,20 @@ export const PATHS: PathsConfig = {
 
     MAPPING: path.join(ROOT, 'data', 'ftbquests', 'mapping.json'),
     REVERSE_MAPPING: path.join(ROOT, 'data', 'ftbquests', 'reverse_mapping.json'),
+  },
+
+  // Terraria workflow
+  TERRARIA: {
+    INPUT_DIR: path.join(ROOT, 'input', 'terraria'),
+    OUTPUT_DIR: path.join(ROOT, 'output', 'terraria'),
+
+    TEMP_EN_XML: path.join(ROOT, 'temp', 'terraria', 'en.xml'),
+    TEMP_NEW: path.join(ROOT, 'temp', 'terraria', 'new.xml'),
+    TEMP_TRANSLATED: path.join(ROOT, 'temp', 'terraria', 'translated.xml'),
+    TEMP_MERGED: path.join(ROOT, 'temp', 'terraria', 'merged.xml'),
+
+    MAPPING: path.join(ROOT, 'data', 'terraria', 'mapping.json'),
+    REVERSE_MAPPING: path.join(ROOT, 'data', 'terraria', 'reverse_mapping.json'),
   },
 };
 
