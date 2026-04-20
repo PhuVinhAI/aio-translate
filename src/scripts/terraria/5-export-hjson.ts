@@ -119,17 +119,28 @@ function exportTerrariaModSource(): void {
           let viText = translations[index++];
           totalReplaced++;
 
-          // LÀM SẠCH TRIỆT ĐỂ: Xóa sạch mọi dấu nháy thừa ở hai đầu
+          // LÀM SẠCH THÔNG MINH: Chỉ xóa nếu là cặp ngoặc bao toàn bộ văn bản
           let cleanViText = viText.trim();
 
-          // Xóa nháy tam trước
-          while (cleanViText.startsWith("'''") || cleanViText.endsWith("'''")) {
-            if (cleanViText.startsWith("'''")) cleanViText = cleanViText.substring(3).trim();
-            if (cleanViText.endsWith("'''")) cleanViText = cleanViText.substring(0, cleanViText.length - 3).trim();
+          let changed = true;
+          while (changed) {
+            changed = false;
+            // 1. Chỉ xóa nếu là CẶP nháy tam
+            if (cleanViText.startsWith("'''") && cleanViText.endsWith("'''")) {
+              cleanViText = cleanViText.substring(3, cleanViText.length - 3).trim();
+              changed = true;
+            }
+            // 2. Chỉ xóa nếu là CẶP ngoặc kép
+            else if (cleanViText.startsWith('"') && cleanViText.endsWith('"')) {
+              cleanViText = cleanViText.substring(1, cleanViText.length - 1).trim();
+              changed = true;
+            }
+            // 3. Chỉ xóa nếu là CẶP nháy đơn
+            else if (cleanViText.startsWith("'") && cleanViText.endsWith("'")) {
+              cleanViText = cleanViText.substring(1, cleanViText.length - 1).trim();
+              changed = true;
+            }
           }
-
-          // Xóa nháy đơn và nháy kép (Xóa hàng loạt)
-          cleanViText = cleanViText.replace(/^['"]+|['"]+$/g, '').trim();
 
           // XÂY DỰNG LẠI GIÁ TRỊ FINAL SIÊU SẠCH
           let finalNewVal = cleanViText;
