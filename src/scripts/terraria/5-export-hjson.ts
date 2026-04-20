@@ -30,7 +30,7 @@ function setValueByPath(obj: any, jsonPath: string, value: string) {
 
 function exportTerrariaModSource(): void {
   const MOD_NAME = "TerrariaVietHoaAIO";
-  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (Đồng bộ Logic Tuyệt đối) ===`);
+  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (Cắt Nối Chuỗi Tuyệt Đối) ===`);
 
   const inputDir = fs.readdirSync(PATHS.TERRARIA.INPUT_DIR).length > 0
     ? PATHS.TERRARIA.INPUT_DIR
@@ -70,7 +70,11 @@ function exportTerrariaModSource(): void {
     fileTranslations[mapInfo.file].push(finalValue);
   });
 
-  if (fs.existsSync(outputModDir)) fs.rmSync(outputModDir, { recursive: true, force: true });
+  // XÓA SẠCH THƯ MỤC CŨ ĐỂ TRÁNH TÀN DƯ
+  if (fs.existsSync(outputModDir)) {
+    console.log(`🧹 Đang dọn dẹp thư mục cũ...`);
+    fs.rmSync(outputModDir, { recursive: true, force: true });
+  }
   fs.mkdirSync(localizationDir, { recursive: true });
 
   const modIds = ["AlchemistNPCLite", "AutoTrash", "BlueMoon", "BossChecklist", "BTitles", "CalamityAmmo", "CalamityCrossmodVulnerabilities", "CalamityHunt", "CalamityMod", "CalamityModMusic", "CalValEX", "CatalystMod", "Clamity", "ClamityMusic", "ColoredCalRelics", "ColoredDamageTypes", "Daybreak", "EvilPylon", "Fargowiltas", "FishingMinigame", "HypnosMod", "InfernumMode", "InfernumModeMusic", "LargeHerbs", "Luminance", "MagicRecipeIntegrator", "MagicStorage", "miningcracks_take_on_luiafk", "MusicDisplay", "NoxusBoss", "OreExcavator", "RecipeBrowser", "RevengeancePlus", "SerousCommonLib", "ShopExpander", "StructureHelper", "SubworldLibrary", "TeamSpectate", "UnCalamityModMusic"];
@@ -80,6 +84,7 @@ function exportTerrariaModSource(): void {
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.cs`), `using Terraria.ModLoader;\nnamespace ${MOD_NAME} { public class ${MOD_NAME} : Mod { } }`, 'utf8');
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.csproj`), `<Project Sdk="Microsoft.NET.Sdk">\n\t<Import Project="..\\tModLoader.targets" />\n\t<PropertyGroup>\n\t\t<TargetFramework>net8.0</TargetFramework>\n\t\t<ImplicitUsings>enable</ImplicitUsings>\n\t\t<Nullable>enable</Nullable>\n\t</PropertyGroup>\n</Project>`, 'utf8');
 
+  // Regex nới lỏng để bắt cả dòng chứa Key: Value
   const hjsonRegex = /^[ \t]*([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^\n\r]+)/gm;
 
   let totalReplaced = 0;
@@ -87,7 +92,6 @@ function exportTerrariaModSource(): void {
   for (const relPath of Object.keys(fileTranslations)) {
     const srcFile = path.join(inputDir, relPath);
     const modId = relPath.split(/[/\\]/)[0];
-
     const pathParts = relPath.split(/[/\\]/);
     const subPath = pathParts.slice(1).join('.');
     const fileNameWithoutExt = subPath.lastIndexOf('.') !== -1 ? subPath.substring(0, subPath.lastIndexOf('.')) : subPath;
@@ -109,10 +113,8 @@ function exportTerrariaModSource(): void {
         const trimmedKey = key.trim();
         const valueForCheck = rawValue.trim();
 
-        // 1. Skip structural objects
         if (valueForCheck.startsWith('{') || SYSTEM_KEYS.has(trimmedKey)) return match;
 
-        // 2. Extract real value to check for references
         let textValue = "";
         if (valueForCheck.startsWith("'''") && valueForCheck.endsWith("'''")) {
           textValue = valueForCheck.substring(3, valueForCheck.length - 3).trim();
@@ -124,16 +126,12 @@ function exportTerrariaModSource(): void {
           if (commentIdx !== -1) textValue = textValue.substring(0, commentIdx).trim();
         }
 
-        // 3. LOGIC BỎ QUA ĐỒNG BỘ 100% VỚI IMPORT
-        if (!textValue || textValue.trim() === "" || textValue.startsWith('{$')) {
-          return match;
-        }
+        if (!textValue || textValue.trim() === "" || textValue.startsWith('{$')) return match;
 
         if (index < translations.length) {
           const newVal = translations[index++];
           totalReplaced++;
 
-          // Kiểm tra xem newVal có cần bọc ngoặc không (Nếu bản dịch chứa ký tự nhạy cảm)
           let finalNewVal = newVal;
           const hasNewline = newVal.includes('\n') || newVal.includes('\r');
           const needsQuotes = newVal.trim().startsWith('{') || newVal.trim().startsWith('[') || newVal.includes(': ');
@@ -144,7 +142,16 @@ function exportTerrariaModSource(): void {
              finalNewVal = `"${newVal.replace(/"/g, '\\"')}"`;
           }
 
-          return match.replace(rawValue, finalNewVal);
+          // KỸ THUẬT CẮT NỐI CHUỖI TUYỆT ĐỐI (An toàn nhất)
+          // Tìm vị trí dấu hai chấm đầu tiên trong Match
+          const colonIndex = match.indexOf(':');
+          // Lấy phần indentation + Key + dấu hai chấm
+          const prefix = match.substring(0, colonIndex + 1);
+          // Tìm phần khoảng trắng sau dấu hai chấm
+          const suffix = match.substring(colonIndex + 1);
+          const leadingWhitespaces = suffix.match(/^\s*/)?.[0] || " ";
+
+          return prefix + leadingWhitespaces + finalNewVal;
         }
         return match;
       });
@@ -157,8 +164,8 @@ function exportTerrariaModSource(): void {
     }
   }
 
-  console.log(`✅ Đã đóng gói Mod với Logic bóc tách đồng bộ.`);
-  console.log(`📊 Tổng cộng ${totalReplaced} câu thoại đã được thay thế.`);
+  console.log(`✅ Đã đóng gói Mod với logic Cắt Nối Chuỗi tuyệt đối.`);
+  console.log(`📊 Tổng cộng ${totalReplaced} câu thoại đã được thay thế chính xác.`);
 }
 
 if (require.main === module) exportTerrariaModSource();
