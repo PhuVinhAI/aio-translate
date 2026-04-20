@@ -4,7 +4,10 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(rm -rf \"C:/Users/tomis/OneDrive/Tài liệu/My Games/Terraria/tModLoader-preview/Mods/TerrariaVietHoaAIO\")",
+      "Bash(cp -r \"C:/Users/tomis/Docs/aio-translate/output/terraria/TerrariaVietHoaAIO\" \"C:/Users/tomis/OneDrive/Tài liệu/My Games/Terraria/tModLoader-preview/Mods/\")"
     ]
   }
 }
