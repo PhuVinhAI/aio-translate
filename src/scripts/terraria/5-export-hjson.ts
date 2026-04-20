@@ -12,6 +12,8 @@ interface MappingEntry {
   originalValue: string;
 }
 
+const SYSTEM_KEYS = new Set(['Mods', 'Localization', 'Configs']);
+
 // Hàm hỗ trợ gán giá trị vào đối tượng lồng nhau dựa trên đường dẫn dấu chấm
 function setDeep(obj: any, path: string, value: any) {
   const parts = path.split('.');
@@ -26,16 +28,19 @@ function setDeep(obj: any, path: string, value: any) {
   current[parts[parts.length - 1]] = value;
 }
 
-// Hàm đệ quy để chuyển đối tượng thành chuỗi HJSON có thụt lề chuẩn
+// Hàm đệ quy để chuyển đối tượng thành chuỗi HJSON có thụt lề chuẩn và BẢO VỆ KEY
 function toHjson(obj: any, indent: number = 0): string {
   const tabs = '\t'.repeat(indent);
   let res = "";
 
   for (const [key, val] of Object.entries(obj)) {
+    // PHÒNG VỆ TÊN KEY TOÀN CỤC: Bọc ngoặc kép nếu key chứa ký tự nhạy cảm ở BẤT KỲ TẦNG NÀO
+    const safeKey = /[\s\[\]\.]/.test(key) ? `"${key}"` : key;
+
     if (typeof val === 'object' && val !== null && !Array.isArray(val)) {
-      res += `${tabs}${key}: {\n${toHjson(val, indent + 1)}${tabs}}\n`;
+      res += `${tabs}${safeKey}: {\n${toHjson(val, indent + 1)}${tabs}}\n`;
     } else {
-      res += `${tabs}${key}: ${val}\n`;
+      res += `${tabs}${safeKey}: ${val}\n`;
     }
   }
   return res;
@@ -43,7 +48,7 @@ function toHjson(obj: any, indent: number = 0): string {
 
 function exportTerrariaModSource(): void {
   const MOD_NAME = "TerrariaVietHoaAIO";
-  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (Cấu trúc Cây Đa Tầng) ===`);
+  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (Cây Đa Tầng & Key An Toàn) ===`);
 
   const mergedXml = PATHS.TERRARIA.TEMP_MERGED;
   const mappingFile = PATHS.TERRARIA.MAPPING;
@@ -56,7 +61,6 @@ function exportTerrariaModSource(): void {
   const translatedEntries = parseXMLToMap(fs.readFileSync(mergedXml, 'utf8'));
   const mapping = JSON.parse(fs.readFileSync(mappingFile, 'utf8')) as Record<string, MappingEntry>;
 
-  // Xây dựng cây dữ liệu khổng lồ: { Mods: { ModId: { ... } } }
   const rootObj: any = { Mods: {} };
 
   translatedEntries.forEach((viTextRaw, hashKey) => {
@@ -68,10 +72,8 @@ function exportTerrariaModSource(): void {
     const keyPath = mapInfo.originalKey;
 
     let cleanViText = viText.trim();
-    // Giải mã các ký tự thoát AI có thể đã thêm
     cleanViText = cleanViText.replace(/\\n/g, '\n').replace(/\\r/g, '\r').replace(/\\"/g, '"').replace(/\\'/g, "'");
 
-    // XÓA NHÁY THEO CẶP
     let changed = true;
     while (changed) {
       changed = false;
@@ -98,37 +100,25 @@ function exportTerrariaModSource(): void {
       finalValue = needsQuotes ? `"${cleanViText}"` : cleanViText;
     }
 
-    // Gán vào cây dữ liệu (Tự động lồng nhau theo dấu chấm)
     setDeep(rootObj.Mods, `${modId}.${keyPath}`, finalValue);
   });
 
-  // Tạo thư mục
   const outputModDir = "C:/Users/tomis/OneDrive/Tài liệu/My Games/Terraria/tModLoader/ModSources/" + MOD_NAME;
   const localizationDir = path.join(outputModDir, 'Localization');
   if (fs.existsSync(outputModDir)) fs.rmSync(outputModDir, { recursive: true, force: true });
   fs.mkdirSync(localizationDir, { recursive: true });
 
-  // 1. Xuất file en-US.hjson duy nhất với cấu trúc cây
-  console.log(`📦 Đang xây dựng cây ngôn ngữ cho 37 Mod...`);
+  console.log(`📦 Đang xây dựng cây ngôn ngữ bảo mật cao...`);
   const hjsonContent = toHjson(rootObj);
   fs.writeFileSync(path.join(localizationDir, 'en-US.hjson'), hjsonContent, 'utf8');
 
-  // 2. Tạo các file cấu hình mod
-  const modIds = Object.keys(rootObj.Mods);
-  const buildTxt = [
-    `displayName = Terraria Vietnamese AIO`,
-    `author = TomiWixoss AI`,
-    `version = 1.0.0`,
-    `modReferences = ${modIds.join(', ')}`,
-    `sortAfter = ${modIds.join(', ')}`
-  ].join('\n');
+  const buildTxt = [`displayName = Terraria Vietnamese AIO`, `author = TomiWixoss AI`, `version = 1.0.0`, `modReferences = ${Object.keys(rootObj.Mods).join(', ')}`, `sortAfter = ${Object.keys(rootObj.Mods).join(', ')}`].join('\n');
   fs.writeFileSync(path.join(outputModDir, 'build.txt'), buildTxt, 'utf8');
-  fs.writeFileSync(path.join(outputModDir, 'description.txt'), "Bản dịch Tiếng Việt tổng hợp chuẩn cấu trúc phân tầng cho toàn bộ Modpack.", 'utf8');
+  fs.writeFileSync(path.join(outputModDir, 'description.txt'), "Bản dịch Tiếng Việt tổng hợp duy nhất cho toàn bộ Modpack.\nCấu trúc cây đa tầng bảo mật tuyệt đối.", 'utf8');
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.cs`), `using Terraria.ModLoader;\nnamespace ${MOD_NAME} { public class ${MOD_NAME} : Mod { } }`, 'utf8');
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.csproj`), `<Project Sdk="Microsoft.NET.Sdk">\n\t<Import Project="..\\tModLoader.targets" />\n\t<PropertyGroup>\n\t\t<TargetFramework>net8.0</TargetFramework>\n\t\t<ImplicitUsings>enable</ImplicitUsings>\n\t\t<Nullable>enable</Nullable>\n\t</PropertyGroup>\n</Project>`, 'utf8');
 
-  console.log(`\n✅ Đã hoàn thành xuất bản với cấu trúc Cây Đa Tầng.`);
-  console.log(`👉 BƯỚC CUỐI: Vào game tModLoader > Develop Mods > Nhấn BUILD bản mod ${MOD_NAME}!`);
+  console.log(`\n✅ Đã hoàn thành xuất bản với cơ chế Bảo Vệ Key đa tầng.`);
 }
 
 if (require.main === module) exportTerrariaModSource();
