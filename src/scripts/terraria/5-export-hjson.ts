@@ -120,7 +120,10 @@ function exportTerrariaModSource(): void {
         if (index < translations.length) {
           const newVal = translations[index++];
           totalReplaced++;
-          return match.replace(value, newVal);
+
+          // TÌM VỊ TRÍ CHÍNH XÁC CỦA VALUE ĐỂ THAY THẾ (Tránh thay thế nhầm vào Key)
+          const lastIndex = match.lastIndexOf(value);
+          return match.substring(0, lastIndex) + newVal;
         }
         return match;
       });
