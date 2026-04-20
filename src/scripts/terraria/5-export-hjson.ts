@@ -30,7 +30,7 @@ function setValueByPath(obj: any, jsonPath: string, value: string) {
 
 function exportTerrariaModSource(): void {
   const MOD_NAME = "TerrariaVietHoaAIO";
-  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (Đồng bộ tuyệt đối) ===`);
+  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (Đồng bộ Logic Tuyệt đối) ===`);
 
   const inputDir = fs.readdirSync(PATHS.TERRARIA.INPUT_DIR).length > 0
     ? PATHS.TERRARIA.INPUT_DIR
@@ -61,18 +61,11 @@ function exportTerrariaModSource(): void {
 
     let finalValue = "";
     if (mapInfo.isMultiline) {
-      // Đảm bảo dấu đóng ''' luôn ở dòng mới và thụt lề chuẩn
       finalValue = `'''\n${viText.trim()}\n\t\t\t'''`;
     } else if (mapInfo.isJson || mapInfo.originalValue.startsWith('"')) {
       finalValue = `"${viText.replace(/"/g, '\\"')}"`;
     } else {
-      let finalViText = viText;
-      // PHÒNG VỆ HJSON: Nếu văn bản bắt đầu bằng { hoặc [ (biến số/mã màu), bắt buộc phải bọc ngoặc kép
-      const trimmed = viText.trim();
-      if (trimmed.startsWith('{') || trimmed.startsWith('[') || trimmed.includes(': ')) {
-        finalViText = `"${viText.replace(/"/g, '\\"')}"`;
-      }
-      finalValue = finalViText;
+      finalValue = viText;
     }
     fileTranslations[mapInfo.file].push(finalValue);
   });
@@ -87,7 +80,6 @@ function exportTerrariaModSource(): void {
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.cs`), `using Terraria.ModLoader;\nnamespace ${MOD_NAME} { public class ${MOD_NAME} : Mod { } }`, 'utf8');
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.csproj`), `<Project Sdk="Microsoft.NET.Sdk">\n\t<Import Project="..\\tModLoader.targets" />\n\t<PropertyGroup>\n\t\t<TargetFramework>net8.0</TargetFramework>\n\t\t<ImplicitUsings>enable</ImplicitUsings>\n\t\t<Nullable>enable</Nullable>\n\t</PropertyGroup>\n</Project>`, 'utf8');
 
-  // REGEX NỚI LỎNG (Đồng bộ 100% với Import)
   const hjsonRegex = /^[ \t]*([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^\n\r]+)/gm;
 
   let totalReplaced = 0;
@@ -113,13 +105,27 @@ function exportTerrariaModSource(): void {
       const translations = fileTranslations[relPath];
       let index = 0;
 
-      content = content.replace(hjsonRegex, (match, key, value) => {
+      content = content.replace(hjsonRegex, (match, key, rawValue) => {
         const trimmedKey = key.trim();
-        const rawValue = value.trim();
+        const valueForCheck = rawValue.trim();
 
-        // HẬU KIỂM: Bỏ qua y hệt lúc Import
-        if (rawValue.startsWith('{') || SYSTEM_KEYS.has(trimmedKey)) return match;
-        if (!rawValue || rawValue === '""' || rawValue === "''" || rawValue.startsWith('{$')) {
+        // 1. Skip structural objects
+        if (valueForCheck.startsWith('{') || SYSTEM_KEYS.has(trimmedKey)) return match;
+
+        // 2. Extract real value to check for references
+        let textValue = "";
+        if (valueForCheck.startsWith("'''") && valueForCheck.endsWith("'''")) {
+          textValue = valueForCheck.substring(3, valueForCheck.length - 3).trim();
+        } else if (valueForCheck.startsWith('"') && valueForCheck.endsWith('"')) {
+          textValue = valueForCheck.substring(1, valueForCheck.length - 1);
+        } else {
+          textValue = valueForCheck;
+          const commentIdx = textValue.indexOf('#');
+          if (commentIdx !== -1) textValue = textValue.substring(0, commentIdx).trim();
+        }
+
+        // 3. LOGIC BỎ QUA ĐỒNG BỘ 100% VỚI IMPORT
+        if (!textValue || textValue.trim() === "" || textValue.startsWith('{$')) {
           return match;
         }
 
@@ -127,9 +133,18 @@ function exportTerrariaModSource(): void {
           const newVal = translations[index++];
           totalReplaced++;
 
-          // TÌM VỊ TRÍ CHÍNH XÁC CỦA VALUE ĐỂ THAY THẾ (Tránh thay thế nhầm vào Key)
-          const lastIndex = match.lastIndexOf(value);
-          return match.substring(0, lastIndex) + newVal;
+          // Kiểm tra xem newVal có cần bọc ngoặc không (Nếu bản dịch chứa ký tự nhạy cảm)
+          let finalNewVal = newVal;
+          const hasNewline = newVal.includes('\n') || newVal.includes('\r');
+          const needsQuotes = newVal.trim().startsWith('{') || newVal.trim().startsWith('[') || newVal.includes(': ');
+
+          if (hasNewline && !newVal.startsWith("'''")) {
+             finalNewVal = `'''\n${newVal.trim()}\n\t\t\t'''`;
+          } else if (needsQuotes && !newVal.startsWith('"')) {
+             finalNewVal = `"${newVal.replace(/"/g, '\\"')}"`;
+          }
+
+          return match.replace(rawValue, finalNewVal);
         }
         return match;
       });
@@ -142,7 +157,7 @@ function exportTerrariaModSource(): void {
     }
   }
 
-  console.log(`✅ Đã đóng gói Mod với logic Hậu Kiểm đồng bộ.`);
+  console.log(`✅ Đã đóng gói Mod với Logic bóc tách đồng bộ.`);
   console.log(`📊 Tổng cộng ${totalReplaced} câu thoại đã được thay thế.`);
 }
 

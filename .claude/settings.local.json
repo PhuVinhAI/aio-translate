@@ -8,7 +8,9 @@
       "Bash(npm run *)",
       "Bash(rm -rf \"C:/Users/tomis/OneDrive/Tài liệu/My Games/Terraria/tModLoader-preview/Mods/TerrariaVietHoaAIO\")",
       "Bash(cp -r \"C:/Users/tomis/Docs/aio-translate/output/terraria/TerrariaVietHoaAIO\" \"C:/Users/tomis/OneDrive/Tài liệu/My Games/Terraria/tModLoader-preview/Mods/\")",
-      "Bash(grep *)"
+      "Bash(grep *)",
+      "Bash(ts-node \"C:/Users/tomis/Docs/aio-translate/src/scripts/terraria/restore-translations.ts\")",
+      "Bash(npx ts-node *)"
     ]
   }
 }

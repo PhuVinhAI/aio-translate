@@ -35,7 +35,7 @@ function importTerraria(): void {
   const outputXml = PATHS.TERRARIA.TEMP_EN_XML;
   const mappingFile = PATHS.TERRARIA.MAPPING;
 
-  console.log('\n=== [Terraria 1] Import HJSON/JSON → XML (Hậu Kiểm Thông Minh) ===');
+  console.log('\n=== [Terraria 1] Import HJSON/JSON → XML (Đồng bộ tuyệt đối) ===');
 
   const sourceDir = "C:/Users/tomis/Docs/aio-translate/ModLocalization";
   const activeSourceDir = fs.existsSync(inputDir) && fs.readdirSync(inputDir).length > 0 ? inputDir : sourceDir;
@@ -48,7 +48,6 @@ function importTerraria(): void {
   const mapping: Record<string, MappingEntry> = {};
   let count = 0;
 
-  // REGEX NỚI LỎNG: Lấy Key và toàn bộ phần còn lại của dòng
   const hjsonRegex = /^[ \t]*([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^\n\r]+)/gm;
 
   locFiles.forEach((file: string) => {
@@ -57,7 +56,8 @@ function importTerraria(): void {
 
     if (file.endsWith('.json')) {
       try {
-        const jsonData = JSON.parse(content.replace(/^\uFEFF/, ''));
+        const cleanContent = content.replace(/^\uFEFF/, '');
+        const jsonData = JSON.parse(cleanContent);
         const processNode = (node: any, jsonPath: string) => {
           if (typeof node === 'string') {
             if (node.trim() === "" || node.startsWith('{$')) return;
@@ -79,12 +79,12 @@ function importTerraria(): void {
         const originalKey = match[1].trim();
         let rawValue = match[2].trim();
 
-        // HẬU KIỂM: Nếu giá trị bắt đầu bằng { hoặc là Key hệ thống -> BỎ QUA
         if (rawValue.startsWith('{') || SYSTEM_KEYS.has(originalKey)) continue;
 
-        let isMultiline = false;
         let textValue = "";
+        let isMultiline = false;
 
+        // BÓC TÁCH GIÁ TRỊ THỰC (Xử lý mọi loại ngoặc)
         if (rawValue.startsWith("'''") && rawValue.endsWith("'''")) {
           isMultiline = true;
           textValue = rawValue.substring(3, rawValue.length - 3).trim();
@@ -96,6 +96,7 @@ function importTerraria(): void {
           if (commentIdx !== -1) textValue = textValue.substring(0, commentIdx).trim();
         }
 
+        // KIỂM TRA THAM CHIẾU VÀ TRỐNG (Sau khi đã bóc ngoặc)
         if (!textValue || textValue.trim() === "" || textValue.startsWith('{$')) continue;
 
         const hashKey = generateHashKey(`${relPath}|||${originalKey}|||${count}`);
@@ -107,9 +108,14 @@ function importTerraria(): void {
   });
 
   xml += '</STBLKeyStringList>';
+
+  // ĐẢM BẢO THƯ MỤC TỒN TẠI
+  if (!fs.existsSync(path.dirname(outputXml))) fs.mkdirSync(path.dirname(outputXml), { recursive: true });
+  if (!fs.existsSync(path.dirname(mappingFile))) fs.mkdirSync(path.dirname(mappingFile), { recursive: true });
+
   fs.writeFileSync(outputXml, xml, 'utf8');
   fs.writeFileSync(mappingFile, JSON.stringify(mapping, null, 2), 'utf8');
-  console.log(`✅ Đã Import sạch sẽ: ${count} entries.`);
+  console.log(`✅ Đã Import chuẩn hóa: ${count} entries.`);
 }
 
 if (require.main === module) importTerraria();
