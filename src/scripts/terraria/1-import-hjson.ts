@@ -14,7 +14,6 @@ interface MappingEntry {
   originalValue: string;
 }
 
-// Danh sách các Key hệ thống tuyệt đối không được trích xuất để dịch
 const SYSTEM_KEYS = new Set(['Mods', 'Localization', 'Configs']);
 
 function walkDir(dir: string, fileList: string[] = []): string[] {
@@ -36,7 +35,7 @@ function importTerraria(): void {
   const outputXml = PATHS.TERRARIA.TEMP_EN_XML;
   const mappingFile = PATHS.TERRARIA.MAPPING;
 
-  console.log('\n=== [Terraria 1] Import HJSON/JSON → XML (Đồng bộ) ===');
+  console.log('\n=== [Terraria 1] Import HJSON/JSON → XML (Hậu Kiểm Thông Minh) ===');
 
   const sourceDir = "C:/Users/tomis/Docs/aio-translate/ModLocalization";
   const activeSourceDir = fs.existsSync(inputDir) && fs.readdirSync(inputDir).length > 0 ? inputDir : sourceDir;
@@ -45,14 +44,12 @@ function importTerraria(): void {
   if (fs.existsSync(mappingFile)) fs.unlinkSync(mappingFile);
 
   const locFiles = walkDir(activeSourceDir);
-  console.log(`📂 Tìm thấy ${locFiles.length} file localization`);
-
   let xml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<STBLKeyStringList>\n';
   const mapping: Record<string, MappingEntry> = {};
   let count = 0;
 
-  // REGEX CHUẨN: Dùng chung cho cả Import và Export
-  const hjsonRegex = /([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^#\n\r\{\}\[\]]+)(?!\s*\{)/g;
+  // REGEX NỚI LỎNG: Lấy Key và toàn bộ phần còn lại của dòng
+  const hjsonRegex = /^[ \t]*([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^\n\r]+)/gm;
 
   locFiles.forEach((file: string) => {
     const relPath = path.relative(activeSourceDir, file).replace(/\\/g, '/');
@@ -60,8 +57,7 @@ function importTerraria(): void {
 
     if (file.endsWith('.json')) {
       try {
-        const cleanContent = content.replace(/^\uFEFF/, '');
-        const jsonData = JSON.parse(cleanContent);
+        const jsonData = JSON.parse(content.replace(/^\uFEFF/, ''));
         const processNode = (node: any, jsonPath: string) => {
           if (typeof node === 'string') {
             if (node.trim() === "" || node.startsWith('{$')) return;
@@ -81,9 +77,11 @@ function importTerraria(): void {
       let match;
       while ((match = hjsonRegex.exec(content)) !== null) {
         const originalKey = match[1].trim();
-        if (SYSTEM_KEYS.has(originalKey)) continue;
-
         let rawValue = match[2].trim();
+
+        // HẬU KIỂM: Nếu giá trị bắt đầu bằng { hoặc là Key hệ thống -> BỎ QUA
+        if (rawValue.startsWith('{') || SYSTEM_KEYS.has(originalKey)) continue;
+
         let isMultiline = false;
         let textValue = "";
 
@@ -109,11 +107,9 @@ function importTerraria(): void {
   });
 
   xml += '</STBLKeyStringList>';
-  if (!fs.existsSync(path.dirname(outputXml))) fs.mkdirSync(path.dirname(outputXml), { recursive: true });
-  if (!fs.existsSync(path.dirname(mappingFile))) fs.mkdirSync(path.dirname(mappingFile), { recursive: true });
   fs.writeFileSync(outputXml, xml, 'utf8');
   fs.writeFileSync(mappingFile, JSON.stringify(mapping, null, 2), 'utf8');
-  console.log(`✅ Đã tạo XML sạch: ${count} entries.`);
+  console.log(`✅ Đã Import sạch sẽ: ${count} entries.`);
 }
 
 if (require.main === module) importTerraria();

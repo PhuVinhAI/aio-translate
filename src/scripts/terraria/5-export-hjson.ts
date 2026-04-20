@@ -50,7 +50,6 @@ function exportTerrariaModSource(): void {
   const translatedEntries = parseXMLToMap(fs.readFileSync(mergedXml, 'utf8'));
   const mapping = JSON.parse(fs.readFileSync(mappingFile, 'utf8')) as Record<string, MappingEntry>;
 
-  // Tổ chức dữ liệu theo file, giữ nguyên thứ tự
   const fileTranslations: Record<string, string[]> = {};
 
   translatedEntries.forEach((viTextRaw, hashKey) => {
@@ -62,7 +61,8 @@ function exportTerrariaModSource(): void {
 
     let finalValue = "";
     if (mapInfo.isMultiline) {
-      finalValue = `'''\n${viText}\n\t\t\t'''`;
+      // Đảm bảo dấu đóng ''' luôn ở dòng mới và thụt lề chuẩn
+      finalValue = `'''\n${viText.trim()}\n\t\t\t'''`;
     } else if (mapInfo.isJson || mapInfo.originalValue.startsWith('"')) {
       finalValue = `"${viText.replace(/"/g, '\\"')}"`;
     } else {
@@ -81,8 +81,8 @@ function exportTerrariaModSource(): void {
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.cs`), `using Terraria.ModLoader;\nnamespace ${MOD_NAME} { public class ${MOD_NAME} : Mod { } }`, 'utf8');
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.csproj`), `<Project Sdk="Microsoft.NET.Sdk">\n\t<Import Project="..\\tModLoader.targets" />\n\t<PropertyGroup>\n\t\t<TargetFramework>net8.0</TargetFramework>\n\t\t<ImplicitUsings>enable</ImplicitUsings>\n\t\t<Nullable>enable</Nullable>\n\t</PropertyGroup>\n</Project>`, 'utf8');
 
-  // REGEX CHUẨN: Giống hệt bước Import
-  const hjsonRegex = /([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^#\n\r\{\}\[\]]+)(?!\s*\{)/g;
+  // REGEX NỚI LỎNG (Đồng bộ 100% với Import)
+  const hjsonRegex = /^[ \t]*([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^\n\r]+)/gm;
 
   let totalReplaced = 0;
 
@@ -96,11 +96,10 @@ function exportTerrariaModSource(): void {
     const destFile = path.join(localizationDir, `en-US_Mods.${modId}${fileNameWithoutExt ? '.' + fileNameWithoutExt : ''}.hjson`);
 
     if (relPath.endsWith('.json')) {
-      // Logic JSON giữ nguyên vì nó dựa trên Path nên không sợ lệch
       try {
-        const jsonData = JSON.parse(fs.readFileSync(srcFile, 'utf8').replace(/^\uFEFF/, ''));
-        // Dữ liệu JSON trong mapping cần được map lại (vì fileTranslations chỉ là array value)
-        // Lưu ý: JSON chỉ có ở Calamity Dialogues
+        const rawContent = fs.readFileSync(srcFile, 'utf8');
+        const cleanContent = rawContent.replace(/^\uFEFF/, '');
+        const jsonData = JSON.parse(cleanContent);
         fs.writeFileSync(destFile, JSON.stringify(jsonData, null, 4), 'utf8');
       } catch (e) { }
     } else {
@@ -112,8 +111,8 @@ function exportTerrariaModSource(): void {
         const trimmedKey = key.trim();
         const rawValue = value.trim();
 
-        // LOGIC BỎ QUA (Phải giống hệt bước Import)
-        if (SYSTEM_KEYS.has(trimmedKey)) return match;
+        // HẬU KIỂM: Bỏ qua y hệt lúc Import
+        if (rawValue.startsWith('{') || SYSTEM_KEYS.has(trimmedKey)) return match;
         if (!rawValue || rawValue === '""' || rawValue === "''" || rawValue.startsWith('{$')) {
           return match;
         }
@@ -121,7 +120,7 @@ function exportTerrariaModSource(): void {
         if (index < translations.length) {
           const newVal = translations[index++];
           totalReplaced++;
-          return `${key}: ${newVal}`;
+          return match.replace(value, newVal);
         }
         return match;
       });
@@ -134,7 +133,7 @@ function exportTerrariaModSource(): void {
     }
   }
 
-  console.log(`✅ Đã đóng gói Mod với cơ chế đồng bộ tuyệt đối.`);
+  console.log(`✅ Đã đóng gói Mod với logic Hậu Kiểm đồng bộ.`);
   console.log(`📊 Tổng cộng ${totalReplaced} câu thoại đã được thay thế.`);
 }
 
