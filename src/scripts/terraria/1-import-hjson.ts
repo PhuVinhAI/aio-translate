@@ -14,6 +14,9 @@ interface MappingEntry {
   originalValue: string;
 }
 
+// Danh sách các Key hệ thống tuyệt đối không được trích xuất để dịch
+const SYSTEM_KEYS = new Set(['Mods', 'Localization', 'Configs']);
+
 function walkDir(dir: string, fileList: string[] = []): string[] {
   if (!fs.existsSync(dir)) return fileList;
   const files = fs.readdirSync(dir);
@@ -33,62 +36,38 @@ function importTerraria(): void {
   const outputXml = PATHS.TERRARIA.TEMP_EN_XML;
   const mappingFile = PATHS.TERRARIA.MAPPING;
 
-  console.log('\n=== [Terraria 1] Import HJSON/JSON → XML ===');
+  console.log('\n=== [Terraria 1] Import HJSON/JSON → XML (Đồng bộ) ===');
 
-  if (!fs.existsSync(inputDir)) {
-    console.error(`❌ Không tìm thấy thư mục input: ${inputDir}`);
-    console.log(`👉 ĐANG TỰ ĐỘNG QUÉT THƯ MỤC GỐC: C:/Users/tomis/Docs/aio-translate/ModLocalization`);
-    // Nếu không có trong input, thử quét trực tiếp từ thư mục người dùng chỉ định
-    const sourceDir = "C:/Users/tomis/Docs/aio-translate/ModLocalization";
-    if (fs.existsSync(sourceDir)) {
-        if (!fs.existsSync(inputDir)) fs.mkdirSync(inputDir, { recursive: true });
-        // Ở đây ta cứ chạy trực tiếp trên sourceDir nếu inputDir trống
-    } else {
-        process.exit(1);
-    }
-  }
+  const sourceDir = "C:/Users/tomis/Docs/aio-translate/ModLocalization";
+  const activeSourceDir = fs.existsSync(inputDir) && fs.readdirSync(inputDir).length > 0 ? inputDir : sourceDir;
 
-  const activeSourceDir = fs.readdirSync(inputDir).length > 0 ? inputDir : "C:/Users/tomis/Docs/aio-translate/ModLocalization";
-
-  backupFile(outputXml);
-  backupFile(mappingFile);
+  if (fs.existsSync(outputXml)) fs.unlinkSync(outputXml);
+  if (fs.existsSync(mappingFile)) fs.unlinkSync(mappingFile);
 
   const locFiles = walkDir(activeSourceDir);
-  console.log(`📂 Tìm thấy ${locFiles.length} file localization từ ${activeSourceDir}`);
+  console.log(`📂 Tìm thấy ${locFiles.length} file localization`);
 
-  let xml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n';
-  xml += '<STBLKeyStringList>\n';
-
+  let xml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<STBLKeyStringList>\n';
   const mapping: Record<string, MappingEntry> = {};
   let count = 0;
 
-  // Regex cho HJSON: Key: "Value" hoặc Key: '''Value''' hoặc Key: Value
-  const hjsonRegex = /([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^#\n\r\{\}\[\]]+)/g;
+  // REGEX CHUẨN: Dùng chung cho cả Import và Export
+  const hjsonRegex = /([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^#\n\r\{\}\[\]]+)(?!\s*\{)/g;
 
   locFiles.forEach((file: string) => {
     const relPath = path.relative(activeSourceDir, file).replace(/\\/g, '/');
     const content = fs.readFileSync(file, 'utf8');
 
     if (file.endsWith('.json')) {
-      // XỬ LÝ JSON CHUẨN (Dialogue Calamity)
       try {
-        // Xóa BOM nếu có trước khi parse
         const cleanContent = content.replace(/^\uFEFF/, '');
         const jsonData = JSON.parse(cleanContent);
         const processNode = (node: any, jsonPath: string) => {
           if (typeof node === 'string') {
             if (node.trim() === "" || node.startsWith('{$')) return;
-
             const hashKey = generateHashKey(`${relPath}|||${jsonPath}|||${count}`);
             xml += `  <Text Key="${hashKey}">${escapeXml(node)}</Text>\n`;
-            mapping[hashKey] = {
-              file: relPath,
-              originalKey: jsonPath,
-              isMultiline: false,
-              isJson: true,
-              jsonPath: jsonPath,
-              originalValue: node
-            };
+            mapping[hashKey] = { file: relPath, originalKey: jsonPath, isMultiline: false, isJson: true, jsonPath: jsonPath, originalValue: node };
             count++;
           } else if (Array.isArray(node)) {
             node.forEach((item, index) => processNode(item, `${jsonPath}[${index}]`));
@@ -97,14 +76,13 @@ function importTerraria(): void {
           }
         };
         processNode(jsonData, "");
-      } catch (e) {
-        console.error(`❌ Lỗi parse JSON file ${relPath}: ${(e as Error).message}`);
-      }
+      } catch (e) { }
     } else {
-      // XỬ LÝ HJSON
       let match;
       while ((match = hjsonRegex.exec(content)) !== null) {
         const originalKey = match[1].trim();
+        if (SYSTEM_KEYS.has(originalKey)) continue;
+
         let rawValue = match[2].trim();
         let isMultiline = false;
         let textValue = "";
@@ -124,31 +102,19 @@ function importTerraria(): void {
 
         const hashKey = generateHashKey(`${relPath}|||${originalKey}|||${count}`);
         xml += `  <Text Key="${hashKey}">${escapeXml(textValue)}</Text>\n`;
-        mapping[hashKey] = {
-          file: relPath,
-          originalKey,
-          isMultiline,
-          isJson: false,
-          originalValue: rawValue
-        };
+        mapping[hashKey] = { file: relPath, originalKey: originalKey, isMultiline: isMultiline, isJson: false, originalValue: rawValue };
         count++;
       }
     }
   });
 
   xml += '</STBLKeyStringList>';
-
   if (!fs.existsSync(path.dirname(outputXml))) fs.mkdirSync(path.dirname(outputXml), { recursive: true });
   if (!fs.existsSync(path.dirname(mappingFile))) fs.mkdirSync(path.dirname(mappingFile), { recursive: true });
-
   fs.writeFileSync(outputXml, xml, 'utf8');
   fs.writeFileSync(mappingFile, JSON.stringify(mapping, null, 2), 'utf8');
-
-  console.log(`✅ Đã tạo XML: ${count} entries từ ${locFiles.length} files`);
+  console.log(`✅ Đã tạo XML sạch: ${count} entries.`);
 }
 
-if (require.main === module) {
-  importTerraria();
-}
-
+if (require.main === module) importTerraria();
 export { importTerraria };
