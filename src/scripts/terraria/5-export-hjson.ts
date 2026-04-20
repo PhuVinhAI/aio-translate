@@ -119,12 +119,17 @@ function exportTerrariaModSource(): void {
           let viText = translations[index++];
           totalReplaced++;
 
-          // LÀM SẠCH TRIỆT ĐỂ: Xóa mọi loại dấu nháy AI có thể đã tự ý thêm vào
+          // LÀM SẠCH TRIỆT ĐỂ: Xóa sạch mọi dấu nháy thừa ở hai đầu
           let cleanViText = viText.trim();
-          while ((cleanViText.startsWith('"') && cleanViText.endsWith('"')) || (cleanViText.startsWith("'''") && cleanViText.endsWith("'''"))) {
-             if (cleanViText.startsWith('"')) cleanViText = cleanViText.substring(1, cleanViText.length - 1).trim();
-             if (cleanViText.startsWith("'''")) cleanViText = cleanViText.substring(3, cleanViText.length - 3).trim();
+
+          // Xóa nháy tam trước
+          while (cleanViText.startsWith("'''") || cleanViText.endsWith("'''")) {
+            if (cleanViText.startsWith("'''")) cleanViText = cleanViText.substring(3).trim();
+            if (cleanViText.endsWith("'''")) cleanViText = cleanViText.substring(0, cleanViText.length - 3).trim();
           }
+
+          // Xóa nháy đơn và nháy kép (Xóa hàng loạt)
+          cleanViText = cleanViText.replace(/^['"]+|['"]+$/g, '').trim();
 
           // XÂY DỰNG LẠI GIÁ TRỊ FINAL SIÊU SẠCH
           let finalNewVal = cleanViText;
