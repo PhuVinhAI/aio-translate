@@ -30,7 +30,7 @@ function setValueByPath(obj: any, jsonPath: string, value: string) {
 
 function exportTerrariaModSource(): void {
   const MOD_NAME = "TerrariaVietHoaAIO";
-  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (Đóng gói Siêu Sạch) ===`);
+  console.log(`\n=== [Terraria 5] Xuất dạng MÃ NGUỒN MOD (Cơ chế Siêu Phòng Vệ) ===`);
 
   const inputDir = fs.readdirSync(PATHS.TERRARIA.INPUT_DIR).length > 0
     ? PATHS.TERRARIA.INPUT_DIR
@@ -71,7 +71,6 @@ function exportTerrariaModSource(): void {
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.cs`), `using Terraria.ModLoader;\nnamespace ${MOD_NAME} { public class ${MOD_NAME} : Mod { } }`, 'utf8');
   fs.writeFileSync(path.join(outputModDir, `${MOD_NAME}.csproj`), `<Project Sdk="Microsoft.NET.Sdk">\n\t<Import Project="..\\tModLoader.targets" />\n\t<PropertyGroup>\n\t\t<TargetFramework>net8.0</TargetFramework>\n\t\t<ImplicitUsings>enable</ImplicitUsings>\n\t\t<Nullable>enable</Nullable>\n\t</PropertyGroup>\n</Project>`, 'utf8');
 
-  // REGEX SIÊU CHUẨN: Đồng bộ 100% với Import
   const hjsonRegex = /^[ \t]*([\w\.\-]+)\s*:\s*('''[\s\S]*?'''|"(?:[^"\\]|\\.)*"|[^\n\r]+)/gm;
 
   let totalReplaced = 0;
@@ -81,8 +80,9 @@ function exportTerrariaModSource(): void {
     const modId = relPath.split(/[/\\]/)[0];
     const pathParts = relPath.split(/[/\\]/);
     const subPath = pathParts.slice(1).join('.');
+    const ext = relPath.endsWith('.json') ? '.json' : '.hjson';
     const fileNameWithoutExt = subPath.lastIndexOf('.') !== -1 ? subPath.substring(0, subPath.lastIndexOf('.')) : subPath;
-    const destFile = path.join(localizationDir, `en-US_Mods.${modId}${fileNameWithoutExt ? '.' + fileNameWithoutExt : ''}.hjson`);
+    const destFile = path.join(localizationDir, `en-US_Mods.${modId}${fileNameWithoutExt ? '.' + fileNameWithoutExt : ''}${ext}`);
 
     if (relPath.endsWith('.json')) {
       try {
@@ -119,46 +119,48 @@ function exportTerrariaModSource(): void {
           let viText = translations[index++];
           totalReplaced++;
 
-          // LÀM SẠCH THÔNG MINH: Chỉ xóa nếu là cặp ngoặc bao toàn bộ văn bản
+          // 1. GIẢI MÃ BẢN DỊCH (Unescape các ký tự thoát AI có thể đã thêm)
           let cleanViText = viText.trim();
 
+          // Chuyển literal \n thành xuống dòng thực và \" thành "
+          cleanViText = cleanViText
+            .replace(/\\n/g, '\n')
+            .replace(/\\r/g, '\r')
+            .replace(/\\"/g, '"')
+            .replace(/\\'/g, "'");
+
+          // XÓA NHÁY THEO CẶP
           let changed = true;
           while (changed) {
             changed = false;
-            // 1. Chỉ xóa nếu là CẶP nháy tam
             if (cleanViText.startsWith("'''") && cleanViText.endsWith("'''")) {
               cleanViText = cleanViText.substring(3, cleanViText.length - 3).trim();
               changed = true;
-            }
-            // 2. Chỉ xóa nếu là CẶP ngoặc kép
-            else if (cleanViText.startsWith('"') && cleanViText.endsWith('"')) {
+            } else if (cleanViText.startsWith('"') && cleanViText.endsWith('"')) {
               cleanViText = cleanViText.substring(1, cleanViText.length - 1).trim();
               changed = true;
-            }
-            // 3. Chỉ xóa nếu là CẶP nháy đơn
-            else if (cleanViText.startsWith("'") && cleanViText.endsWith("'")) {
+            } else if (cleanViText.startsWith("'") && cleanViText.endsWith("'")) {
               cleanViText = cleanViText.substring(1, cleanViText.length - 1).trim();
               changed = true;
             }
           }
 
-          // XÂY DỰNG LẠI GIÁ TRỊ FINAL SIÊU SẠCH
-          let finalNewVal = cleanViText;
+          // 2. PHÂN LOẠI VÀ ĐÓNG GÓI SIÊU SẠCH
+          let finalNewVal = "";
           const hasNewline = cleanViText.includes('\n') || cleanViText.includes('\r');
+          const hasInternalQuotes = cleanViText.includes('"') || cleanViText.includes("'");
 
-          // PHÒNG VỆ HJSON TỐI THƯỢNG:
-          // Bọc ngoặc kép nếu văn bản chứa các ký tự nhạy cảm, đặc biệt là các dấu ngắt quãng đứng đầu câu
-          const sensitiveStartChars = /^[{\[\]\}:,'"]/;
-          const needsQuotes = sensitiveStartChars.test(cleanViText) ||
-                             cleanViText.includes('"') ||
-                             cleanViText.includes("'") ||
-                             cleanViText.includes(': ');
-
-          if (hasNewline) {
-             // Định dạng đa dòng chuẩn: nháy tam mở -> xuống dòng -> nội dung -> xuống dòng -> nháy tam đóng
+          // Nếu có xuống dòng HOẶC có dấu nháy bên trong -> Ép dùng nháy tam (An toàn nhất HJSON)
+          if (hasNewline || hasInternalQuotes) {
              finalNewVal = `'''\n${cleanViText}\n\t\t\t'''`;
-          } else if (needsQuotes) {
-             finalNewVal = `"${cleanViText.replace(/"/g, '\\"')}"`;
+          } else {
+             // Kiểm tra các ký tự nhạy cảm đứng đầu câu
+             const needsQuotes = /^[{\[\]\}:,]/.test(cleanViText) || cleanViText.includes(': ');
+             if (needsQuotes) {
+                finalNewVal = `"${cleanViText}"`;
+             } else {
+                finalNewVal = cleanViText;
+             }
           }
 
           const colonIndex = match.indexOf(':');
@@ -179,8 +181,8 @@ function exportTerrariaModSource(): void {
     }
   }
 
-  console.log(`✅ Đã đóng gói Mod với Logic Đóng Gói Siêu Sạch.`);
-  console.log(`📊 Tổng cộng ${totalReplaced} câu thoại đã được xử lý chính xác.`);
+  console.log(`✅ Đã đóng gói Mod với cơ chế Siêu Phòng Vệ.`);
+  console.log(`📊 Tổng cộng ${totalReplaced} câu thoại đã được xử lý chuẩn xác.`);
 }
 
 if (require.main === module) exportTerrariaModSource();
