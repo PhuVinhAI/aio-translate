@@ -28,7 +28,13 @@
     "terraria:translate": "ts-node src/scripts/terraria/3-translate.ts",
     "terraria:merge": "ts-node src/scripts/terraria/4-merge.ts",
     "terraria:export": "ts-node src/scripts/terraria/5-export-hjson.ts",
-    "terraria:update": "ts-node src/scripts/terraria/update.ts"
+    "terraria:update": "ts-node src/scripts/terraria/update.ts",
+    "paralives:import": "ts-node src/scripts/paralives/1-import-tsv.ts",
+    "paralives:detect": "ts-node src/scripts/paralives/2-detect-changes.ts",
+    "paralives:translate": "ts-node src/scripts/paralives/3-translate.ts",
+    "paralives:merge": "ts-node src/scripts/paralives/4-merge.ts",
+    "paralives:export": "ts-node src/scripts/paralives/5-export-tsv.ts",
+    "paralives:update": "ts-node src/scripts/paralives/update.ts"
   },
   "keywords": [
     "minecraft",

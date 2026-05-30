@@ -1,12 +1,13 @@
 # Công Cụ Dịch Game Tự Động (AIO Translate)
 
-Công cụ dịch tự động cho mod game sử dụng AI (NVIDIA API). Hỗ trợ dịch **Minecraft Mods** (file `.jar`), **FTB Quests** (file `.snbt`) và **Terraria Mods** (file `.hjson`/`.json`) từ tiếng Anh sang tiếng Việt.
+Công cụ dịch tự động cho mod game sử dụng AI (NVIDIA API). Hỗ trợ dịch **Minecraft Mods** (file `.jar`), **FTB Quests** (file `.snbt`), **Terraria Mods** (file `.hjson`/`.json`) và **Paralives** (file `.tsv`) từ tiếng Anh sang tiếng Việt.
 
 ## Tính Năng
 
 - 🎮 Dịch Minecraft Mods (file `.jar`) từ tiếng Anh sang tiếng Việt
 - 📋 Dịch FTB Quests (file `.snbt`) từ tiếng Anh sang tiếng Việt
 - 🌳 Dịch Terraria Mods (file `.hjson`/`.json`) và xuất ra mod việt hóa riêng lẻ cho tModLoader
+- 🏡 Dịch Paralives (file localization `.tsv`) và xuất lại file `.tsv` việt hóa giữ nguyên cấu trúc
 - 🤖 Dịch tự động bằng AI sử dụng NVIDIA API (model: `mistralai/mistral-small-4-119b-2603`)
 - ⚡ Xử lý song song nhiều batch đồng thời (cấu hình được theo từng workflow)
 - 🔄 Tự động retry khi gặp lỗi
@@ -45,13 +46,15 @@ aio-translate/
 │   ├── minecraft/
 │   │   └── mods/                   # Đặt file .jar mod vào đây
 │   ├── ftbquests/                  # Đặt file en_us.snbt và thư mục en_us/ vào đây
-│   └── terraria/                   # Đặt các thư mục mod (chứa file .hjson/.json) vào đây
+│   ├── terraria/                   # Đặt các thư mục mod (chứa file .hjson/.json) vào đây
+│   └── paralives/                  # Đặt file localization .tsv vào đây
 │
 ├── output/                         # Kết quả đầu ra
 │   ├── minecraft/
 │   │   └── resourcepack/           # Resource pack tiếng Việt được tạo ra
 │   ├── ftbquests/                  # File vi_vn.snbt và thư mục vi_vn/ được tạo ra
-│   └── terraria/                   # Các bản mod việt hóa riêng lẻ (<ModId>Vietnamese/)
+│   ├── terraria/                   # Các bản mod việt hóa riêng lẻ (<ModId>Vietnamese/)
+│   └── paralives/                  # File .vi.tsv việt hóa được tạo ra
 │
 ├── data/                           # Dữ liệu nội bộ (mapping, nội dung đã trích xuất)
 │   ├── minecraft/
@@ -61,14 +64,17 @@ aio-translate/
 │   ├── ftbquests/
 │   │   ├── mapping.json
 │   │   └── reverse_mapping.json
-│   └── terraria/
-│       ├── mapping.json
-│       └── reverse_mapping.json
+│   ├── terraria/
+│   │   ├── mapping.json
+│   │   └── reverse_mapping.json
+│   └── paralives/
+│       └── mapping.json            # Bản đồ dịch theo GUID
 │
 ├── temp/                           # File tạm (batches, tiến trình, XML trung gian)
 │   ├── minecraft/
 │   ├── ftbquests/
-│   └── terraria/
+│   ├── terraria/
+│   └── paralives/
 │
 └── src/                            # Mã nguồn TypeScript
     ├── config/                     # File cấu hình
@@ -76,6 +82,7 @@ aio-translate/
     │   ├── minecraft/              # Workflow Minecraft
     │   ├── ftbquests/              # Workflow FTB Quests
     │   ├── terraria/               # Workflow Terraria
+    │   ├── paralives/              # Workflow Paralives
     │   └── translate-core.ts       # Engine dịch chung
     ├── types/                      # Định nghĩa kiểu TypeScript
     └── utils/                      # Hàm tiện ích
@@ -184,6 +191,39 @@ npm run terraria:export
 
 3. Kết quả: `output/terraria/` - Mỗi mod gốc được xuất thành một mod phụ `<ModId>Vietnamese/` (kèm `build.txt`, `.cs`, `.csproj`). Copy các thư mục này vào `ModSources/` của tModLoader, sau đó vào **Develop Mods → Build All** để biên dịch.
 
+### Dịch Paralives
+
+1. Đặt file localization `.tsv` (ví dụ `AllParalivesTranslationItems.tsv`) vào thư mục `input/paralives/`.
+
+2. Chạy workflow hoàn chỉnh:
+
+```bash
+npm run paralives:update
+```
+
+Hoặc chạy từng bước riêng lẻ:
+
+```bash
+# Bước 1: Import file TSV sang định dạng XML (khóa theo GUID)
+npm run paralives:import
+
+# Bước 2: Phát hiện nội dung mới/thay đổi
+npm run paralives:detect
+
+# Bước 3: Dịch nội dung mới bằng AI
+npm run paralives:translate
+
+# Bước 4: Gộp bản dịch với mapping hiện có
+npm run paralives:merge
+
+# Bước 5: Xuất file TSV tiếng Việt
+npm run paralives:export
+```
+
+3. Kết quả: `output/paralives/<tên-file>.vi.tsv` - File giữ nguyên 7 cột và thứ tự dòng của bản gốc, chỉ thay cột `Value` bằng tiếng Việt. Các dòng có `Do Not Translate = True` hoặc `Value` rỗng được giữ nguyên tiếng Anh. Import file này lại vào công cụ localization của Paralives.
+
+> 💡 **Lưu ý:** Workflow dịch theo `GUID` (định danh duy nhất, ổn định) và chỉ dịch những dòng mới hoặc có câu gốc thay đổi — chạy lại trên cùng file sẽ không dịch lại phần đã hoàn thành.
+
 ## Development
 
 Build TypeScript sang JavaScript:
@@ -214,6 +254,7 @@ npm run clean
 - Giữ nguyên định dạng game:
   - Minecraft — mã màu `§a`, `§b`, biến `%s`, `{0}`, `{1}`, xuống dòng `\n`
   - Terraria — thẻ màu `[c/ColorCode:Text]`, thẻ item `[i:ItemID]`, biến `{0}`, `{NPCName}`, `{ItemName}`
+  - Paralives — thẻ rich-text TextMeshPro `<link=0>`, `</link>`, `<size=50%>`, `<color=#1FB1FF>`, biến `{0}`, `{PhotoMode}`, xuống dòng `\n`
   - Ký tự đặc biệt và escape sequences
 
 ### Workflow Minecraft Mods
@@ -245,6 +286,16 @@ npm run clean
 5. Dịch bằng AI theo batch song song
 6. Gộp với bản dịch hiện có
 7. Xuất từng mod thành một mod phụ việt hóa độc lập, tương thích 100% với tModLoader
+
+### Workflow Paralives
+
+1. Đọc file `.tsv` (7 cột: GUID, Key, Value, OriginalValue, Info, Do Not Translate, Localization State)
+2. Trích xuất cột `Value` cần dịch (bỏ qua dòng `Do Not Translate = True` và `Value` rỗng)
+3. Chuyển đổi sang định dạng XML để dịch, khóa theo `GUID` (định danh duy nhất, ổn định)
+4. Phát hiện nội dung mới/thay đổi (so sánh câu gốc trong mapping) — chỉ dịch phần chưa có bản dịch
+5. Dịch bằng AI theo batch song song
+6. Gộp với bản dịch hiện có
+7. Xuất lại file `.tsv` giữ nguyên cấu trúc 7 cột + thứ tự dòng + line-ending (CRLF), chỉ thay cột `Value`
 
 ## Giấy Phép
 

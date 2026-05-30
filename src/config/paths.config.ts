@@ -60,6 +60,18 @@ export const PATHS: PathsConfig = {
     MAPPING: path.join(ROOT, 'data', 'terraria', 'mapping.json'),
     REVERSE_MAPPING: path.join(ROOT, 'data', 'terraria', 'reverse_mapping.json'),
   },
+
+  // Paralives workflow (TSV localization)
+  PARALIVES: {
+    INPUT_DIR: path.join(ROOT, 'input', 'paralives'),
+    OUTPUT_DIR: path.join(ROOT, 'output', 'paralives'),
+
+    TEMP_EN_XML: path.join(ROOT, 'temp', 'paralives', 'en.xml'),
+    TEMP_NEW: path.join(ROOT, 'temp', 'paralives', 'new.xml'),
+    TEMP_TRANSLATED: path.join(ROOT, 'temp', 'paralives', 'translated.xml'),
+
+    MAPPING: path.join(ROOT, 'data', 'paralives', 'mapping.json'),
+  },
 };
 
 export default PATHS;

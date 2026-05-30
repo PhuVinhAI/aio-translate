@@ -64,6 +64,14 @@ export interface PathsConfig {
     MAPPING: string;
     REVERSE_MAPPING: string;
   };
+  PARALIVES: {
+    INPUT_DIR: string;
+    OUTPUT_DIR: string;
+    TEMP_EN_XML: string;
+    TEMP_NEW: string;
+    TEMP_TRANSLATED: string;
+    MAPPING: string;
+  };
 }
 
 export interface ModLanguageData {
