@@ -1,4 +1,0 @@
-Đây là bản mod tiếng Việt cho Calamity V2.1.1, về cơ bản thì mình đã Việt hóa được khoảng 95% bản mod và chủ yếu là dịch bằng GPT (nhưng sau khi check lại thì thấy vẫn rất ổn, bao gồm cả vũ khí, lore, items...)
- Hãy sử dụng bản mod này kèm với bản Việt hóa trong workshop của Terraria để có thể tận hưởng ít nhất 95% tựa game cùng mod Calamity bằng tiếng Việt nhé.
- Lưu ý: các vật phẩm và tên boss mình sẽ không dịch mà mình chỉ dịch phần mô tả của chúng, lý do là tại vì nếu dịch cả tên của chúng thì sẽ rất bất tiện cho việc các bạn tra wiki về chúng.
- 

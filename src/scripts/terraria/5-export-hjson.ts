@@ -42,11 +42,7 @@ function toHjson(obj: any, indent: number = 0): string {
 function exportIndividualMods(): void {
   console.log(`\n=== [Terraria 5] Xuất hàng loạt MOD Việt Hóa riêng lẻ ===`);
 
-  const inputDir = fs.readdirSync(PATHS.TERRARIA.INPUT_DIR).length > 0
-    ? PATHS.TERRARIA.INPUT_DIR
-    : "C:/Users/tomis/Docs/aio-translate/ModLocalization";
-
-  const modSourcesDir = "C:/Users/tomis/OneDrive/Tài liệu/My Games/Terraria/tModLoader/ModSources/";
+  const modSourcesDir = PATHS.TERRARIA.OUTPUT_DIR;
   const mergedXml = PATHS.TERRARIA.TEMP_MERGED;
   const mappingFile = PATHS.TERRARIA.MAPPING;
 

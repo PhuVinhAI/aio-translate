@@ -37,8 +37,13 @@ function importTerraria(): void {
 
   console.log('\n=== [Terraria 1] Import HJSON/JSON → XML (Đồng bộ tuyệt đối) ===');
 
-  const sourceDir = "C:/Users/tomis/Docs/aio-translate/ModLocalization";
-  const activeSourceDir = fs.existsSync(inputDir) && fs.readdirSync(inputDir).length > 0 ? inputDir : sourceDir;
+  if (!fs.existsSync(inputDir) || fs.readdirSync(inputDir).length === 0) {
+    console.error(`❌ Không tìm thấy dữ liệu nguồn trong: ${inputDir}`);
+    console.error(`👉 Hãy đặt các thư mục mod (chứa file .hjson/.json) vào thư mục này trước khi chạy.`);
+    process.exit(1);
+  }
+
+  const activeSourceDir = inputDir;
 
   if (fs.existsSync(outputXml)) fs.unlinkSync(outputXml);
   if (fs.existsSync(mappingFile)) fs.unlinkSync(mappingFile);

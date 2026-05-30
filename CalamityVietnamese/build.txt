@@ -1,5 +1,0 @@
-displayName = CalamityVietnamese
-author = GiaLiem
-version = 0.1.2
-modReferences = CalamityMod
-sortAfter = CalamityMod
