@@ -72,6 +72,20 @@ export interface PathsConfig {
     TEMP_TRANSLATED: string;
     MAPPING: string;
   };
+  GDT: {
+    CORE_ROOT: string;
+    CORE_LANGUAGE_DIR: string;
+    CORE_VI_JS: string;
+    CORE_MANIFEST: string;
+    INPUT_DIR: string;
+    INPUT_VI_JS: string;
+    OUTPUT_DIR: string;
+    OUTPUT_VI_JS: string;
+    TEMP_EN_XML: string;
+    TEMP_NEW: string;
+    TEMP_TRANSLATED: string;
+    MAPPING: string;
+  };
 }
 
 export interface ModLanguageData {

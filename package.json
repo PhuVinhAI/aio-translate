@@ -34,7 +34,15 @@
     "paralives:translate": "ts-node src/scripts/paralives/3-translate.ts",
     "paralives:merge": "ts-node src/scripts/paralives/4-merge.ts",
     "paralives:export": "ts-node src/scripts/paralives/5-export-tsv.ts",
-    "paralives:update": "ts-node src/scripts/paralives/update.ts"
+    "paralives:update": "ts-node src/scripts/paralives/update.ts",
+    "gdt:sync-from-core": "ts-node src/scripts/gdt/0-sync-from-core.ts",
+    "gdt:import": "ts-node src/scripts/gdt/1-import-js.ts",
+    "gdt:detect": "ts-node src/scripts/gdt/2-detect-changes.ts",
+    "gdt:translate": "ts-node src/scripts/gdt/3-translate.ts",
+    "gdt:merge": "ts-node src/scripts/gdt/4-merge.ts",
+    "gdt:export": "ts-node src/scripts/gdt/5-export-js.ts",
+    "gdt:sync-to-core": "ts-node src/scripts/gdt/6-sync-to-core.ts",
+    "gdt:update": "ts-node src/scripts/gdt/update.ts"
   },
   "keywords": [
     "minecraft",

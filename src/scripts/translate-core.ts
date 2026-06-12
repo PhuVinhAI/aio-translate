@@ -32,11 +32,24 @@ export interface TranslationContext {
   modeName: string;
 }
 
+function buildTranslationPrompt(entryCount: number, xmlInput: string): string {
+  return `Dịch ${entryCount} thẻ XML tiếng Anh sang tiếng Việt.
+
+${xmlInput}
+
+Quy tắc bắt buộc:
+- Chỉ dịch text bên trong thẻ <Text>.
+- Giữ nguyên Key, số lượng thẻ và thứ tự thẻ.
+- Giữ nguyên placeholder, mã định dạng, escape sequence và tag trong text.
+- Comment XML ngay trước thẻ <Text> chỉ là ngữ cảnh, không trả comment trong kết quả.
+- Trả về đúng ${entryCount} thẻ <Text> với cấu trúc XML nguyên vẹn.`;
+}
+
 export function loadProgress(progressFile: string): Progress {
   if (fs.existsSync(progressFile)) {
     const data = JSON.parse(fs.readFileSync(progressFile, 'utf-8')) as Progress;
     if (data.completedBatches && Array.isArray(data.completedBatches)) {
-      console.log(`📂 Tiến độ: ${data.completedBatches.length}/${data.total} batch\n`);
+      console.log(`Progress: ${data.completedBatches.length}/${data.total} batch\n`);
       return data;
     }
   }
@@ -57,21 +70,22 @@ export async function translateBatch(
   totalAttempts: number = 0,
   completedBatches: Set<number> | null = null
 ): Promise<TranslateResult> {
-  const { config, tempDir } = ctx;
-  const BATCH_SIZE = config.translation.batchSize;
-  const MAX_RETRIES = config.translation.maxRetries;
-  const RETRY_DELAY = config.translation.retryDelay;
+  void messages;
+  void totalAttempts;
 
-  // Kiểm tra xem batch đã hoàn thành chưa
+  const { config, tempDir } = ctx;
+  const batchSize = config.translation.batchSize;
+  const maxRetries = config.translation.maxRetries;
+  const retryDelay = config.translation.retryDelay;
+
   if (completedBatches && completedBatches.has(batchIndex)) {
     return { batchIndex, success: true, alreadyCompleted: true };
   }
 
-  const startIndex = batchIndex * BATCH_SIZE;
-  const batch = entries.slice(startIndex, startIndex + BATCH_SIZE);
+  const startIndex = batchIndex * batchSize;
+  const batch = entries.slice(startIndex, startIndex + batchSize);
   const expectedKeys = batch.map(e => e.key);
 
-  // Tạo hash key map
   const hashKeyMap = new Map<string, string>();
   const reverseHashMap = new Map<string, string>();
   batch.forEach(e => {
@@ -82,32 +96,11 @@ export async function translateBatch(
 
   const xmlInput = batch.map(e => {
     const hashKey = hashKeyMap.get(e.key);
-    return `  <Text Key="${hashKey}">${escapeXml(e.text)}</Text>`;
+    const comment = e.comment ? `  <!-- ${escapeXml(e.comment)} -->\n` : '';
+    return `${comment}  <Text Key="${hashKey}">${escapeXml(e.text)}</Text>`;
   }).join('\n');
 
-  // Luôn tạo prompt mới cho mỗi lần gọi (không dùng lịch sử)
-  const userPrompt = `Dịch ${batch.length} thẻ XML tiếng Anh sang tiếng Việt.
-
-${xmlInput}
-
-⚠️ QUY TẮC QUAN TRỌNG NHẤT CHO MODPACK MINECRAFT:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. GIỮ NGUYÊN 100% CÁC BIẾN VÀ KÝ TỰ ĐẶC BIỆT CỦA MINECRAFT:
-   - Màu sắc và định dạng: §a, §b, §c, §l, §o, §r... (Ví dụ: §cFire -> §cLửa)
-   - Biến số: %s, %d, %1$s, %2$d, {0}, {1}...
-   - Ký tự xuống dòng: \\n
-
-2. CHỈ DỊCH TEXT BÊN TRONG THẺ <Text>. TUYỆT ĐỐI GIỮ NGUYÊN Key (Key là mã hash).
-   - Gốc: <Text Key="A1B2C3D4">Iron Ingot</Text>
-   - Dịch: <Text Key="A1B2C3D4">Phôi sắt</Text>
-
-3. DỊCH CHUẨN THUẬT NGỮ MINECRAFT:
-   - Các từ thông dụng như Chest, Iron Ingot, Crafting Table cần dịch chuẩn thành Rương, Phôi sắt, Bàn chế tạo.
-   - Giữ nguyên các tên riêng hoặc tên máy móc đặc thù của mod nếu không dịch được.
-
-Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên vẹn.`;
-
-  const freshMessages = [{ role: "user" as const, content: userPrompt }];
+  const freshMessages = [{ role: 'user' as const, content: buildTranslationPrompt(batch.length, xmlInput) }];
 
   try {
     const response = await aio.chatCompletion({
@@ -122,7 +115,6 @@ Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên v�
 
     const content = response.choices[0].message.content;
     const translatedContent = typeof content === 'string' ? content.trim() : '';
-
     const translatedEntries = parseXMLEntries(translatedContent);
 
     translatedEntries.forEach(entry => {
@@ -133,70 +125,68 @@ Trả về ĐÚNG ${batch.length} thẻ <Text> với cấu trúc XML nguyên v�
     });
 
     const translatedKeys = translatedEntries.map(e => e.key);
-
     const wrongCount = expectedKeys.length !== translatedKeys.length;
     const missingKeys = expectedKeys.filter(key => !translatedKeys.includes(key));
     const extraKeys = translatedKeys.filter(key => !expectedKeys.includes(key));
     const wrongKeys = expectedKeys.length === translatedKeys.length &&
       expectedKeys.some((key, i) => key !== translatedKeys[i]);
-
     const hasError = wrongCount || missingKeys.length > 0 || extraKeys.length > 0 || wrongKeys;
 
     if (hasError) {
-      if (retryCount >= MAX_RETRIES) {
-        console.log(`❌ Batch ${batchIndex + 1}: Đã retry ${MAX_RETRIES} lần nhưng vẫn lỗi. Bỏ qua batch này.`);
-        throw new Error(`Batch ${batchIndex + 1} failed after ${MAX_RETRIES} retries`);
+      if (retryCount >= maxRetries) {
+        console.log(`Batch ${batchIndex + 1}: failed after ${maxRetries} retries.`);
+        throw new Error(`Batch ${batchIndex + 1} failed after ${maxRetries} retries`);
       }
 
-      console.log(`⚠️  Batch ${batchIndex + 1}: Sai Key (Retry ${retryCount + 1}/${MAX_RETRIES})`);
-
-      let errorMsg = `Thiếu: ${missingKeys.length}, Thừa: ${extraKeys.length}`;
+      let errorMsg = `missing: ${missingKeys.length}, extra: ${extraKeys.length}`;
       if (wrongKeys && missingKeys.length === 0 && extraKeys.length === 0) {
-        errorMsg = 'Sai thứ tự';
+        errorMsg = 'wrong order';
       }
-      console.log(`   ${errorMsg}`);
+      console.log(`Batch ${batchIndex + 1}: invalid keys (${errorMsg}), retry ${retryCount + 1}/${maxRetries}`);
 
-      await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
-
-      // Gọi lại với API mới hoàn toàn (không truyền messages)
+      await new Promise(resolve => setTimeout(resolve, retryDelay));
       return translateBatch(ctx, aio, entries, batchIndex, retryCount + 1, null, totalAttempts + 1, completedBatches);
     }
 
-    console.log(`✅ Batch ${batchIndex + 1}: Hoàn thành với ${translatedEntries.length} thẻ`);
     const tempFile = path.join(tempDir, `batch-${String(batchIndex).padStart(6, '0')}.xml`);
-
     let xmlOutput = '';
     for (const entry of translatedEntries) {
-      xmlOutput += `  <Text Key="${entry.key}">${entry.text}</Text>\n`;
+      xmlOutput += `  <Text Key="${entry.key}">${escapeXml(entry.text)}</Text>\n`;
     }
 
     fs.writeFileSync(tempFile, xmlOutput, 'utf-8');
+    console.log(`Batch ${batchIndex + 1}: completed with ${translatedEntries.length} tags`);
     return { batchIndex, success: true, entries: translatedEntries };
-
   } catch (error) {
     const err = error as Error;
     const isRateLimit = err.message.includes('rate limit') || err.message.includes('429');
-    const waitTime = isRateLimit ? 5000 : RETRY_DELAY;
+    const waitTime = isRateLimit ? 5000 : retryDelay;
 
-    console.error(`❌ Batch ${batchIndex + 1} lỗi: ${err.message}`);
-    console.log(`🔄 Retry sau ${waitTime / 1000}s...`);
+    if (retryCount >= maxRetries) {
+      throw err;
+    }
+
+    console.error(`Batch ${batchIndex + 1} error: ${err.message}`);
+    console.log(`Retry in ${waitTime / 1000}s...`);
 
     await new Promise(resolve => setTimeout(resolve, waitTime));
-    return translateBatch(ctx, aio, entries, batchIndex, retryCount + 1, messages, totalAttempts + 1, completedBatches);
+    return translateBatch(ctx, aio, entries, batchIndex, retryCount + 1, null, totalAttempts + 1, completedBatches);
   }
 }
 
 export async function runTranslation(ctx: TranslationContext): Promise<void> {
   const { config, progressFile, inputFile, outputFile, tempDir, modeName } = ctx;
 
-  console.log(`🚀 Dịch ${modeName}\n`);
+  console.log(`Translate ${modeName}\n`);
 
-  // Tạo thư mục temp
   if (!fs.existsSync(tempDir)) {
     fs.mkdirSync(tempDir, { recursive: true });
   }
   if (!fs.existsSync(path.dirname(outputFile))) {
     fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+  }
+  if (!fs.existsSync(path.dirname(progressFile))) {
+    fs.mkdirSync(path.dirname(progressFile), { recursive: true });
   }
 
   const aio = new AIO({
@@ -217,10 +207,10 @@ export async function runTranslation(ctx: TranslationContext): Promise<void> {
   const entries = parseXMLEntries(xmlContent);
   const totalBatches = Math.ceil(entries.length / config.translation.batchSize);
 
-  console.log(`📊 ${entries.length} thẻ XML, ${totalBatches} batch\n`);
+  console.log(`${entries.length} XML tags, ${totalBatches} batch(es)\n`);
 
   let progress = loadProgress(progressFile);
-  if (progress.completedBatches.length === 0) {
+  if (progress.completedBatches.length === 0 || progress.total !== totalBatches) {
     progress = { completedBatches: [], total: totalBatches };
   }
 
@@ -231,11 +221,10 @@ export async function runTranslation(ctx: TranslationContext): Promise<void> {
     }
   }
 
-  console.log(`📋 Còn lại: ${pendingBatches.length} batch\n`);
+  console.log(`Pending: ${pendingBatches.length} batch(es)\n`);
 
   const runningPromises = new Set<Promise<void>>();
   const completedBatches = new Set<number>(progress.completedBatches);
-
   let currentIndex = 0;
 
   async function processNextBatch(): Promise<void> {
@@ -251,16 +240,14 @@ export async function runTranslation(ctx: TranslationContext): Promise<void> {
       return;
     }
 
-    console.log(`⚡ Batch ${batchIndex + 1}/${totalBatches}`);
-
+    console.log(`Batch ${batchIndex + 1}/${totalBatches}`);
     const result = await translateBatch(ctx, aio, entries, batchIndex, 0, null, 0, completedBatches);
 
     if (!result.alreadyCompleted && !completedBatches.has(result.batchIndex)) {
       completedBatches.add(result.batchIndex);
       progress.completedBatches.push(result.batchIndex);
       saveProgress(progressFile, progress);
-
-      console.log(`✅ Batch ${result.batchIndex + 1} → ${path.basename(tempDir)}/batch-${String(result.batchIndex).padStart(6, '0')}.xml`);
+      console.log(`Batch ${result.batchIndex + 1} saved`);
     }
 
     if (currentIndex < pendingBatches.length) {
@@ -268,7 +255,6 @@ export async function runTranslation(ctx: TranslationContext): Promise<void> {
     }
   }
 
-  // Khởi động workers
   for (let i = 0; i < Math.min(config.translation.parallelBatches, pendingBatches.length); i++) {
     const promise = processNextBatch();
     runningPromises.add(promise);
@@ -280,25 +266,17 @@ export async function runTranslation(ctx: TranslationContext): Promise<void> {
     await new Promise(resolve => setTimeout(resolve, 100));
   }
 
-  // Ghép file XML
-  console.log('\n📝 Tạo file XML...');
-
   let xmlOutput = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<STBLKeyStringList>\n';
-
   for (let i = 0; i < totalBatches; i++) {
     const tempFile = path.join(tempDir, `batch-${String(i).padStart(6, '0')}.xml`);
     if (fs.existsSync(tempFile)) {
       xmlOutput += fs.readFileSync(tempFile, 'utf-8');
     }
   }
-
   xmlOutput += '</STBLKeyStringList>';
 
   fs.writeFileSync(outputFile, xmlOutput, 'utf-8');
-
-  console.log('\n🎉 HOÀN THÀNH!');
-  console.log(`✅ ${outputFile}`);
-  console.log(`📊 Đã dịch ${entries.length} thẻ`);
+  console.log(`Done: ${outputFile}`);
 
   if (fs.existsSync(progressFile)) {
     fs.unlinkSync(progressFile);

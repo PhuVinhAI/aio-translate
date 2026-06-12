@@ -2,6 +2,8 @@ import path from 'path';
 import { PathsConfig } from '../types';
 
 const ROOT = path.resolve(__dirname, '..', '..');
+const GDT_CORE_ROOT = process.env.GDT_CORE_ROOT || path.resolve(ROOT, '..', 'Game.Dev.Tycoon.v1.7.9', 'gdt-core');
+const GDT_CORE_LANGUAGE_DIR = path.join(GDT_CORE_ROOT, 'game', 'i18n', 'languages');
 
 export const PATHS: PathsConfig = {
   // Thư mục gốc
@@ -71,6 +73,25 @@ export const PATHS: PathsConfig = {
     TEMP_TRANSLATED: path.join(ROOT, 'temp', 'paralives', 'translated.xml'),
 
     MAPPING: path.join(ROOT, 'data', 'paralives', 'mapping.json'),
+  },
+
+  // Game Dev Tycoon workflow (split JS localization packs)
+  GDT: {
+    CORE_ROOT: GDT_CORE_ROOT,
+    CORE_LANGUAGE_DIR: GDT_CORE_LANGUAGE_DIR,
+    CORE_VI_JS: path.join(GDT_CORE_LANGUAGE_DIR, 'vi.js'),
+    CORE_MANIFEST: path.join(GDT_CORE_LANGUAGE_DIR, 'manifest.json'),
+
+    INPUT_DIR: path.join(ROOT, 'input', 'gdt'),
+    INPUT_VI_JS: path.join(ROOT, 'input', 'gdt', 'vi.js'),
+    OUTPUT_DIR: path.join(ROOT, 'output', 'gdt'),
+    OUTPUT_VI_JS: path.join(ROOT, 'output', 'gdt', 'vi.js'),
+
+    TEMP_EN_XML: path.join(ROOT, 'temp', 'gdt', 'en.xml'),
+    TEMP_NEW: path.join(ROOT, 'temp', 'gdt', 'new.xml'),
+    TEMP_TRANSLATED: path.join(ROOT, 'temp', 'gdt', 'translated.xml'),
+
+    MAPPING: path.join(ROOT, 'data', 'gdt', 'mapping.json'),
   },
 };
 

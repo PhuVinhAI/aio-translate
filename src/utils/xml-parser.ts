@@ -5,6 +5,7 @@
 export interface XMLEntry {
   key: string;
   text: string;
+  comment?: string;
 }
 
 /**
@@ -36,14 +37,25 @@ export function unescapeXml(text: string): string {
  */
 export function parseXMLEntries(xmlContent: string): XMLEntry[] {
   const entries: XMLEntry[] = [];
-  const regex = /<Text Key="([^"]+)">([\s\S]*?)<\/Text>/g;
+  const regex = /<!--([\s\S]*?)-->|<Text Key="([^"]+)">([\s\S]*?)<\/Text>/g;
   let match;
+  let pendingComment: string | undefined;
 
   while ((match = regex.exec(xmlContent)) !== null) {
-    entries.push({
-      key: match[1],
-      text: unescapeXml(match[2])
-    });
+    if (match[1] !== undefined) {
+      pendingComment = unescapeXml(match[1]).trim();
+      continue;
+    }
+
+    const entry: XMLEntry = {
+      key: match[2],
+      text: unescapeXml(match[3])
+    };
+    if (pendingComment) {
+      entry.comment = pendingComment;
+      pendingComment = undefined;
+    }
+    entries.push(entry);
   }
 
   return entries;
