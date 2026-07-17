@@ -1,6 +1,6 @@
 export interface TranslationConfig {
   api: {
-    provider: string;
+    baseUrl: string;
     model: string;
     temperature: number;
     top_p: number;
@@ -43,6 +43,11 @@ export interface PathsConfig {
     TEMP_MERGED: string;
     MAPPING: string;
     REVERSE_MAPPING: string;
+    AGENT: {
+      DIR: string;
+      TASK_MD: string;
+      CHUNKS_DIR: string;
+    };
   };
   FTBQUESTS: {
     INPUT_DIR: string;
@@ -53,6 +58,11 @@ export interface PathsConfig {
     TEMP_MERGED: string;
     MAPPING: string;
     REVERSE_MAPPING: string;
+    AGENT: {
+      DIR: string;
+      TASK_MD: string;
+      CHUNKS_DIR: string;
+    };
   };
   TERRARIA: {
     INPUT_DIR: string;
@@ -63,6 +73,11 @@ export interface PathsConfig {
     TEMP_MERGED: string;
     MAPPING: string;
     REVERSE_MAPPING: string;
+    AGENT: {
+      DIR: string;
+      TASK_MD: string;
+      CHUNKS_DIR: string;
+    };
   };
   PARALIVES: {
     INPUT_DIR: string;
@@ -71,6 +86,11 @@ export interface PathsConfig {
     TEMP_NEW: string;
     TEMP_TRANSLATED: string;
     MAPPING: string;
+    AGENT: {
+      DIR: string;
+      TASK_MD: string;
+      CHUNKS_DIR: string;
+    };
   };
   GDT: {
     CORE_ROOT: string;
@@ -85,6 +105,11 @@ export interface PathsConfig {
     TEMP_NEW: string;
     TEMP_TRANSLATED: string;
     MAPPING: string;
+    AGENT: {
+      DIR: string;
+      TASK_MD: string;
+      CHUNKS_DIR: string;
+    };
   };
 }
 

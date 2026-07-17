@@ -33,6 +33,12 @@ export const PATHS: PathsConfig = {
 
     MAPPING: path.join(ROOT, 'data', 'minecraft', 'mapping.json'),
     REVERSE_MAPPING: path.join(ROOT, 'data', 'minecraft', 'reverse_mapping.json'),
+
+    AGENT: {
+      DIR: path.join(ROOT, 'temp', 'minecraft', 'agent'),
+      TASK_MD: path.join(ROOT, 'temp', 'minecraft', 'agent', 'AGENT_TASK.md'),
+      CHUNKS_DIR: path.join(ROOT, 'temp', 'minecraft', 'agent', 'chunks'),
+    },
   },
 
   // FTB Quests workflow
@@ -47,6 +53,12 @@ export const PATHS: PathsConfig = {
 
     MAPPING: path.join(ROOT, 'data', 'ftbquests', 'mapping.json'),
     REVERSE_MAPPING: path.join(ROOT, 'data', 'ftbquests', 'reverse_mapping.json'),
+
+    AGENT: {
+      DIR: path.join(ROOT, 'temp', 'ftbquests', 'agent'),
+      TASK_MD: path.join(ROOT, 'temp', 'ftbquests', 'agent', 'AGENT_TASK.md'),
+      CHUNKS_DIR: path.join(ROOT, 'temp', 'ftbquests', 'agent', 'chunks'),
+    },
   },
 
   // Terraria workflow
@@ -61,6 +73,12 @@ export const PATHS: PathsConfig = {
 
     MAPPING: path.join(ROOT, 'data', 'terraria', 'mapping.json'),
     REVERSE_MAPPING: path.join(ROOT, 'data', 'terraria', 'reverse_mapping.json'),
+
+    AGENT: {
+      DIR: path.join(ROOT, 'temp', 'terraria', 'agent'),
+      TASK_MD: path.join(ROOT, 'temp', 'terraria', 'agent', 'AGENT_TASK.md'),
+      CHUNKS_DIR: path.join(ROOT, 'temp', 'terraria', 'agent', 'chunks'),
+    },
   },
 
   // Paralives workflow (TSV localization)
@@ -73,6 +91,12 @@ export const PATHS: PathsConfig = {
     TEMP_TRANSLATED: path.join(ROOT, 'temp', 'paralives', 'translated.xml'),
 
     MAPPING: path.join(ROOT, 'data', 'paralives', 'mapping.json'),
+
+    AGENT: {
+      DIR: path.join(ROOT, 'temp', 'paralives', 'agent'),
+      TASK_MD: path.join(ROOT, 'temp', 'paralives', 'agent', 'AGENT_TASK.md'),
+      CHUNKS_DIR: path.join(ROOT, 'temp', 'paralives', 'agent', 'chunks'),
+    },
   },
 
   // Game Dev Tycoon workflow (split JS localization packs)
@@ -92,6 +116,12 @@ export const PATHS: PathsConfig = {
     TEMP_TRANSLATED: path.join(ROOT, 'temp', 'gdt', 'translated.xml'),
 
     MAPPING: path.join(ROOT, 'data', 'gdt', 'mapping.json'),
+
+    AGENT: {
+      DIR: path.join(ROOT, 'temp', 'gdt', 'agent'),
+      TASK_MD: path.join(ROOT, 'temp', 'gdt', 'agent', 'AGENT_TASK.md'),
+      CHUNKS_DIR: path.join(ROOT, 'temp', 'gdt', 'agent', 'chunks'),
+    },
   },
 };
 

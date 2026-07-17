@@ -16,6 +16,8 @@
     "minecraft:merge": "ts-node src/scripts/minecraft/4-merge.ts",
     "minecraft:export": "ts-node src/scripts/minecraft/5-export-resourcepack.ts",
     "minecraft:update": "ts-node src/scripts/minecraft/update.ts",
+    "minecraft:agent": "ts-node src/scripts/minecraft/update-agent.ts",
+    "minecraft:agent-finish": "ts-node src/scripts/minecraft/update-agent.ts finish",
     "ftbquests:reset": "ts-node src/scripts/ftbquests/0-reset.ts",
     "ftbquests:import": "ts-node src/scripts/ftbquests/1-import-snbt.ts",
     "ftbquests:detect": "ts-node src/scripts/ftbquests/2-detect-changes.ts",
@@ -23,18 +25,24 @@
     "ftbquests:merge": "ts-node src/scripts/ftbquests/4-merge.ts",
     "ftbquests:export": "ts-node src/scripts/ftbquests/5-export-snbt.ts",
     "ftbquests:update": "ts-node src/scripts/ftbquests/update.ts",
+    "ftbquests:agent": "ts-node src/scripts/ftbquests/update-agent.ts",
+    "ftbquests:agent-finish": "ts-node src/scripts/ftbquests/update-agent.ts finish",
     "terraria:import": "ts-node src/scripts/terraria/1-import-hjson.ts",
     "terraria:detect": "ts-node src/scripts/terraria/2-detect-changes.ts",
     "terraria:translate": "ts-node src/scripts/terraria/3-translate.ts",
     "terraria:merge": "ts-node src/scripts/terraria/4-merge.ts",
     "terraria:export": "ts-node src/scripts/terraria/5-export-hjson.ts",
     "terraria:update": "ts-node src/scripts/terraria/update.ts",
+    "terraria:agent": "ts-node src/scripts/terraria/update-agent.ts",
+    "terraria:agent-finish": "ts-node src/scripts/terraria/update-agent.ts finish",
     "paralives:import": "ts-node src/scripts/paralives/1-import-tsv.ts",
     "paralives:detect": "ts-node src/scripts/paralives/2-detect-changes.ts",
     "paralives:translate": "ts-node src/scripts/paralives/3-translate.ts",
     "paralives:merge": "ts-node src/scripts/paralives/4-merge.ts",
     "paralives:export": "ts-node src/scripts/paralives/5-export-tsv.ts",
     "paralives:update": "ts-node src/scripts/paralives/update.ts",
+    "paralives:agent": "ts-node src/scripts/paralives/update-agent.ts",
+    "paralives:agent-finish": "ts-node src/scripts/paralives/update-agent.ts finish",
     "gdt:sync-from-core": "ts-node src/scripts/gdt/0-sync-from-core.ts",
     "gdt:import": "ts-node src/scripts/gdt/1-import-js.ts",
     "gdt:detect": "ts-node src/scripts/gdt/2-detect-changes.ts",
@@ -42,7 +50,9 @@
     "gdt:merge": "ts-node src/scripts/gdt/4-merge.ts",
     "gdt:export": "ts-node src/scripts/gdt/5-export-js.ts",
     "gdt:sync-to-core": "ts-node src/scripts/gdt/6-sync-to-core.ts",
-    "gdt:update": "ts-node src/scripts/gdt/update.ts"
+    "gdt:update": "ts-node src/scripts/gdt/update.ts",
+    "gdt:agent": "ts-node src/scripts/gdt/update-agent.ts",
+    "gdt:agent-finish": "ts-node src/scripts/gdt/update-agent.ts finish"
   },
   "keywords": [
     "minecraft",
@@ -58,8 +68,8 @@
   "license": "MIT",
   "dependencies": {
     "adm-zip": "^0.5.16",
-    "aio-llm": "^1.0.5",
-    "dotenv": "^17.3.1"
+    "dotenv": "^17.3.1",
+    "openai": "^6.48.0"
   },
   "devDependencies": {
     "@types/adm-zip": "^0.5.5",

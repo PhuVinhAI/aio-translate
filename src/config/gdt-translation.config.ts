@@ -2,7 +2,7 @@ import { TranslationConfig } from '../types';
 
 export const gdtTranslationConfig: TranslationConfig = {
   api: {
-    provider: 'nvidia',
+    baseUrl: 'https://integrate.api.nvidia.com/v1',
     model: 'stepfun-ai/step-3.7-flash',
     temperature: 0.7,
     top_p: 0.95,

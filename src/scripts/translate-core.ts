@@ -1,4 +1,4 @@
-import { AIO } from 'aio-llm';
+import { LLMClient } from '../utils/llm-client';
 import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
@@ -62,7 +62,7 @@ export function saveProgress(progressFile: string, progress: Progress): void {
 
 export async function translateBatch(
   ctx: TranslationContext,
-  aio: AIO,
+  client: LLMClient,
   entries: XMLEntry[],
   batchIndex: number,
   retryCount: number = 0,
@@ -103,8 +103,7 @@ export async function translateBatch(
   const freshMessages = [{ role: 'user' as const, content: buildTranslationPrompt(batch.length, xmlInput) }];
 
   try {
-    const response = await aio.chatCompletion({
-      provider: config.api.provider as any,
+    const response = await client.chatCompletion({
       model: config.api.model,
       systemPrompt: config.systemPrompt,
       messages: freshMessages as any,
@@ -145,7 +144,7 @@ export async function translateBatch(
       console.log(`Batch ${batchIndex + 1}: invalid keys (${errorMsg}), retry ${retryCount + 1}/${maxRetries}`);
 
       await new Promise(resolve => setTimeout(resolve, retryDelay));
-      return translateBatch(ctx, aio, entries, batchIndex, retryCount + 1, null, totalAttempts + 1, completedBatches);
+      return translateBatch(ctx, client, entries, batchIndex, retryCount + 1, null, totalAttempts + 1, completedBatches);
     }
 
     const tempFile = path.join(tempDir, `batch-${String(batchIndex).padStart(6, '0')}.xml`);
@@ -170,7 +169,7 @@ export async function translateBatch(
     console.log(`Retry in ${waitTime / 1000}s...`);
 
     await new Promise(resolve => setTimeout(resolve, waitTime));
-    return translateBatch(ctx, aio, entries, batchIndex, retryCount + 1, null, totalAttempts + 1, completedBatches);
+    return translateBatch(ctx, client, entries, batchIndex, retryCount + 1, null, totalAttempts + 1, completedBatches);
   }
 }
 
@@ -189,18 +188,15 @@ export async function runTranslation(ctx: TranslationContext): Promise<void> {
     fs.mkdirSync(path.dirname(progressFile), { recursive: true });
   }
 
-  const aio = new AIO({
-    providers: [{
-      provider: config.api.provider as any,
-      apiKeys: [
-        { key: process.env.NVIDIA_API_KEY || '' },
-        { key: process.env.NVIDIA_API_KEY_2 || '' }
-      ],
-      models: [{ modelId: config.api.model }],
-    }],
-    disableAutoKeyDisable: true,
+  const client = new LLMClient({
+    apiKeys: [
+      { key: process.env.NVIDIA_API_KEY || '' },
+      { key: process.env.NVIDIA_API_KEY_2 || '' },
+    ],
+    baseUrl: config.api.baseUrl,
     maxRetries: config.translation.maxRetries,
     retryDelay: config.translation.retryDelay,
+    disableAutoKeyDisable: true,
   });
 
   const xmlContent = fs.readFileSync(inputFile, 'utf-8');
@@ -241,7 +237,7 @@ export async function runTranslation(ctx: TranslationContext): Promise<void> {
     }
 
     console.log(`Batch ${batchIndex + 1}/${totalBatches}`);
-    const result = await translateBatch(ctx, aio, entries, batchIndex, 0, null, 0, completedBatches);
+    const result = await translateBatch(ctx, client, entries, batchIndex, 0, null, 0, completedBatches);
 
     if (!result.alreadyCompleted && !completedBatches.has(result.batchIndex)) {
       completedBatches.add(result.batchIndex);

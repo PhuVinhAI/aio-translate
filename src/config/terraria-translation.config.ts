@@ -2,7 +2,7 @@ import { TranslationConfig } from '../types';
 
 export const terrariaTranslationConfig: TranslationConfig = {
   api: {
-    provider: 'nvidia',
+    baseUrl: 'https://integrate.api.nvidia.com/v1',
     model: 'mistralai/mistral-small-4-119b-2603',
     temperature: 0.3,
     top_p: 0.95,
